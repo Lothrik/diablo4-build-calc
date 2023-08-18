@@ -1118,7 +1118,7 @@ Tags: Core, Blood, Damage, Physical, Essence.`,
 			"ptBR": "Sempre que um inimigo é atingido pela nova de Surto de Sangue, você se fortifica em 1.1% da vida básica. Enquanto tiver fortificação em mais de 50% da sua vida máxima, Surto de Sangue causa 20% de dano aumentado.",
 			"ruRU": "Когда кольцо \"Волнения крови\" поражает противников, вы получаете укрепление в объеме 1.1% базового запаса здоровья. Когда ваш показатель укрепления превышает 50% максимального запаса здоровья, \"Волнение крови\" наносит на x20% больше урона.",
 			"trTR": "Düşmanlar Kan Yükselişi novası ile her vurulduğunda Temel Canın 1.1% kadarına eşit Güçlenirsin. Maksimum Canının 50% üstünde Güçlendirmeye sahip olduğunda Kan Yükselişi x20% artırılmış hasar verir.",
-			"zhCN": "血涌的鲜血新星每命中一名敌人就会强固你 1.1% 基础生命。当你的强固效果超过生命上限的 50%, 血涌造成的伤害提高 x20%。",
+			"zhCN": "血涌的鲜血新星每命中一名敌人就会强固你 1.1% 基础生命。当你拥有的强固值超过生命上限的 50%, 血涌造成的伤害提高 x20%。",
 			"zhTW": "每次敵人被鮮血奔湧的新星擊中時,會賦予你等同 1.1% 基礎生命值的強韌。當你的強韌效果超過生命值上限的 50% 時,鮮血奔湧造成的傷害提高 x20%。"
 },
 		id: 26,

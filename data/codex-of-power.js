@@ -1335,7 +1335,7 @@ let codexData = {
 					"ptBR": "Cada ponto de fúria gerado enquanto está com fúria máxima concede {#} de fortificação.",
 					"ruRU": "Пока у вас полный запас ярости, вы получаете укрепление в объеме {#} ед. за каждую накопленную единицу ярости.",
 					"trTR": "Maksimum Hiddet sırasında üretilen her bir Hiddet puanı {#} Güçlendirme sağlar.",
-					"zhCN": "怒气达到最大时, 每生成一点怒气, 给予 {#} 点强固。",
+					"zhCN": "怒气达到最大时, 每生成一点怒气, 给予 {#} 点强固值。",
 					"zhTW": "怒氣全滿時,產生的每一點怒氣都會賦予 {#} 點強韌。"
 				},
 				"dungeon": "Heathen's Keep",
@@ -1415,7 +1415,7 @@ let codexData = {
 					"ptBR": "Golpe de Sorte: Até 35% de chance de receber {#} de fortificação ao causar dano direto durante Berserk.",
 					"ruRU": "Удачный удар: нанося прямой урон в состоянии берсерка, вы с вероятностью до 35% получаете укрепление в объеме {#}.",
 					"trTR": "Şanslı Vuruş: Başıbozukluk sırasında her doğrudan hasar verdiğinde en fazla 35% ihtimalle {#} Güçlendirme kazan.",
-					"zhCN": "幸运一击: 当你在狂暴状态下造成直接伤害时, 最多有 35% 几率获得 {#} 点强固。",
+					"zhCN": "幸运一击: 当你在狂暴状态下造成直接伤害时, 最多有 35% 几率获得 {#} 点强固值。",
 					"zhTW": "幸運觸發:每當你在狂暴時造成直接傷害,最高有 35% 機率獲得 {#} 點強韌。"
 				},
 				"dungeon": "",
@@ -1455,7 +1455,7 @@ let codexData = {
 					"ptBR": "Depois de trocar de armas 6.0 vezes, recebe {#} de fortificação.",
 					"ruRU": "После 6.0-й смены оружия вы получаете укрепление в объеме {#} ед.",
 					"trTR": "6.0 kez silah değiştirdikten sonra {#} Güçlendirme kazan.",
-					"zhCN": "切换武器 6.0 次后, 获得 {#} 点强固。",
+					"zhCN": "切换武器 6.0 次后, 获得 {#} 点强固值。",
 					"zhTW": "切換武器 6.0 次後,會獲得 {#} 點強韌。"
 				},
 				"dungeon": "Defiled Catacomb",
@@ -3664,7 +3664,7 @@ let codexData = {
 					"ptBR": "Quando você tem fortificação, suas habilidades de Terra recebem 2 graus.",
 					"ruRU": "Пока на вас действует укрепление, умения земли получают +2.",
 					"trTR": "Güçlendirmeye sahipken Toprak Yeteneklerin 2 Kademe kazanır.",
-					"zhCN": "当你拥有强固时, 你的大地技能获得 2 级别。",
+					"zhCN": "当你拥有强固值时, 你的大地技能获得 2 级别。",
 					"zhTW": "當你擁有強韌時,你的大地技能提升 2 級。"
 				},
 				"dungeon": "Whispering Pines",
@@ -3817,7 +3817,7 @@ let codexData = {
 					"ptBR": "Ao usar uma habilidade de Metamorfose que altera sua forma, você recebe {#} de vida. Se estiver com vida cheia, você recebe o mesmo valor como fortificação.",
 					"ruRU": "Когда умение смены облика трансформирует вас, вы восполняете {#} ед. здоровья. Если его уровень максимальный, вы получаете укрепление в том же объеме.",
 					"trTR": "Formunu değiştiren bir Şekil Değiştirme Yeteneği kullandığında {#} Can kazan. Canın tamamen doluysa aynı miktarda Güçlendirme kazan.",
-					"zhCN": "当你使用可以改变你形态的变形技能时, 获得 {#} 点生命值。如果你处于满生命状态, 则获得等量的强固。",
+					"zhCN": "当你使用可以改变你形态的变形技能时, 获得 {#} 点生命。如果你处于满生命状态, 则获得等量的强固值。",
 					"zhTW": "使用變形技能改變形態時,獲得 {#} 點生命值。如果生命值全滿,則獲得等量的強韌。"
 				},
 				"dungeon": "Fading Echo",

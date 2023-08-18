@@ -6423,7 +6423,7 @@ let paragonData = {
 					"ptBR": "Para cada 5 de Determinação comprados em alcance, você causa +{2/2.3/2.6/2.9/3.2/3.5/3.8/4.1/4.4/4.7/5/5.3/5.6/5.9/6.2/6.5/6.8/7.1/7.4/7.7/8}% de dano aumentado sob fortificação.",
 					"ruRU": "За каждые 5 ед. силы воли, открытые в радиусе действия, наносимый урон во время эффекта укрепления увеличивается на +{2/2.3/2.6/2.9/3.2/3.5/3.8/4.1/4.4/4.7/5/5.3/5.6/5.9/6.2/6.5/6.8/7.1/7.4/7.7/8}%.",
 					"trTR": "Menzilde satın alınan her 5 İrade başına Güçlendirilmişken +{2/2.3/2.6/2.9/3.2/3.5/3.8/4.1/4.4/4.7/5/5.3/5.6/5.9/6.2/6.5/6.8/7.1/7.4/7.7/8}% artırılmış hasar verirsin.",
-					"zhCN": "每购买辐射范围内 5 点意力,你在强固状态下造成的伤害提高 +{2/2.3/2.6/2.9/3.2/3.5/3.8/4.1/4.4/4.7/5/5.3/5.6/5.9/6.2/6.5/6.8/7.1/7.4/7.7/8}%。",
+					"zhCN": "每购买辐射范围内 5 点意力,你在被强固状态下造成的伤害提高 +{2/2.3/2.6/2.9/3.2/3.5/3.8/4.1/4.4/4.7/5/5.3/5.6/5.9/6.2/6.5/6.8/7.1/7.4/7.7/8}%。",
 					"zhTW": "在範圍內每購買 5 點意志,強韌時造成的傷害就會提高 {2/2.3/2.6/2.9/3.2/3.5/3.8/4.1/4.4/4.7/5/5.3/5.6/5.9/6.2/6.5/6.8/7.1/7.4/7.7/8}%。"
 				},
 				"bonusLocalized": {
@@ -6438,7 +6438,7 @@ let paragonData = {
 					"ptBR": "Você recebe 10% de redução de dano por quanto mais Fortificação tiver.",
 					"ruRU": "Укрепление уменьшает получаемый вами урон максимум на 10%. Уменьшение урона зависит от объема укрепления.",
 					"trTR": "Güçlendirme miktarın arttıkça en fazla 10% olmak üzere Hasar Azaltma kazanırsın.",
-					"zhCN": "根据你的强固程度, 你获得最多 10% 伤害减免。",
+					"zhCN": "你拥有的强固值越多, 你获得的伤害减免最多可达 10%。",
 					"zhTW": "你獲得越多強韌,傷害減免的效果就越高,上限為 10%。"
 				},
 				"thresholdRequirements": "25 Willpower"
@@ -12488,7 +12488,7 @@ let paragonData = {
 					"ptBR": "Para cada 5 de Inteligência comprados em alcance, você causa +{2/2.4/2.8/3.2/3.6/4/4.4/4.8/5.2/5.6/6/6.4/6.8/7.2/7.6/8/8.4/8.8/9.2/9.6/10}% de dano aumentado sob fortificação.",
 					"ruRU": "За каждые 5 ед. интеллекта, открытые в радиусе действия, наносимый урон во время эффекта укрепления увеличивается на +{2/2.4/2.8/3.2/3.6/4/4.4/4.8/5.2/5.6/6/6.4/6.8/7.2/7.6/8/8.4/8.8/9.2/9.6/10}%.",
 					"trTR": "Menzilde satın alınan her 5 Zekâ başına Güçlendirilmişken +{2/2.4/2.8/3.2/3.6/4/4.4/4.8/5.2/5.6/6/6.4/6.8/7.2/7.6/8/8.4/8.8/9.2/9.6/10}% artırılmış hasar verirsin.",
-					"zhCN": "每购买辐射范围内 5 点智力,你在强固状态下造成的伤害提高 +{2/2.4/2.8/3.2/3.6/4/4.4/4.8/5.2/5.6/6/6.4/6.8/7.2/7.6/8/8.4/8.8/9.2/9.6/10}%。",
+					"zhCN": "每购买辐射范围内 5 点智力,你在被强固状态下造成的伤害提高 +{2/2.4/2.8/3.2/3.6/4/4.4/4.8/5.2/5.6/6/6.4/6.8/7.2/7.6/8/8.4/8.8/9.2/9.6/10}%。",
 					"zhTW": "在範圍內每購買 5 點智力,強韌時造成的傷害就會提高 {2/2.4/2.8/3.2/3.6/4/4.4/4.8/5.2/5.6/6/6.4/6.8/7.2/7.6/8/8.4/8.8/9.2/9.6/10}%。"
 				},
 				"bonusLocalized": {
@@ -12503,7 +12503,7 @@ let paragonData = {
 					"ptBR": "Você recebe 10% de redução de dano por quanto mais Fortificação tiver.",
 					"ruRU": "Укрепление уменьшает получаемый вами урон максимум на 10%. Уменьшение урона зависит от объема укрепления.",
 					"trTR": "Güçlendirme miktarın arttıkça en fazla 10% olmak üzere Hasar Azaltma kazanırsın.",
-					"zhCN": "根据你的强固程度, 你获得最多 10% 伤害减免。",
+					"zhCN": "你拥有的强固值越多, 你获得的伤害减免最多可达 10%。",
 					"zhTW": "你獲得越多強韌,傷害減免的效果就越高,上限為 10%。"
 				},
 				"thresholdRequirements": "25 Intelligence"
@@ -13921,7 +13921,7 @@ let paragonData = {
 					"ptBR": "2% de redução de dano sob fortificação\n\nTags: Fortificação, Redução de Dano.",
 					"ruRU": "-2% к получаемому урону при действующем эффекте укрепления\n\nTags: Укрепление, Уменьшение урона.",
 					"trTR": "Güçlendirilmişken 2% Hasar Azaltma\n\nTags: Güçlendirme, Hasar Azaltma.",
-					"zhCN": "2% 强固时伤害减免\n\nTags: 强固, 伤害减免.",
+					"zhCN": "2% 被强固时的伤害减免\n\nTags: 强固, 伤害减免.",
 					"zhTW": "強韌時傷害減免 2%\n\nTags: 強韌, 傷害減免."
 				}
 			},
@@ -14244,7 +14244,7 @@ let paragonData = {
 					"ptBR": "+5% de dano sob fortificação\n\nTags: Fortificação, Dano.",
 					"ruRU": "+5% к урону при действующем эффекте укрепления\n\nTags: Укрепление, Урон.",
 					"trTR": "Güçlendirilmişken +5% Hasar\n\nTags: Güçlendirme, Hasar.",
-					"zhCN": "+5% 强固时的伤害\n\nTags: 强固, 伤害.",
+					"zhCN": "+5% 被强固时的伤害\n\nTags: 强固, 伤害.",
 					"zhTW": "強韌時傷害 +5%\n\nTags: 強韌, 傷害."
 				}
 			},
@@ -15753,7 +15753,7 @@ let paragonData = {
 					"ptBR": "+10% de dano sob fortificação\n+12.5% de dano enquanto saudável\n\nBonus: Another +10% Damage while Fortified if requirements met:\n{thresholdRequirements}\n\nTags: Fortificação, Saudável, Dano.",
 					"ruRU": "+10% к урону при действующем эффекте укрепления\n+12.5% к урону при высоком уровне здоровья\n\nBonus: Another +10% Damage while Fortified if requirements met:\n{thresholdRequirements}\n\nTags: Укрепление, Высокое здоровье, Урон.",
 					"trTR": "Güçlendirilmişken +10% Hasar\nSağlıklıyken +12.5% Hasar\n\nBonus: Another +10% Damage while Fortified if requirements met:\n{thresholdRequirements}\n\nTags: Güçlendirme, Sağlıklı, Hasar.",
-					"zhCN": "+10% 强固时的伤害\n+12.5% 健康时伤害\n\nBonus: Another +10% Damage while Fortified if requirements met:\n{thresholdRequirements}\n\nTags: 强固, 健康, 伤害.",
+					"zhCN": "+10% 被强固时的伤害\n+12.5% 健康时伤害\n\nBonus: Another +10% Damage while Fortified if requirements met:\n{thresholdRequirements}\n\nTags: 强固, 健康, 伤害.",
 					"zhTW": "強韌時傷害 +10%\n健康時傷害 +12.5%\n\nBonus: Another +10% Damage while Fortified if requirements met:\n{thresholdRequirements}\n\nTags: 強韌, 健康, 傷害."
 				},
 				"thresholdRequirements": {
@@ -15992,7 +15992,7 @@ let paragonData = {
 					"ptBR": "4% de redução de dano sob fortificação\n+6.5% de geração de fortificação\n\nBonus: Another 4% Damage Reduction while Fortified if requirements met:\n{thresholdRequirements}\n\nTags: Fortificação, Redução de Dano.",
 					"ruRU": "-4% к получаемому урону при действующем эффекте укрепления\n+6.5% к укреплению\n\nBonus: Another 4% Damage Reduction while Fortified if requirements met:\n{thresholdRequirements}\n\nTags: Укрепление, Уменьшение урона.",
 					"trTR": "Güçlendirilmişken 4% Hasar Azaltma\n+6.5% Güçlendirme Üretimi\n\nBonus: Another 4% Damage Reduction while Fortified if requirements met:\n{thresholdRequirements}\n\nTags: Güçlendirme, Hasar Azaltma.",
-					"zhCN": "4% 强固时伤害减免\n+6.5% 强固生成量\n\nBonus: Another 4% Damage Reduction while Fortified if requirements met:\n{thresholdRequirements}\n\nTags: 强固, 伤害减免.",
+					"zhCN": "4% 被强固时的伤害减免\n+6.5% 强固生成量\n\nBonus: Another 4% Damage Reduction while Fortified if requirements met:\n{thresholdRequirements}\n\nTags: 强固, 伤害减免.",
 					"zhTW": "強韌時傷害減免 4%\n強韌產生 +6.5%\n\nBonus: Another 4% Damage Reduction while Fortified if requirements met:\n{thresholdRequirements}\n\nTags: 強韌, 傷害減免."
 				},
 				"thresholdRequirements": {
@@ -23306,7 +23306,7 @@ let paragonData = {
 					"ptBR": "+10% de dano sob fortificação\n+4% de vida\n\nBonus: Another +10% Damage while Fortified if requirements met:\n{thresholdRequirements}\n\nTags: Fortificação, Dano, Vida.",
 					"ruRU": "+10% к урону при действующем эффекте укрепления\n+4% к здоровью\n\nBonus: Another +10% Damage while Fortified if requirements met:\n{thresholdRequirements}\n\nTags: Укрепление, Урон, Здоровье.",
 					"trTR": "Güçlendirilmişken +10% Hasar\n+4% Can\n\nBonus: Another +10% Damage while Fortified if requirements met:\n{thresholdRequirements}\n\nTags: Güçlendirme, Hasar, Can.",
-					"zhCN": "+10% 强固时的伤害\n+4% 生命\n\nBonus: Another +10% Damage while Fortified if requirements met:\n{thresholdRequirements}\n\nTags: 强固, 伤害, 生命.",
+					"zhCN": "+10% 被强固时的伤害\n+4% 生命\n\nBonus: Another +10% Damage while Fortified if requirements met:\n{thresholdRequirements}\n\nTags: 强固, 伤害, 生命.",
 					"zhTW": "強韌時傷害 +10%\n生命值 +4%\n\nBonus: Another +10% Damage while Fortified if requirements met:\n{thresholdRequirements}\n\nTags: 強韌, 傷害, 生命值."
 				},
 				"thresholdRequirements": {
@@ -23429,7 +23429,7 @@ let paragonData = {
 					"ptBR": "+10% de dano sob fortificação\n+10 de Inteligência\n\nBonus: Another +10% Damage while Fortified if requirements met:\n{thresholdRequirements}\n\nTags: Fortificação, Dano, Inteligência.",
 					"ruRU": "+10% к урону при действующем эффекте укрепления\n+10 к интеллекту\n\nBonus: Another +10% Damage while Fortified if requirements met:\n{thresholdRequirements}\n\nTags: Укрепление, Урон, Интеллект.",
 					"trTR": "Güçlendirilmişken +10% Hasar\n+10 Zekâ\n\nBonus: Another +10% Damage while Fortified if requirements met:\n{thresholdRequirements}\n\nTags: Güçlendirme, Hasar, Zekâ.",
-					"zhCN": "+10% 强固时的伤害\n+10 点智力\n\nBonus: Another +10% Damage while Fortified if requirements met:\n{thresholdRequirements}\n\nTags: 强固, 伤害, 智力.",
+					"zhCN": "+10% 被强固时的伤害\n+10 点智力\n\nBonus: Another +10% Damage while Fortified if requirements met:\n{thresholdRequirements}\n\nTags: 强固, 伤害, 智力.",
 					"zhTW": "強韌時傷害 +10%\n智力 +10\n\nBonus: Another +10% Damage while Fortified if requirements met:\n{thresholdRequirements}\n\nTags: 強韌, 傷害, 智力."
 				},
 				"thresholdRequirements": {
@@ -24489,7 +24489,7 @@ let paragonData = {
 					"ptBR": "Para cada 5 de Determinação comprados em alcance, você causa +{2/2.3/2.6/2.9/3.2/3.5/3.8/4.1/4.4/4.7/5/5.3/5.6/5.9/6.2/6.5/6.8/7.1/7.4/7.7/8}% de dano aumentado sob fortificação.",
 					"ruRU": "За каждые 5 ед. силы воли, открытые в радиусе действия, наносимый урон во время эффекта укрепления увеличивается на +{2/2.3/2.6/2.9/3.2/3.5/3.8/4.1/4.4/4.7/5/5.3/5.6/5.9/6.2/6.5/6.8/7.1/7.4/7.7/8}%.",
 					"trTR": "Menzilde satın alınan her 5 İrade başına Güçlendirilmişken +{2/2.3/2.6/2.9/3.2/3.5/3.8/4.1/4.4/4.7/5/5.3/5.6/5.9/6.2/6.5/6.8/7.1/7.4/7.7/8}% artırılmış hasar verirsin.",
-					"zhCN": "每购买辐射范围内 5 点意力,你在强固状态下造成的伤害提高 +{2/2.3/2.6/2.9/3.2/3.5/3.8/4.1/4.4/4.7/5/5.3/5.6/5.9/6.2/6.5/6.8/7.1/7.4/7.7/8}%。",
+					"zhCN": "每购买辐射范围内 5 点意力,你在被强固状态下造成的伤害提高 +{2/2.3/2.6/2.9/3.2/3.5/3.8/4.1/4.4/4.7/5/5.3/5.6/5.9/6.2/6.5/6.8/7.1/7.4/7.7/8}%。",
 					"zhTW": "在範圍內每購買 5 點意志,強韌時造成的傷害就會提高 {2/2.3/2.6/2.9/3.2/3.5/3.8/4.1/4.4/4.7/5/5.3/5.6/5.9/6.2/6.5/6.8/7.1/7.4/7.7/8}%。"
 				},
 				"bonusLocalized": {
@@ -24504,7 +24504,7 @@ let paragonData = {
 					"ptBR": "Você recebe 10% de redução de dano por quanto mais Fortificação tiver.",
 					"ruRU": "Укрепление уменьшает получаемый вами урон максимум на 10%. Уменьшение урона зависит от объема укрепления.",
 					"trTR": "Güçlendirme miktarın arttıkça en fazla 10% olmak üzere Hasar Azaltma kazanırsın.",
-					"zhCN": "根据你的强固程度, 你获得最多 10% 伤害减免。",
+					"zhCN": "你拥有的强固值越多, 你获得的伤害减免最多可达 10%。",
 					"zhTW": "你獲得越多強韌,傷害減免的效果就越高,上限為 10%。"
 				},
 				"thresholdRequirements": "25 Willpower"
