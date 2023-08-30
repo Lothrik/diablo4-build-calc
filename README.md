@@ -44,7 +44,7 @@ One skill having a significantly higher multiplier than another doesn't necessar
 Just as an example, Maul was buffed between build 39858 and 41428 to be 10% faster — that change can be seen [here](https://lothrik.github.io/diablo4-build-calc/history/39858-41428.html).
 
 ## Can I give you money for this?
-You're free to do whatever you want, I do have a [Patreon](https://www.patreon.com/lothrik). I'm not selling you anything though.
+You're free to do whatever you want, I do have a [Patreon](https://patreon.com/lothrik). I'm not selling you anything though.
 
 ## I found a bug or want to request a feature, what should I do?
 You can [open an issue](https://github.com/Lothrik/diablo4-build-calc/issues/new) or message me on Discord.
