@@ -2730,7 +2730,7 @@ Tags: Companion, Physical, Damage, Cooldown.`,
 			"ptBR": "2 Corvos adicionais atacam periodicamente inimigos. Aumenta o dano passivo dos Corvos em x40%.",
 			"ruRU": "Призывает еще 2 воронов, периодически атакующих противников. Пассивный урон от воронов увеличивается на x40%.",
 			"trTR": "2 ilave Kuzgun belirli aralıklarla düşmanlara saldırır. Kuzgunlarının pasif hasarını x40% artırır.",
-			"zhCN": "额外有 2 只渡鸦周期性地攻击敌人。",
+			"zhCN": "额外有 2 只渡鸦周期性地攻击敌人。渡鸦的被动伤害提高 x40%。",
 			"zhTW": "額外有 2 隻掠鴉定期攻擊敵人。掠鴉的被動傷害提高 x40%。"
 },
 		id: 64,
@@ -5396,7 +5396,7 @@ Tags: Critical Strikes, Damage, Spirit, Lucky Hit, Earth, Crowd Control, Nature 
 			"ruRU": "Удачный удар: когда вы наносите урон умениями земли, с вероятностью до 5% срабатывают следующие эффекты:\n• Вы полностью восполняете дух.\n• Ваши атаки гарантированно наносят критический урон в течение 5 сек.\n\nВероятность увеличивается:\n• На 10% в случае критического удара.\n• На 10%, если цель оглушена, обездвижена или отброшена.\n\nTags: Критические удары, Урон, Дух, Удачный удар, Земля, Контроль, Силы природы.",
 			"trTR": "Şanslı Vuruş: Düşmanlara Toprak Yetenekleriyle hasar vermek en fazla %5 ihtimalle:\n• Tüm Ruhlarını yeniler\n• 5 saniyeliğine tüm saldırılarının garanti olarak Kritik Vuruş gerçekleştirmesini sağlar\n\nBu ihtimal şu şekilde artar:\n• Kritik Vuruşlar için %10\n• Hedef Sersemletilmiş, Sabitlenmiş veya Geri Savrulmuşsa %10\n\nTags: Kritik Vuruşlar, Hasar, Ruh, Şanslı Vuruş, Toprak, Kitle Kontrolü, Doğa Sihri.",
 			"zhCN": "幸运一击: 使用大地技能对敌人造成伤害时, 最多有 5% 几率:\n• 恢复你的所有灵力\n• 使你的攻击必定暴击, 持续 5 秒\n\n该几率提高:\n• 造成暴击时, 几率提高 10%\n• 对被击昏、被定身或被击退的目标, 几率提高 10%\n\nTags: 暴击, 伤害, 灵力, 幸运一击, 大地, 控制, 自然魔法.",
-			"zhTW": "幸運觸發:以大地技能對敵人造成傷害,最高有 5% 機率可以:\n• 恢復你所有靈力\n• 使你的攻擊必定爆擊,持續 5 秒\n\n此機率可提高:\n• 爆擊提高 10%\n• 目標遭擊昏、定身或擊退提高 10%\n\nTags: 爆擊, 傷害, 靈力, 幸運觸發, 大地, 控場, 自然魔法."
+			"zhTW": "幸運觸發:以大地技能對敵人造成傷害,最高有 5% 機率可以:\n• 恢復你所有靈力\n• 使你的攻擊必定爆擊,持續 5 秒\n\n此機率可進一步提高:\n• 爆擊可提高 10%\n• 目標遭擊昏、定身或擊退時,可提高 10%\n\nTags: 爆擊, 傷害, 靈力, 幸運觸發, 大地, 控場, 自然魔法."
 },
 		id: 131,
 		maxPoints: 1,
