@@ -3359,7 +3359,7 @@ Tags: Macabre, Bone, Damage, Cooldown, Essence, Physical.`,
 			"ruRU": "Вероятность критического удара \"Костяного духа\" повышается на +10%.",
 			"trTR": "Kemik Ruh ilave +10% Kritik Vuruş İhtimaline sahiptir.",
 			"zhCN": "骨灵有额外 +10% 几率造成暴击。",
-			"zhTW": "骸骨之魂有額外 10% 的爆擊機率。"
+			"zhTW": "骸骨之魂有額外 +10% 的爆擊機率。"
 },
 		id: 82,
 		maxPoints: 1,
