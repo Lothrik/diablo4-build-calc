@@ -1084,7 +1084,7 @@ let codexData = {
 				"slot": "Helm",
 				"dropLevel": 60,
 				"dropWeight": 400000,
-				"description": "When you gain Berserking while already Berserk, you have a {40/60}% chance to become more enraged granting x[Affix.\"Static_Value_0\"]% increased damage, [Affix.\"Static_Value_1\"] Fury per second, and [Affix.\"Static_Value_2\"]% Cooldown Reduction.",
+				"description": "When you gain Berserking while already Berserk, you have a {40/60}% chance to become more enraged granting x15.0% increased damage, 2.0 Fury per second, and 10.0% Cooldown Reduction.",
 				"flavor": "As he fought with side by side with Raekor to liberate the labor camp, Joritz claimed this dented helm from a fallen foe. As his legend grew, its unique shape became synonymous with his great deeds.",
 				"nameLocalized": {
 					"deDE": "Hauerhelm von Joritz dem Mächtigen",
@@ -1102,19 +1102,19 @@ let codexData = {
 					"zhTW": "「威猛」喬里茲的角盔"
 				},
 				"descriptionLocalized": {
-					"deDE": "Wenn Ihr in den Berserkermodus gelangt, obwohl Ihr bereits im Berserkermodus seid, habt Ihr eine Chance von {40/60}%, noch wütender zu werden, wodurch Ihr x[Affix.\"Static_Value_0\"]% erhöhten Schaden, [Affix.\"Static_Value_1\"] Wut pro Sek. und eine Abklingzeitreduktion von [Affix.\"Static_Value_2\"]% erhaltet.",
-					"esES": "Cuando obtienes vesania mientras estás ya en ese estado, tienes un {40/60}% de probabilidad de enfurecerte más, lo que te otorga un x[Affix.\"Static_Value_0\"]% más de daño, [Affix.\"Static_Value_1\"] de furia por segundo y un [Affix.\"Static_Value_2\"]% de reducción de tiempo de reutilización.",
-					"esMX": "Cuando obtienes enajenación mientras tienes Vesania, tienes un {40/60}% de probabilidad de enfurecerte más, lo que te otorga x[Affix.\"Static_Value_0\"]% más de daño, [Affix.\"Static_Value_1\"] de Furia por segundo y [Affix.\"Static_Value_2\"]% de reducción de recuperación.",
-					"frFR": "Lorsque vous obtenez Rage du berserker tout en étant déjà sous cet effet, vous avez {40/60}% de chances d'enrager davantage, ce qui vous octroie x[Affix.\"Static_Value_0\"]% de dégâts supplémentaires, [Affix.\"Static_Value_1\"] points de fureur par seconde et [Affix.\"Static_Value_2\"]% de réduction du temps de recharge.",
-					"itIT": "Quando ottieni Berserk mentre sei già in Berserk, hai una probabilità del {40/60}% di infuriarti ulteriormente, infliggendo il x[Affix.\"Static_Value_0\"]% di danni aggiuntivi e ottenendo [Affix.\"Static_Value_1\"] furia ogni secondo e una riduzione del tempo di recupero del [Affix.\"Static_Value_2\"]%.",
-					"jaJP": "すでにバーサーク状態のときにバーサーク効果を得ると、{40/60}%の確率でさらに激高してダメージがx[Affix.\"Static_Value_0\"]%増加し、1秒ごとに怒気を[Affix.\"Static_Value_1\"]獲得して、[Affix.\"Static_Value_2\"]%のクールダウン時間短縮効果を得る。",
-					"koKR": "이미 광폭화 상태에서 또 다시 광폭화를 획득하면 {40/60}%의 확률로 격노 상태가 되어 주는 피해가 x[Affix.\"Static_Value_0\"]% 증가하고 초당 [Affix.\"Static_Value_1\"]의 분노, [Affix.\"Static_Value_2\"]%의 재사용 대기시간 감소 효과를 받습니다.",
-					"plPL": "Gdy zyskasz berserkowanie w czasie trwania berserkowania, masz {40/60}% szans na to, że twoje rozwścieczenie jeszcze wzrośnie i zyskasz premie: x[Affix.\"Static_Value_0\"]% do obrażeń, [Affix.\"Static_Value_1\"] pkt. furii na sekundę oraz [Affix.\"Static_Value_2\"]% redukcji czasu odnowienia.",
-					"ptBR": "Quando você recebe o efeito de Berserk enquanto já estiver sob efeito de Berserk, você tem {40/60}% de chance de se enfurecer mais, causando x[Affix.\"Static_Value_0\"]% de dano aumentado, [Affix.\"Static_Value_1\"] de fúria por segundo e [Affix.\"Static_Value_2\"]% de redução de recarga.",
-					"ruRU": "Когда вы получаете эффект берсерка, уже находясь в состоянии берсерка, ваш гнев с вероятностью {40/60}% усиливается. При этом ваш урон увеличивается на x[Affix.\"Static_Value_0\"]%, вы восполняете [Affix.\"Static_Value_1\"] ед. ярости в сек., а ваши умения восстанавливаются на [Affix.\"Static_Value_2\"]% быстрее.",
-					"trTR": "Zaten Başıbozukken Başıbozukluk kazandığında {40/60}% ihtimalle daha fazla öfkelenip x[Affix.\"Static_Value_0\"]% artırılmış hasar, saniye başına [Affix.\"Static_Value_1\"] Hiddet ve [Affix.\"Static_Value_2\"]% Bekleme Süresi Azaltma kazanırsın.",
-					"zhCN": "当你获得狂暴时已经处于狂暴状态下,则有 {40/60}% 几率变得更为暴怒,获得 x[Affix.\"Static_Value_0\"]% 增伤伤害、每秒 [Affix.\"Static_Value_1\"] 点怒气以及 [Affix.\"Static_Value_2\"]% 冷却时间缩减。",
-					"zhTW": "當你在狂暴狀態下獲得狂暴時,你有 {40/60}% 機率變得更加憤怒,獲得 x[Affix.\"Static_Value_0\"]% 傷害加成、每秒 [Affix.\"Static_Value_1\"] 點怒氣,以及 [Affix.\"Static_Value_2\"]% 冷卻時間縮短。"
+					"deDE": "Wenn Ihr in den Berserkermodus gelangt, obwohl Ihr bereits im Berserkermodus seid, habt Ihr eine Chance von {40/60}%, noch wütender zu werden, wodurch Ihr x15.0% erhöhten Schaden, 2.0 Wut pro Sek. und eine Abklingzeitreduktion von 10.0% erhaltet.",
+					"esES": "Cuando obtienes vesania mientras estás ya en ese estado, tienes un {40/60}% de probabilidad de enfurecerte más, lo que te otorga un x15.0% más de daño, 2.0 de furia por segundo y un 10.0% de reducción de tiempo de reutilización.",
+					"esMX": "Cuando obtienes enajenación mientras tienes Vesania, tienes un {40/60}% de probabilidad de enfurecerte más, lo que te otorga x15.0% más de daño, 2.0 de Furia por segundo y 10.0% de reducción de recuperación.",
+					"frFR": "Lorsque vous obtenez Rage du berserker tout en étant déjà sous cet effet, vous avez {40/60}% de chances d'enrager davantage, ce qui vous octroie x15.0% de dégâts supplémentaires, 2.0 points de fureur par seconde et 10.0% de réduction du temps de recharge.",
+					"itIT": "Quando ottieni Berserk mentre sei già in Berserk, hai una probabilità del {40/60}% di infuriarti ulteriormente, infliggendo il x15.0% di danni aggiuntivi e ottenendo 2.0 furia ogni secondo e una riduzione del tempo di recupero del 10.0%.",
+					"jaJP": "すでにバーサーク状態のときにバーサーク効果を得ると、{40/60}%の確率でさらに激高してダメージがx15.0%増加し、1秒ごとに怒気を2.0獲得して、10.0%のクールダウン時間短縮効果を得る。",
+					"koKR": "이미 광폭화 상태에서 또 다시 광폭화를 획득하면 {40/60}%의 확률로 격노 상태가 되어 주는 피해가 x15.0% 증가하고 초당 2.0의 분노, 10.0%의 재사용 대기시간 감소 효과를 받습니다.",
+					"plPL": "Gdy zyskasz berserkowanie w czasie trwania berserkowania, masz {40/60}% szans na to, że twoje rozwścieczenie jeszcze wzrośnie i zyskasz premie: x15.0% do obrażeń, 2.0 pkt. furii na sekundę oraz 10.0% redukcji czasu odnowienia.",
+					"ptBR": "Quando você recebe o efeito de Berserk enquanto já estiver sob efeito de Berserk, você tem {40/60}% de chance de se enfurecer mais, causando x15.0% de dano aumentado, 2.0 de fúria por segundo e 10.0% de redução de recarga.",
+					"ruRU": "Когда вы получаете эффект берсерка, уже находясь в состоянии берсерка, ваш гнев с вероятностью {40/60}% усиливается. При этом ваш урон увеличивается на x15.0%, вы восполняете 2.0 ед. ярости в сек., а ваши умения восстанавливаются на 10.0% быстрее.",
+					"trTR": "Zaten Başıbozukken Başıbozukluk kazandığında {40/60}% ihtimalle daha fazla öfkelenip x15.0% artırılmış hasar, saniye başına 2.0 Hiddet ve 10.0% Bekleme Süresi Azaltma kazanırsın.",
+					"zhCN": "当你获得狂暴时已经处于狂暴状态下,则有 {40/60}% 几率变得更为暴怒,获得 x15.0% 增伤伤害、每秒 2.0 点怒气以及 10.0% 冷却时间缩减。",
+					"zhTW": "當你在狂暴狀態下獲得狂暴時,你有 {40/60}% 機率變得更加憤怒,獲得 x15.0% 傷害加成、每秒 2.0 點怒氣,以及 10.0% 冷卻時間縮短。"
 				},
 				"flavorLocalized": {
 					"deDE": "Als er Seite an Seite mit Raekor kämpfte, um das Arbeitslager zu befreien, nahm sich Joritz diesen verbeulten Helm von einem gefallenen Feind. Während seine Legende sich verbreitete, wurde seine einzigartige Form zum Symbol seiner großen Taten.",
@@ -4607,7 +4607,7 @@ let codexData = {
 			"Aspect of Elements": {
 				"id": 316,
 				"type": "Legendary",
-				"description": "Gain {20/30}% increased damage to a set of damage types for [Affix.\"Static_Value_0\"] seconds. This effect alternates between 2 sets:\n• Fire, Lightning, and Physical.\n• Cold, Poison, and Shadow.",
+				"description": "Gain {20/30}% increased damage to a set of damage types for 7.0 seconds. This effect alternates between 2 sets:\n• Fire, Lightning, and Physical.\n• Cold, Poison, and Shadow.",
 				"nameLocalized": {
 					"deDE": "der Elemente",
 					"esES": "de los elementos",
@@ -4624,19 +4624,19 @@ let codexData = {
 					"zhTW": "元素之"
 				},
 				"descriptionLocalized": {
-					"deDE": "Erhaltet [Affix.\"Static_Value_0\"] Sek. lang um {20/30}% erhöhten Schaden für gewisse Arten Schaden. Dieser Effekt wechselt zwischen 2 Kategorien:\n• Feuer, Blitz und Physisch.\n• Kälte, Gift und Schatten.",
-					"esES": "Obtienes un {20/30}% más de daño de ciertos tipos durante [Affix.\"Static_Value_0\"] s. El efecto alterna entre 2 grupos:\n• Fuego, rayos y físico.\n• Frío, veneno y sombra.",
-					"esMX": "Obtienes un {20/30}% más de daño para un conjunto de tipos de daño durante [Affix.\"Static_Value_0\"] segundos. Este efecto alterna entre 2 conjuntos:\n• Fuego, rayo y físico.\n• Frío, veneno y sombra.",
-					"frFR": "Augmente les dégâts infligés par un ensemble de types de dégâts de {20/30}% pendant [Affix.\"Static_Value_0\"] s. Cet effet alterne entre deux ensembles :\n• feu, foudre et physiques ;\n• froid, poison et ombre.",
-					"itIT": "Aumenti i danni di una serie di tipi di danno del {20/30}% per [Affix.\"Static_Value_0\"] s. Questo effetto si alterna tra 2 serie:\n• fuoco, fulmine e fisici.\n• Freddo, veleno e ombra.",
-					"jaJP": "[Affix.\"Static_Value_0\"]秒間、複数の種類のダメージが{20/30}%セットで上昇する。この効果は2つのセットを交互に発動する:\n• 火炎、電撃、物理\n• 冷気、毒、シャドウ",
-					"koKR": "[Affix.\"Static_Value_0\"]초 동안 일련의 유형별로 주는 피해가 {20/30}% 증가합니다. 이 효과는 2개의 조합이 번갈아 적용됩니다.\n• 화염, 번개, 물리\n• 냉기, 독, 암흑",
-					"plPL": "Zyskujesz premię {20/30}% do obrażeń różnorakich typów na [Affix.\"Static_Value_0\"] sek. Efekt ten dotyczy 2 zestawów typów obrażeń:\n• od Ognia i Błyskawic oraz Fizycznych.\n• Od Zimna, Trucizny i Cienia.",
-					"ptBR": "Você recebe {20/30}% de dano aumentado para um conjunto de tipos de dano por [Affix.\"Static_Value_0\"] segundos. Esse efeito alterna entre 2 conjuntos:\n• Dano ígneo, elétrico e físico.\n• Dano gélido, venenoso e de sombra.",
-					"ruRU": "Повышает силу нескольких типов урона из определенного списка на {20/30}% на [Affix.\"Static_Value_0\"] сек. Поочередно выбирается один из двух списков урона:\n• огонь, молния и физический.\n• холод, яд и темная магия.",
-					"trTR": "Bir hasar türü grubuna karşı [Affix.\"Static_Value_0\"] saniye boyunca {20/30}% artırılmış hasar kazan. Bu etki 2 set arasında değişir:\n• Ateş, Yıldırım ve Fiziksel.\n• Soğuk, Zehir ve Gölge.",
-					"zhCN": "获得对一组伤害类型 {20/30}% 的伤害提升,持续 [Affix.\"Static_Value_0\"] 秒。该效果会在 2 组伤害类型之间交替:\n• 火焰、闪电和物理。\n• 冰霜、毒素和暗影。",
-					"zhTW": "使其中一組屬性的傷害提高 {20/30}%,持續 [Affix.\"Static_Value_0\"] 秒。此效果會在 2 組屬性之間切換:\n• 火焰、閃電和物理。\n• 冰寒、毒素和暗影。"
+					"deDE": "Erhaltet 7.0 Sek. lang um {20/30}% erhöhten Schaden für gewisse Arten Schaden. Dieser Effekt wechselt zwischen 2 Kategorien:\n• Feuer, Blitz und Physisch.\n• Kälte, Gift und Schatten.",
+					"esES": "Obtienes un {20/30}% más de daño de ciertos tipos durante 7.0 s. El efecto alterna entre 2 grupos:\n• Fuego, rayos y físico.\n• Frío, veneno y sombra.",
+					"esMX": "Obtienes un {20/30}% más de daño para un conjunto de tipos de daño durante 7.0 segundos. Este efecto alterna entre 2 conjuntos:\n• Fuego, rayo y físico.\n• Frío, veneno y sombra.",
+					"frFR": "Augmente les dégâts infligés par un ensemble de types de dégâts de {20/30}% pendant 7.0 s. Cet effet alterne entre deux ensembles :\n• feu, foudre et physiques ;\n• froid, poison et ombre.",
+					"itIT": "Aumenti i danni di una serie di tipi di danno del {20/30}% per 7.0 s. Questo effetto si alterna tra 2 serie:\n• fuoco, fulmine e fisici.\n• Freddo, veleno e ombra.",
+					"jaJP": "7.0秒間、複数の種類のダメージが{20/30}%セットで上昇する。この効果は2つのセットを交互に発動する:\n• 火炎、電撃、物理\n• 冷気、毒、シャドウ",
+					"koKR": "7.0초 동안 일련의 유형별로 주는 피해가 {20/30}% 증가합니다. 이 효과는 2개의 조합이 번갈아 적용됩니다.\n• 화염, 번개, 물리\n• 냉기, 독, 암흑",
+					"plPL": "Zyskujesz premię {20/30}% do obrażeń różnorakich typów na 7.0 sek. Efekt ten dotyczy 2 zestawów typów obrażeń:\n• od Ognia i Błyskawic oraz Fizycznych.\n• Od Zimna, Trucizny i Cienia.",
+					"ptBR": "Você recebe {20/30}% de dano aumentado para um conjunto de tipos de dano por 7.0 segundos. Esse efeito alterna entre 2 conjuntos:\n• Dano ígneo, elétrico e físico.\n• Dano gélido, venenoso e de sombra.",
+					"ruRU": "Повышает силу нескольких типов урона из определенного списка на {20/30}% на 7.0 сек. Поочередно выбирается один из двух списков урона:\n• огонь, молния и физический.\n• холод, яд и темная магия.",
+					"trTR": "Bir hasar türü grubuna karşı 7.0 saniye boyunca {20/30}% artırılmış hasar kazan. Bu etki 2 set arasında değişir:\n• Ateş, Yıldırım ve Fiziksel.\n• Soğuk, Zehir ve Gölge.",
+					"zhCN": "获得对一组伤害类型 {20/30}% 的伤害提升,持续 7.0 秒。该效果会在 2 组伤害类型之间交替:\n• 火焰、闪电和物理。\n• 冰霜、毒素和暗影。",
+					"zhTW": "使其中一組屬性的傷害提高 {20/30}%,持續 7.0 秒。此效果會在 2 組屬性之間切換:\n• 火焰、閃電和物理。\n• 冰寒、毒素和暗影。"
 				},
 				"dungeon": "",
 				"region": ""
@@ -6232,7 +6232,7 @@ let codexData = {
 				"slot": "Pants",
 				"dropLevel": 60,
 				"dropWeight": 400000,
-				"description": "When you take damage from a Non-Physical damage type, you gain +{6/10}% Maximum Resistance to that damage type for [Affix.\"Static_Value_0\"] seconds. This effect can only apply to one damage type at a time.",
+				"description": "When you take damage from a Non-Physical damage type, you gain +{6/10}% Maximum Resistance to that damage type for 6.0 seconds. This effect can only apply to one damage type at a time.",
 				"flavor": "\"May the Light of Father Inarius shine down upon all weary travelers of this holy land. Turn your face toward his radiance and find your strength renewed.\"\n- Statue Inscription",
 				"nameLocalized": {
 					"deDE": "[p]Tassetten des Morgenhimmels",
@@ -6250,19 +6250,19 @@ let codexData = {
 					"zhTW": "黎明之空腿鎧"
 				},
 				"descriptionLocalized": {
-					"deDE": "Wenn Ihr Schaden durch eine nichtphysische Schadensart erleidet, erhaltet Ihr [Affix.\"Static_Value_0\"] Sek. lang +{6/10}% max. Widerstand gegen diese Schadensart. Dieser Effekt kann nur für jeweils eine Schadensart wirken.",
-					"esES": "Cuando sufres daño no físico, obtienes un +{6/10}% de resistencia máxima a ese tipo de daño durante [Affix.\"Static_Value_0\"] s. Este efecto solo se puede aplicar a un tipo de daño a la vez.",
-					"esMX": "Cuando recibes daño de tipo no físico, obtienes un +{6/10}% de resistencia máxima a ese tipo de daño durante [Affix.\"Static_Value_0\"] segundos. Este efecto solo se aplica a un tipo de daño a la vez.",
-					"frFR": "Subir des dégâts non physiques augmente votre maximum de résistance à ce type de dégâts de +{6/10}% pendant [Affix.\"Static_Value_0\"] s. Cet effet ne s'applique qu'à un seul type de dégâts à la fois.",
-					"itIT": "Quando subisci danni non fisici, ottieni una resistenza massima del +{6/10}% a quel tipo di danno per [Affix.\"Static_Value_0\"] s. Questo effetto si può applicare solo a un tipo di danno per volta.",
-					"jaJP": "非物理ダメージを受けると、[Affix.\"Static_Value_0\"]秒間、そのダメージの属性に対して+{6/10}%の最大耐性を得る。一度に耐性を得られる属性は1種類のみ。",
-					"koKR": "비물리 유형의 피해를 받으면 [Affix.\"Static_Value_0\"]초 동안 해당 피해 유형에 대한 최대 저항이 +{6/10}% 증가합니다. 이 효과는 한 번에 한 가지 피해 유형에 대해서만 적용됩니다.",
-					"plPL": "Kiedy odnosisz obrażenia niefizyczne, zyskujesz premię +{6/10}% do maksymalnej odporności na ten typ obrażeń na [Affix.\"Static_Value_0\"] sek. Efekt obowiązuje tylko w przypadku jednego typu obrażeń naraz.",
-					"ptBR": "Ao receber dano não físico, você recebe +{6/10}% de resistência máxima a esse tipo de dano por [Affix.\"Static_Value_0\"] segundos. Este efeito só pode ser aplicado a um tipo de dano por vez.",
-					"ruRU": "Когда вы получаете нефизический урон, ваше максимальное сопротивление соответствующему типу урона повышается на +{6/10}% на [Affix.\"Static_Value_0\"] сек. Эффект действует только для одного типа урона одновременно.",
-					"trTR": "Fiziksel Olmayan türden hasar aldığında bu hasar türüne karşı [Affix.\"Static_Value_0\"] saniyeliğine +{6/10}% Maksimum Direnç kazanırsın. Bu etki aynı anda yalnızca bir hasar türü için geçerli olabilir.",
-					"zhCN": "受到非物理伤害时,你会获得 +{6/10}% 对该类型伤害的抗性上限,持续 [Affix.\"Static_Value_0\"] 秒。同一时间该效果只能作用于一种伤害类型。",
-					"zhTW": "當你承受非物理傷害時,該傷害屬性的抗性上限提高 +{6/10}%,持續 [Affix.\"Static_Value_0\"] 秒。此效果同時間只對一種傷害類型有效。"
+					"deDE": "Wenn Ihr Schaden durch eine nichtphysische Schadensart erleidet, erhaltet Ihr 6.0 Sek. lang +{6/10}% max. Widerstand gegen diese Schadensart. Dieser Effekt kann nur für jeweils eine Schadensart wirken.",
+					"esES": "Cuando sufres daño no físico, obtienes un +{6/10}% de resistencia máxima a ese tipo de daño durante 6.0 s. Este efecto solo se puede aplicar a un tipo de daño a la vez.",
+					"esMX": "Cuando recibes daño de tipo no físico, obtienes un +{6/10}% de resistencia máxima a ese tipo de daño durante 6.0 segundos. Este efecto solo se aplica a un tipo de daño a la vez.",
+					"frFR": "Subir des dégâts non physiques augmente votre maximum de résistance à ce type de dégâts de +{6/10}% pendant 6.0 s. Cet effet ne s'applique qu'à un seul type de dégâts à la fois.",
+					"itIT": "Quando subisci danni non fisici, ottieni una resistenza massima del +{6/10}% a quel tipo di danno per 6.0 s. Questo effetto si può applicare solo a un tipo di danno per volta.",
+					"jaJP": "非物理ダメージを受けると、6.0秒間、そのダメージの属性に対して+{6/10}%の最大耐性を得る。一度に耐性を得られる属性は1種類のみ。",
+					"koKR": "비물리 유형의 피해를 받으면 6.0초 동안 해당 피해 유형에 대한 최대 저항이 +{6/10}% 증가합니다. 이 효과는 한 번에 한 가지 피해 유형에 대해서만 적용됩니다.",
+					"plPL": "Kiedy odnosisz obrażenia niefizyczne, zyskujesz premię +{6/10}% do maksymalnej odporności na ten typ obrażeń na 6.0 sek. Efekt obowiązuje tylko w przypadku jednego typu obrażeń naraz.",
+					"ptBR": "Ao receber dano não físico, você recebe +{6/10}% de resistência máxima a esse tipo de dano por 6.0 segundos. Este efeito só pode ser aplicado a um tipo de dano por vez.",
+					"ruRU": "Когда вы получаете нефизический урон, ваше максимальное сопротивление соответствующему типу урона повышается на +{6/10}% на 6.0 сек. Эффект действует только для одного типа урона одновременно.",
+					"trTR": "Fiziksel Olmayan türden hasar aldığında bu hasar türüne karşı 6.0 saniyeliğine +{6/10}% Maksimum Direnç kazanırsın. Bu etki aynı anda yalnızca bir hasar türü için geçerli olabilir.",
+					"zhCN": "受到非物理伤害时,你会获得 +{6/10}% 对该类型伤害的抗性上限,持续 6.0 秒。同一时间该效果只能作用于一种伤害类型。",
+					"zhTW": "當你承受非物理傷害時,該傷害屬性的抗性上限提高 +{6/10}%,持續 6.0 秒。此效果同時間只對一種傷害類型有效。"
 				},
 				"flavorLocalized": {
 					"deDE": "\"Möge das Licht von Vater Inarius auf alle müden Reisenden dieses heiligen Landes herabscheinen. Wendet Euer Antlitz seinem Glanz entgegen und findet Eure Stärke wieder.\"\n- Statueninschrift",
