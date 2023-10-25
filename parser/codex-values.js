@@ -46,6 +46,12 @@ let codexValues = {
 			},
 			"Temerity": {
 				"values": []
+			},
+			"Soulbrand": {
+				"values": []
+			},
+			"Tassets of the Dawning Sky": {
+				"values": []
 			}
 		},
 		"Offensive": {
@@ -120,6 +126,27 @@ let codexValues = {
 			},
 			"Ahavarion, Spear of Lycander": {
 				"values": []
+			},
+			"Shard of Dawn Aspect": {
+				"dungeon": "",
+				"region": "",
+				"values": []
+			},
+			"Aspect of Elements": {
+				"dungeon": "",
+				"region": "",
+				"values": []
+			},
+			"Banished Lord's Talisman": {
+				"values": []
+			},
+			"Tibault's Will": {
+				"values": []
+			},
+			"X'Fal's Corroded Signet": {
+				"values": [
+					""
+				]
 			}
 		},
 		"Utility": {
@@ -154,6 +181,9 @@ let codexValues = {
 				"dungeon": "",
 				"region": "",
 				"values": []
+			},
+			"Godslayer Crown": {
+				"values": []
 			}
 		},
 		"Resource": {
@@ -177,6 +207,9 @@ let codexValues = {
 			},
 			"Ring of Starless Skies": {
 				"values": []
+			},
+			"Flickerstep": {
+				"values": []
 			}
 		},
 		"Mobility": {
@@ -191,6 +224,11 @@ let codexValues = {
 				"values": []
 			},
 			"Craven Aspect": {
+				"dungeon": "",
+				"region": "",
+				"values": []
+			},
+			"Aspect of Slaughter": {
 				"dungeon": "",
 				"region": "",
 				"values": []
@@ -360,6 +398,14 @@ let codexValues = {
 			"Aspect of Ancestral Charge": {
 				"dungeon": "",
 				"region": "",
+				"values": []
+			},
+			"Wanton Rupture Aspect": {
+				"dungeon": "",
+				"region": "",
+				"values": []
+			},
+			"Tuskhelm of Joritz the Mighty": {
 				"values": []
 			}
 		},
@@ -665,6 +711,14 @@ let codexValues = {
 				"values": [
 					""
 				]
+			},
+			"Raw Might Aspect": {
+				"dungeon": "",
+				"region": "",
+				"values": []
+			},
+			"Dolmen Stone": {
+				"values": []
 			}
 		},
 		"Utility": {
@@ -924,11 +978,6 @@ let codexValues = {
 					""
 				]
 			},
-			"Viscous Aspect": {
-				"dungeon": "",
-				"region": "",
-				"values": []
-			},
 			"Blood Getter's Aspect": {
 				"dungeon": "",
 				"region": "",
@@ -950,6 +999,14 @@ let codexValues = {
 			"Hulking Aspect": {
 				"dungeon": "",
 				"region": "",
+				"values": []
+			},
+			"Aspect of Occult Dominion": {
+				"dungeon": "",
+				"region": "",
+				"values": []
+			},
+			"Blood Moon Breeches": {
 				"values": []
 			}
 		},
@@ -980,6 +1037,11 @@ let codexValues = {
 				"values": []
 			},
 			"Aspect of Exposed Flesh": {
+				"dungeon": "",
+				"region": "",
+				"values": []
+			},
+			"Aspect of the Long Shadow": {
 				"dungeon": "",
 				"region": "",
 				"values": []
@@ -1203,6 +1265,14 @@ let codexValues = {
 			},
 			"Eaglehorn": {
 				"values": []
+			},
+			"Aspect of Artful Initiative": {
+				"dungeon": "",
+				"region": "",
+				"values": []
+			},
+			"Scoundrel's Leathers": {
+				"values": []
 			}
 		},
 		"Utility": {
@@ -1362,11 +1432,6 @@ let codexValues = {
 				"region": "",
 				"values": []
 			},
-			"Aspect of Static Cling": {
-				"dungeon": "Wretched Delve",
-				"region": "Scosglen",
-				"values": []
-			},
 			"Aspect of Frozen Orbit": {
 				"dungeon": "",
 				"region": "",
@@ -1471,6 +1536,19 @@ let codexValues = {
 				"values": []
 			},
 			"The Oculus": {
+				"values": []
+			},
+			"Aspect of Piercing Static": {
+				"dungeon": "",
+				"region": "",
+				"values": []
+			},
+			"Battle Caster's Aspect": {
+				"dungeon": "",
+				"region": "",
+				"values": []
+			},
+			"Blue Rose": {
 				"values": []
 			}
 		},

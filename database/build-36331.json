@@ -19806,7 +19806,7 @@
 			"Generic_Magic_DamageReductionFromShadowDoTed": {
 				"attributes": {
 					"790-0": {
-						"attribute_name": "Damage_Percent_Reduction_From_Dotted_Enemy#Taking Shadow DoT",
+						"attribute_name": "Damage_Percent_Reduction_From_Dotted_Enemy#Shadow DoTed",
 						"formula_data": {
 							"1 * ParagonPowerBudgetMultiplierNodeMagicDefensive()": [
 								1.0,
@@ -19818,7 +19818,7 @@
 						"stat_dword": 5
 					}
 				},
-				"desc": "2% Damage Reduction From Enemies That Are Taking Shadow DoT",
+				"desc": "2% Damage Reduction From Enemies That Are Shadow DoTed",
 				"name": "Damage Reduction From Shadow DoTed",
 				"tags": [
 					"Search_ShadowDOT"
@@ -20195,7 +20195,7 @@
 			"Generic_Magic_DamageToShadowDoTed": {
 				"attributes": {
 					"784-0": {
-						"attribute_name": "Damage_Percent_Bonus_Against_Dot_Type#Taking Shadow DoT",
+						"attribute_name": "Damage_Percent_Bonus_Against_Dot_Type#Shadow DoTed",
 						"formula_data": {
 							"1 * ParagonPowerBudgetMultiplierNodeMagicOffensive()": [
 								1.0,
@@ -20207,7 +20207,7 @@
 						"stat_dword": 5
 					}
 				},
-				"desc": "+5% Damage To Taking Shadow DoT Enemies",
+				"desc": "+5% Damage To Shadow DoTed Enemies",
 				"name": "Damage To Shadow DoTed",
 				"tags": [
 					"Search_ShadowDOT"
@@ -24327,7 +24327,7 @@
 						"stat_dword": 5
 					},
 					"790-0": {
-						"attribute_name": "Damage_Percent_Reduction_From_Dotted_Enemy#Taking Shadow DoT",
+						"attribute_name": "Damage_Percent_Reduction_From_Dotted_Enemy#Shadow DoTed",
 						"formula_data": {
 							"1 * ParagonPowerBudgetMultiplierNodeRareMajorDefensive()": [
 								1.0,
@@ -24339,14 +24339,14 @@
 						"stat_dword": 5
 					}
 				},
-				"desc": "4% Damage Reduction From Enemies That Are Taking Shadow DoT\n12% Shadow Resistance",
+				"desc": "4% Damage Reduction From Enemies That Are Shadow DoTed\n12% Shadow Resistance",
 				"name": "Dragging Shadows",
 				"tags": [
 					"Search_Resistance",
 					"Search_Shadow",
 					"Search_ShadowDOT"
 				],
-				"threshold_bonus": "4% Damage Reduction From Enemies That Are Taking Shadow DoT",
+				"threshold_bonus": "4% Damage Reduction From Enemies That Are Shadow DoTed",
 				"threshold_requirements": {
 					"Barbarian": [
 						"{170 + (90 * ParagonBoardEquipIndex)} Dexterity"
@@ -24377,7 +24377,7 @@
 						"stat_dword": 4294967295
 					},
 					"784-0": {
-						"attribute_name": "Damage_Percent_Bonus_Against_Dot_Type#Taking Shadow DoT",
+						"attribute_name": "Damage_Percent_Bonus_Against_Dot_Type#Shadow DoTed",
 						"formula_data": {
 							"1 * ParagonPowerBudgetMultiplierNodeRareMajorOffensive()": [
 								1.0,
@@ -24389,13 +24389,13 @@
 						"stat_dword": 5
 					}
 				},
-				"desc": "+10% Damage To Taking Shadow DoT Enemies\n+16.7% Damage to Elites",
+				"desc": "+10% Damage To Shadow DoTed Enemies\n+16.7% Damage to Elites",
 				"name": "Gnawing Darkness",
 				"tags": [
 					"Search_ShadowDOT",
 					"Search_Elite"
 				],
-				"threshold_bonus": "+10% Damage To Taking Shadow DoT Enemies",
+				"threshold_bonus": "+10% Damage To Shadow DoTed Enemies",
 				"threshold_requirements": {
 					"Barbarian": [
 						"{170 + (90 * ParagonBoardEquipIndex)} Dexterity"
@@ -24414,7 +24414,7 @@
 			"Generic_Rare_093": {
 				"attributes": {
 					"784-0": {
-						"attribute_name": "Damage_Percent_Bonus_Against_Dot_Type#Taking Shadow DoT",
+						"attribute_name": "Damage_Percent_Bonus_Against_Dot_Type#Shadow DoTed",
 						"formula_data": {
 							"1 * ParagonPowerBudgetMultiplierNodeRareMajorOffensive()": [
 								1.0,
@@ -24437,13 +24437,13 @@
 						"stat_dword": 4294967295
 					}
 				},
-				"desc": "+10% Damage To Taking Shadow DoT Enemies\n+10 Intelligence",
+				"desc": "+10% Damage To Shadow DoTed Enemies\n+10 Intelligence",
 				"name": "Malediction",
 				"tags": [
 					"Search_ShadowDOT",
 					"Search_Intelligence"
 				],
-				"threshold_bonus": "+10% Damage To Taking Shadow DoT Enemies",
+				"threshold_bonus": "+10% Damage To Shadow DoTed Enemies",
 				"threshold_requirements": {
 					"Barbarian": [
 						"{180 + (90 * ParagonBoardEquipIndex)} Willpower"

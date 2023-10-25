@@ -37,7 +37,11 @@ let nodeValues = {
 		"Corruption": {},
 		"Summoning": {},
 		"Ultimate": {},
-		"Key Passive": {}
+		"Key Passive": {
+			"Rathma's Vigor": [
+				""
+			]
+		}
 	},
 	"Rogue": {
 		"Basic": {},

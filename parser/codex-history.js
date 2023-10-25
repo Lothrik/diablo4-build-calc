@@ -309,7 +309,29 @@ let codexHistory = {
 	"Defensive: Mage-Lord's Aspect": 307,
 	"Defensive: Aspect of Searing Wards": 308,
 	"Offensive: The Oculus": 309,
-	"Utility: Hulking Aspect": 310
+	"Utility: Hulking Aspect": 310,
+	"Offensive: Wanton Rupture Aspect": 311,
+	"Offensive: Tuskhelm of Joritz the Mighty": 312,
+	"Offensive: Raw Might Aspect": 313,
+	"Offensive: Dolmen Stone": 314,
+	"Offensive: Shard of Dawn Aspect": 315,
+	"Offensive: Aspect of Elements": 316,
+	"Mobility: Aspect of Slaughter": 317,
+	"Offensive: Banished Lord's Talisman": 318,
+	"Resource: Flickerstep": 319,
+	"Defensive: Soulbrand": 320,
+	"Utility: Godslayer Crown": 321,
+	"Defensive: Tassets of the Dawning Sky": 322,
+	"Offensive: Tibault's Will": 323,
+	"Offensive: X'Fal's Corroded Signet": 324,
+	"Utility: Aspect of Occult Dominion": 325,
+	"Resource: Aspect of the Long Shadow": 326,
+	"Utility: Blood Moon Breeches": 327,
+	"Offensive: Aspect of Artful Initiative": 328,
+	"Offensive: Scoundrel's Leathers": 329,
+	"Offensive: Aspect of Piercing Static": 330,
+	"Offensive: Battle Caster's Aspect": 331,
+	"Offensive: Blue Rose": 332
 }
 
 export { codexHistory };
