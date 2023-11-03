@@ -3117,7 +3117,7 @@ let codexData = {
 			"Raw Might Aspect": {
 				"id": 313,
 				"type": "Legendary",
-				"description": "After you hit 15.0 enemies with your Werebear Skills, your next Werebear Skill will deal {30/50}% more damage and Stun enemies for 2.0 seconds.",
+				"description": "After you hit 15.0 enemies with your Werebear Skills, your next Werebear Skill will deal x{30/50}% more damage and Stun enemies for 2.0 seconds.",
 				"nameLocalized": {
 					"deDE": "Rohe Macht",
 					"esES": "de poderío puro",
@@ -3134,19 +3134,19 @@ let codexData = {
 					"zhTW": "蠻力"
 				},
 				"descriptionLocalized": {
-					"deDE": "Nachdem Ihr 15.0 Gegner mit Euren Werbärfertigkeiten getroffen habt, verursacht Eure nächste Werbärenfertigkeit {30/50}% mehr Schaden und betäubt Gegner 2.0 Sek. lang.",
-					"esES": "Tras golpear a 15.0 enemigos con tus habilidades de hombre oso, tu siguiente habilidad de hombre oso infligirá un {30/50}% más de daño y aturdirá a los enemigos durante 2.0 s.",
-					"esMX": "Después de golpear a 15.0 enemigos con las habilidades de Hombre Oso, la próxima habilidad de Hombre Oso causará {30/50}% más de daño y aturdirá a los enemigos durante 2.0 segundos.",
-					"frFR": "Après avoir atteint 15.0 adversaires avec vos compétences d'ursoïde, la prochaine fois que vous utiliserez l'une d'entre elles, vous infligerez {30/50}% de dégâts supplémentaires et étourdirez vos cibles pendant 2.0 s.",
-					"itIT": "Dopo che colpisci 15.0 nemici con le tue abilità da Orso Mannaro, la tua prossima abilità da Orso Mannaro infligge il {30/50}% di danni aggiuntivi e stordisce i nemici per 2.0 s.",
-					"jaJP": "15.0体の敵に人熊スキルを命中させると、次の人熊スキルのダメージが{30/50}%増加し、敵を2.0秒間スタンさせる。",
-					"koKR": "곰인간 기술을 적 15.0마리에게 적중시키면 다음 곰인간 기술의 피해가 {30/50}% 증가하고 2.0초 동안 적을 기절시킵니다.",
-					"plPL": "Po trafieniu 15.0 wrogów umiejętnościami niedźwiedziołaka twoja następna umiejętność niedźwiedziołaka zada o {30/50}% więcej obrażeń i ogłuszy wrogów na 2.0 sek.",
-					"ptBR": "Depois que você atingir 15.0 inimigos com suas habilidades de Urso, sua próxima habilidade de Urso causa {30/50}% a mais de dano e atordoa inimigos por 2.0 segundos.",
-					"ruRU": "Когда ваши умения облика медведя поражают 15.0-го противника, следующее умение облика медведя наносит на {30/50}% больше урона и оглушает цели на 2.0 сек.",
-					"trTR": "Ayı Adam Yeteneklerinle 15.0 düşmana vurduktan sonra sıradaki Ayı Adam Yeteneğin fazladan {30/50}% hasar verir ve düşmanları 2.0 saniyeliğine Sersemletir.",
-					"zhCN": "在你用 熊人技能击中 15.0 个敌人后,你的下一次熊人技能将造成 {30/50}% 点额外伤害,并击昏敌人 2.0 秒。",
-					"zhTW": "在使用熊人技能擊中 15.0 個敵人後,你的下一個熊人技能造成的傷害提高 {30/50}%,並使敵人昏迷 2.0 秒。"
+					"deDE": "Nachdem Ihr 15.0 Gegner mit Euren Werbärfertigkeiten getroffen habt, verursacht Eure nächste Werbärfertigkeit x{30/50}% mehr Schaden und betäubt Gegner 2.0 Sek. lang.",
+					"esES": "Tras golpear a 15.0 enemigos con tus habilidades de hombre oso, tu siguiente habilidad de hombre oso infligirá un x{30/50}% más de daño y aturdirá a los enemigos durante 2.0 s.",
+					"esMX": "Después de golpear a 15.0 enemigos con las habilidades de Hombre Oso, la próxima habilidad de Hombre Oso causará x{30/50}% más de daño y aturdirá a los enemigos durante 2.0 segundos.",
+					"frFR": "Après avoir atteint 15.0 adversaires avec vos compétences d'ursoïde, la prochaine fois que vous utiliserez l'une d'entre elles, vous infligerez x{30/50}% de dégâts supplémentaires et étourdirez vos cibles pendant 2.0 s.",
+					"itIT": "Dopo che colpisci 15.0 nemici con le tue abilità da Orso Mannaro, la tua prossima abilità da Orso Mannaro infligge il x{30/50}% di danni aggiuntivi e stordisce i nemici per 2.0 s.",
+					"jaJP": "15.0体の敵に人熊スキルを命中させると、次の人熊スキルのダメージがx{30/50}%増加し、敵を2.0秒間スタンさせる。",
+					"koKR": "곰인간 기술을 적 15.0마리에게 적중시키면 다음 곰인간 기술의 피해가 x{30/50}% 증가하고 2.0초 동안 적을 기절시킵니다.",
+					"plPL": "Po trafieniu 15.0 wrogów umiejętnościami niedźwiedziołaka twoja następna umiejętność niedźwiedziołaka zada o x{30/50}% więcej obrażeń i ogłuszy wrogów na 2.0 sek.",
+					"ptBR": "Depois que você atingir 15.0 inimigos com suas habilidades de urso, sua próxima habilidade de urso causa x{30/50}% a mais de dano e atordoa inimigos por 2.0 segundos.",
+					"ruRU": "Когда ваши умения облика медведя поражают 15.0-го противника, следующее умение облика медведя наносит на x{30/50}% больше урона и оглушает цели на 2.0 сек.",
+					"trTR": "Ayı Adam Yeteneklerinle 15.0 düşmana vurduktan sonra sıradaki Ayı Adam Yeteneğin fazladan x{30/50}% hasar verir ve düşmanları 2.0 saniyeliğine Sersemletir.",
+					"zhCN": "在你用 熊人技能击中 15.0 个敌人后,你的下一个熊人技能伤害提高 x{30/50}%,并击昏敌人 2.0 秒。",
+					"zhTW": "在使用熊人技能擊中 15.0 個敵人後,你的下一個熊人技能造成的傷害提高 x{30/50}%,並使敵人昏迷 2.0 秒。"
 				},
 				"dungeon": "",
 				"region": ""
@@ -4607,7 +4607,7 @@ let codexData = {
 			"Aspect of Elements": {
 				"id": 316,
 				"type": "Legendary",
-				"description": "Gain {20/30}% increased damage to a set of damage types for 7.0 seconds. This effect alternates between 2 sets:\n• Fire, Lightning, and Physical.\n• Cold, Poison, and Shadow.",
+				"description": "Gain x{20/30}% increased damage to a set of damage types for 7.0 seconds. This effect alternates between 2 sets:\n• Fire, Lightning, and Physical.\n• Cold, Poison, and Shadow.",
 				"nameLocalized": {
 					"deDE": "der Elemente",
 					"esES": "de los elementos",
@@ -4624,19 +4624,19 @@ let codexData = {
 					"zhTW": "元素之"
 				},
 				"descriptionLocalized": {
-					"deDE": "Erhaltet 7.0 Sek. lang um {20/30}% erhöhten Schaden für gewisse Arten Schaden. Dieser Effekt wechselt zwischen 2 Kategorien:\n• Feuer, Blitz und Physisch.\n• Kälte, Gift und Schatten.",
-					"esES": "Obtienes un {20/30}% más de daño de ciertos tipos durante 7.0 s. El efecto alterna entre 2 grupos:\n• Fuego, rayos y físico.\n• Frío, veneno y sombra.",
-					"esMX": "Obtienes un {20/30}% más de daño para un conjunto de tipos de daño durante 7.0 segundos. Este efecto alterna entre 2 conjuntos:\n• Fuego, rayo y físico.\n• Frío, veneno y sombra.",
-					"frFR": "Augmente les dégâts infligés par un ensemble de types de dégâts de {20/30}% pendant 7.0 s. Cet effet alterne entre deux ensembles :\n• feu, foudre et physiques ;\n• froid, poison et ombre.",
-					"itIT": "Aumenti i danni di una serie di tipi di danno del {20/30}% per 7.0 s. Questo effetto si alterna tra 2 serie:\n• fuoco, fulmine e fisici.\n• Freddo, veleno e ombra.",
-					"jaJP": "7.0秒間、複数の種類のダメージが{20/30}%セットで上昇する。この効果は2つのセットを交互に発動する:\n• 火炎、電撃、物理\n• 冷気、毒、シャドウ",
-					"koKR": "7.0초 동안 일련의 유형별로 주는 피해가 {20/30}% 증가합니다. 이 효과는 2개의 조합이 번갈아 적용됩니다.\n• 화염, 번개, 물리\n• 냉기, 독, 암흑",
-					"plPL": "Zyskujesz premię {20/30}% do obrażeń różnorakich typów na 7.0 sek. Efekt ten dotyczy 2 zestawów typów obrażeń:\n• od Ognia i Błyskawic oraz Fizycznych.\n• Od Zimna, Trucizny i Cienia.",
-					"ptBR": "Você recebe {20/30}% de dano aumentado para um conjunto de tipos de dano por 7.0 segundos. Esse efeito alterna entre 2 conjuntos:\n• Dano ígneo, elétrico e físico.\n• Dano gélido, venenoso e de sombra.",
-					"ruRU": "Повышает силу нескольких типов урона из определенного списка на {20/30}% на 7.0 сек. Поочередно выбирается один из двух списков урона:\n• огонь, молния и физический.\n• холод, яд и темная магия.",
-					"trTR": "Bir hasar türü grubuna karşı 7.0 saniye boyunca {20/30}% artırılmış hasar kazan. Bu etki 2 set arasında değişir:\n• Ateş, Yıldırım ve Fiziksel.\n• Soğuk, Zehir ve Gölge.",
-					"zhCN": "获得对一组伤害类型 {20/30}% 的伤害提升,持续 7.0 秒。该效果会在 2 组伤害类型之间交替:\n• 火焰、闪电和物理。\n• 冰霜、毒素和暗影。",
-					"zhTW": "使其中一組屬性的傷害提高 {20/30}%,持續 7.0 秒。此效果會在 2 組屬性之間切換:\n• 火焰、閃電和物理。\n• 冰寒、毒素和暗影。"
+					"deDE": "Erhaltet 7.0 Sek. lang um x{20/30}% erhöhten Schaden für gewisse Arten Schaden. Dieser Effekt wechselt zwischen 2 Kategorien:\n• Feuer, Blitz und Physisch.\n• Kälte, Gift und Schatten.",
+					"esES": "Obtienes un x{20/30}% más de daño de ciertos tipos durante 7.0 s. El efecto alterna entre 2 grupos:\n• Fuego, rayos y físico.\n• Frío, veneno y sombra.",
+					"esMX": "Obtienes un x{20/30}% más de daño para un conjunto de tipos de daño durante 7.0 segundos. Este efecto alterna entre 2 conjuntos:\n• Fuego, rayo y físico.\n• Frío, veneno y sombra.",
+					"frFR": "Augmente les dégâts infligés par un ensemble de types de dégâts de x{20/30}% pendant 7.0 s. Cet effet alterne entre deux ensembles :\n• feu, foudre et physiques ;\n• froid, poison et ombre.",
+					"itIT": "Aumenti i danni di una serie di tipi di danno del x{20/30}% per 7.0 s. Questo effetto si alterna tra 2 serie:\n• fuoco, fulmine e fisici.\n• Freddo, veleno e ombra.",
+					"jaJP": "7.0秒間、複数の種類のダメージがx{20/30}%セットで上昇する。この効果は2つのセットを交互に発動する:\n• 火炎、電撃、物理。\n• 冷気、毒、シャドウ。",
+					"koKR": "7.0초 동안 일련의 유형별로 주는 피해가 x{20/30}% 증가합니다. 이 효과는 2개의 조합이 번갈아 적용됩니다.\n• 화염, 번개, 물리\n• 냉기, 독, 암흑",
+					"plPL": "Obrażenia zadawane określonymi zbiorami typów obrażeń zwiększają się o x{20/30}% na 7.0 sek. Ten efekt obowiązuje na zmianę w 2 zbiorach:\n• Obrażenia od Ognia, Błyskawicy i obrażenia fizyczne.\n• Obrażenia od Zimna, Trucizny i Cienia.",
+					"ptBR": "Você recebe x{20/30}% de dano aumentado para um conjunto de tipos de dano por 7.0 segundos. Esse efeito alterna entre 2 conjuntos:\n• Dano ígneo, elétrico e físico.\n• Dano gélido, venenoso e de sombra.",
+					"ruRU": "Повышает силу нескольких типов урона из определенного списка на x{20/30}% на 7.0 сек. Поочередно выбирается один из двух списков урона:\n• огонь, молния и физический.\n• холод, яд и темная магия.",
+					"trTR": "Bir hasar türü grubuna 7.0 saniye boyunca x{20/30}% artırılmış hasar kazan. Bu etki 2 set arasında değişir:\n• Ateş, Yıldırım ve Fiziksel.\n• Soğuk, Zehir ve Gölge.",
+					"zhCN": "一组伤害类型的伤害提升 x{20/30}% ,持续 7.0 秒。该效果会在 2 组伤害类型之间交替:\n• 火焰、闪电和物理。\n• 冰霜、毒素和暗影。",
+					"zhTW": "使其中一組屬性的傷害提高 x{20/30}%,持續 7.0 秒。此效果會在 2 組屬性之間切換:\n• 火焰、閃電和物理。\n• 冰寒、毒素和暗影。"
 				},
 				"dungeon": "",
 				"region": ""
@@ -4701,7 +4701,7 @@ let codexData = {
 				"slot": "1H Sword",
 				"dropLevel": 85,
 				"dropWeight": 1,
-				"description": "Lucky Hit: Up to a {15/25}% chance to deal {#} Shadow damage to surrounding enemies and reduce their damage done by 20.0% for 5.0 seconds.",
+				"description": "Lucky Hit: Up to a 25% chance to deal {#} Shadow damage to surrounding enemies and reduce their damage done by 20.0% for 5.0 seconds.",
 				"flavor": "Whenever this ancient sword has reappeared throughout history, it portends a time of great strife, as well as a devastating loss of life.",
 				"nameLocalized": {
 					"deDE": "[ms]Verhängnisbringer",
@@ -4719,19 +4719,19 @@ let codexData = {
 					"zhTW": "末日使者"
 				},
 				"descriptionLocalized": {
-					"deDE": "Glückstreffer: Ihr habt eine Chance von bis zu {15/25}%, Gegnern in der Nähe {#} Schattenschaden zuzufügen und ihren verursachten Schaden 5.0 Sek. lang um 20.0% zu verringern.",
-					"esES": "Golpe de suerte: Hasta un {15/25}% de probabilidad de infligir {#} de daño de sombra a los enemigos cercanos y reducir el daño que infligen un 20.0% durante 5.0 s.",
-					"esMX": "Golpe afortunado: Tienes hasta un {15/25}% de probabilidad de infligir {#} de daño de sombra a los enemigos circundantes y reducir el daño que infligen un 20.0% durante 5.0 segundos.",
-					"frFR": "Coup de chance: vous avez jusqu'à {15/25}% de chances d'infliger {#} points de dégâts d'ombre aux cibles à proximité et de réduire les dégâts qu'elles vous infligent de 20.0% pendant 5.0 s.",
-					"itIT": "Colpo fortunato: fino al {15/25}% di probabilità di infliggere {#} danni da ombra ai nemici circostanti e di ridurre i loro danni del 20.0% per 5.0 s.",
-					"jaJP": "幸運の一撃: 最大{15/25}%の確率で周囲の敵に{#}シャドウダメージを与え、その敵から受けるダメージを5.0秒間、20.0%減少させる。",
-					"koKR": "행운의 적중: 최대 {15/25}% 확률로 주위 적들에게 {#}의 암흑 피해를 주고 5.0초 동안 적이 주는 피해를 20.0% 감소시킵니다.",
-					"plPL": "Szczęśliwy traf: Istnieje maksymalnie {15/25}% szans na zadanie {#} pkt. obrażeń Cienia pobliskim wrogom i zmniejszenie zadawanych przez nich obrażeń o 20.0% na 5.0 sek.",
-					"ptBR": "Golpe de Sorte: Até {15/25}% de chance de causar {#} de dano de sombra aos inimigos ao redor e reduzir o dano causado por eles em 20.0% por 5.0 segundos.",
-					"ruRU": "Удачный удар: вы с вероятностью до {15/25}% наносите окружающим противникам {#} ед. урона от темной магии и снижаете наносимый ими урон на 20.0% на 5.0 сек.",
-					"trTR": "Şanslı Vuruş: En fazla {15/25}% ihtimalle çevredeki düşmanlara 5.0 saniyeliğine {#} Gölge hasarı verip düşmanların verdikleri hasarı 20.0% azalt.",
-					"zhCN": "幸运一击: 最多有 {15/25}% 几率对周围敌人造成 {#} 点暗影伤害, 并使他们造成的伤害减少 20.0%, 持续 5.0 秒。",
-					"zhTW": "幸運觸發:最高有 {15/25}% 機率對附近敵人造成 {#} 點暗影傷害,並使其造成的傷害降低 20.0%,持續 5.0 秒。"
+					"deDE": "Glückstreffer: Ihr habt eine Chance von bis zu 25%, Gegnern in der Nähe {#} Schattenschaden zuzufügen und ihren verursachten Schaden 5.0 Sek. lang um 20.0% zu verringern.",
+					"esES": "Golpe de suerte: Hasta un 25% de probabilidad de infligir {#} de daño de sombra a los enemigos cercanos y reducir el daño que infligen un 20.0% durante 5.0 s.",
+					"esMX": "Golpe afortunado: Tienes hasta un 25% de probabilidad de infligir {#} de daño de sombra a los enemigos circundantes y reducir el daño que infligen un 20.0% durante 5.0 segundos.",
+					"frFR": "Coup de chance: vous avez jusqu'à 25% de chances d'infliger {#} points de dégâts d'ombre aux cibles à proximité et de réduire les dégâts qu'elles vous infligent de 20.0% pendant 5.0 s.",
+					"itIT": "Colpo fortunato: fino al 25% di probabilità di infliggere {#} danni da ombra ai nemici circostanti e di ridurre i loro danni del 20.0% per 5.0 s.",
+					"jaJP": "幸運の一撃: 最大25%の確率で周囲の敵にシャドウダメージを{#}与え、その敵から受けるダメージを5.0秒間、20.0%減少させる。",
+					"koKR": "행운의 적중: 최대 25% 확률로 주위 적들에게 {#}의 암흑 피해를 주고, 적이 주는 피해를 5.0초 동안 20.0% 감소시킵니다.",
+					"plPL": "Szczęśliwy traf: Istnieje maksymalnie 25% szans na zadanie {#} pkt. obrażeń Cienia pobliskim wrogom i zmniejszenie zadawanych przez nich obrażeń o 20.0% na 5.0 sek.",
+					"ptBR": "Golpe de Sorte: Até 25% de chance de causar {#} de dano de sombra aos inimigos ao redor e reduzir o dano causado por eles em 20.0% por 5.0 segundos.",
+					"ruRU": "Удачный удар: вы с вероятностью до 25% наносите окружающим противникам {#} ед. урона от темной магии и снижаете наносимый ими урон на 20.0% на 5.0 сек.",
+					"trTR": "Şanslı Vuruş: En fazla 25% ihtimalle çevredeki düşmanlara {#} Gölge hasarı verip düşmanların verdikleri hasarı 5.0 saniyeliğine 20.0% azalt.",
+					"zhCN": "幸运一击: 最多有 25% 几率对周围敌人造成 {#} 点暗影伤害,并使他们造成的伤害减少 20.0%,持续 5.0 秒。",
+					"zhTW": "幸運觸發:最高有 25% 機率對附近敵人造成 {#} 點暗影傷害,並使其造成的傷害降低 20.0%,持續 5.0 秒。"
 				},
 				"flavorLocalized": {
 					"deDE": "Wo auch immer dieses uralte Schwert im Laufe der Geschichte auftaucht, ist es der Vorbote einer Zeit großer Unruhen und verheerender Tode.",
@@ -4758,7 +4758,7 @@ let codexData = {
 				"slot": "2H Staff",
 				"dropLevel": 85,
 				"dropWeight": 1,
-				"description": "Gain a random Shrine effect for {10/20} seconds after killing an Elite enemy. Can only occur once every 30.0 seconds.",
+				"description": "Gain a random Shrine effect for 20 seconds after killing an Elite enemy. Can only occur once every 30.0 seconds.",
 				"flavor": "\"The angel Lycander left us a portion of her power in this spear. It is all the proof I need that she watches over us still.\"\n- Oracle Argoysni",
 				"nameLocalized": {
 					"deDE": "[ms]Ahavarion, Stab von Lycander",
@@ -4776,19 +4776,19 @@ let codexData = {
 					"zhTW": "亞赫維里恩,萊坎德之矛"
 				},
 				"descriptionLocalized": {
-					"deDE": "Nach dem Töten eines Elitegegners erhaltet Ihr {10/20} Sek. lang einen zufälligen Schreineffekt. Kann nur einmal alle 30.0 Sek. auftreten.",
-					"esES": "Obtienes un efecto de sagrario al azar durante {10/20} s tras matar a un enemigo de élite. Solo puede ocurrir una vez cada 30.0 s.",
-					"esMX": "Obtienes un efecto de Sagrario aleatorio durante {10/20} segundos después de matar a un enemigo de Élite. Solo puede ocurrir una vez cada 30.0 segundos.",
-					"frFR": "Vous obtenez un effet aléatoire de sanctuaire pendant {10/20} s après avoir tué une élite. Cet effet ne peut se produire qu'une fois toutes les 30.0 s.",
-					"itIT": "Ottieni l'effetto di un santuario casuale per {10/20} s dopo aver ucciso un nemico élite. Questo effetto può verificarsi soltanto una volta ogni 30.0 s.",
-					"jaJP": "エリートモンスターを倒した後、{10/20}秒間、ランダムな祭壇効果を得る。効果が発動するのは30.0秒に一回のみ。",
-					"koKR": "정예 처치 후 {10/20}초 동안 무작위 신단 효과를 얻습니다. 30.0초에 한 번씩만 발동합니다.",
-					"plPL": "Przez {10/20} sek. po zabiciu elitarnego wroga otrzymujesz efekt losowej kapliczki. Efekt może wystąpić tylko raz na 30.0 sek.",
-					"ptBR": "Recebe um efeito de altar aleatório por {10/20} segundos depois de matar um inimigo de elite. Só pode ocorrer uma vez a cada 30.0 segundos.",
-					"ruRU": "После убийства группы элитных монстров герой получает случайный эффект святилища на {10/20} сек. Эффект срабатывает не чаще раза в 30.0 сек.",
-					"trTR": "Seçkin bir düşman öldürdükten sonra {10/20} saniyeliğine rastgele bir Mabet etkisi kazan. Sadece her 30.0 saniyede bir gerçekleşebilir.",
-					"zhCN": "在消灭一名精英敌人后获得一个随机圣坛效果, 持续 {10/20} 秒。每 30.0 秒只能生效一次。",
-					"zhTW": "擊殺精英敵人後獲得一個隨機聖壇效果,持續 {10/20} 秒。每 30.0 秒只能觸發一次。"
+					"deDE": "Nach dem Töten eines Elitegegners erhaltet Ihr 20 Sek. lang einen zufälligen Schreineffekt. Kann nur einmal alle 30.0 Sek. auftreten.",
+					"esES": "Obtienes un efecto de sagrario al azar durante 20 s tras matar a un enemigo de élite. Solo puede ocurrir una vez cada 30.0 s.",
+					"esMX": "Obtienes un efecto de Sagrario aleatorio durante 20 segundos después de matar a un enemigo de Élite. Solo puede ocurrir una vez cada 30.0 segundos.",
+					"frFR": "Vous obtenez un effet aléatoire de sanctuaire pendant 20 s après avoir tué une élite. Cet effet ne peut se produire qu'une fois toutes les 30.0 s.",
+					"itIT": "Ottieni l'effetto di un santuario casuale per 20 s dopo aver ucciso un nemico élite. Questo effetto può verificarsi soltanto una volta ogni 30.0 s.",
+					"jaJP": "エリートモンスターを倒した後、20秒間、ランダムな祭壇効果を得る。効果が発動するのは30.0秒に1回のみ。",
+					"koKR": "적의 정예병을 처치한 후 20초 동안 무작위 신단 효과를 얻습니다. 30.0초에 한 번씩만 발동합니다.",
+					"plPL": "Przez 20 sek. po zabiciu elitarnego wroga otrzymujesz efekt losowej kapliczki. Efekt może wystąpić tylko raz na 30.0 sek.",
+					"ptBR": "Recebe um efeito de altar aleatório por 20 segundos depois de matar um inimigo de elite. Só pode ocorrer uma vez a cada 30.0 segundos.",
+					"ruRU": "После убийства особого противника вы получаете случайный эффект святилища на 20 сек. Эффект срабатывает не чаще раза в 30.0 сек.",
+					"trTR": "Seçkin bir düşman öldürdükten sonra 20 saniyeliğine rastgele bir Mabet etkisi kazan. Sadece her 30.0 saniyede bir kez gerçekleşebilir.",
+					"zhCN": "在消灭一名精英敌人后获得一个随机圣坛效果, 持续 20 秒。每 30.0 秒只能生效一次。",
+					"zhTW": "擊殺精英敵人後獲得一個隨機聖壇效果,持續 20 秒。每 30.0 秒只能觸發一次。"
 				},
 				"flavorLocalized": {
 					"deDE": "\"Der Engel Lycander hinterließ uns in diesem Stab einen Teil ihrer Macht. Das ist für mich Beweis genug, dass sie noch immer über uns wacht.\"\n-Orakel Argoysni",
@@ -4812,7 +4812,7 @@ let codexData = {
 				"slot": "2H Sword",
 				"dropLevel": 85,
 				"dropWeight": 1,
-				"description": "Increases your Critical Strike Damage by x{60/100}%.\n\nThe other properties on this weapon can roll higher than normal.",
+				"description": "Increases your Critical Strike Damage by x100%. The other properties on this weapon can roll higher than normal.",
 				"flavor": "An unbroken lineage of unwavering strength.",
 				"nameLocalized": {
 					"deDE": "[ms]Der Großvater",
@@ -4830,19 +4830,19 @@ let codexData = {
 					"zhTW": "高祖"
 				},
 				"descriptionLocalized": {
-					"deDE": "Erhöht Euren kritischen Trefferschaden um x{60/100}%.\n\nBei den anderen Eigenschaften dieser Waffe können höhere Werte ausgewürfelt werden.",
-					"esES": "Aumenta tu daño de golpe crítico un x{60/100}%.\n\nLas otras propiedades de esta arma pueden tener valores más altos de lo normal.",
-					"esMX": "Aumenta tu daño de golpe crítico un x{60/100}%.\n\nLas otras propiedades en esta arma pueden tener un valor más alto que el normal.",
-					"frFR": "Vos dégâts critiques sont augmentés de x{60/100}%.\n\nLes autres propriétés de cette arme peuvent conférer des bonus supérieurs à la normale.",
-					"itIT": "Aumenta i tuoi danni critici del x{60/100}%.\n\nLe altre proprietà di quest'arma possono essere più alte del normale.",
-					"jaJP": "クリティカルヒットダメージがx{60/100}%上昇する。\n\nこの武器のほかの特性が通常よりも高くなる。",
-					"koKR": "자신의 극대화 피해가 x{60/100}% 증가합니다.\n\n이 무기에 붙는 나머지 속성은 일반적인 수준보다 높게 붙을 수 있습니다.",
-					"plPL": "Zwiększa twoje obrażenia od trafień krytycznych o x{60/100}%.\n\nPozostałe właściwości tej broni mogą być wyższe niż standardowo.",
-					"ptBR": "Aumenta seu dano de acerto crítico em x{60/100}%.\n\nAs outras propriedades desta arma podem ser mais altas que o normal.",
-					"ruRU": "Увеличивает ваш критический урон на x{60/100}%.\n\nЭто оружие может с увеличенной вероятностью получить свойства выше обычных.",
-					"trTR": "Kritik Vuruş Hasarını x{60/100}% artırır.\n\nBu silahın diğer özellikleri normalden daha yüksek değere çıkabilir.",
-					"zhCN": "你的暴击伤害提高 x{60/100}%。\n\n该武器上的其它属性可以随出比平常更高的数值。",
-					"zhTW": "你的爆擊傷害提高 x{60/100}%。\n\n此武器的其他屬性可以出現比平常更好的數值。"
+					"deDE": "Erhöht Euren kritischen Trefferschaden um x100%. Bei den anderen Eigenschaften dieser Waffe können höhere Werte ausgewürfelt werden.",
+					"esES": "Aumenta tu daño de golpe crítico un x100%. Las otras propiedades de esta arma pueden tener valores más altos de lo normal.",
+					"esMX": "Aumenta tu daño de golpe crítico un x100%. Las otras propiedades en esta arma pueden tener un valor más alto que el normal.",
+					"frFR": "Vos dégâts critiques sont augmentés de x100%. Les autres propriétés de cette arme peuvent conférer des bonus supérieurs à la normale.",
+					"itIT": "Aumenta i tuoi danni critici del x100%. Le altre proprietà di quest'arma possono essere più alte del normale.",
+					"jaJP": "クリティカルヒットダメージがx100%上昇する。この武器のほかの特性が通常よりも高くなる。",
+					"koKR": "플레이어의 극대화 피해가 x100% 증가합니다.이 무기에 붙는 나머지 속성은 일반적인 수준보다 높게 붙을 수 있습니다.",
+					"plPL": "Zwiększa twoje obrażenia od trafień krytycznych o x100%. Pozostałe właściwości tej broni mogą być wyższe niż standardowo.",
+					"ptBR": "Aumenta seu dano de acerto crítico em x100%. As outras propriedades desta arma podem ser mais altas que o normal.",
+					"ruRU": "Увеличивает ваш критический урон на x100%. Другие свойства этого оружия могут иметь значения выше обычных.",
+					"trTR": "Kritik Vuruş Hasarını x100% artırır. Bu silahın diğer özellikleri normalden daha yüksek değere çıkabilir.",
+					"zhCN": "你的暴击伤害提高 x100%。该武器上的其它属性可以随出比平常更高的数值。",
+					"zhTW": "你的爆擊傷害提高 x100%。此武器的其他屬性可以出現比平常更好的數值。"
 				},
 				"flavorLocalized": {
 					"deDE": "Eine ungebrochene Erblinie unerschütterlicher Stärke.",
@@ -5031,7 +5031,7 @@ let codexData = {
 				"slot": "Helm",
 				"dropLevel": 85,
 				"dropWeight": 1,
-				"description": "Lucky Hit: Up to a {15/20}% chance to trigger a poison nova that applies {#} Poisoning damage over 5.0 seconds to enemies in the area.",
+				"description": "Lucky Hit: Up to a 20% chance to trigger a poison nova that applies {#} Poisoning damage over 5.0 seconds to enemies in the area.",
 				"flavor": "The horrific whispers of the Maiden of Anguish flicker through your mind, pushing you ever closer to madness...",
 				"nameLocalized": {
 					"deDE": "[ns]Andariels Antlitz",
@@ -5049,19 +5049,19 @@ let codexData = {
 					"zhTW": "安達莉爾的面貌"
 				},
 				"descriptionLocalized": {
-					"deDE": "Glückstreffer: Es besteht eine Chance von bis zu {15/20}%, eine Giftnova auszulösen, die Gegnern im Wirkungsbereich im Verlauf von 5.0 Sek. {#} Giftschaden zufügt.",
-					"esES": "Golpe de suerte: Hasta un {15/20}% de probabilidad de activar una nova de veneno que inflige {#} de daño de veneno durante 5.0 s a los enemigos en la zona.",
-					"esMX": "Golpe afortunado: Tienes hasta un {15/20}% de probabilidad de activar una nova venenosa que inflige {#} de daño de veneno durante 5.0 segundos a los enemigos en el área.",
-					"frFR": "Coup de chance: vous avez jusqu'à {15/20}% de chances de déclencher une nova empoisonnée infligeant {#} points de dégâts de poison en 5.0 s aux adversaires dans la zone.",
-					"itIT": "Colpo fortunato: fino al {15/20}% di probabilità di attivare una Nova Velenosa che infligge {#} danni da veleno in 5.0 s ai nemici nell'area.",
-					"jaJP": "幸運の一撃: 最大{15/20}%の確率で、エリア内の敵に5.0秒かけて{#}の毒ダメージを与えるポイズン・ノヴァを発生させる。",
-					"koKR": "행운의 적중: 최대 {15/20}% 확률로 독발을 발동하여 범위 내의 적들에게 5.0초에 걸쳐 {#}의 독 피해를 줍니다.",
-					"plPL": "Szczęśliwy traf: Istnieje {15/20}% szans na wywołanie trującej novy zadającej {#} pkt. obrażeń od zatrucia w ciągu 5.0 sek. wrogom na obszarze.",
-					"ptBR": "Golpe de Sorte: Até {15/20}% de chance de acionar uma nova venenosa que aplica {#} de dano venenoso ao longo de 5.0 segundos aos inimigos na área.",
-					"ruRU": "Удачный удар: с вероятностью до {15/20}% создает кольцо яда, наносящее противникам в области действия {#} ед. урона от яда за 5.05.0 сек.",
-					"trTR": "Şanslı Vuruş: En fazla {15/20}% ihtimalle Bölgedeki düşmanlara 5.0 saniye boyunca {#} Zehirleme hasarı veren bir zehir novası tetikle.",
-					"zhCN": "幸运一击: 最多有 {15/20}% 几率触发一阵剧毒新星, 在 5.0 秒内对区域内的敌人施加 {#} 点毒素伤害。",
-					"zhTW": "幸運觸發:最高有 {15/20}% 機率觸發劇毒新星,對範圍內的敵人在 5.0 秒內造成 {#} 點中毒傷害。"
+					"deDE": "Glückstreffer: Es besteht eine Chance von bis zu 20%, eine Giftnova auszulösen, die Gegnern im Wirkungsbereich im Verlauf von 5.0 Sek. {#} Giftschaden zufügt.",
+					"esES": "Golpe de suerte: Hasta un 20% de probabilidad de activar una nova de veneno que inflige {#} de daño de veneno durante 5.0 s a los enemigos en la zona.",
+					"esMX": "Golpe afortunado: Tienes hasta un 20% de probabilidad de activar una nova venenosa que inflige {#} de daño de veneno durante 5.0 segundos a los enemigos en el área.",
+					"frFR": "Coup de chance: vous avez jusqu'à 20% de chances de déclencher une nova empoisonnée infligeant {#} points de dégâts de poison en 5.0 s aux adversaires dans la zone.",
+					"itIT": "Colpo fortunato: fino al 20% di probabilità di attivare una Nova Velenosa che infligge {#} danni da veleno in 5.0 s ai nemici nell'area.",
+					"jaJP": "幸運の一撃: 最大20%の確率で、エリア内の敵に5.0秒かけて{#}の毒ダメージを与えるポイズン・ノヴァを発動させる。",
+					"koKR": "행운의 적중: 최대 20% 확률로 독발을 발동하여 범위 내의 적들에게 5.0초에 걸쳐 {#}의 중독 피해를 줍니다.",
+					"plPL": "Szczęśliwy traf: Istnieje 20% szans na wywołanie trującej novy zadającej {#} pkt. obrażeń od zatrucia w ciągu 5.0 sek. wrogom na obszarze.",
+					"ptBR": "Golpe de Sorte: Até 20% de chance de acionar uma nova venenosa que aplica {#} de dano venenoso ao longo de 5.0 segundos aos inimigos na área.",
+					"ruRU": "Удачный удар: с вероятностью до 20% создает кольцо яда, наносящее противникам в области действия {#} ед. урона от яда за 5.0 сек.",
+					"trTR": "Şanslı Vuruş: En fazla 20% ihtimalle Bölgedeki düşmanlara 5.0 saniye boyunca {#} Zehirleme hasarı veren bir zehir novası tetikle.",
+					"zhCN": "幸运一击: 最多有 20% 几率触发一阵剧毒新星, 在 5.0 秒内对区域内的敌人施加 {#} 点毒素伤害。",
+					"zhTW": "幸運觸發:最高有 20% 機率觸發劇毒新星,對範圍內的敵人在 5.0 秒內造成 {#} 點中毒傷害。"
 				},
 				"flavorLocalized": {
 					"deDE": "Das schreckliche Flüstern der Herrin der Qual flimmert durch Euren Kopf und treibt Euch immer weiter in den Wahnsinn …",
@@ -5166,7 +5166,7 @@ let codexData = {
 					"frFR": "Coup de chance: les dégâts sur la durée que vous infligez ont 50.0% de chances de jaillir, ce qui inflige {#} points de dégâts du même type aux adversaires proches.",
 					"itIT": "Colpo fortunato: gli effetti dei tuoi danni periodici hanno fino al 50.0% di probabilità di attivarsi, infliggendo {#} danni dello stesso tipo ai nemici vicini.",
 					"jaJP": "幸運の一撃: 自身の継続ダメージ効果が最大50.0%の確率で噴出し、{#}の同タイプのダメージを付近の敵に与える。",
-					"koKR": "행운의 적중: 지속 피해 효과가 최대 50.0% 확률로 발동하여 주변 적에게 같은 유형의 피해를 {#}만큼 줍니다.",
+					"koKR": "행운의 적중: 지속 피해 효과가 최대 50.0% 확률로 폭발하여 주변 적에게 같은 유형의 피해를 {#}만큼 줍니다.",
 					"plPL": "Szczęśliwy traf: Twoje efekty wywołujące obrażenia z upływem czasu mają do 50.0% szans na wybuch i zadanie pobliskim wrogom {#} pkt. obrażeń tego samego typu.",
 					"ptBR": "Golpe de Sorte: Seus efeitos de dano ao longo do tempo têm até 50.0% de chance de explodir, causando {#} de dano do mesmo tipo a inimigos próximos.",
 					"ruRU": "Удачный удар: ваши эффекты периодического урона с вероятностью до 50.0% вызывают взрыв, нанося ближайшим противникам {#} ед. урона соответствующего типа.",
@@ -5349,7 +5349,7 @@ let codexData = {
 				"slot": "Amulet",
 				"dropLevel": 85,
 				"dropWeight": 1,
-				"description": "Gain 30.0 Maximum Resource. In addition, when you take damage, drain {3/8} Resource for every 1.0% of Life you would have lost instead.",
+				"description": "Gain 30.0 Maximum Resource. In addition, when you take damage, drain 3 Resource for every 1.0% of Life you would have lost instead.",
 				"flavor": "\"Do not allow your passions to become obsessions. Fuel the fire that burns within you, but it is madness to allow yourself to become ash to please an uncaring universe.\"\n- Last words of Master Selig",
 				"nameLocalized": {
 					"deDE": "[ns]Geschmolzenes Herz von Selig",
@@ -5367,19 +5367,19 @@ let codexData = {
 					"zhTW": "賽利格的融心"
 				},
 				"descriptionLocalized": {
-					"deDE": "Euer Ressourcenmaximum ist um 30.0 erhöht. Wenn Ihr Schaden erleidet, werden jeweils statt 1.0% Leben {3/8} Ressourcen entzogen.",
-					"esES": "Obtienes un 30.0 de recurso máximo. Además, cuando sufres daño, drenas {3/8} de recurso por cada 1.0% de vida que habrías tenido que perder.",
-					"esMX": "Obtienes un 30.0 de recursos máximos. Además, cuando recibes daño, drenas {3/8} de recurso por cada 1.0% de vida que habrías perdido en cambio.",
-					"frFR": "Votre maximum de ressource est augmenté de 30.0. De plus, lorsque vous subissez des dégâts, vous perdez {3/8} points de ressource pour chaque tranche de 1.0% de points de vie que vous auriez perdue à la place.",
-					"itIT": "Ottieni il 30.0 della risorsa massima. Inoltre, quando subisci danni, prosciughi {3/8} della tua risorsa per ogni 1.0% della Vita che avresti perso.",
-					"jaJP": "リソース最大値が30.0増加する。またダメージを受けた時、失うはずだったライフの1.0%につき{3/8}のリソースを代わりに失う。",
-					"koKR": "30.0의 최대 자원을 얻습니다. 추가로, 피해를 받을 때 잃을 생명력의 1.0%마다 자원이 대신 {3/8} 소모됩니다.",
-					"plPL": "Zyskujesz 30.0 maksymalnej wartości zasobu. Dodatkowo, gdy otrzymujesz obrażenia, zużywasz {3/8} pkt. zasobu za każde 1.0% zdrowia, które zostałoby utracone.",
-					"ptBR": "Recebe 30.0 de recurso máximo. Além disso, ao receber dano, drena {3/8} de recurso por cada 1.0% de vida que você teria perdido.",
-					"ruRU": "Максимальный запас ресурса увеличивается на 30.0 ед. Получая урон, вы теряете {3/8} ед. ресурса вместо 1.0% здоровья.",
-					"trTR": "30.0 Maksimum Kaynak kazan. Ek olarak hasar aldığında kaybedeceğin her 1.0% Can için alternatif olarak {3/8} Kaynak tüket.",
-					"zhCN": "资源上限提高 30.0。此外,当你受到伤害时,你原本会损失的每 1.0% 点生命,现在改为损失 {3/8} 点资源。",
-					"zhTW": "獲得 30.0 資源上限。此外,受到傷害時,原本會失去的每 1.0% 生命值,會改為流失 {3/8} 點資源。"
+					"deDE": "Euer Ressourcenmaximum ist um 30.0 erhöht. Wenn Ihr Schaden erleidet, werden jeweils statt 1.0% Leben 3 Ressourcen entzogen.",
+					"esES": "Obtienes un 30.0 de recurso máximo. Además, cuando sufres daño, drenas 3 de recurso por cada 1.0% de vida que habrías tenido que perder.",
+					"esMX": "Obtienes un 30.0 de recursos máximos. Además, cuando recibes daño, drenas 3 de recurso por cada 1.0% de vida que habrías perdido en cambio.",
+					"frFR": "Votre maximum de ressource est augmenté de 30.0. De plus, lorsque vous subissez des dégâts, vous perdez 3 points de ressource pour chaque tranche de 1.0% de points de vie que vous auriez perdue à la place.",
+					"itIT": "Ottieni il 30.0 della risorsa massima. Inoltre, quando subisci danni, prosciughi 3 della tua risorsa per ogni 1.0% della Vita che avresti perso.",
+					"jaJP": "リソース最大値が30.0増加する。またダメージを受けた時、失うはずだったライフの1.0%につき3のリソースを代わりに失う。",
+					"koKR": "30.0의 최대 자원을 얻습니다. 또한 피해를 받을 때 잃을 생명력의 1.0%마다 자원이 대신 3 소모됩니다.",
+					"plPL": "Zyskujesz 30.0 maksymalnej wartości zasobu. Dodatkowo, gdy odnosisz obrażenia, zużywasz 3 pkt. zasobu za każde 1.0% zdrowia, które zostałoby utracone.",
+					"ptBR": "Recebe 30.0 de recurso máximo. Além disso, ao receber dano, drena 3 de recurso a cada 1.0% de vida que você teria perdido.",
+					"ruRU": "Максимальный запас ресурса увеличивается на 30.0 ед. Получая урон, вы теряете 3 ед. ресурса вместо 1.0% здоровья.",
+					"trTR": "30.0 Maksimum Kaynak kazan. Ek olarak hasar aldığında kaybedeceğin her 1.0% Can için alternatif olarak 3 Kaynak tüket.",
+					"zhCN": "获得 30.0 最大资源加成。此外, 当你受到伤害时, 你原本会损失的每 1.0% 点生命, 现在改为损失 3 点资源。",
+					"zhTW": "獲得 30.0 資源上限。此外,受到傷害時,原本會失去的每 1.0% 生命值,會改為流失 3 點資源。"
 				},
 				"flavorLocalized": {
 					"deDE": "\"Lasst nicht zu, dass Eure Passionen zu Obsessionen werden. Nährt das Feuer, das in Euch lodert, doch verbrennt nicht Eure Seelen, nur um einem gleichgültigen Universum zu dienen.\"\n-Letzte Worte von Meister Selig",
@@ -5511,7 +5511,7 @@ let codexData = {
 				"slot": "Helm",
 				"dropLevel": 85,
 				"dropWeight": 1,
-				"description": "Gain {10/20}% Damage Reduction.\nIn addition, gain +4.0 Ranks to all Skills.",
+				"description": "Gain 20% Damage Reduction. In addition, gain +4.0 Ranks to all Skills.",
 				"flavor": "\"This headdress was once worn by an assassin disguised as a court mage. Her treachery was unveiled, but not before she used its magic to curse the king's entire lineage.\"\n- The Fall of House Aston",
 				"nameLocalized": {
 					"deDE": "[fs]Harlekinskrone",
@@ -5529,19 +5529,19 @@ let codexData = {
 					"zhTW": "諧角之冠"
 				},
 				"descriptionLocalized": {
-					"deDE": "Ihr erhaltet {10/20}% Schadensreduktion.\nIhr erhaltet zusätzlich +4.0 Ränge für alle Fertigkeiten.",
-					"esES": "Obtienes un {10/20}% de reducción de daño.\nAdemás, obtienes +4.0 rangos de todas las habilidades.",
-					"esMX": "Obtienes un {10/20}% de reducción de daño.\nAdemás, obtienes +4.0 rangos para todas las habilidades.",
-					"frFR": "Vous gagnez {10/20}% de réduction des dégâts.\nDe plus, vous gagnez +4.0 rangs à toutes les compétences.",
-					"itIT": "Ottieni una riduzione danni del {10/20}%.\nInoltre, ottieni +4.0 gradi a tutte le abilità.",
-					"jaJP": "{10/20}%のダメージ軽減効果を得る。\nさらに、すべてのスキルランクが4.0上昇する。",
-					"koKR": "{10/20}%의 피해 감소를 얻습니다.\n추가로, 모든 기술 등급이 +4.0 상승합니다.",
-					"plPL": "Zyskujesz {10/20}% redukcji obrażeń.\nDodatkowo zyskujesz +4.0 do rangi wszystkich umiejętności.",
-					"ptBR": "Recebe {10/20}% de redução de dano.\nAlém disso, recebe +4.0 graus para todas as habilidades.",
-					"ruRU": "Получаемый урон уменьшается на {10/20}%.\nВы также получаете +4.0 ко всем умениям.",
-					"trTR": "{10/20}% Hasar Azaltma kazan.\nEk olarak, tüm Yetenekler için +4.0 Kademe kazan.",
-					"zhCN": "获得 {10/20}% 伤害减免。\n此外, 所有技能级别 +4.0。",
-					"zhTW": "獲得 {10/20}% 傷害減免。\n此外,所有技能等級 +4.0。"
+					"deDE": "Ihr erhaltet 20% Schadensreduktion. Ihr erhaltet zusätzlich +4.0 Ränge für alle Fertigkeiten.",
+					"esES": "Obtienes un 20% de reducción de daño. Además, obtienes +4.0 rangos de todas las habilidades.",
+					"esMX": "Obtienes un 20% de reducción de daño. Además, obtienes +4.0 rangos para todas las habilidades.",
+					"frFR": "Vous gagnez 20% de réduction des dégâts. De plus, vous gagnez +4.0 rangs à toutes les compétences.",
+					"itIT": "Ottieni una riduzione danni del 20%. Inoltre, ottieni +4.0 gradi a tutte le abilità.",
+					"jaJP": "20%のダメージ減少効果を得る。さらに、すべてのスキルランクが4.0上昇する。",
+					"koKR": "20%의 피해 감소를 얻습니다. 또한 모든 기술 등급이 +4.0 상승합니다.",
+					"plPL": "Zyskujesz 20% redukcji obrażeń. Dodatkowo zyskujesz 4.0 do rangi wszystkich umiejętności.",
+					"ptBR": "Recebe 20% de redução de dano. Além disso, recebe +4.0 graus para todas as habilidades.",
+					"ruRU": "Получаемый урон уменьшается на 20%. Вы также получаете +4.0 ко всем умениям.",
+					"trTR": "20% Hasar Azaltma kazan. Ek olarak, tüm Yetenekler için +4.0 Kademe kazan.",
+					"zhCN": "获得 20% 伤害减免。此外, 所有技能级别 +4.0。",
+					"zhTW": "獲得 20% 傷害減免。此外,所有技能等級 +4.0。"
 				},
 				"flavorLocalized": {
 					"deDE": "\"Dieser Kopfschmuck wurde einst von einer Assassine getragen, die als Hofzauberin verkleidet war. Ihr Verrat wurde aufgedeckt, doch zuvor setzte sie ihre Magie ein, um die gesamte Erblinie des Königs zu verfluchen.\"\n-Der Fall des Hauses Aston",
@@ -5840,7 +5840,7 @@ let codexData = {
 				"slot": "Ring",
 				"dropLevel": 85,
 				"dropWeight": 1,
-				"description": "Casting a Core Skill cast reduces the Resource cost of your Core Skills by {8/12}%, up to a maximum of 40.0%. Resets upon using a non-Core Skill.",
+				"description": "Casting a Core Skill cast reduces the Resource cost of your Core Skills by 12%, up to a maximum of 40.0%. Resets upon using a non-Core Skill.",
 				"flavor": "\"Yours is the power to pluck the stars from the heavens with the ease of a child gathering fruit from the bough.\"\n- Unknown",
 				"nameLocalized": {
 					"deDE": "[ms]Ring der Sternenlosen Himmel",
@@ -5858,19 +5858,19 @@ let codexData = {
 					"zhTW": "無星深空戒指"
 				},
 				"descriptionLocalized": {
-					"deDE": "Das Wirken einer Kernfertigkeit verringert die Ressourcenkosten Eurer Kernfertigkeiten um {8/12}%, bis maximal 40.0%. Wird bei Verwendung von Fertigkeiten, die keine Kernfertigkeiten sind, zurückgesetzt.",
-					"esES": "Lanzar una habilidad principal reduce un {8/12}% el coste de tus habilidades principales, hasta un máximo de un 40.0%. Se reinicia al usar una habilidad que no sea principal.",
-					"esMX": "Lanzar una habilidad principal reduce un {8/12}% el costo de recursos de tus habilidades principales, hasta un máximo del 40.0%. Se restablece al usar una habilidad no principal.",
-					"frFR": "Chaque utilisation d'une compétence principale réduit le coût en ressource de vos prochaines compétences principales de {8/12}%, jusqu'à une réduction maximale de 40.0%. Se réinitialise en utilisant un autre type de compétence.",
-					"itIT": "Utilizzare un'abilità primaria riduce il costo in risorse delle tue abilità primarie del {8/12}%, fino a un massimo del 40.0%. Si azzera dopo aver utilizzato un'abilità non primaria.",
-					"jaJP": "コアスキルを連続で使用する度に、コアスキルのリソース消費が{8/12}%から最大40.0%まで減少する。非コアスキルを使用するとこの効果はリセットされる。",
-					"koKR": "핵심 기술을 시전하면 핵심 기술의 자원 소모량이 {8/12}%만큼, 최대 40.0%까지 감소합니다. 핵심 기술이 아닌 기술을 사용하면 초기화됩니다.",
-					"plPL": "Użycie umiejętności Głównych zmniejsza koszt zasobów twoich umiejętności Głównych o {8/12}%, maksymalnie do 40.0%. Efekt ten zeruje się po użyciu umiejętności innej niż Główna.",
-					"ptBR": "Lançar uma habilidade principal reduz o custo de recurso das suas habilidades principais em {8/12}%, até o máximo de 40.0%. Reinicia ao usar uma habilidade não principal.",
-					"ruRU": "Когда вы применяете основное умение, затраты ресурсов на основные умения снижаются на {8/12}% вплоть до 40.0%. Эффект сбрасывается при применении умения, не являющегося основным.",
-					"trTR": "Bir Çekirdek Yetenek kullanmak Çekirdek Yeteneklerini Kaynak bedellerini {8/12}% azaltır ve bu azaltma en fazla 40.0% olabilir. Çekirdek Olmayan Yetenekler kullanıldığında sıfırlanır.",
-					"zhCN": "施放核心技能会使你的核心技能资源消耗降低 {8/12}%,最多降低 40.0%。该效果在使用非核心技能时重置。",
-					"zhTW": "施放核心技能會降低核心技能{8/12}%的資源消耗,最多降低 40.0%。施放非核心技能時重置。"
+					"deDE": "Das Wirken einer Kernfertigkeit verringert die Ressourcenkosten Eurer Kernfertigkeiten um 12%, bis maximal 40.0%. Wird bei Verwendung von Fertigkeiten, die keine Kernfertigkeiten sind, zurückgesetzt.",
+					"esES": "Lanzar una habilidad principal reduce un 12% el coste de tus habilidades principales, hasta un máximo de un 40.0%. Se reinicia al usar una habilidad que no sea principal.",
+					"esMX": "Lanzar una habilidad principal reduce un 12% el costo de recursos de tus habilidades principales, hasta un máximo del 40.0%. Se restablece al usar una habilidad no principal.",
+					"frFR": "Chaque utilisation d'une compétence principale réduit le coût en ressource de vos prochaines compétences principales de 12%, jusqu'à une réduction maximale de 40.0%. Se réinitialise en utilisant un autre type de compétence.",
+					"itIT": "Utilizzare un'abilità Primaria riduce il costo in risorse delle tue abilità Primarie del 12%, fino a un massimo del 40.0%. Si azzera dopo aver utilizzato un'abilità non Primaria.",
+					"jaJP": "コアスキルを使用する度に、コアスキルのリソース消費が12%から最大40.0%まで減少する。非コアスキルを使用するとこの効果はリセットされる。",
+					"koKR": "핵심 기술을 시전하면 핵심 기술의 자원 소모량이 12%만큼, 최대 40.0%까지 감소합니다. 핵심 기술이 아닌 기술을 사용하면 초기화됩니다.",
+					"plPL": "Użycie umiejętności Głównych zmniejsza koszt zasobów twoich umiejętności Głównych o 12%, maksymalnie do 40.0%. Efekt ten zeruje się po użyciu umiejętności innej niż Główna.",
+					"ptBR": "Lançar uma habilidade principal reduz o custo de recurso das suas habilidades principais em 12%, até o máximo de 40.0%. Reinicia ao usar uma habilidade não principal.",
+					"ruRU": "Когда вы применяете основное умение, затраты ресурсов на основные умения снижаются на 12% вплоть до 40.0%. Эффект сбрасывается при применении умения, не являющегося основным.",
+					"trTR": "Bir Çekirdek Yetenek kullanmak Çekirdek Yeteneklerini Kaynak bedellerini 12% azaltır ve bu azaltma en fazla 40.0% olabilir. Çekirdek Olmayan Yetenekler kullanıldığında sıfırlanır.",
+					"zhCN": "施放核心技能会使你的核心技能资源消耗降低 12%,最多降低 40.0%。该效果在使用非核心技能时重置。",
+					"zhTW": "施放核心技能會降低核心技能12%的資源消耗,最多降低 40.0%。施放非核心技能時重置。"
 				},
 				"flavorLocalized": {
 					"deDE": "\"Ihr habt die Macht, mit der Leichtigkeit eines Kindes, das Früchte vom Zweig pflückt, die Sterne aus dem Himmel zu reißen.\"\n-Unbekannt",
@@ -6148,7 +6148,7 @@ let codexData = {
 					"frFR": "Votre potion de soins ne vous soigne plus instantanément. Au lieu de cela, elle vous octroie une barrière d'un montant égal à 200.0% des soins normalement prodigués pendant 4.0 s. Tant que vous êtes sous l'effet d'une barrière, vous obtenez {10/20}% de réduction des dégâts.",
 					"itIT": "La tua Pozione di Cura non cura più istantaneamente, invece fornisce una barriera del 200.0% della cura per 4.0 s. Mentre hai una barriera, ottieni una riduzione danni del {10/20}%.",
 					"jaJP": "ライフ・ポーションの即時回復効果がなくなり、代わりに回復量の200.0%相当の障壁が4.0秒間、発動する。この障壁の発動中は、{10/20}%のダメージ減少効果を得る。",
-					"koKR": "치유 물약이 이제 즉시 치유되지 않고, 대신 4.0초 동안 치유량의 200.0%만큼 보호막을 부여합니다. 보호막이 있는 동안에는 {10/20}%의 피해 감소를 얻습니다.",
+					"koKR": "치유 물약이 이제 즉시 치유하지 않고, 대신 4.0초 동안 치유량의 200.0%만큼 보호막을 부여합니다. 보호막이 있는 동안에는 {10/20}%의 피해 감소를 얻습니다.",
 					"plPL": "Mikstura leczenia nie leczy już natychmiastowo, lecz zapewnia ci barierę o mocy równej 200.0% wartości leczenia na 4.0 sek. Gdy posiadasz barierę, zyskujesz premię {10/20}% do redukcji obrażeń.",
 					"ptBR": "Sua poção de cura deixa de curar instantaneamente. Em vez disso, ela concede uma barreira equivalente a 200.0% da cura por 4.0 segundos. Enquanto tiver uma barreira, você recebe {10/20}% de redução de dano.",
 					"ruRU": "Зелье здоровья больше не исцеляет вас мгновенно. Вместо этого оно создает барьер с запасом прочности, равным 200.0% обычного исцеления, на 4.0 сек. Пока вас защищает барьер, получаемый вами урон уменьшается на {10/20}%.",
@@ -7224,7 +7224,7 @@ let codexData = {
 			"Aspect of Untimely Death": {
 				"id": 216,
 				"type": "Legendary",
-				"description": "Each percent of your Maximum Life you Heal beyond 100.0% grants you +0.5% bonus Overpower damage on your next Overpowering attack, up to a {20/60}% bonus.",
+				"description": "Each percent of your Maximum Life you Heal beyond 100.0% grants you x0.5% bonus Overpower damage on your next Overpowering attack, up to a x{20/60}% bonus.",
 				"nameLocalized": {
 					"deDE": "des frühzeitigen Todes",
 					"esES": "de muerte inoportuna",
@@ -7241,19 +7241,19 @@ let codexData = {
 					"zhTW": "驟逝之"
 				},
 				"descriptionLocalized": {
-					"deDE": "Jedes geheilte Prozent Eures maximalen Lebens oberhalb von 100.0% verleiht Euch zusätzlich +0.5% Überwältigungsschaden bei Eurem nächsten überwältigenden Angriff, bis maximal {20/60}%.",
-					"esES": "Cada punto porcentual de tu vida máxima que te curas por encima de un 100.0% te otorga un +0.5% más de daño de arrollamiento en tu siguiente ataque arrollador, hasta un máximo de un {20/60}%.",
-					"esMX": "Si te sanas más de un 100.0% de tu vida máxima, cada porcentaje adicional te otorga un +0.5% de bonificación de daño de abrumador en tu siguiente ataque abrumador, hasta un máximo del {20/60}%.",
-					"frFR": "Chaque pour cent de votre maximum de points de vie que vous récupérez au-delà de 100.0% ajoute +0.5% de dégâts d'accablement à votre prochaine attaque accablante, jusqu'à un bonus maximum de {20/60}%.",
-					"itIT": "Ogni punto percentuale della tua Vita massima che curi oltre il 100.0% ti fornisce un bonus del +0.5% ai danni da Sopraffazione del tuo prossimo attacco con Sopraffazione, fino a un bonus massimo del {20/60}%.",
-					"jaJP": "回復量が自身のライフ最大値の100.0%を超えると、余剰1%ごとに次に与えるオーバーパワーのダメージが+0.5%増加する。この効果の上限は{20/60}%。",
-					"koKR": "100.0% 위로 치유하는 최대 생명력의 비율 1%마다 다음으로 제압하는 공격의 제압 피해에 +0.5%의 보너스를, 최대 {20/60}%까지 얻습니다.",
-					"plPL": "Każdy procent przywróconego maksymalnego zdrowia powyżej 100.0% zapewnia ci premię +0.5% do obrażeń od przytłoczenia przy następnym przytłaczającym ataku. Premia ta wynosi maksymalnie {20/60}%.",
-					"ptBR": "Cada porcentagem da vida máxima que você cura acima de 100.0% concede +0.5% de bônus de dano de Golpe Brutal no seu próximo ataque que desferir um Golpe Brutal, até {20/60}% de bônus.",
-					"ruRU": "Когда вы исцеляетесь при уровне здоровья выше 100.0%, за каждый восстановленный процент максимального запаса здоровья вы наносите на +0.5% больше подавляющего урона следующей подавляющей атакой. Бонус повышается вплоть до {20/60}%.",
-					"trTR": "100.0% üzerinde İyileştirdiğin Maksimum Canının her yüzdesi, bir sonraki Aşırı Güç saldırında sana +0.5% bonus Aşırı Güç hasarı kazandırır. En fazla {20/60}% bonus birikebilir.",
-					"zhCN": "治疗效果超过生命上限 100.0% 时, 每点百分比使你下一次压制攻击造成的压制伤害提高 +0.5%, 最多提高 {20/60}%。",
-					"zhTW": "你的生命值在 100.0% 以上時,你每恢復生命值上限的 1%,便賦予你下一次壓制攻擊獲得 +0.5% 壓制加成傷害,最多額外獲得 {20/60}%。"
+					"deDE": "Jedes geheilte Prozent Eures maximalen Lebens oberhalb von 100.0% verleiht Euch zusätzlich x0.5% Überwältigungsschaden bei Eurem nächsten überwältigenden Angriff, bis maximal x{20/60}%.",
+					"esES": "Cada punto porcentual de tu vida máxima que te curas por encima de un 100.0% te otorga un x0.5% más de daño de arrollamiento en tu siguiente ataque arrollador, hasta un máximo de un x{20/60}%.",
+					"esMX": "Si te sanas más de un 100.0% de tu vida máxima, cada porcentaje adicional te otorga un x0.5% de bonificación de daño de abrumador en tu siguiente ataque abrumador, hasta un máximo del x{20/60}%.",
+					"frFR": "Chaque pour cent de votre maximum de points de vie que vous récupérez au-delà de 100.0% ajoute x0.5% de dégâts d'accablement à votre prochaine attaque accablante, jusqu'à un bonus maximum de x{20/60}%.",
+					"itIT": "Ogni punto percentuale della tua Vita massima che curi oltre il 100.0% ti fornisce un bonus del x0.5% ai danni da Sopraffazione del tuo prossimo attacco con Sopraffazione, fino a un bonus massimo del x{20/60}%.",
+					"jaJP": "回復量が自身のライフ最大値の100.0%を超えると、余剰1%ごとに次に与えるオーバーパワーのダメージがx0.5%増加する。この効果の上限はx{20/60}%。",
+					"koKR": "100.0% 위로 치유하는 최대 생명력의 비율 1%마다 다음으로 제압하는 공격의 제압 피해에 x0.5%의 보너스를, 최대 x{20/60}%까지 얻습니다.",
+					"plPL": "Każdy procent przywróconego maksymalnego zdrowia powyżej 100.0% zapewnia ci premię x0.5% do obrażeń od przytłoczenia przy następnym przytłaczającym ataku. Premia ta wynosi maksymalnie x{20/60}%.",
+					"ptBR": "Cada porcentagem da vida máxima que você cura acima de 100.0% concede x0.5% de bônus de dano de Golpe Brutal no seu próximo ataque que desferir um Golpe Brutal, até x{20/60}% de bônus.",
+					"ruRU": "Когда вы исцеляетесь при уровне здоровья выше 100.0%, за каждый восстановленный процент максимального запаса здоровья вы наносите на x0.5% больше подавляющего урона следующей подавляющей атакой. Бонус повышается вплоть до x{20/60}%.",
+					"trTR": "100.0% üzerinde İyileştirdiğin Maksimum Canının her yüzdesi, bir sonraki Aşırı Güç saldırında sana x0.5% bonus Aşırı Güç hasarı kazandırır. En fazla x{20/60}% bonus birikebilir.",
+					"zhCN": "治疗效果超过生命上限 100.0% 时,每点百分比使你下一次压制攻击造成的压制伤害提高 x0.5%,最多提高 x{20/60}%。",
+					"zhTW": "你的生命值超過 100.0% 時,你每恢復生命值上限的 1%,便賦予你下一次壓制攻擊獲得 x0.5% 壓制加成傷害,最多額外獲得 x{20/60}%。"
 				},
 				"dungeon": "",
 				"region": ""
@@ -8384,7 +8384,7 @@ let codexData = {
 					"itIT": "del Sangue Potente",
 					"jaJP": "濃厚な血の",
 					"koKR": "효능이 있는 피의",
-					"plPL": "Płodnej Krwi",
+					"plPL": "Potężnej Krwi",
 					"ptBR": "do Sangue Potente",
 					"ruRU": "[ms]крови силы[fs]крови силы[ns]крови силы[p]крови силы",
 					"trTR": "[n2]Güçlü Kan",
@@ -9128,7 +9128,7 @@ let codexData = {
 					"frFR": "Coup de chance: les compétences imprégnées de poison ont jusqu'à 15.0% de chances de créer une flaque toxique, qui inflige {#} points de dégâts de poison en 3.0 s aux cibles qui se tiennent dedans. Tant que vous restez dans la flaque, votre Imprégnation de poison n'a aucun temps de recharge ni aucune limite de charges.",
 					"itIT": "Colpo fortunato: le abilità infuse di veleno hanno una probabilità massima del 15.0% di creare una pozza tossica che infligge {#} danni da veleno per 3.0 s ai nemici all'interno. Quando ti trovi all'interno della pozza, la tua abilità Infusione del Veleno non ha tempo di recupero e limite di cariche.",
 					"jaJP": "幸運の一撃: 〈毒の注入〉スキルが最大15.0%の確率で毒溜まりを生み出す。毒溜まりは、範囲内の敵に3.0秒間かけて{#}の毒ダメージを与える。毒溜まりの中にいる間は自身の〈毒の注入〉スキルにクールダウンが発生せず、際限なくチャージできる。",
-					"koKR": "행운의 적중: 독 주입 기술이 15.0% 확률로 맹독 웅덩이를 생성합니다. 웅덩이는 안에 있는 적에게 3.0초에 걸쳐 {#}의 피해를 줍니다. 웅덩이 안에 서 있는 동안에는 독 주입 기술에 재사용 대기시간과 충전 한도가 적용되지 않습니다.",
+					"koKR": "행운의 적중: 독 주입 기술이 15.0% 확률로 맹독 웅덩이를 생성합니다. 웅덩이는 안에 있는 적에게 3.0초에 걸쳐 {#}의 중독 피해를 줍니다. 웅덩이 안에 서 있는 동안에는 독 주입 기술에 재사용 대기시간과 충전 한도가 적용되지 않습니다.",
 					"plPL": "Szczęśliwy traf: Umiejętności nasycone Trucizną mają maksymalnie 15.0% szans na stworzenie toksycznej kałuży, która zadaje znajdującym się w niej wrogom {#} pkt. obrażeń od zatrucia w ciągu 3.0 sek. Kiedy stoisz w kałuży, twoja umiejętność nasycona Trucizną nie ma czasu odnowienia ani limitu ładunków.",
 					"ptBR": "Golpe de Sorte: Imbuição de Veneno tem até 15.0% de chance de criar uma poça tóxica que causa {#} de dano venenoso ao longo de 3.0 s aos inimigos dentro dela. Enquanto estiver na poça, sua habilidade de Imbuição de Veneno não tem recarga nem limite de cargas.",
 					"ruRU": "Удачный удар: насыщенные ядом умения с вероятностью до 15.0% создают отравленную область, наносящую находящимся в ней целям {#} ед. урона от отравления за 3.0 сек. Пока вы стоите в отравленной области, \"Насыщение ядом\" не требует времени на восстановление и не имеет ограничений по количеству зарядов.",
@@ -9473,7 +9473,7 @@ let codexData = {
 					"ruRU": "Потратив 100.0 ед. энергии, вы выбрасываете несколько оглушающих гранат, которые взрываются, в совокупности нанося 0 ед. физического урона и оглушая противников на 0.5 сек.\nВаши гранаты наносят на x15.0% больше урона.",
 					"trTR": "100.0 Enerji harcadığında toplam 0 Fiziksel hasar veren ve 0.5 saniye boyunca düşmanları Sersemleten bir dizi patlayan Sersemletme Bombası bırakırsın.\nEl Bombası Yeteneklerin x15.0% daha fazla hasar verir.",
 					"zhCN": "当你花费 100.0 点能量时,你会释放一簇会爆炸的昏迷手雷,总共造成 0 点物理伤害并击昏敌人 0.5 秒。\n你的手雷技能造成的伤害提高 x15.0%。",
-					"zhTW": "當你花費 100.0 點能量後,會釋放出一連串的 震撼榴彈 ,造成總共 0 點物理傷害並擊昏敵人 0.5 秒。\n你的榴彈技能造成的傷害提高 x15.0% 點。"
+					"zhTW": "當你花費 100.0 點能量後,會釋放出一連串的震撼榴彈 ,造成總共 0 點物理傷害並擊昏敵人 0.5 秒。\n你的榴彈技能造成的傷害提高 x15.0% 點。"
 				},
 				"dungeon": "",
 				"region": ""
@@ -9754,7 +9754,7 @@ let codexData = {
 				"slot": "Chest",
 				"dropLevel": 60,
 				"dropWeight": 400000,
-				"description": "While you have unlimited Energy from Inner Sight, your Core Skills have a {60/80}% chance to spawn Caltrops, Poison Trap, or Death Trap.",
+				"description": "While you have unlimited Energy from Inner Sight, casting a Core Skill has a {60/80}% chance to spawn Caltrops, Poison Trap, or Death Trap.",
 				"flavor": "\"Rumor has it he lost them in a game of Skull & Anchor, but the boss is a devil with the dice. I think he wanted to give the poor sod something to keep him warm without wounding his pride.\"\n- Elstir",
 				"nameLocalized": {
 					"deDE": "Leder des Gauners",
@@ -9772,19 +9772,19 @@ let codexData = {
 					"zhTW": "盜賊皮甲"
 				},
 				"descriptionLocalized": {
-					"deDE": "Während Ihr durch Inneres Auge unbegrenzte Energie habt, haben Eure Kernfertigkeiten eine Chance von {60/80}%, Krähenfüße, eine Giftfalle oder eine Todesfalle entstehen zu lassen.",
-					"esES": "Mientras tengas energía ilimitada por Vista interior, tus habilidades principales tienen un {60/80}% de probabilidad de generar Abrojos, Trampa de veneno o Trampa mortal.",
-					"esMX": "Mientras tengas Energía ilimitada de Percepción, tus habilidades principales tienen {60/80}% de probabilidad de generar Abrojos, Trampa Venenosa o Trampa Mortal.",
-					"frFR": "Tant que vous profitez du bonus d'énergie illimitée de Vision intérieure, vos compétences principales ont {60/80}% de chances de faire apparaître un chausse-trappe, un piège de poison ou un piège mortel.",
-					"itIT": "Mentre hai energia infinita grazie a Vista Interiore, le tue abilità Primarie hanno una probabilità del {60/80}% di far apparire Triboli, una Trappola Avvelenata, o una Trappola Mortale.",
-					"jaJP": "〈内なる目〉によりエネルギーが無制限の状態にある間、{60/80}%の確率でコアスキルが〈鉄菱〉、〈ポイズントラップ〉または〈デストラップ〉を発生させる。",
-					"koKR": "내면의 시야를 통해 기력을 무제한으로 사용할 수 있는 동안에는 핵심 기술이 {60/80}% 확률로 쇠못 덫, 맹독 덫 또는 죽음의 덫을 생성합니다.",
-					"plPL": "Gdy Wewnętrzne Spojrzenie zapewnia ci nieograniczoną energię, twoje umiejętności Główne mają {60/80}% szans na stworzenie Kolczatek, Trującej Pułapki albo Zabójczej Pułapki.",
-					"ptBR": "Enquanto você tiver energia ilimitada de Visão Interior, suas habilidades principais têm {60/80}% de chance de gerar Estrepes, Armadilha Venenosa ou Armadilha da Morte.",
+					"deDE": "Während Ihr durch Inneres Auge unbegrenzte Energie habt, besteht beim Wirken einer Kernfertigkeit eine Chance von {60/80}%, Krähenfüße, eine Giftfalle oder eine Todesfalle entstehen zu lassen.",
+					"esES": "Mientras tengas energía ilimitada por Vista interior, lanzar una habilidad principal tiene un {60/80}% de probabilidad de generar Abrojos, Trampa de veneno o Trampa mortal.",
+					"esMX": "Mientras tengas Energía ilimitada de Percepción, tus lanzamientos de habilidades principales tienen un {60/80}% de probabilidad de generar Abrojos, Trampa Venenosa o Trampa Mortal.",
+					"frFR": "Tant que vous profitez du bonus d'énergie illimitée de Vision intérieure, vous avez {60/80}% de chances de faire apparaître un chausse-trappe, un piège de poison ou un piège mortel lorsque vous lancez une compétence principale.",
+					"itIT": "Mentre hai energia infinita grazie a Vista Interiore, utilizzando un'abilità Primaria hai una probabilità del {60/80}% di far apparire Triboli, una Trappola Avvelenata, o una Trappola Mortale.",
+					"jaJP": "〈内なる目〉によりエネルギーが無制限の状態にある間、コアスキルを使用すると{60/80}%の確率で〈鉄菱〉、〈ポイズントラップ〉または〈デストラップ〉を発生させる。",
+					"koKR": "내면의 시야를 통해 기력을 무제한으로 사용할 수 있는 동안에는, 핵심 기술을 시전하면 {60/80}% 확률로 쇠못 덫, 맹독 덫, 또는 죽음의 덫을 생성합니다.",
+					"plPL": "Gdy Wewnętrzne Spojrzenie zapewnia ci nieograniczoną energię, użycie umiejętności Głównej daje {60/80}% szans na stworzenie Kolczatek, Trującej Pułapki albo Zabójczej Pułapki.",
+					"ptBR": "Enquanto você tiver energia ilimitada de Visão Interior, lançar uma habilidade principal traz {60/80}% de chance de gerar Estrepes, Armadilha Venenosa ou Armadilha da Morte.",
 					"ruRU": "Пока \"Внутреннее зрение\" дает вам неограниченное количество энергии, ваши основные умения с вероятностью {60/80}% создают шипы, ловушку с ядом или смертоносную ловушку.",
-					"trTR": "İç Görüş sayesinde sınırsız Enerjiye sahipken Çekirdek Yeteneklerin {60/80}% ihtimalle İğneler, Zehir Tuzağı ya da Ölüm Tuzağı yaratır.",
-					"zhCN": "当你从心眼中获得无限能量时,你的核心技能有 {60/80}% 几率生成 铁蒺藜、剧毒陷阱或索命陷阱。",
-					"zhTW": "當你透過心靈視野獲得無限的能量時,你的核心技能有 {60/80}% 機率生成釘爪刺、劇毒陷阱或死亡陷阱。"
+					"trTR": "İç Görüş sayesinde sınırsız Enerjiye sahipken bir Çekirdek Yetenek kullanmak {60/80}% ihtimalle İğneler, Zehir Tuzağı ya da Ölüm Tuzağı yaratır.",
+					"zhCN": "当你从心眼中获得无限能量时,施放核心技能将有 {60/80}% 几率生成 铁蒺藜、剧毒陷阱或索命陷阱。",
+					"zhTW": "當你透過心靈視野獲得無限的能量時,施放核心技能有 {60/80}% 機率生成釘爪刺、劇毒陷阱或死亡陷阱。"
 				},
 				"flavorLocalized": {
 					"deDE": "\"Gerüchten zufolge hat er sie in einem Schädel-und-Anker-Spiel verloren, aber der Boss ist gerissen, was die Würfel angeht. Ich glaube, er wollte dem armen Wicht etwas geben, das ihn warmhalten würde, ohne seinen Stolz zu verletzen.\"\n- Elstir",
@@ -10401,7 +10401,7 @@ let codexData = {
 					"ruRU": "Когда вы убиваете уязвимого противника, скорость восстановления энергии увеличивается на x{50/70}% на 4.0 сек.",
 					"trTR": "Savunmasız bir düşmanı öldürmek sana 4.0 saniye boyunca x{50/70}% artırılmış Enerji Yenilemesi sağlar.",
 					"zhCN": "消灭一名处于易伤状态的敌人可以使你的能量回复速度提高 x{50/70}%, 持续 4.0 秒。",
-					"zhTW": "擊殺易傷的敵人時,可使能量恢復 x{50/70}%,持續 4.0 秒。"
+					"zhTW": "擊殺易傷的敵人時,可使能量恢復提高 x{50/70}%,持續 4.0 秒。"
 				},
 				"dungeon": "Shifting City",
 				"region": "Dry Steppes"
@@ -11730,7 +11730,7 @@ let codexData = {
 				},
 				"descriptionLocalized": {
 					"deDE": "Glückstreffer: Wenn Eure Beschwörungsfertigkeiten treffen, besteht 12.0 Sek. lang eine Chance von bis zu {30/40}%, +1.0 Ränge für Eure Beschwörungsfertigkeiten zu erhalten. Bis zu 3.0-mal stapelbar.",
-					"esES": "Lucky Hit: When your Conjuration Skills hit you have up to a {30/40}% chance to gain +1.0 Rank to your Conjuration skills for 12.0 seconds. This can stack up to 3.0 times.",
+					"esES": "Golpe de suerte: Cuando tus habilidades de evocación golpean, tienes hasta un {30/40}% de probabilidad de obtener +1.0 rango para tus habilidades de evocación durante 12.0 s. Este efecto se puede acumular hasta 3.0 veces.",
 					"esMX": "Golpe afortunado: Cuando se activan tus Habilidades de Conjuración, tienes hasta {30/40}% de probabilidad de obtener +1.0 Rango para tus habilidades de Conjuración por 12.0 segundos. Esto se puede acumular hasta 3.0 veces.",
 					"frFR": "Coup de chance: quand vos compétences de conjuration atteignent une cible, elles ont {30/40}% de chances d'obtenir +1.0 rangs pendant 12.0 s. Cet effet peut se cumuler jusqu'à 3.0 fois.",
 					"itIT": "Colpo fortunato: quando le tue abilità d'Invocazione vanno a segno, hai fino al {30/40}% di probabilità di aumentare di 1.0 il grado delle tue abilità d'Invocazione per 12.0 s. Può accumularsi fino a 3.0 volte.",

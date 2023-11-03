@@ -4862,7 +4862,7 @@ Tags: Crowd Control, Bludgeoning, Two-Handed, Lucky Hit.`,
 barbarianData["Key Passive"] = {
 	"Unconstrained": {
 		connections: [ "Key Passive" ],
-		description: `Increase Berserking's maximum duration by 5 seconds and increase its damage bonus to 60%.
+		description: `Increase Berserking's maximum duration by 5 seconds and increase its damage bonus to x60%.
 
 Tags: Berserking, Damage.`,
 		nameLocalized: {
@@ -4881,19 +4881,19 @@ Tags: Berserking, Damage.`,
 			"zhTW": "超越極限"
 },
 		descriptionLocalized: {
-			"deDE": "Erhöht die maximale Dauer des Berserkermodus um 5 Sek. und erhöht seinen Schadensbonus auf 60%.\n\nTags: Berserkermodus, Schaden.",
-			"esES": "Aumenta 5 s la duración máxima del estado de vesania y a un 60% su bonus de daño.\n\nTags: Vesania, Daño.",
-			"esMX": "Aumenta la duración máxima de la enajenación 5 segundos y aumenta la bonificación de daño un 60%.\n\nTags: Enajenación, Daño.",
-			"frFR": "Augmente la durée maximale de Rage du berserker de 5 s et son bonus aux dégâts passe à 60%.\n\nTags: Rage du berserker, Dégâts.",
-			"itIT": "Aumenti la durata massima di Berserk di 5 s e il suo bonus ai danni al 60%.\n\nTags: Berserk, Danni.",
-			"jaJP": "バーサークの最大持続時間が5秒長くなり、ダメージボーナスが60%に増加する。\n\nTags: 狂戦士, ダメージ.",
-			"koKR": "광폭화의 최대 지속시간이 5초 증가하고 추가 피해가 60%로 증가합니다.\n\nTags: 광폭화, 피해.",
-			"plPL": "Wydłużasz maksymalny czas działania berserkowania o 5 sek. i zwiększasz premię do jego obrażeń do 60%.\n\nTags: Berserkowanie, Obrażenia.",
-			"ptBR": "Aumenta a duração máxima de Berserk em 5 segundos e aumenta o bônus de dano para 60%.\n\nTags: Berserk, Dano.",
-			"ruRU": "Максимальное время действия состояния берсерка увеличивается на 5 сек., а бонус к урону увеличивается до 60%.\n\nTags: Берсерк, Урон.",
-			"trTR": "Maksimum Başıbozukluk süresini 5 saniye uzat ve yeteneğin hasar bonusunu artırarak 60% yap.\n\nTags: Başıbozukluk, Hasar.",
-			"zhCN": "狂暴的最大持续时间延长 5 秒, 其伤害加成提高至 60%。\n\nTags: 狂暴, 伤害.",
-			"zhTW": "狂暴的持續時間上限延長 5 秒,其傷害加成提高至 60%。\n\nTags: 狂暴, 傷害."
+			"deDE": "Erhöht die maximale Dauer des Berserkermodus um 5 Sek. und erhöht seinen Schadensbonus auf x60%.\n\nTags: Berserkermodus, Schaden.",
+			"esES": "Aumenta 5 s la duración máxima del estado de vesania y a un x60% su bonus de daño.\n\nTags: Vesania, Daño.",
+			"esMX": "Aumenta la duración máxima de la Enajenación 5 segundos y aumenta la bonificación de daño un x60%.\n\nTags: Enajenación, Daño.",
+			"frFR": "Augmente la durée maximale de Rage du berserker de 5 s et son bonus aux dégâts passe à x60%.\n\nTags: Rage du berserker, Dégâts.",
+			"itIT": "Aumenti la durata massima di Berserk di 5 s e il suo bonus ai danni al x60%.\n\nTags: Berserk, Danni.",
+			"jaJP": "バーサークの最大持続時間が5秒長くなり、ダメージボーナスがx60%に増加する。\n\nTags: 狂戦士, ダメージ.",
+			"koKR": "광폭화의 최대 지속시간이 5초 증가하고 추가 피해가 x60%로 증가합니다.\n\nTags: 광폭화, 피해.",
+			"plPL": "Wydłużasz maksymalny czas działania berserkowania o 5 sek. i zwiększasz premię do jego obrażeń do x60%.\n\nTags: Berserkowanie, Obrażenia.",
+			"ptBR": "Aumenta a duração máxima de Berserk em 5 segundos e aumenta o bônus de dano para x60%.\n\nTags: Berserk, Dano.",
+			"ruRU": "Продлевает время действия состояния берсерка на 5 сек. и увеличивает бонус к урону до x60%.\n\nTags: Берсерк, Урон.",
+			"trTR": "Maksimum Başıbozukluk süresini 5 saniye uzat ve yeteneğin hasar bonusunu artırarak x60% yap.\n\nTags: Başıbozukluk, Hasar.",
+			"zhCN": "狂暴的最大持续时间延长 5 秒, 其伤害加成提高至 x60%。\n\nTags: 狂暴, 伤害.",
+			"zhTW": "狂暴的持續時間上限延長 5 秒,其傷害加成提高至 x60%。\n\nTags: 狂暴, 傷害."
 },
 		id: 120,
 		maxPoints: 1,
