@@ -2059,6 +2059,60 @@ let codexData = {
 				},
 				"dungeon": "",
 				"region": ""
+			},
+			"Ring of Red Furor": {
+				"id": 333,
+				"type": "Unique",
+				"slot": "Ring",
+				"dropLevel": 50,
+				"dropWeight": 800000,
+				"description": "After spending 100 Fury within 3.0 seconds, your next cast of Hammer of the Ancients, Upheaval, or Death Blow is a guaranteed Critical Strike and deals x{10/30}% bonus Critical Strike Damage.",
+				"flavor": "\"Anger brings strength but clouds the mind. You must learn to focus your fury, direct it with purpose. Keep our sacred duty at the forefront of your mind, always.\"\n- Talic, to Madawc",
+				"nameLocalized": {
+					"deDE": "[ms]Ring des roten Furors",
+					"esES": "[ms]Anillo de furor rojo",
+					"esMX": "[ms]Anillo de Furor Rojo",
+					"frFR": "[ms]Anneau de fureur rouge",
+					"itIT": "[ms]Anello del Furore Rosso",
+					"jaJP": "赤き怒りの指輪",
+					"koKR": "붉은 열광의 반지",
+					"plPL": "[ms]Pierścień Czerwonej Furory",
+					"ptBR": "[ms]Anel do Furor Vermelho",
+					"ruRU": "[ns]Кольцо алой ярости",
+					"trTR": "Kızıl Öfke Yüzüğü",
+					"zhCN": "赤红狂怒之戒",
+					"zhTW": "紅色狂熱之戒"
+				},
+				"descriptionLocalized": {
+					"deDE": "Nachdem Ihr 100 Wut innerhalb von 3.0 Sekunden verbraucht habt, trifft Euer nächster Einsatz von Hammer der Urahnen, Aufwühlen oder Todesstoß garantiert kritisch und verursacht x{10/30}% kritischen Trefferschaden zusätzlich.",
+					"esES": "Tras gastar 100 de furia en un plazo de 3.0 s, tu siguiente lanzamiento de Martillo de los Ancestros, Ataque tectónico o Golpe mortal asesta un golpe crítico e inflige un x{10/30}% de daño de golpe crítico adicional.",
+					"esMX": "Después de gastar 100 de Furia en 3.0 segundos, el próximo lanzamiento de Martillo Ancestral, Conmoción o Golpe Letal es un golpe crítico garantizado e inflige un x{10/30}% más de daño de golpe crítico.",
+					"frFR": "Après avoir dépensé 100 points de fureur en 3.0 s, votre prochain Marteau des Anciens, Soulèvement ou Coup de grâce inflige un coup critique garanti ainsi que x{10/30}% de dégâts critiques supplémentaires.",
+					"itIT": "Dopo aver consumato 100 furia entro 3.0 s, il tuo utilizzo successivo di Maglio degli Antichi, Tumulto o Colpo di Grazia è sempre critico e infligge il x{10/30}% di danni critici aggiuntivi.",
+					"jaJP": "3.0秒以内に怒気を100消費した後、次の〈古の大槌〉、〈打ち払い〉、または〈死の一撃〉が必ずクリティカルヒットになり、x{10/30}%のクリティカルヒットダメージボーナスを与える。",
+					"koKR": "3.0초 내에 분노를 100 소모하면, 다음에 시전하는 선조의 망치, 지각 변동, 결정타 기술이 확정적으로 극대화로 적중하며 x{10/30}%의 추가 극대화 피해를 줍니다.",
+					"plPL": "Po zużyciu 100 pkt. furii w ciągu 3.0 sek. twoje następne użycie umiejętności Młot Starożytnych, Wypiętrzenie lub Śmiertelny Cios gwarantuje trafienie krytyczne i zadaje obrażenia od trafień krytycznych zwiększone o x{10/30}%.",
+					"ptBR": "Depois de consumir 100 de fúria dentro de 3.0 s, seu próximo lançamento de Martelo dos Ancestrais, Revolta ou Golpe Mortal é um acerto crítico garantido e causa x{10/30}% a mais de dano de acerto crítico.",
+					"ruRU": "Когда вы тратите 100 ед. ярости за 3.0 сек., ваш следующий \"Молот Древних\", \"Выброс земли\" или \"Смертельный удар\" гарантированно наносит критический урон, увеличенный на x{10/30}%.",
+					"trTR": "100 Hiddeti 3.0 saniye içinde harcadıktan sonraki Kadimlerin Çekici, Ayaklanma veya Ölüm Darbesi kullanımın kesin olarak Kritik Vuruş yapar ve x{10/30}% bonus Kritik Vuruş Hasarı verir.",
+					"zhCN": "在 3.0 秒内消耗 100 怒气之后,你下一次施放的先祖之锤、扬石飞沙或死亡重击必定暴击,并且会额外造成 x{10/30}% 暴击伤害。",
+					"zhTW": "在 3.0 秒內花費 100 點怒氣後,你下一次施放的先祖之鎚、動盪震擊,或死亡之擊必定爆擊,並造成額外 x{10/30}% 爆擊傷害。"
+				},
+				"flavorLocalized": {
+					"deDE": "\"Zorn verleiht Stärke, benebelt aber die Sinne. Ihr müsst lernen, Eure Wut zu bündeln und sie zweckvoll zu führen. Behaltet immer unsere heilige Pflicht an erster Stelle Eures Verstandes.\"\n– Talic zu Madawc",
+					"esES": "\"La ira otorga fuerza, pero nubla la mente. Debes aprender a concentrar tu furia, a dirigirla con decisión. Ten presente nuestro deber sagrado en todo momento\".\n—Talic, a Madawc",
+					"esMX": "\"La ira fortalece, pero nubla la mente. Debes aprender a concentrar tu furia y dirigirla con un objetivo. Que nuestro deber sagrado nunca deje de ser lo más importante\".\n- Talic a Madawc",
+					"frFR": "« La colère donne de la force, mais entrave l'esprit. Vous devez apprendre à contrôler votre fureur et à l'utiliser à de bonnes fins. N'oubliez jamais notre devoir sacré. »\n– Talic à Madawc",
+					"itIT": "\"L'ira aumenta la forza ma annebbia la mente. Devi imparare a concentrare la tua furia, darle un senso. Tieni a mente il tuo dovere sacro, sempre.\"\n- Talic a Madawc",
+					"jaJP": "「怒りは力を与えるが、心を惑わせるもの。我々は目的の一点に怒りを集中する術を学び、聖なる使命を常に第一義としなければならない」\n―タリックからマドウクへ",
+					"koKR": "\"분노는 힘을 키우지만 마음을 혼란하게 만든다. 그러니 분노를 집중시키는 법을 배워야 한다. 뚜렷한 목적을 품고 분노의 방향을 정해라. 어느 순간에도 거룩한 의무를 잊지 말아야 한다.\"\n- 탈릭이 마도크에게",
+					"plPL": "\"Gniew daje siłę, lecz przyćmiewa umysł. Musisz nauczyć się wykorzystywać swą furię w określonym celu. Niech zawsze przyświeca ci święty obowiązek\".\n– Talik do Madoka",
+					"ptBR": "\"A raiva traz força, mas nubla a mente. Você precisa aprender a concentrar sua fúria, a dar um propósito a ela. Que nosso dever sagrado permaneça sempre no centro da sua mente.\"\n– Talic, para Madawc",
+					"ruRU": "\"Гнев дает силу, но затуманивает разум. Научись фокусировать свою ярость, направлять ее туда, куда тебе нужно. И никогда не забывай наш священный долг\".\nТалик, обращаясь к Мадавку",
+					"trTR": "\"Öfke güç getirse de zihni bulanıklaştırır. Hiddetine odaklanıp onu bir amaç doğrultusunda kullanmayı öğrenmelisin. Kutsal görevimizi daima aklının en ön saflarında tut.\"\n- Talic, Madawc'a",
+					"zhCN": "\"愤怒会带来力量,但也会蒙蔽心智。你必须学会集中你的怒气,有目的地引导它。记住,永远要把我们的神圣使命放在首位。\"\n——塔里克对马道克的告诫",
+					"zhTW": "「憤怒能帶來力量,但是會蒙蔽心智。你必須學習集中怒火,用理念來引導它。務必將我們的神聖職責當做你的首要之務。」\n- 塔力克對馬道克的話語"
+				}
 			}
 		},
 		"Mobility": {
@@ -2938,7 +2992,7 @@ let codexData = {
 					"itIT": "della Furia Selvaggia",
 					"jaJP": "激怒の",
 					"koKR": "거친 분노의",
-					"plPL": "[ms]Dzikogniewny[fs]Dzikogniewna[ns]Dzikogniewne[p]Dzikogniewne",
+					"plPL": "Dzikiego Gniewu",
 					"ptBR": "da Cólera Selvagem",
 					"ruRU": "[ms]дикой ярости[fs]дикой ярости[ns]дикой ярости[p]дикой ярости",
 					"trTR": "[n2]Deli Öfkesi",
@@ -3925,6 +3979,60 @@ let codexData = {
 				},
 				"dungeon": "",
 				"region": ""
+			},
+			"Airidah's Inexorable Will": {
+				"id": 334,
+				"type": "Unique",
+				"slot": "Ring",
+				"dropLevel": 50,
+				"dropWeight": 800000,
+				"description": "When casting an Ultimate Skill and again 5.0 seconds after, you Pull in Distant enemies and deal {250/500} Physical damage to them. This damage is increased by x1% per 1.0 point of Willpower you have.",
+				"flavor": "\"When I was born, I breathed in the wind and the storm and they gave me life. When I die, I will breath out, and return that gift to the skies.\"\n- Journal excerpt",
+				"nameLocalized": {
+					"deDE": "[ms]Airidahs unerbittlicher Wille",
+					"esES": "[fs]Voluntad inexorable de Airidah",
+					"esMX": "[fs]Voluntad Inexorable de Airidah",
+					"frFR": "[fs]Volonté inébranlable d'Airidah",
+					"itIT": "[fs]Volontà Inesorabile di Airidah",
+					"jaJP": "エイリダの容赦なき意志",
+					"koKR": "아이리다의 거침없는 의지",
+					"plPL": "[fs]Nieugięta Wola Airidy",
+					"ptBR": "[fs]Determinação Inexorável de Airidah",
+					"ruRU": "[fs]Непоколебимая воля Айриды",
+					"trTR": "Airidah'nın Amansız İradesi",
+					"zhCN": "艾蕊达的无羁意志",
+					"zhTW": "艾瑞妲的無阻意志"
+				},
+				"descriptionLocalized": {
+					"deDE": "Wirkt Ihr 5.0 Sekunden, nachdem Ihr dies bereits zuvor getan habt, erneut eine ultimative Fertigkeit, zieht Ihr entfernte Gegner heran und fügt ihnen {250/500} physischen Schaden zu. Dieser Schaden wird pro 1.0 Willenskraft-Punkt(e) um x1% erhöht.",
+					"esES": "Cuando lanzas una habilidad definitiva y la vuelves a lanzar 5.0 s después, atraes a los enemigos lejanos y les infliges {250/500} de daño físico. Este daño aumenta un x1% por cada 1.0 de voluntad que tengas.",
+					"esMX": "Cuando lanzas una habilidad máxima y la repites 5.0 segundos después, atraes a los enemigos distantes y les infliges {250/500} de daño físico. Este daño aumenta un x1% por cada 1.0 punto de Voluntad que tengas.",
+					"frFR": "Lorsque vous déclenchez une compétence ultime puis que vous recommencez 5.0 s plus tard, vous attirez à vous des ennemis se trouvant à distance et leur infligez {250/500} points de dégâts physiques. Ces dégâts augmentent de x1% tous les 1.0 point(s) de Volonté dont vous disposez.",
+					"itIT": "Quando utilizzi un'abilità Ultra e la utilizzi nuovamente dopo 5.0 s, attiri i nemici lontani e infliggi loro {250/500} danni fisici. Questi danni sono aumentati del x1% per ogni 1.0 Volontà.",
+					"jaJP": "奥義スキルを使用して5.0秒後に再度使用すると、遠距離の敵を引き寄せて{250/500}の物理ダメージを与える。このダメージは保有する意志力1.0ポイントごとにx1%増加する。",
+					"koKR": "궁극기를 시전하고 5.0초 후에 다시 시전할 경우, 원거리에 있는 적을 끌어당겨 {250/500}의 물리 피해를 줍니다. 이 피해량은 플레이어의 의지력 1.0당 x1%만큼 증가합니다.",
+					"plPL": "Gdy używasz umiejętności Specjalnej i ponownie po 5.0 sek., przyciągasz odległych wrogów i zadajesz im {250/500} pkt. obrażeń fizycznych. Te obrażenia są zwiększone o x1% za każde 1.0 pkt. twojej Siły Woli.",
+					"ptBR": "Ao lançar uma habilidade suprema e novamente após 5.0 s, você puxa inimigos distantes e causa {250/500} de dano físico a eles. Esse dano é aumentado em x1% por 1.0 ponto de determinação que você tiver.",
+					"ruRU": "Когда вы применяете мощное умение дважды с течение 5.0 сек., вы притягиваете к себе отдаленных противников и наносите им {250/500} ед. физического урона. Этот урон увеличивается на x1% за каждые 1.0 ед. силы воли героя.",
+					"trTR": "Ulti Yeteneği kullanırken ve ardından 5.0 saniye sonra yeniden Uzaktaki düşmanları kendine doğru Çek ve {250/500} hasar ver. Bu hasar, sahip olduğun 1.0 İrade puanı başına x1% artar.",
+					"zhCN": "施放终极技能,并在 5.0 秒后再次施放,就能把远距敌人拉向你的位置,并对其造成 {250/500} 点物理伤害。你每拥有 1.0 点意力就会使伤害提高 x1%。",
+					"zhTW": "當施放絕招的 5.0 秒後再次施放絕招,會拉近遠距離敵人並對他們造成 {250/500} 點物理傷害。你每擁有 1.0 點意志,此傷害就會提高 x1%。"
+				},
+				"flavorLocalized": {
+					"deDE": "\"Bei meiner Geburt atmete ich den Wind und den Sturm ein und sie verliehen mir Leben. Wenn ich sterbe, werde ich ausatmen und dieses Geschenk den Himmeln zurückgeben.\"\n– Tagebuchauszug",
+					"esES": "\"Cuando nací, respiré el viento y la tormenta, y me dieron vida. Cuando muera, los exhalaré y devolveré ese regalo a los cielos\".\n—Extracto de un diario",
+					"esMX": "\"Cuando nací, inhalé el viento y la tormenta que me dieron vida. Cuando muera, exhalaré y devolveré el regalo al cielo\".\n- Pasaje de Diario",
+					"frFR": "« À ma naissance, j'ai respiré le vent et la foudre. C'est ce don qui m'a donné la vie. En mourant, je rendrai ce souffle aux cieux. »\n– Extrait de journal",
+					"itIT": "\"Alla mia nascita ho inspirato il vento e la tempesta che mi hanno dato la vita. Quando morirò, le espirerò per restituire questi doni al cielo.\"\n- Estratto di diario",
+					"jaJP": "「生まれたときに風と嵐を吸い込み、私は生を得た。死すときは吐息として、この授かった賜物を天に返すであろう」\n―日誌の抜粋",
+					"koKR": "\"나는 태어나며 바람과 폭풍을 들이마셨다. 그러자 바람과 폭풍이 내게 생명을 주었다. 이 목숨이 다하면 나는 숨을 내쉬어 하늘이 준 선물을 돌려보내리라.\"\n- 일지에서 발췌",
+					"plPL": "\"Gdy się narodziłam, zaczerpnęłam wiatru i burzy, a one dały mi życie. Gdy umrę, wydam z siebie ostatnie tchnienie i zwrócę ten dar niebiosom\".\n– fragment dziennika",
+					"ptBR": "\"No momento em que nasci, respirei o vento e a tempestade, que me deram vida. Quando morrer, devolverei a dádiva aos céus com meu último suspiro.\"\n– Trecho de diário",
+					"ruRU": "\"Когда я родилась, то вдохнула ветер и бурю, и они даровали мне жизнь. Когда придет мой последний час, я выдохну – и верну этот дар небесам\".\nОтрывок из дневника",
+					"trTR": "\"Doğduğumda rüzgârı ve fırtınayı içime çekerek hayat buldum. Öldüğümde nefesimi verip bu hediyeyi gökyüzüne iade edeceğim.\"\n- Günlükten alıntı",
+					"zhCN": "\"降生之时,我将风暴吸入喉咙,是它赋予我生命。将死之时,我将它吐出胸膛,让这份恩赐回归天际。\"\n——日志节选",
+					"zhTW": "「我誕生時,吸進氣流和風暴,讓它們賦予我生命。我死亡時,將它們呼出,將這份贈禮歸還給天空。」\n- 日誌摘錄"
+				}
 			}
 		},
 		"Defensive": {
@@ -8482,6 +8590,60 @@ let codexData = {
 				},
 				"dungeon": "",
 				"region": ""
+			},
+			"Ring of the Sacrilegious Soul": {
+				"id": 335,
+				"type": "Unique",
+				"slot": "Ring",
+				"dropLevel": 50,
+				"dropWeight": 800000,
+				"description": "You automatically activate the following equipped Skills on Corpses around you:\n• Raise Skeleton every {1/2} seconds.\n• Corpse Explosion every {1/2} seconds.\n• Corpse Tendrils every {8/16} seconds.",
+				"flavor": "The mere proximity of a practitioner of such dark arts can rouse the dead and disturb those souls who have earned their rest.",
+				"nameLocalized": {
+					"deDE": "[ms]Ring der Seele des Sakrilegs",
+					"esES": "[ms]Anillo del alma sacrílega",
+					"esMX": "[ms]Anillo del Alma Sacrílega",
+					"frFR": "[ms]Anneau de l'âme sacrilège",
+					"itIT": "[ms]Anello dell'Anima Sacrilega",
+					"jaJP": "涜れし魂の指輪",
+					"koKR": "신성모독자 영혼의 반지",
+					"plPL": "[ms]Pierścień Świętokradczej Duszy",
+					"ptBR": "[ms]Anel da Alma Sacrílega",
+					"ruRU": "[ns]Кольцо богохульного духа",
+					"trTR": "Günahkâr Ruhun Yüzüğü",
+					"zhCN": "亵渎天性魂戒",
+					"zhTW": "褻瀆靈魂之戒"
+				},
+				"descriptionLocalized": {
+					"deDE": "Folgende ausgerüstete Fertigkeiten werden für Leichen in Eurer Umgebung automatisch aktiviert:\n• Skelett erwecken alle {1/2} Sekunden.\n• Leichenexplosion alle {1/2} Sekunden.\n• Leichenranken alle {8/16} Sekunden.",
+					"esES": "Activas de forma automática las siguientes habilidades equipadas en los cadáveres de tu alrededor:\n• Resucitar esqueleto, cada {1/2} s.\n• Explosión de cadáveres, cada {1/2} s.\n• Zarcillos cadavéricos, cada {8/16} s.",
+					"esMX": "Activas de forma automática las siguientes habilidades equipadas en los cadáveres a tu alrededor:\n• Resurrección de Esqueletos cada {1/2} segundos.\n• Explosión Cadavérica cada {1/2} segundos.\n• Zarcillos Cadavéricos cada {8/16} segundos.",
+					"frFR": "Vous activez automatiquement les compétences équipées suivantes sur les cadavres à proximité :\n• Réanimation de squelette toutes les {1/2} s ;\n• Explosion macabre toutes les {1/2} s ;\n• Vrilles nécrophages toutes les {8/16} s.",
+					"itIT": "Attivi automaticamente le seguenti abilità equipaggiate sui cadaveri vicini:\n• Rianima Scheletro ogni {1/2} s.\n• Esplosione Cadaverica ogni {1/2} s.\n• Tentacoli Cadaverici ogni {8/16} s.",
+					"jaJP": "付近にいる死体に対して自動的に装備中の次のスキルを発動する。\n• {1/2}秒に1回〈スケルトン召喚〉。\n• {1/2}秒に1回〈コープスエクスプロージョン〉。\n• {8/16}秒に1回〈死食草〉。",
+					"koKR": "장착 중인 다음 기술이 주위에 있는 시체에 자동으로 시전됩니다.\n• 해골 되살리기가 {1/2}초마다 시전됩니다.\n• 시체 폭발이 {1/2}초마다 시전됩니다.\n• 시체 촉수가 {8/16}초마다 시전됩니다.",
+					"plPL": "Automatycznie aktywujesz następujące wyposażone umiejętności na zwłokach wokół ciebie:\n• Ożywienie Szkieletu – co {1/2} sek.\n• Wybuch Zwłok – co {1/2} sek.\n• Trupie Macki – co {8/16} sek.",
+					"ptBR": "Você ativa automaticamente as seguintes habilidades equipadas em cadáveres ao seu redor:\n• Reviver Esqueleto a cada {1/2} s.\n• Explodir Cadáver a cada {1/2} s.\n• Tentáculos Cadavéricos a cada {8/16} s.",
+					"ruRU": "Вы автоматически применяете следующие выбранные умения к ближайшим трупам:\n• \"Призыв скелета\" раз в {1/2} сек.\n• \"Взрыв трупа\" раз в {1/2} сек.\n• \"Трупные щупальца\" раз в {8/16} сек.",
+					"trTR": "Şu donanılmış yetenekleri etrafındaki Cesetlerde otomatik olarak etkinleştirirsin:\nHer {1/2} saniyede bir kez • İskelet Dirilt.\nHer {1/2} saniyede bir kez • Ceset Patlaması yarat.\nHer {8/16} saniyede bir kez • Ceset Filizleri yarat.",
+					"zhCN": "靠近亡骸时,你会自动激活以下已装备技能:\n• 复生骸骨,每 {1/2} 秒激活一次。\n• 邪爆,每 {1/2} 秒激活一次。\n• 亡骸卷须,每 {8/16} 秒激活一次。",
+					"zhTW": "你會對附近的屍體自動啟動下列已裝備的技能:\n• 每 {1/2} 秒啟動一次骷髏復生。\n• 每 {1/2} 秒啟動一次屍爆。\n• 每 {8/16} 秒啟動一次屍體觸鬚。"
+				},
+				"flavorLocalized": {
+					"deDE": "Die schiere Nähe eines Anwenders dieser dunklen Künste kann die Toten erwecken und die Seelen stören, die sich ewigen Frieden verdient haben.",
+					"esES": "La sola presencia de un practicante de tales artes oscuras puede despertar a los muertos y perturbar a aquellas almas que se han ganado su descanso.",
+					"esMX": "La sola proximidad de quien practica artes tan oscuras puede levantar a los muertos y perturbar a las almas que se ganaron el descanso.",
+					"frFR": "Rien que par leur présence, les pratiquants et pratiquantes de ces arts obscurs peuvent relever les morts et perturber les âmes au repos.",
+					"itIT": "La semplice vicinanza di un praticante di tali arti oscure può risvegliare i morti e disturbare le anime che hanno meritato il loro riposo.",
+					"jaJP": "こうした闇の術を実践する者の近くにいるだけで、人は死者を蘇らせ、安らかなる魂の眠りをかき乱せるようになる。",
+					"koKR": "사악한 어둠의 기술을 다루는 자는 그 존재만으로도 근처의 망자를 되살려 내고 안식에 들었던 영혼까지 자극할 수 있습니다.",
+					"plPL": "Sama bliskość osoby praktykującej tak mroczne sztuki potrafi przywrócić martwych do życia i zakłócić spokój tym duszom, które zasłużyły na odpoczynek.",
+					"ptBR": "Basta a proximidade de um praticante das artes sombrias para erguer os mortos e perturbar as almas daqueles que ganharam o descanso.",
+					"ruRU": "Колдун, овладевший столь темными искусствами, способен одним своим присутствием пробудить мертвого и даже вернуть с того света душу, которая заслужила покой.",
+					"trTR": "Böylesi karanlık sanatlar uygulayan birinin sadece yakında olması bile ölüleri uyandırabilir ve huzura ermeyi hak etmiş ruhları rahatsız edebilir.",
+					"zhCN": "仅仅是粗通这种黑暗技艺,就能让人唤醒死者,令那些获得安息的亡魂再不得安宁。",
+					"zhTW": "僅僅是靠近黑暗術法的施術者,就足以喚醒死者,打擾已經獲得安息的靈魂。"
+				}
 			}
 		},
 		"Defensive": {
@@ -9691,7 +9853,7 @@ let codexData = {
 					"ruRU": "\"Ученые не смогли расшифровать руны, вырезанные на луке, но они согласны с тем, что эти руны разворачивают стрелы в воздухе, направляя их в цель\".\n- Свод орудий Баррета",
 					"trTR": "\"Bilginler bu yaya oyulmuş rünlerin şifresini çözemedi ancak hepsi, bu şifrelerin okları hedeflerine doğru bükebilme gibi esrarengiz bir beceriyle ilgili olduğu konusunda hemfikir.\"\n- Barrett'in Uygulama Kitabı",
 					"zhCN": "\"学者们一直未能破译这把弓上刻着的符文,不过大家都认同一点,它们应该就是这把弓能让箭矢拐弯射向目标的原因。\" - 巴雷特的《名器谱》",
-					"zhTW": "「學者們一直無法解譯雕刻在這把弓上的符文,但他們一致同意,符文與它有辦法扭曲箭矢飛行路徑,射向目標的不可思議能力有關。」\n- 貝蕾特的器物之書"
+					"zhTW": "「學者們一直無法解譯雕刻在這把弓上的符文,但他們一致同意,符文與它有辦法扭曲箭矢飛行路徑,射向目標的不可思議能力有關。」\n- 巴雷特的《工具之書》"
 				}
 			},
 			"Word of Hakan": {
@@ -10405,6 +10567,60 @@ let codexData = {
 				},
 				"dungeon": "Shifting City",
 				"region": "Dry Steppes"
+			},
+			"Writhing Band of Trickery": {
+				"id": 336,
+				"type": "Unique",
+				"slot": "Ring",
+				"dropLevel": 50,
+				"dropWeight": 800000,
+				"description": "Casting a Subterfuge Skill leaves behind a Decoy Trap that continuously Taunts and lures enemies. The Decoy Trap explodes after 3.0 seconds dealing {1000/1500} Shadow damage. Can occur every 12.0 seconds.",
+				"flavor": "The ring shifts and spins on your finger as the forces within desperately attempt to escape.",
+				"nameLocalized": {
+					"deDE": "[ns]Windendes Band der Irreführung",
+					"esES": "[fs]Sortija inquieta de ilusionismo",
+					"esMX": "[fs]Sortija Retorcida de Engaño",
+					"frFR": "[fs]Bague de supercherie mouvante",
+					"itIT": "[ms]Cerchio Serpeggiante dell'Imbroglio",
+					"jaJP": "悶えし策略の指輪",
+					"koKR": "몸부림치는 속임수의 가락지",
+					"plPL": "[ms]Wijący się Sygnet Szachrajstwa",
+					"ptBR": "[ms]Anel Retorcido da Trapaça",
+					"ruRU": "[ms]Верткий перстень ловкача",
+					"trTR": "Kıvrılan Düzenbazlık Yüzüğü",
+					"zhCN": "诡诈之盘曲指环",
+					"zhTW": "欺詐扭纏指環"
+				},
+				"descriptionLocalized": {
+					"deDE": "Wirkt Ihr eine Täuschungsfertigkeit, hinterlasst Ihr eine Köderfalle, die Eure Gegner dauerhaft verspottet und anlockt. Die Köderfalle explodiert nach 3.0 Sekunden und verursacht dabei {1000/1500} Schattenschaden. Kann einmal alle 12.0 auftreten.",
+					"esES": "Al lanzar una habilidad de subterfugio, dejas una trampa de señuelo que provoca y atrae a los enemigos continuamente. La trampa de señuelo explota tras 3.0 s e inflige {1000/1500} de daño de sombra. Puede ocurrir cada 12.0 s.",
+					"esMX": "Lanzar una habilidad de Subterfugio deja una Trampa de Señuelo que provoca y atrae a los enemigos continuamente. La Trampa de Señuelo explota después de 3.0 segundos e inflige {1000/1500} de daño de sombra. Esto puede ocurrir cada 12.0 segundos.",
+					"frFR": "Lorsque vous lancez une compétence de subterfuge, vous laissez derrière vous un leurre piégé qui provoque les adversaires et les attire continuellement. Ce leurre explose au bout de 3.0 s, infligeant {1000/1500} points de dégâts d'ombre. Peut se produire toutes les 12.0 s.",
+					"itIT": "Quando utilizzi un'abilità di Sotterfugio, ti lasci dietro una Trappola Esca che provoca e attira continuamente i nemici. La Trappola Esca esplode dopo 3.0 s infliggendo {1000/1500} danni da ombra. Può verificarsi ogni 12.0 s.",
+					"jaJP": "遁走スキルを使用すると分身の罠を残し、敵を挑発しておびき寄せる。分身の罠は3.0秒後に爆発して{1000/1500}のシャドウダメージを与える。この効果は12.0秒に1回以上は発生しない。",
+					"koKR": "기만 기술을 시전하면 적을 지속적으로 도발하고 유인하는 미끼 덫을 남깁니다. 미끼 덫은 3.0초 후 폭발하여 {1000/1500}의 암흑 피해를 줍니다. 이 효과는 12.0초에 한 번씩만 발동합니다.",
+					"plPL": "Użycie umiejętności Podstępu pozostawia za sobą pułapkę-atrapę, która stale prowokuje i wabi wrogów. Pułapka-atrapa eksploduje po 3.0 sek. i zadaje {1000/1500} pkt. obrażeń Cienia. Efekt może wystąpić co 12.0 sek.",
+					"ptBR": "Lançar uma habilidade de Subterfúgio deixa uma armadilha de chamariz que provoca e atrai os inimigos continuamente. A armadilha de chamariz explode após 3.0 segundos, causando {1000/1500} de dano de sombra. Pode ocorrer a cada 12.0 segundos.",
+					"ruRU": "Умения категории \"Уловки\" создают ловушку-приманку, которая непрерывно провоцирует и приманивает противников. Ловушка-приманка взрывается спустя 3.0 сек., нанося {1000/1500} ед. урона от темной магии. Эффект срабатывает не чаще раза в 12.0 сек.",
+					"trTR": "Bir Hile Yeteneği kullanmak, arkanda düşmanları sürekli olarak kışkırtan ve kendisine çeken bir Yem Tuzak bırakır. Yem Tuzak 3.0 saniye sonra patlayarak {1000/1500} Gölge hasarı verir. Yalnızca her 12.0 saniyede bir kez gerçekleşebilir.",
+					"zhCN": "施放诡诈技能后,将在身后留下一个持续嘲讽和引诱敌人的诱饵陷阱。诱饵陷阱将在 3.0 秒后爆炸,造成 {1000/1500} 点暗影伤害。每 12.0 秒可触发一次。",
+					"zhTW": "施放欺敵技能會留下一個持續嘲諷並吸引敵人的誘餌陷阱。誘餌陷阱會在 3.0 秒後爆炸,造成 {1000/1500} 點暗影傷害。每 12.0 秒可觸發一次。"
+				},
+				"flavorLocalized": {
+					"deDE": "Der Ring zuckt und dreht sich an Eurem Finger, während die Mächte darin verzweifelt versuchen, zu entkommen.",
+					"esES": "Este anillo se mueve y gira en tu dedo cuando las fuerzas de su interior intentan escapar desesperadamente.",
+					"esMX": "El anillo se mueve y gira en el dedo mientras las fuerzas que contiene tratan de escapar desesperadas.",
+					"frFR": "Cet anneau bouge et se débat sur votre doigt, comme si les forces qu'il contenait cherchaient désespérément à s'échapper.",
+					"itIT": "L'anello muta e ruota sul dito mentre le forze al suo interno cercano disperatamente di fuggire.",
+					"jaJP": "内に捉えられた力が放出のはけ口を求めており、この指輪は動き、回転している。",
+					"koKR": "반지가 손에서 움직이며 돌아갑니다. 안에 담긴 힘이 필사적으로 빠져나갈 방법을 찾는 듯합니다.",
+					"plPL": "Pierścień przeobraża się i wiruje na twoim palcu, gdy siły w nim zaklęte desperacko próbują się uwolnić.",
+					"ptBR": "O anel gira e revolve no seu dedo enquanto as forças no interior dele tentam fugir desesperadamente.",
+					"ruRU": "Перстень так и крутится у вас на пальце, будто отчаянно пытается сбежать.",
+					"trTR": "İçindeki güçler umutsuzca kaçmaya çalışırken yüzük parmağında kayıp dönüyor.",
+					"zhCN": "戒指在你的手指上旋转不停,其中的力量想要绝望地逃离禁锢。",
+					"zhTW": "這個戒指在你的手指上不停旋動變幻,像是它的深處有一股力量,亟欲逃脫。"
+				}
 			}
 		},
 		"Utility": {
@@ -12182,6 +12398,60 @@ let codexData = {
 					"trTR": "\"Sevgilisinin ruhu sönüp giderken hüzünle donuk gözyaşları döktü. Gözyaşlarının döküldüğü yerde her kış, en saf buzdan güller açar.\"\nGreenslade'in Hikâyeleri, 7. Bölüm: \"Irina Coldheart Efsanesi\"",
 					"zhCN": "\"她所爱之人的灵魂消散了,她在悲伤之中流下了冻结的泪水。每到冬天,眼泪滴落的地方都会开出纯净的冰玫瑰。\" - 《格林斯莱德故事》第七章:\"冰心伊丽娜的神话\"",
 					"zhTW": "「她的愛人靈魂消散,隨著悲傷,她將結凍的淚痕抹去。每至寒冬,淚晶滴落處皆會盛開極致純淨冰結之玫瑰。」\n- 格林斯萊德故事集,第 7 章:「艾琳娜凍結冰心的傳說」"
+				}
+			},
+			"Tal Rasha's Iridescent Loop": {
+				"id": 337,
+				"type": "Unique",
+				"slot": "Ring",
+				"dropLevel": 50,
+				"dropWeight": 800000,
+				"description": "For each type of Elemental damage you deal, gain x{10/15}% increased damage for 4.0 seconds. Dealing Elemental damage refreshes all bonuses.",
+				"flavor": "\"Fool said he dug it out of the sands near Lut Gholein with a few other 'worthless trinkets'. I hid my delight at receiving such a treasure in exchange for a meager handful of coins.\"\n- Rakhaan",
+				"nameLocalized": {
+					"deDE": "[ms]Tal Rashas schillernder Reif",
+					"esES": "[ms]Aro iridiscente de Tal Rasha",
+					"esMX": "[ms]Bucle Iridiscente de Tal Rasha",
+					"frFR": "[fs]Boucle irisée de Tal Rasha",
+					"itIT": "[ms]Cerchio Iridescente di Tal Rasha",
+					"jaJP": "タル・ラシャの虹色の輪",
+					"koKR": "탈 라샤의 오색찬란한 고리",
+					"plPL": "[fs]Opalizująca Obrączka Tal Rashy",
+					"ptBR": "[ms]Aro Iridescente de Tal Rasha",
+					"ruRU": "[ns]Переливчатое кольцо Тал Раши",
+					"trTR": "Tal Rasha'nın Yanardöner Halkası",
+					"zhCN": "塔·拉夏的虹彩指环",
+					"zhTW": "塔拉夏的虹彩戒環"
+				},
+				"descriptionLocalized": {
+					"deDE": "Für jede Art von Elementarschaden, die Ihr verursacht, erhaltet Ihr 4.0 Sekunden lang x{10/15}% erhöhten Schaden. Verursacht Ihr Elementarschaden, werden all Eure Boni aktualisiert.",
+					"esES": "Por cada tipo de daño elemental que infliges, obtienes un x{10/15}% más de daño durante 4.0 s. Infligir daño elemental reinicia todos los bonus.",
+					"esMX": "Por cada tipo de daño elemental que infliges, obtienes un x{10/15}% más de daño durante 4.0 segundos. Infligir daño elemental renueva todas las bonificaciones.",
+					"frFR": "Pour chaque type de dégâts élémentaires que vous infligez, vous obtenez x{10/15}% de dégâts supplémentaires pendant 4.0 s. Infliger des dégâts supplémentaires réinitialise tous les bonus.",
+					"itIT": "Per ogni tipo di danni elementali che infliggi, aumenti i danni del x{10/15}% per 4.0 s. Infliggere danni elementali ripristina tutti i bonus.",
+					"jaJP": "与える属性ダメージのそれぞれのタイプで4.0秒間ダメージがx{10/15}%増加する。属性ダメージを与えるとすべてのボーナスがリセットされる。",
+					"koKR": "플레이어가 주는 원소 피해 유형 하나당 4.0초 동안 주는 피해가 x{10/15}% 증가합니다. 원소 피해를 주면 모든 증가 효과가 갱신됩니다.",
+					"plPL": "Za każde zadane obrażenia od żywiołów zyskujesz obrażenia zwiększone o x{10/15}% na 4.0 sek. Zadawanie obrażeń od żywiołów odświeża wszystkie premie.",
+					"ptBR": "Para cada tipo de dano elemental que você causar, ganhe x{10/15}% de dano adicional por 4.0 s. Causar dano elemental atualiza todos os bônus.",
+					"ruRU": "Когда вы наносите урон разными стихиями, ваш урон увеличивается на x{10/15}% на 4.0 сек. за каждую стихию. При нанесении урона от стихий время действия бонусов обновляется.",
+					"trTR": "Verdiğin her Element hasarı türü için 4.0 saniyeliğine x{10/15}% artırılmış hasar kazan. Element hasarı vermek tüm bonusları yeniler.",
+					"zhCN": "你每造成一类元素伤害,伤害都将提高 x{10/15}%,持续 4.0 秒。造成元素伤害将刷新所有加成效果。",
+					"zhTW": "你每造成一種類型的元素傷害可獲得 x{10/15}% 額外傷害,持續 4.0 秒。造成元素傷害會重置所有加成效果。"
+				},
+				"flavorLocalized": {
+					"deDE": "\"Der Narr meinte, er hätte es neben einigem anderen 'wertlosen Ramsch' aus dem Sand nahe Lut Gholein gezogen. Ich habe meine Begeisterung, einen solchen Schatz für ein paar Münzen zu bekommen, versteckt.\"\n– Rakhaan",
+					"esES": "\"El muy bufón dijo que lo había desenterrado en las arenas cercanas a Lut Gholein junto a otras 'baratijas'. Oculté mi emoción al recibir tal tesoro a cambio de un simple puñado de monedas\".\n—Rakhaan",
+					"esMX": "\"El tonto dijo que lo desenterró de las arenas cercanas a Lut Gholein con un par de otras baratijas inútiles. Oculté mi felicidad al recibir un tesoro así a cambio de un triste puñado de monedas\".\n- Rakhaan",
+					"frFR": "« Le type m'a dit qu'il avait déterré ça, et d'autres \"breloques insignifiantes\", dans le sable près de Lut Gholein. Je me suis gardé de lui montrer ma joie de recevoir un tel trésor en échange de quelques pièces. »\n– Rakhaan",
+					"itIT": "\"Quell'idiota ha detto che l'ha trovato nella sabbia vicino a Lut Gholein insieme ad altri 'gingilli insignificanti'. Ho nascosto la mia gioia quando ho ricevuto un tale tesoro in cambio di qualche moneta.\"\n- Rakhaan",
+					"jaJP": "「愚かな奴がラット・ゴーレインの近くの砂漠からガラクタと一緒にこいつを掘り当てた。それで、幸運に逸る気持ちを気取られないように、ちょっとばかりのコインと交換したのだ」\n―ラカーン",
+					"koKR": "\"어느 멍청이가 루트 골레인 근처 사막에서 파냈다며 이걸 가져왔다. 거기다 다른 '쓸모없는 장신구' 몇 개도 함께. 입이 아주 귀에 걸릴 뻔한 걸 참느라 혼났지. 아니, 이 귀한 보물을 고작 동전 몇 푼으로 얻을 줄이야.\"\n- 라크안",
+					"plPL": "\"Głupiec powiedział, że wykopał go z piasków w pobliżu Lut Gholein wraz z kilkoma innymi bezwartościowymi świecidełkami. Dobrze ukryłem moją radość ze zdobycia takiego skarbu w zamian za kilka nędznych monet\".\n– Rakhaan",
+					"ptBR": "\"Um tolo disse que escavou da areia perto de Lut Gholein, em meio a 'velharias inúteis'. Tive que disfarçar meu prazer ao receber tamanho tesouro em troca de um mero punhado de moedas.\"\n– Rakhaan",
+					"ruRU": "\"Глупец сказал, что раскопал эту дешевую, как он заявил, безделушку в песках неподалеку от Лут Голейна. Я постарался скрыть свою радость. Подумать только: выручил такое сокровище за какую-то жалкую пригоршню монет\".\nРакхаан",
+					"trTR": "\"Ahmağın teki onu Lut Gholein yakınlarındaki kumlardan diğer birkaç \"değersiz ıvır zıvırla\" beraber çıkardığını söyledi. Bir avuç sikke karşılığında böyle bir hazineyi alırken duyduğum sevinci sakladım.\"\n- Rakhaan",
+					"zhCN": "\"有个傻瓜说,这东西是他从鲁·高因附近的沙地里连同其他一些'毫无价值的破烂玩意儿'一起挖出来的。我喜不自胜,但还是装作若无其事,用区区几个金币换来了这件宝物。\"\n——拉克罕",
+					"zhTW": "「有個蠢貨說他在魯高因附近的沙漠裡挖出了幾個『沒價值的飾品』。我掩飾著我的興奮,只用一小把金幣就和他換到這個寶物。」\n- 拉卡恩"
 				}
 			}
 		},

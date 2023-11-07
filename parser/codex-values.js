@@ -476,6 +476,9 @@ let codexValues = {
 				"dungeon": "",
 				"region": "",
 				"values": []
+			},
+			"Ring of Red Furor": {
+				"values": []
 			}
 		},
 		"Mobility": {
@@ -745,6 +748,9 @@ let codexValues = {
 			"Symbiotic Aspect": {
 				"dungeon": "",
 				"region": "",
+				"values": []
+			},
+			"Airidah's Inexorable Will": {
 				"values": []
 			}
 		},
@@ -1045,6 +1051,9 @@ let codexValues = {
 				"dungeon": "",
 				"region": "",
 				"values": []
+			},
+			"Ring of the Sacrilegious Soul": {
+				"values": []
 			}
 		},
 		"Mobility": {},
@@ -1315,6 +1324,9 @@ let codexValues = {
 				"dungeon": "Shifting City",
 				"region": "Dry Steppes",
 				"values": []
+			},
+			"Writhing Band of Trickery": {
+				"values": []
 			}
 		},
 		"Mobility": {
@@ -1549,6 +1561,9 @@ let codexValues = {
 				"values": []
 			},
 			"Blue Rose": {
+				"values": []
+			},
+			"Tal Rasha's Iridescent Loop": {
 				"values": []
 			}
 		},

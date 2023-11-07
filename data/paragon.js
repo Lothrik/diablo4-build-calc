@@ -4954,7 +4954,7 @@ let paragonData = {
 					"ruRU": "+10% к сопротивлению (Cold )\n+100 ед. брони\n\nBonus: Another +10% Cold Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Холод, Сопротивление, Броня.",
 					"trTR": "+10% Cold Direnci\n+100 Zırh\n\nBonus: Another +10% Cold Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Soğuk, Direnç, Zırh.",
 					"zhCN": "+10% Cold 抗性\n+100 护甲值\n\nBonus: Another +10% Cold Resistance if requirements met:\n{thresholdRequirements}\n\nTags: 冰霜, 抗性, 护甲.",
-					"zhTW": "+10% Cold 抗性\n護甲值 +100\n\nBonus: Another +10% Cold Resistance if requirements met:\n{thresholdRequirements}\n\nTags: 冰寒, 抗性, 防具."
+					"zhTW": "Cold 抗性 +10%\n護甲值 +100\n\nBonus: Another +10% Cold Resistance if requirements met:\n{thresholdRequirements}\n\nTags: 冰寒, 抗性, 防具."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
@@ -5096,7 +5096,7 @@ let paragonData = {
 					"ruRU": "+3% к сопротивлению стихиям\n+10 к силе\n\nBonus: Another +3% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: Сопротивление, Сила, Нефизический урон.",
 					"trTR": "Tüm Elementlere +3% Direnç\n+10 Kuvvet\n\nBonus: Another +3% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: Direnç, Kuvvet, Fiziksel Olmayan.",
 					"zhCN": "+3% 全元素抗性\n+10 点力量\n\nBonus: Another +3% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: 抗性, 力量, 非物理.",
-					"zhTW": "+3% 全元素抗性\n力量 +10\n\nBonus: Another +3% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: 抗性, 力量, 非物理."
+					"zhTW": "全元素抗性 +3%\n力量 +10\n\nBonus: Another +3% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: 抗性, 力量, 非物理."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
@@ -5147,7 +5147,7 @@ let paragonData = {
 					"ruRU": "+10% к сопротивлению (Fire )\n+100 ед. брони\n\nBonus: Another +10% Fire Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Сопротивление, Броня, Огонь.",
 					"trTR": "+10% Fire Direnci\n+100 Zırh\n\nBonus: Another +10% Fire Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Direnç, Zırh, Ateş.",
 					"zhCN": "+10% Fire 抗性\n+100 护甲值\n\nBonus: Another +10% Fire Resistance if requirements met:\n{thresholdRequirements}\n\nTags: 抗性, 护甲, 火焰.",
-					"zhTW": "+10% Fire 抗性\n護甲值 +100\n\nBonus: Another +10% Fire Resistance if requirements met:\n{thresholdRequirements}\n\nTags: 抗性, 防具, 火焰."
+					"zhTW": "Fire 抗性 +10%\n護甲值 +100\n\nBonus: Another +10% Fire Resistance if requirements met:\n{thresholdRequirements}\n\nTags: 抗性, 防具, 火焰."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
@@ -5240,7 +5240,7 @@ let paragonData = {
 					"ruRU": "+10% к сопротивлению (Lightning )\n+100 ед. брони\n\nBonus: Another +10% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Сопротивление, Молния, Броня.",
 					"trTR": "+10% Lightning Direnci\n+100 Zırh\n\nBonus: Another +10% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Direnç, Yıldırım, Zırh.",
 					"zhCN": "+10% Lightning 抗性\n+100 护甲值\n\nBonus: Another +10% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: 抗性, 闪电, 护甲.",
-					"zhTW": "+10% Lightning 抗性\n護甲值 +100\n\nBonus: Another +10% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: 抗性, 閃電, 防具."
+					"zhTW": "Lightning 抗性 +10%\n護甲值 +100\n\nBonus: Another +10% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: 抗性, 閃電, 防具."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
@@ -5471,7 +5471,7 @@ let paragonData = {
 					"ruRU": "+10% к сопротивлению (Poison )\n+100 ед. брони\n\nBonus: Another +10% Poison Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Сопротивление, Броня, Яд.",
 					"trTR": "+10% Poison Direnci\n+100 Zırh\n\nBonus: Another +10% Poison Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Direnç, Zırh, Zehir.",
 					"zhCN": "+10% Poison 抗性\n+100 护甲值\n\nBonus: Another +10% Poison Resistance if requirements met:\n{thresholdRequirements}\n\nTags: 抗性, 护甲, 毒素.",
-					"zhTW": "+10% Poison 抗性\n護甲值 +100\n\nBonus: Another +10% Poison Resistance if requirements met:\n{thresholdRequirements}\n\nTags: 抗性, 防具, 毒素."
+					"zhTW": "Poison 抗性 +10%\n護甲值 +100\n\nBonus: Another +10% Poison Resistance if requirements met:\n{thresholdRequirements}\n\nTags: 抗性, 防具, 毒素."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
@@ -5522,7 +5522,7 @@ let paragonData = {
 					"ruRU": "+10% к урону от свойства \"Two-Handed Slashing \"\n+10% к урону, наносимому уязвимым противникам\n\nBonus: Another +10% Damage with Two-Handed Slashing if requirements met:\n{thresholdRequirements}\n\nTags: Урон, Уязвимость, Рубящее, Двуручное.",
 					"trTR": "Two-Handed Slashing ile +10% Hasar\n+10% Savunmasız Hasarı\n\nBonus: Another +10% Damage with Two-Handed Slashing if requirements met:\n{thresholdRequirements}\n\nTags: Hasar, Savunmasız, Kesici, Çift El.",
 					"zhCN": "+10% 使用Two-Handed Slashing 的伤害\n+10% 易伤伤害\n\nBonus: Another +10% Damage with Two-Handed Slashing if requirements met:\n{thresholdRequirements}\n\nTags: 伤害, 易伤, 劈斩, 双手.",
-					"zhTW": "Two-Handed Slashing 傷害 +10%\n+10% 易傷傷害\n\nBonus: Another +10% Damage with Two-Handed Slashing if requirements met:\n{thresholdRequirements}\n\nTags: 傷害, 易傷, 斬擊, 雙手."
+					"zhTW": "Two-Handed Slashing 傷害 +10%\n易傷傷害 +10%\n\nBonus: Another +10% Damage with Two-Handed Slashing if requirements met:\n{thresholdRequirements}\n\nTags: 傷害, 易傷, 斬擊, 雙手."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
@@ -14430,7 +14430,7 @@ let paragonData = {
 					"ruRU": "+5% к урону, наносимому уязвимым противникам\n\nTags: Уязвимость, Урон.",
 					"trTR": "+5% Savunmasız Hasarı\n\nTags: Savunmasız, Hasar.",
 					"zhCN": "+5% 易伤伤害\n\nTags: 易伤, 伤害.",
-					"zhTW": "+5% 易傷傷害\n\nTags: 易傷, 傷害."
+					"zhTW": "易傷傷害 +5%\n\nTags: 易傷, 傷害."
 				}
 			},
 			"Generic_Magic_DamageWhileFortified": {
@@ -14834,7 +14834,7 @@ let paragonData = {
 					"ruRU": "+1.5% к сопротивлению стихиям\n\nTags: Сопротивление, Нефизический урон.",
 					"trTR": "Tüm Elementlere +1.5% Direnç\n\nTags: Direnç, Fiziksel Olmayan.",
 					"zhCN": "+1.5% 全元素抗性\n\nTags: 抗性, 非物理.",
-					"zhTW": "+1.5% 全元素抗性\n\nTags: 抗性, 非物理."
+					"zhTW": "全元素抗性 +1.5%\n\nTags: 抗性, 非物理."
 				}
 			},
 			"Generic_Magic_ResistanceCold": {
@@ -14853,7 +14853,7 @@ let paragonData = {
 					"ruRU": "+5% к сопротивлению (Cold )\n\nTags: Сопротивление, Холод.",
 					"trTR": "+5% Cold Direnci\n\nTags: Direnç, Soğuk.",
 					"zhCN": "+5% Cold 抗性\n\nTags: 抗性, 冰霜.",
-					"zhTW": "+5% Cold 抗性\n\nTags: 抗性, 冰寒."
+					"zhTW": "Cold 抗性 +5%\n\nTags: 抗性, 冰寒."
 				}
 			},
 			"Generic_Magic_ResistanceFire": {
@@ -14872,7 +14872,7 @@ let paragonData = {
 					"ruRU": "+5% к сопротивлению (Fire )\n\nTags: Сопротивление, Огонь.",
 					"trTR": "+5% Fire Direnci\n\nTags: Direnç, Ateş.",
 					"zhCN": "+5% Fire 抗性\n\nTags: 抗性, 火焰.",
-					"zhTW": "+5% Fire 抗性\n\nTags: 抗性, 火焰."
+					"zhTW": "Fire 抗性 +5%\n\nTags: 抗性, 火焰."
 				}
 			},
 			"Generic_Magic_ResistanceLightning": {
@@ -14891,7 +14891,7 @@ let paragonData = {
 					"ruRU": "+5% к сопротивлению (Lightning )\n\nTags: Молния, Сопротивление.",
 					"trTR": "+5% Lightning Direnci\n\nTags: Yıldırım, Direnç.",
 					"zhCN": "+5% Lightning 抗性\n\nTags: 闪电, 抗性.",
-					"zhTW": "+5% Lightning 抗性\n\nTags: 閃電, 抗性."
+					"zhTW": "Lightning 抗性 +5%\n\nTags: 閃電, 抗性."
 				}
 			},
 			"Generic_Magic_ResistancePoison": {
@@ -14910,7 +14910,7 @@ let paragonData = {
 					"ruRU": "+5% к сопротивлению (Poison )\n\nTags: Сопротивление, Яд.",
 					"trTR": "+5% Poison Direnci\n\nTags: Direnç, Zehir.",
 					"zhCN": "+5% Poison 抗性\n\nTags: 抗性, 毒素.",
-					"zhTW": "+5% Poison 抗性\n\nTags: 抗性, 毒素."
+					"zhTW": "Poison 抗性 +5%\n\nTags: 抗性, 毒素."
 				}
 			},
 			"Generic_Magic_ResistanceShadow": {
@@ -14929,7 +14929,7 @@ let paragonData = {
 					"ruRU": "+5% к сопротивлению (Shadow )\n\nTags: Сопротивление, Темная магия.",
 					"trTR": "+5% Shadow Direnci\n\nTags: Direnç, Gölge.",
 					"zhCN": "+5% Shadow 抗性\n\nTags: 抗性, 暗影.",
-					"zhTW": "+5% Shadow 抗性\n\nTags: 抗性, 暗影."
+					"zhTW": "Shadow 抗性 +5%\n\nTags: 抗性, 暗影."
 				}
 			},
 			"Generic_Magic_Str": {
@@ -15077,7 +15077,7 @@ let paragonData = {
 					"ruRU": "+3% к сопротивлению стихиям\n+4% к здоровью\n\nBonus: Another +3% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: Сопротивление, Здоровье, Нефизический урон.",
 					"trTR": "Tüm Elementlere +3% Direnç\n+4% Can\n\nBonus: Another +3% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: Direnç, Can, Fiziksel Olmayan.",
 					"zhCN": "+3% 全元素抗性\n+4% 生命\n\nBonus: Another +3% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: 抗性, 生命, 非物理.",
-					"zhTW": "+3% 全元素抗性\n生命值 +4%\n\nBonus: Another +3% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: 抗性, 生命值, 非物理."
+					"zhTW": "全元素抗性 +3%\n生命值 +4%\n\nBonus: Another +3% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: 抗性, 生命值, 非物理."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
@@ -15376,7 +15376,7 @@ let paragonData = {
 					"ruRU": "+10% к сопротивлению (Cold )\n+4% к здоровью\n\nBonus: Another +10% Cold Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Сопротивление, Холод, Здоровье.",
 					"trTR": "+10% Cold Direnci\n+4% Can\n\nBonus: Another +10% Cold Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Direnç, Soğuk, Can.",
 					"zhCN": "+10% Cold 抗性\n+4% 生命\n\nBonus: Another +10% Cold Resistance if requirements met:\n{thresholdRequirements}\n\nTags: 抗性, 冰霜, 生命.",
-					"zhTW": "+10% Cold 抗性\n生命值 +4%\n\nBonus: Another +10% Cold Resistance if requirements met:\n{thresholdRequirements}\n\nTags: 抗性, 冰寒, 生命值."
+					"zhTW": "Cold 抗性 +10%\n生命值 +4%\n\nBonus: Another +10% Cold Resistance if requirements met:\n{thresholdRequirements}\n\nTags: 抗性, 冰寒, 生命值."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
@@ -15714,7 +15714,7 @@ let paragonData = {
 					"ruRU": "-6.5% к урону от эффектов с периодическим уроном ()\n+3% к сопротивлению стихиям\n\nBonus: Another 6.5% Damage Taken Over Time Reduction if requirements met:\n{thresholdRequirements}\n\nTags: Сопротивление, Нефизический урон, Уменьшение урона.",
 					"trTR": "6.5% Zamanla Alınan Hasar Süresi Azaltma\nTüm Elementlere +3% Direnç\n\nBonus: Another 6.5% Damage Taken Over Time Reduction if requirements met:\n{thresholdRequirements}\n\nTags: Direnç, Fiziksel Olmayan, Hasar Azaltma.",
 					"zhCN": "6.5% 受到的持续伤害减免\n+3% 全元素抗性\n\nBonus: Another 6.5% Damage Taken Over Time Reduction if requirements met:\n{thresholdRequirements}\n\nTags: 抗性, 非物理, 伤害减免.",
-					"zhTW": "受到的持續傷害降低 6.5%\n+3% 全元素抗性\n\nBonus: Another 6.5% Damage Taken Over Time Reduction if requirements met:\n{thresholdRequirements}\n\nTags: 抗性, 非物理, 傷害減免."
+					"zhTW": "受到的持續傷害降低 6.5%\n全元素抗性 +3%\n\nBonus: Another 6.5% Damage Taken Over Time Reduction if requirements met:\n{thresholdRequirements}\n\nTags: 抗性, 非物理, 傷害減免."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
@@ -15921,7 +15921,7 @@ let paragonData = {
 					"ruRU": "+10% к урону, наносимому уязвимым противникам\n+100 ед. брони\n\nBonus: Another +10% Vulnerable Damage if requirements met:\n{thresholdRequirements}\n\nTags: Уязвимость, Урон, Броня.",
 					"trTR": "+10% Savunmasız Hasarı\n+100 Zırh\n\nBonus: Another +10% Vulnerable Damage if requirements met:\n{thresholdRequirements}\n\nTags: Savunmasız, Hasar, Zırh.",
 					"zhCN": "+10% 易伤伤害\n+100 护甲值\n\nBonus: Another +10% Vulnerable Damage if requirements met:\n{thresholdRequirements}\n\nTags: 易伤, 伤害, 护甲.",
-					"zhTW": "+10% 易傷傷害\n護甲值 +100\n\nBonus: Another +10% Vulnerable Damage if requirements met:\n{thresholdRequirements}\n\nTags: 易傷, 傷害, 防具."
+					"zhTW": "易傷傷害 +10%\n護甲值 +100\n\nBonus: Another +10% Vulnerable Damage if requirements met:\n{thresholdRequirements}\n\nTags: 易傷, 傷害, 防具."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
@@ -16151,7 +16151,7 @@ let paragonData = {
 					"ruRU": "+10% к сопротивлению (Fire )\n+4% к здоровью\n\nBonus: Another +10% Fire Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Сопротивление, Огонь, Здоровье.",
 					"trTR": "+10% Fire Direnci\n+4% Can\n\nBonus: Another +10% Fire Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Direnç, Ateş, Can.",
 					"zhCN": "+10% Fire 抗性\n+4% 生命\n\nBonus: Another +10% Fire Resistance if requirements met:\n{thresholdRequirements}\n\nTags: 抗性, 火焰, 生命.",
-					"zhTW": "+10% Fire 抗性\n生命值 +4%\n\nBonus: Another +10% Fire Resistance if requirements met:\n{thresholdRequirements}\n\nTags: 抗性, 火焰, 生命值."
+					"zhTW": "Fire 抗性 +10%\n生命值 +4%\n\nBonus: Another +10% Fire Resistance if requirements met:\n{thresholdRequirements}\n\nTags: 抗性, 火焰, 生命值."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
@@ -16303,7 +16303,7 @@ let paragonData = {
 					"ruRU": "+10% к сопротивлению (Lightning )\n\nBonus: Another +10% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Сопротивление, Молния, Здоровье.",
 					"trTR": "+10% Lightning Direnci\n\nBonus: Another +10% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Direnç, Yıldırım, Can.",
 					"zhCN": "+10% Lightning 抗性\n\nBonus: Another +10% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: 抗性, 闪电, 生命.",
-					"zhTW": "+10% Lightning 抗性\n\nBonus: Another +10% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: 抗性, 閃電, 生命值."
+					"zhTW": "Lightning 抗性 +10%\n\nBonus: Another +10% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: 抗性, 閃電, 生命值."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
@@ -16489,7 +16489,7 @@ let paragonData = {
 					"ruRU": "+10% к сопротивлению (Poison )\n+4% к здоровью\n\nBonus: Another +10% Poison Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Сопротивление, Яд, Здоровье.",
 					"trTR": "+10% Poison Direnci\n+4% Can\n\nBonus: Another +10% Poison Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Direnç, Zehir, Can.",
 					"zhCN": "+10% Poison 抗性\n+4% 生命\n\nBonus: Another +10% Poison Resistance if requirements met:\n{thresholdRequirements}\n\nTags: 抗性, 毒素, 生命.",
-					"zhTW": "+10% Poison 抗性\n生命值 +4%\n\nBonus: Another +10% Poison Resistance if requirements met:\n{thresholdRequirements}\n\nTags: 抗性, 毒素, 生命值."
+					"zhTW": "Poison 抗性 +10%\n生命值 +4%\n\nBonus: Another +10% Poison Resistance if requirements met:\n{thresholdRequirements}\n\nTags: 抗性, 毒素, 生命值."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
@@ -16591,7 +16591,7 @@ let paragonData = {
 					"ruRU": "+15% к критическому урону\n+10% к урону, наносимому уязвимым противникам\n\nBonus: Another +15% Critical Strike Damage if requirements met:\n{thresholdRequirements}\n\nTags: Критические удары, Уязвимость, Урон.",
 					"trTR": "+15% Kritik Vuruş Hasarı\n+10% Savunmasız Hasarı\n\nBonus: Another +15% Critical Strike Damage if requirements met:\n{thresholdRequirements}\n\nTags: Kritik Vuruşlar, Savunmasız, Hasar.",
 					"zhCN": "+15% 暴击伤害\n+10% 易伤伤害\n\nBonus: Another +15% Critical Strike Damage if requirements met:\n{thresholdRequirements}\n\nTags: 暴击, 易伤, 伤害.",
-					"zhTW": "爆擊傷害 +15%\n+10% 易傷傷害\n\nBonus: Another +15% Critical Strike Damage if requirements met:\n{thresholdRequirements}\n\nTags: 爆擊, 易傷, 傷害."
+					"zhTW": "爆擊傷害 +15%\n易傷傷害 +10%\n\nBonus: Another +15% Critical Strike Damage if requirements met:\n{thresholdRequirements}\n\nTags: 爆擊, 易傷, 傷害."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
@@ -16636,7 +16636,7 @@ let paragonData = {
 					"ruRU": "+10% к сопротивлению (Shadow )\n+4% к здоровью\n\nBonus: Another +10% Shadow Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Сопротивление, Темная магия, Здоровье.",
 					"trTR": "+10% Shadow Direnci\n+4% Can\n\nBonus: Another +10% Shadow Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Direnç, Gölge, Can.",
 					"zhCN": "+10% Shadow 抗性\n+4% 生命\n\nBonus: Another +10% Shadow Resistance if requirements met:\n{thresholdRequirements}\n\nTags: 抗性, 暗影, 生命.",
-					"zhTW": "+10% Shadow 抗性\n生命值 +4%\n\nBonus: Another +10% Shadow Resistance if requirements met:\n{thresholdRequirements}\n\nTags: 抗性, 暗影, 生命值."
+					"zhTW": "Shadow 抗性 +10%\n生命值 +4%\n\nBonus: Another +10% Shadow Resistance if requirements met:\n{thresholdRequirements}\n\nTags: 抗性, 暗影, 生命值."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
@@ -16732,7 +16732,7 @@ let paragonData = {
 					"ruRU": "+10% к урону, наносимому уязвимым противникам\n+25% к урону раненым противникам\n\nBonus: Another +10% Vulnerable Damage if requirements met:\n{thresholdRequirements}\n\nTags: Уязвимость, Ранение, Урон.",
 					"trTR": "+10% Savunmasız Hasarı\nYaralı Düşmanlara +25% Hasar\n\nBonus: Another +10% Vulnerable Damage if requirements met:\n{thresholdRequirements}\n\nTags: Savunmasız, Yaralı, Hasar.",
 					"zhCN": "+10% 易伤伤害\n+25% 对受伤敌人的伤害\n\nBonus: Another +10% Vulnerable Damage if requirements met:\n{thresholdRequirements}\n\nTags: 易伤, 受伤, 伤害.",
-					"zhTW": "+10% 易傷傷害\n對受傷敵人傷害 +25%\n\nBonus: Another +10% Vulnerable Damage if requirements met:\n{thresholdRequirements}\n\nTags: 易傷, 受傷, 傷害."
+					"zhTW": "易傷傷害 +10%\n對受傷敵人傷害 +25%\n\nBonus: Another +10% Vulnerable Damage if requirements met:\n{thresholdRequirements}\n\nTags: 易傷, 受傷, 傷害."
 				},
 				"thresholdRequirements": {
 					"Rogue": [
@@ -16858,7 +16858,7 @@ let paragonData = {
 					"ruRU": "+3% к сопротивлению стихиям\n+10 к интеллекту\n\nBonus: Another +3% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: Нефизический урон, Сопротивление, Интеллект.",
 					"trTR": "Tüm Elementlere +3% Direnç\n+10 Zekâ\n\nBonus: Another +3% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: Fiziksel Olmayan, Direnç, Zekâ.",
 					"zhCN": "+3% 全元素抗性\n+10 点智力\n\nBonus: Another +3% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: 非物理, 抗性, 智力.",
-					"zhTW": "+3% 全元素抗性\n智力 +10\n\nBonus: Another +3% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: 非物理, 抗性, 智力."
+					"zhTW": "全元素抗性 +3%\n智力 +10\n\nBonus: Another +3% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: 非物理, 抗性, 智力."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
@@ -17383,7 +17383,7 @@ let paragonData = {
 					"ruRU": "+10% к урону, наносимому уязвимым противникам\n+10 к силе\n\nBonus: Another +10% Vulnerable Damage if requirements met:\n{thresholdRequirements}\n\nTags: Уязвимость, Урон, Сила.",
 					"trTR": "+10% Savunmasız Hasarı\n+10 Kuvvet\n\nBonus: Another +10% Vulnerable Damage if requirements met:\n{thresholdRequirements}\n\nTags: Savunmasız, Hasar, Kuvvet.",
 					"zhCN": "+10% 易伤伤害\n+10 点力量\n\nBonus: Another +10% Vulnerable Damage if requirements met:\n{thresholdRequirements}\n\nTags: 易伤, 伤害, 力量.",
-					"zhTW": "+10% 易傷傷害\n力量 +10\n\nBonus: Another +10% Vulnerable Damage if requirements met:\n{thresholdRequirements}\n\nTags: 易傷, 傷害, 力量."
+					"zhTW": "易傷傷害 +10%\n力量 +10\n\nBonus: Another +10% Vulnerable Damage if requirements met:\n{thresholdRequirements}\n\nTags: 易傷, 傷害, 力量."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
@@ -17563,7 +17563,7 @@ let paragonData = {
 					"ruRU": "+3% к сопротивлению стихиям\n+10 к силе воли\n\nBonus: Another +3% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: Сопротивление, Сила воли, Нефизический урон.",
 					"trTR": "Tüm Elementlere +3% Direnç\n+10 İrade\n\nBonus: Another +3% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: Direnç, İrade, Fiziksel Olmayan.",
 					"zhCN": "+3% 全元素抗性\n+10 点意力\n\nBonus: Another +3% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: 抗性, 意力, 非物理.",
-					"zhTW": "+3% 全元素抗性\n意志 +10\n\nBonus: Another +3% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: 抗性, 意志, 非物理."
+					"zhTW": "全元素抗性 +3%\n意志 +10\n\nBonus: Another +3% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: 抗性, 意志, 非物理."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
@@ -17971,7 +17971,7 @@ let paragonData = {
 					"ruRU": "+3% к сопротивлению стихиям\n+10 к ловкости\n\nBonus: Another +3% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: Сопротивление, Ловкость, Нефизический урон.",
 					"trTR": "Tüm Elementlere +3% Direnç\n+10 Maharet\n\nBonus: Another +3% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: Direnç, Maharet, Fiziksel Olmayan.",
 					"zhCN": "+3% 全元素抗性\n+10 点敏捷\n\nBonus: Another +3% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: 抗性, 敏捷, 非物理.",
-					"zhTW": "+3% 全元素抗性\n敏捷 +10\n\nBonus: Another +3% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: 抗性, 敏捷, 非物理."
+					"zhTW": "全元素抗性 +3%\n敏捷 +10\n\nBonus: Another +3% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: 抗性, 敏捷, 非物理."
 				},
 				"thresholdRequirements": {
 					"Rogue": [
@@ -18292,7 +18292,7 @@ let paragonData = {
 					"ruRU": "+10% к сопротивлению (Shadow )\n+10 к интеллекту\n\nBonus: Another +10% Shadow Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Сопротивление, Темная магия, Интеллект.",
 					"trTR": "+10% Shadow Direnci\n+10 Zekâ\n\nBonus: Another +10% Shadow Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Direnç, Gölge, Zekâ.",
 					"zhCN": "+10% Shadow 抗性\n+10 点智力\n\nBonus: Another +10% Shadow Resistance if requirements met:\n{thresholdRequirements}\n\nTags: 抗性, 暗影, 智力.",
-					"zhTW": "+10% Shadow 抗性\n智力 +10\n\nBonus: Another +10% Shadow Resistance if requirements met:\n{thresholdRequirements}\n\nTags: 抗性, 暗影, 智力."
+					"zhTW": "Shadow 抗性 +10%\n智力 +10\n\nBonus: Another +10% Shadow Resistance if requirements met:\n{thresholdRequirements}\n\nTags: 抗性, 暗影, 智力."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
@@ -18340,7 +18340,7 @@ let paragonData = {
 					"ruRU": "На 4% меньше урона от противников под действием эффекта \"Shadow DoTed \"\n+10% к сопротивлению (Shadow )\n\nBonus: Another 4% Damage Reduction from Shadow DoTed Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Сопротивление, Темная магия, Периодический урон от темной магии, Уменьшение урона.",
 					"trTR": "Shadow DoTed Düşmanlardan 4% Hasar Azaltma\n+10% Shadow Direnci\n\nBonus: Another 4% Damage Reduction from Shadow DoTed Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Direnç, Gölge, Zamanla Gölge Hasarı, Hasar Azaltma.",
 					"zhCN": "4% 对Shadow DoTed 敌人的伤害减免\n+10% Shadow 抗性\n\nBonus: Another 4% Damage Reduction from Shadow DoTed Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 抗性, 暗影, 持续性暗影伤害, 伤害减免.",
-					"zhTW": "Shadow DoTed 敵人傷害減免 4%\n+10% Shadow 抗性\n\nBonus: Another 4% Damage Reduction from Shadow DoTed Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 抗性, 暗影, 暗影持續傷害, 傷害減免."
+					"zhTW": "Shadow DoTed 敵人傷害減免 4%\nShadow 抗性 +10%\n\nBonus: Another 4% Damage Reduction from Shadow DoTed Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 抗性, 暗影, 暗影持續傷害, 傷害減免."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
@@ -18481,7 +18481,7 @@ let paragonData = {
 					"ruRU": "+10% к сопротивлению (Cold )\n+5% к вероятности удачного удара\n\nBonus: Another +10% Cold Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Сопротивление, Холод, Удачный удар.",
 					"trTR": "+10% Cold Direnci\n+5% Şanslı Vuruş İhtimali\n\nBonus: Another +10% Cold Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Direnç, Soğuk, Şanslı Vuruş.",
 					"zhCN": "+10% Cold 抗性\n+5% 幸运一击几率\n\nBonus: Another +10% Cold Resistance if requirements met:\n{thresholdRequirements}\n\nTags: 抗性, 冰霜, 幸运一击.",
-					"zhTW": "+10% Cold 抗性\n幸運觸發機率 +5%\n\nBonus: Another +10% Cold Resistance if requirements met:\n{thresholdRequirements}\n\nTags: 抗性, 冰寒, 幸運觸發."
+					"zhTW": "Cold 抗性 +10%\n幸運觸發機率 +5%\n\nBonus: Another +10% Cold Resistance if requirements met:\n{thresholdRequirements}\n\nTags: 抗性, 冰寒, 幸運觸發."
 				},
 				"thresholdRequirements": {
 					"Necromancer": [
@@ -18523,7 +18523,7 @@ let paragonData = {
 					"ruRU": "+10% к урону, наносимому уязвимым противникам\n+10 к интеллекту\n\nBonus: Another +10% Vulnerable Damage if requirements met:\n{thresholdRequirements}\n\nTags: Интеллект, Урон, Уязвимость.",
 					"trTR": "+10% Savunmasız Hasarı\n+10 Zekâ\n\nBonus: Another +10% Vulnerable Damage if requirements met:\n{thresholdRequirements}\n\nTags: Zekâ, Hasar, Savunmasız.",
 					"zhCN": "+10% 易伤伤害\n+10 点智力\n\nBonus: Another +10% Vulnerable Damage if requirements met:\n{thresholdRequirements}\n\nTags: 智力, 伤害, 易伤.",
-					"zhTW": "+10% 易傷傷害\n智力 +10\n\nBonus: Another +10% Vulnerable Damage if requirements met:\n{thresholdRequirements}\n\nTags: 智力, 傷害, 易傷."
+					"zhTW": "易傷傷害 +10%\n智力 +10\n\nBonus: Another +10% Vulnerable Damage if requirements met:\n{thresholdRequirements}\n\nTags: 智力, 傷害, 易傷."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
@@ -18568,7 +18568,7 @@ let paragonData = {
 					"ruRU": "+10% к урону, наносимому уязвимым противникам\n+10 к ловкости\n\nBonus: Another +10% Vulnerable Damage if requirements met:\n{thresholdRequirements}\n\nTags: Уязвимость, Урон, Ловкость.",
 					"trTR": "+10% Savunmasız Hasarı\n+10 Maharet\n\nBonus: Another +10% Vulnerable Damage if requirements met:\n{thresholdRequirements}\n\nTags: Savunmasız, Hasar, Maharet.",
 					"zhCN": "+10% 易伤伤害\n+10 点敏捷\n\nBonus: Another +10% Vulnerable Damage if requirements met:\n{thresholdRequirements}\n\nTags: 易伤, 伤害, 敏捷.",
-					"zhTW": "+10% 易傷傷害\n敏捷 +10\n\nBonus: Another +10% Vulnerable Damage if requirements met:\n{thresholdRequirements}\n\nTags: 易傷, 傷害, 敏捷."
+					"zhTW": "易傷傷害 +10%\n敏捷 +10\n\nBonus: Another +10% Vulnerable Damage if requirements met:\n{thresholdRequirements}\n\nTags: 易傷, 傷害, 敏捷."
 				},
 				"thresholdRequirements": {
 					"Rogue": [
@@ -36189,7 +36189,7 @@ let paragonData = {
 					"ruRU": "После того как вы расходуете 100 ед. маны, следующее заклинание \"Цепная молния\" или \"Электрические разряды\" делает противников уязвимыми на 2 сек. и восполняет вам 10% маны.\n\nКоличество маны, необходимое для срабатывания, уменьшается за счет эффектов, сокращающих расход маны.\n\nTags: Мана, Уязвимость.",
 					"trTR": "100 Mana harcadıktan sonraki ilk Zincirleme Yıldırım ya da Yüklü Şimşekler kullanımında düşmanları 2 saniyeliğine Savunmasız bırakırsın ve Mananın 10% kadarını yenilersin.\n\nBu Mana bedeli gereksinimi, Mana Bedeli Azaltma bonuslarına göre azalır.\n\nTags: Mana, Savunmasız.",
 					"zhCN": "消耗 100 点法力后,你下一次施放的连锁闪电或者电荷弹会对敌人造成易伤,持续 2 秒,并恢复 10% 点法力。\n\n法力消耗减免加成可减少该法力消耗需求。\n\nTags: 法力, 易伤.",
-					"zhTW": "在消耗 100 點法力後,你下一次施放的連鎖閃電或電能彈會使敵人易傷 2 秒,並使你恢復 10% 點法力。\n\n法力消耗降低加成會減少此法力消耗需求。\n\nTags: 法力, 易傷."
+					"zhTW": "在消耗 100 點法力後,你下一次施放的連鎖閃電或電能彈會使敵人易傷 2 秒,並使你恢復 10% 法力。\n\n法力消耗降低加成會減少此法力消耗需求。\n\nTags: 法力, 易傷."
 				}
 			},
 			"Sorcerer_Legendary_008": {
@@ -36423,7 +36423,7 @@ let paragonData = {
 					"ruRU": "+10% к сопротивлению (Cold )\n+10 к интеллекту\n\nBonus: Another +10% Cold Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Сопротивление, Интеллект, Холод.",
 					"trTR": "+10% Cold Direnci\n+10 Zekâ\n\nBonus: Another +10% Cold Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Direnç, Zekâ, Soğuk.",
 					"zhCN": "+10% Cold 抗性\n+10 点智力\n\nBonus: Another +10% Cold Resistance if requirements met:\n{thresholdRequirements}\n\nTags: 抗性, 智力, 冰霜.",
-					"zhTW": "+10% Cold 抗性\n智力 +10\n\nBonus: Another +10% Cold Resistance if requirements met:\n{thresholdRequirements}\n\nTags: 抗性, 智力, 冰寒."
+					"zhTW": "Cold 抗性 +10%\n智力 +10\n\nBonus: Another +10% Cold Resistance if requirements met:\n{thresholdRequirements}\n\nTags: 抗性, 智力, 冰寒."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
@@ -36741,7 +36741,7 @@ let paragonData = {
 					"ruRU": "На 5% меньше урона от противников под действием эффекта \"Burning \"\n+10% к сопротивлению (Fire )\n\nBonus: Another 5% Damage Reduction from Burning Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Горение, Уменьшение урона, Огонь, Сопротивление.",
 					"trTR": "Burning Düşmanlardan 5% Hasar Azaltma\n+10% Fire Direnci\n\nBonus: Another 5% Damage Reduction from Burning Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Yakma, Hasar Azaltma, Ateş, Direnç.",
 					"zhCN": "5% 对Burning 敌人的伤害减免\n+10% Fire 抗性\n\nBonus: Another 5% Damage Reduction from Burning Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 燃烧, 伤害减免, 火焰, 抗性.",
-					"zhTW": "Burning 敵人傷害減免 5%\n+10% Fire 抗性\n\nBonus: Another 5% Damage Reduction from Burning Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 燃燒, 傷害減免, 火焰, 抗性."
+					"zhTW": "Burning 敵人傷害減免 5%\nFire 抗性 +10%\n\nBonus: Another 5% Damage Reduction from Burning Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 燃燒, 傷害減免, 火焰, 抗性."
 				},
 				"thresholdRequirements": {
 					"Sorcerer": [
@@ -36780,7 +36780,7 @@ let paragonData = {
 					"ruRU": "+10% к сопротивлению (Lightning )\n+10 к интеллекту\n\nBonus: Another +10% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Молния, Сопротивление, Интеллект.",
 					"trTR": "+10% Lightning Direnci\n+10 Zekâ\n\nBonus: Another +10% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Yıldırım, Direnç, Zekâ.",
 					"zhCN": "+10% Lightning 抗性\n+10 点智力\n\nBonus: Another +10% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: 闪电, 抗性, 智力.",
-					"zhTW": "+10% Lightning 抗性\n智力 +10\n\nBonus: Another +10% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: 閃電, 抗性, 智力."
+					"zhTW": "Lightning 抗性 +10%\n智力 +10\n\nBonus: Another +10% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: 閃電, 抗性, 智力."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
@@ -36825,7 +36825,7 @@ let paragonData = {
 					"ruRU": "+10% к урону, наносимому уязвимым противникам\n-5% к урону от уязвимых противников\n\nBonus: Another +10% Vulnerable Damage if requirements met:\n{thresholdRequirements}\n\nTags: Уязвимость, Урон, Уменьшение урона.",
 					"trTR": "+10% Savunmasız Hasarı\nSavunmasız Düşmanlardan 5% Hasar Azaltma\n\nBonus: Another +10% Vulnerable Damage if requirements met:\n{thresholdRequirements}\n\nTags: Savunmasız, Hasar, Hasar Azaltma.",
 					"zhCN": "+10% 易伤伤害\n5% 对易伤敌人的伤害减免\n\nBonus: Another +10% Vulnerable Damage if requirements met:\n{thresholdRequirements}\n\nTags: 易伤, 伤害, 伤害减免.",
-					"zhTW": "+10% 易傷傷害\n易傷敵人的傷害減免 5%\n\nBonus: Another +10% Vulnerable Damage if requirements met:\n{thresholdRequirements}\n\nTags: 易傷, 傷害, 傷害減免."
+					"zhTW": "易傷傷害 +10%\n易傷敵人的傷害減免 5%\n\nBonus: Another +10% Vulnerable Damage if requirements met:\n{thresholdRequirements}\n\nTags: 易傷, 傷害, 傷害減免."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
@@ -36921,7 +36921,7 @@ let paragonData = {
 					"ruRU": "-6% к урону от противников, находящихся под действием эффекта \"Chilled \"\n+10% к сопротивлению (Cold )\n\nBonus: Another 6% Damage Reduction from Chilled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Окоченение, Уменьшение урона, Сопротивление, Холод, Контроль.",
 					"trTR": "Chilled Etkisindeki Düşmandan 6% Hasar Azaltma\n+10% Cold Direnci\n\nBonus: Another 6% Damage Reduction from Chilled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Soğutma, Hasar Azaltma, Direnç, Soğuk, Kitle Kontrolü.",
 					"zhCN": "6% Chilled 敌人伤害减免\n+10% Cold 抗性\n\nBonus: Another 6% Damage Reduction from Chilled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 冻伤, 伤害减免, 抗性, 冰霜, 控制.",
-					"zhTW": "Chilled 敵人的傷害減免 6%\n+10% Cold 抗性\n\nBonus: Another 6% Damage Reduction from Chilled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 冰冷, 傷害減免, 抗性, 冰寒, 控場."
+					"zhTW": "Chilled 敵人的傷害減免 6%\nCold 抗性 +10%\n\nBonus: Another 6% Damage Reduction from Chilled Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 冰冷, 傷害減免, 抗性, 冰寒, 控場."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
@@ -37017,7 +37017,7 @@ let paragonData = {
 					"ruRU": "+10% к нефизическому урону\n+3% к сопротивлению стихиям\n\nBonus: Another +10% Non-Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: Нефизический урон, Урон, Сопротивление.",
 					"trTR": "+10% Fiziksel Olmayan Hasar\nTüm Elementlere +3% Direnç\n\nBonus: Another +10% Non-Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: Fiziksel Olmayan, Hasar, Direnç.",
 					"zhCN": "+10% 非物理伤害\n+3% 全元素抗性\n\nBonus: Another +10% Non-Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: 非物理, 伤害, 抗性.",
-					"zhTW": "非物理傷害 +10%\n+3% 全元素抗性\n\nBonus: Another +10% Non-Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: 非物理, 傷害, 抗性."
+					"zhTW": "非物理傷害 +10%\n全元素抗性 +3%\n\nBonus: Another +10% Non-Physical Damage if requirements met:\n{thresholdRequirements}\n\nTags: 非物理, 傷害, 抗性."
 				},
 				"thresholdRequirements": {
 					"Necromancer": [
@@ -37098,7 +37098,7 @@ let paragonData = {
 					"ruRU": "+10% к сопротивлению (Fire )\n+10 к интеллекту\n\nBonus: Another +10% Fire Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Огонь, Сопротивление, Интеллект.",
 					"trTR": "+10% Fire Direnci\n+10 Zekâ\n\nBonus: Another +10% Fire Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Ateş, Direnç, Zekâ.",
 					"zhCN": "+10% Fire 抗性\n+10 点智力\n\nBonus: Another +10% Fire Resistance if requirements met:\n{thresholdRequirements}\n\nTags: 火焰, 抗性, 智力.",
-					"zhTW": "+10% Fire 抗性\n智力 +10\n\nBonus: Another +10% Fire Resistance if requirements met:\n{thresholdRequirements}\n\nTags: 火焰, 抗性, 智力."
+					"zhTW": "Fire 抗性 +10%\n智力 +10\n\nBonus: Another +10% Fire Resistance if requirements met:\n{thresholdRequirements}\n\nTags: 火焰, 抗性, 智力."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
@@ -37419,7 +37419,7 @@ let paragonData = {
 					"ruRU": "+3% к сопротивлению стихиям\n+100 ед. брони\n\nBonus: Another +3% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: Сопротивление, Броня, Нефизический урон.",
 					"trTR": "Tüm Elementlere +3% Direnç\n+100 Zırh\n\nBonus: Another +3% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: Direnç, Zırh, Fiziksel Olmayan.",
 					"zhCN": "+3% 全元素抗性\n+100 护甲值\n\nBonus: Another +3% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: 抗性, 护甲, 非物理.",
-					"zhTW": "+3% 全元素抗性\n護甲值 +100\n\nBonus: Another +3% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: 抗性, 防具, 非物理."
+					"zhTW": "全元素抗性 +3%\n護甲值 +100\n\nBonus: Another +3% Resistance to All Elements if requirements met:\n{thresholdRequirements}\n\nTags: 抗性, 防具, 非物理."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [
@@ -37470,7 +37470,7 @@ let paragonData = {
 					"ruRU": "-5% к урону от уязвимых противников\n+10% к сопротивлению (Cold )\n\nBonus: Another 5% Damage Reduction from Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Уязвимость, Уменьшение урона, Холод, Сопротивление.",
 					"trTR": "Savunmasız Düşmanlardan 5% Hasar Azaltma\n+10% Cold Direnci\n\nBonus: Another 5% Damage Reduction from Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Savunmasız, Hasar Azaltma, Soğuk, Direnç.",
 					"zhCN": "5% 对易伤敌人的伤害减免\n+10% Cold 抗性\n\nBonus: Another 5% Damage Reduction from Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 易伤, 伤害减免, 冰霜, 抗性.",
-					"zhTW": "易傷敵人的傷害減免 5%\n+10% Cold 抗性\n\nBonus: Another 5% Damage Reduction from Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 易傷, 傷害減免, 冰寒, 抗性."
+					"zhTW": "易傷敵人的傷害減免 5%\nCold 抗性 +10%\n\nBonus: Another 5% Damage Reduction from Vulnerable Enemies if requirements met:\n{thresholdRequirements}\n\nTags: 易傷, 傷害減免, 冰寒, 抗性."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [

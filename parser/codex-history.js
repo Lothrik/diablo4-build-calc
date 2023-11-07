@@ -331,7 +331,12 @@ let codexHistory = {
 	"Offensive: Scoundrel's Leathers": 329,
 	"Offensive: Aspect of Piercing Static": 330,
 	"Offensive: Battle Caster's Aspect": 331,
-	"Offensive: Blue Rose": 332
+	"Offensive: Blue Rose": 332,
+	"Resource: Ring of Red Furor": 333,
+	"Utility: Airidah's Inexorable Will": 334,
+	"Resource: Ring of the Sacrilegious Soul": 335,
+	"Resource: Writhing Band of Trickery": 336,
+	"Offensive: Tal Rasha's Iridescent Loop": 337
 }
 
 export { codexHistory };
