@@ -16274,7 +16274,7 @@ let paragonData = {
 			},
 			"Generic_Rare_034": {
 				"name": "Lightning Resilience",
-				"description": "+10% Lightning Resistance\n\nBonus: Another +10% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Lightning, Life.",
+				"description": "+10% Lightning Resistance\n+6% Life\n\nBonus: Another +10% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistance, Lightning, Life.",
 				"nameLocalized": {
 					"deDE": "Blitzabhärtung",
 					"esES": "Resiliencia ante los rayos",
@@ -16291,19 +16291,19 @@ let paragonData = {
 					"zhTW": "閃電韌性"
 				},
 				"descriptionLocalized": {
-					"deDE": "+10% Widerstand gegen Lightning\n\nBonus: Another +10% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Widerstand, Blitz, Leben.",
-					"esES": "+10% de resistencia a Lightning\n\nBonus: Another +10% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistencia, Rayos, Vida.",
-					"esMX": "+10% de resistencia Lightning\n\nBonus: Another +10% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistencia, Rayo, Vida.",
-					"frFR": "+10% de résistance (Lightning )\n\nBonus: Another +10% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Résistance, Foudre, Vie.",
-					"itIT": "Resistenza a Lightning: +10%\n\nBonus: Another +10% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistenza, Fulmine, Vita.",
-					"jaJP": "Lightning 耐性+10%\n\nBonus: Another +10% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: 耐性, 電撃, ライフ.",
-					"koKR": "Lightning 저항 +10%\n\nBonus: Another +10% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: 저항, 번개, 생명력.",
-					"plPL": "+10% do Odporności na: Lightning\n\nBonus: Another +10% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Odporność, Błyskawice, Zdrowie.",
-					"ptBR": "+10% de resistência a Lightning\n\nBonus: Another +10% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistência, Eletricidade, Vida.",
-					"ruRU": "+10% к сопротивлению (Lightning )\n\nBonus: Another +10% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Сопротивление, Молния, Здоровье.",
-					"trTR": "+10% Lightning Direnci\n\nBonus: Another +10% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Direnç, Yıldırım, Can.",
-					"zhCN": "+10% Lightning 抗性\n\nBonus: Another +10% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: 抗性, 闪电, 生命.",
-					"zhTW": "Lightning 抗性 +10%\n\nBonus: Another +10% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: 抗性, 閃電, 生命值."
+					"deDE": "+10% Widerstand gegen Lightning\n+6% Leben\n\nBonus: Another +10% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Widerstand, Blitz, Leben.",
+					"esES": "+10% de resistencia a Lightning\n+6% de vida\n\nBonus: Another +10% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistencia, Rayos, Vida.",
+					"esMX": "+10% de resistencia Lightning\n+6% de vida\n\nBonus: Another +10% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistencia, Rayo, Vida.",
+					"frFR": "+10% de résistance (Lightning )\n+6% de points de vie\n\nBonus: Another +10% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Résistance, Foudre, Vie.",
+					"itIT": "Resistenza a Lightning: +10%\nVita: +6%\n\nBonus: Another +10% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistenza, Fulmine, Vita.",
+					"jaJP": "Lightning 耐性+10%\nライフ+6%\n\nBonus: Another +10% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: 耐性, 電撃, ライフ.",
+					"koKR": "Lightning 저항 +10%\n생명력 +6%\n\nBonus: Another +10% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: 저항, 번개, 생명력.",
+					"plPL": "+10% do Odporności na: Lightning\n+6% zdrowia\n\nBonus: Another +10% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Odporność, Błyskawice, Zdrowie.",
+					"ptBR": "+10% de resistência a Lightning\n+6% de vida\n\nBonus: Another +10% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Resistência, Eletricidade, Vida.",
+					"ruRU": "+10% к сопротивлению (Lightning )\n+6% к здоровью\n\nBonus: Another +10% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Сопротивление, Молния, Здоровье.",
+					"trTR": "+10% Lightning Direnci\n+6% Can\n\nBonus: Another +10% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: Direnç, Yıldırım, Can.",
+					"zhCN": "+10% Lightning 抗性\n+6% 生命\n\nBonus: Another +10% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: 抗性, 闪电, 生命.",
+					"zhTW": "Lightning 抗性 +10%\n生命值 +6%\n\nBonus: Another +10% Lightning Resistance if requirements met:\n{thresholdRequirements}\n\nTags: 抗性, 閃電, 生命值."
 				},
 				"thresholdRequirements": {
 					"Barbarian": [

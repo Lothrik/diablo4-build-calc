@@ -26166,6 +26166,16 @@
 						"formula_hash": "4000280340",
 						"formula_name": "ParagonNodeDamageBonus_Magic",
 						"stat_dword": 4294967295
+					},
+					"257-1": {
+						"formula_data": {
+							"5": [
+								5.0
+							]
+						},
+						"formula_hash": "4294967295",
+						"formula_name": "ParagonNodeDamageBonusOnPickBloodOrbDuration",
+						"stat_dword": 4294967295
 					}
 				},
 				"desc": "+5% Damage",
