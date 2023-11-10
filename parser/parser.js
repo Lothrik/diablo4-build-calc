@@ -6,7 +6,7 @@ import { codexValues } from "./codex-values.js";
 
 import { necromancerMinions } from "./necromancer-minions.js";
 
-const buildNumber = 46837;
+const buildNumber = 47002;
 
 var fullJSON = "";
 $.getJSON("../database/build-" + buildNumber + ".json", null, fullData => {
