@@ -1542,7 +1542,7 @@ function handleClampButton(event) {
 function handleHistoryButton(event) {
 	window.open("./history/");
 }
-const localVersion = "1.2.2.47002-1";
+const localVersion = "1.2.2.47240-1";
 var remoteVersion = "";
 var versionInterval = null;
 function handleVersionLabel(event) {
