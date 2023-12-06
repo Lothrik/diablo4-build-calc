@@ -4354,7 +4354,7 @@ let codexData = {
 					"itIT": "del Frammento dell'Alba",
 					"jaJP": "暁の欠片",
 					"koKR": "새벽의 파편",
-					"plPL": "Odłamek Świtu",
+					"plPL": "[ms]Poranny[fs]Poranna[ns]Poranne[p]Poranne",
 					"ptBR": "do Estilhaço da Alvorada",
 					"ruRU": "[ms]расколотый рассветный[fs]расколотая рассветная[ns]расколотое рассветное[p]расколотые рассветные",
 					"trTR": "Şafağın Parçacığı",

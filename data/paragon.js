@@ -4729,7 +4729,7 @@ let paragonData = {
 					"zhTW": "剝皮者"
 				},
 				"descriptionLocalized": {
-					"deDE": "+10% Schaden über Zeit des Typs Physical\n+10% Schaden gegen Gegner, die von Bleeding betroffen sind\n\nBonus: Another +10% Physical Damage Over Time if requirements met:\n{thresholdRequirements}\n\nTags: Blutung, Schaden.",
+					"deDE": "+10% Schaden über Zeit des Typs Physical\n+10% Schaden gegen Gegner mit Beeinträchtigung: Bleeding\n\nBonus: Another +10% Physical Damage Over Time if requirements met:\n{thresholdRequirements}\n\nTags: Blutung, Schaden.",
 					"esES": "+10% de daño de Physical en el tiempo\n+10% de daño a enemigos con el estado Bleeding\n\nBonus: Another +10% Physical Damage Over Time if requirements met:\n{thresholdRequirements}\n\nTags: Sangrado, Daño.",
 					"esMX": "+10% de daño con el tiempo de Physical\n+10% de daño a enemigos en estado Bleeding\n\nBonus: Another +10% Physical Damage Over Time if requirements met:\n{thresholdRequirements}\n\nTags: Sangrado, Daño.",
 					"frFR": "+10% de dégâts Physical sur la durée\n+10% de dégâts contre les cibles sous cet effet: Bleeding\n\nBonus: Another +10% Physical Damage Over Time if requirements met:\n{thresholdRequirements}\n\nTags: Saignement, Dégâts.",
@@ -4758,7 +4758,7 @@ let paragonData = {
 					"esMX": "Carnicero",
 					"frFR": "Boucherie",
 					"itIT": "Macellaio",
-					"jaJP": "虐殺者",
+					"jaJP": "惨殺者",
 					"koKR": "도살자",
 					"plPL": "Rzeźnik",
 					"ptBR": "Açougueiro",
@@ -11540,7 +11540,7 @@ let paragonData = {
 					"zhTW": "毒禍"
 				},
 				"descriptionLocalized": {
-					"deDE": "+10% Schaden gegen Gegner, die von Poisoned betroffen sind\n+10% Schaden des Typs Poison\n\nBonus: Another +10% Damage to Poisoned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Gift, Schaden.",
+					"deDE": "+10% Schaden gegen Gegner mit Beeinträchtigung: Poisoned\n+10% Schaden des Typs Poison\n\nBonus: Another +10% Damage to Poisoned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Gift, Schaden.",
 					"esES": "+10% de daño a enemigos con el estado Poisoned\n+10% de daño de Poison\n\nBonus: Another +10% Damage to Poisoned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Veneno, Daño.",
 					"esMX": "+10% de daño a enemigos en estado Poisoned\n+10% de daño de Poison\n\nBonus: Another +10% Damage to Poisoned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Veneno, Daño.",
 					"frFR": "+10% de dégâts contre les cibles sous cet effet: Poisoned\n+10% de dégâts Poison\n\nBonus: Another +10% Damage to Poisoned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Poison, Dégâts.",
@@ -11960,7 +11960,7 @@ let paragonData = {
 					"zhTW": "咬合尖牙"
 				},
 				"descriptionLocalized": {
-					"deDE": "+10% Schaden gegen Gegner, die von Poisoned betroffen sind\n+10 Willenskraft\n\nBonus: Another +10% Damage to Poisoned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Gift, Schaden, Willenskraft.",
+					"deDE": "+10% Schaden gegen Gegner mit Beeinträchtigung: Poisoned\n+10 Willenskraft\n\nBonus: Another +10% Damage to Poisoned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Gift, Schaden, Willenskraft.",
 					"esES": "+10% de daño a enemigos con el estado Poisoned\n+10 de voluntad\n\nBonus: Another +10% Damage to Poisoned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Veneno, Daño, Voluntad.",
 					"esMX": "+10% de daño a enemigos en estado Poisoned\n+10 de Voluntad\n\nBonus: Another +10% Damage to Poisoned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Veneno, Daño, Voluntad.",
 					"frFR": "+10% de dégâts contre les cibles sous cet effet: Poisoned\n+10 volonté\n\nBonus: Another +10% Damage to Poisoned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Poison, Dégâts, Volonté.",
@@ -14190,7 +14190,7 @@ let paragonData = {
 				"name": "Damage To Bleed",
 				"description": "+5% Damage to Bleeding Enemies\n\nTags: Bleed, Damage.",
 				"descriptionLocalized": {
-					"deDE": "+5% Schaden gegen Gegner, die von Bleeding betroffen sind\n\nTags: Blutung, Schaden.",
+					"deDE": "+5% Schaden gegen Gegner mit Beeinträchtigung: Bleeding\n\nTags: Blutung, Schaden.",
 					"esES": "+5% de daño a enemigos con el estado Bleeding\n\nTags: Sangrado, Daño.",
 					"esMX": "+5% de daño a enemigos en estado Bleeding\n\nTags: Sangrado, Daño.",
 					"frFR": "+5% de dégâts contre les cibles sous cet effet: Bleeding\n\nTags: Saignement, Dégâts.",
@@ -14209,7 +14209,7 @@ let paragonData = {
 				"name": "Damage To Burning",
 				"description": "+5% Damage to Burning Enemies\n\nTags: Burn, Damage.",
 				"descriptionLocalized": {
-					"deDE": "+5% Schaden gegen Gegner, die von Burning betroffen sind\n\nTags: Verbrennung, Schaden.",
+					"deDE": "+5% Schaden gegen Gegner mit Beeinträchtigung: Burning\n\nTags: Verbrennung, Schaden.",
 					"esES": "+5% de daño a enemigos con el estado Burning\n\nTags: Quemadura, Daño.",
 					"esMX": "+5% de daño a enemigos en estado Burning\n\nTags: Quemadura, Daño.",
 					"frFR": "+5% de dégâts contre les cibles sous cet effet: Burning\n\nTags: Brûlure, Dégâts.",
@@ -14361,7 +14361,7 @@ let paragonData = {
 				"name": "Damage To Poison",
 				"description": "+5% Damage to Poisoned Enemies\n\nTags: Poison, Damage.",
 				"descriptionLocalized": {
-					"deDE": "+5% Schaden gegen Gegner, die von Poisoned betroffen sind\n\nTags: Gift, Schaden.",
+					"deDE": "+5% Schaden gegen Gegner mit Beeinträchtigung: Poisoned\n\nTags: Gift, Schaden.",
 					"esES": "+5% de daño a enemigos con el estado Poisoned\n\nTags: Veneno, Daño.",
 					"esMX": "+5% de daño a enemigos en estado Poisoned\n\nTags: Veneno, Daño.",
 					"frFR": "+5% de dégâts contre les cibles sous cet effet: Poisoned\n\nTags: Poison, Dégâts.",
@@ -14380,7 +14380,7 @@ let paragonData = {
 				"name": "Damage To Shadow DoTed",
 				"description": "+5% Damage to Shadow DoTed Enemies\n\nTags: Shadow Damage Over Time, Damage.",
 				"descriptionLocalized": {
-					"deDE": "+5% Schaden gegen Gegner, die von Shadow DoTed betroffen sind\n\nTags: Schattenschaden über Zeit, Schaden.",
+					"deDE": "+5% Schaden gegen Gegner mit Beeinträchtigung: Shadow DoTed\n\nTags: Schattenschaden über Zeit, Schaden.",
 					"esES": "+5% de daño a enemigos con el estado Shadow DoTed\n\nTags: Daño de sombra en el tiempo, Daño.",
 					"esMX": "+5% de daño a enemigos en estado Shadow DoTed\n\nTags: Daño de sombra con el tiempo, Daño.",
 					"frFR": "+5% de dégâts contre les cibles sous cet effet: Shadow DoTed\n\nTags: Dégâts d'ombre sur la durée, Dégâts.",
@@ -16891,7 +16891,7 @@ let paragonData = {
 					"zhTW": "渴求"
 				},
 				"descriptionLocalized": {
-					"deDE": "+10% Schaden gegen Gegner, die von Bleeding betroffen sind\n+16% Schaden gegen Elitegegner\n\nBonus: Another +10% Damage to Bleeding Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Blutung, Elitemonster, Schaden.",
+					"deDE": "+10% Schaden gegen Gegner mit Beeinträchtigung: Bleeding\n+16% Schaden gegen Elitegegner\n\nBonus: Another +10% Damage to Bleeding Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Blutung, Elitemonster, Schaden.",
 					"esES": "+10% de daño a enemigos con el estado Bleeding\n+16% de daño contra enemigos de élite\n\nBonus: Another +10% Damage to Bleeding Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Sangrado, Enemigos de élite, Daño.",
 					"esMX": "+10% de daño a enemigos en estado Bleeding\n+16% de daño a enemigos de Élite\n\nBonus: Another +10% Damage to Bleeding Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Sangrado, Monstruos de Élite, Daño.",
 					"frFR": "+10% de dégâts contre les cibles sous cet effet: Bleeding\n+16% de dégâts aux élites\n\nBonus: Another +10% Damage to Bleeding Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Saignement, Monstres élites, Dégâts.",
@@ -16939,7 +16939,7 @@ let paragonData = {
 					"zhTW": "狂喜"
 				},
 				"descriptionLocalized": {
-					"deDE": "+10% Schaden gegen Gegner, die von Bleeding betroffen sind\n+10 Stärke\n\nBonus: Another +10% Damage to Bleeding Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Blutung, Schaden, Stärke.",
+					"deDE": "+10% Schaden gegen Gegner mit Beeinträchtigung: Bleeding\n+10 Stärke\n\nBonus: Another +10% Damage to Bleeding Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Blutung, Schaden, Stärke.",
 					"esES": "+10% de daño a enemigos con el estado Bleeding\n+10 de fuerza\n\nBonus: Another +10% Damage to Bleeding Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Sangrado, Daño, Fuerza.",
 					"esMX": "+10% de daño a enemigos en estado Bleeding\n+10 de Fuerza\n\nBonus: Another +10% Damage to Bleeding Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Sangrado, Daño, Fuerza.",
 					"frFR": "+10% de dégâts contre les cibles sous cet effet: Bleeding\n+10 force\n\nBonus: Another +10% Damage to Bleeding Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Saignement, Dégâts, Force.",
@@ -17229,7 +17229,7 @@ let paragonData = {
 					"esMX": "Exterminador",
 					"frFR": "Massacre",
 					"itIT": "Assassino",
-					"jaJP": "殺害者",
+					"jaJP": "討伐者",
 					"koKR": "학살자",
 					"plPL": "Pogrom",
 					"ptBR": "Homicida",
@@ -17830,7 +17830,7 @@ let paragonData = {
 					"zhTW": "顛覆"
 				},
 				"descriptionLocalized": {
-					"deDE": "+10% Schaden gegen Gegner, die von Poisoned betroffen sind\n+16% Schaden gegen Elitegegner\n\nBonus: Another +10% Damage to Poisoned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Gift, Elitemonster, Schaden.",
+					"deDE": "+10% Schaden gegen Gegner mit Beeinträchtigung: Poisoned\n+16% Schaden gegen Elitegegner\n\nBonus: Another +10% Damage to Poisoned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Gift, Elitemonster, Schaden.",
 					"esES": "+10% de daño a enemigos con el estado Poisoned\n+16% de daño contra enemigos de élite\n\nBonus: Another +10% Damage to Poisoned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Veneno, Enemigos de élite, Daño.",
 					"esMX": "+10% de daño a enemigos en estado Poisoned\n+16% de daño a enemigos de Élite\n\nBonus: Another +10% Damage to Poisoned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Veneno, Monstruos de Élite, Daño.",
 					"frFR": "+10% de dégâts contre les cibles sous cet effet: Poisoned\n+16% de dégâts aux élites\n\nBonus: Another +10% Damage to Poisoned Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Poison, Monstres élites, Dégâts.",
@@ -18376,7 +18376,7 @@ let paragonData = {
 					"zhTW": "折磨黑暗"
 				},
 				"descriptionLocalized": {
-					"deDE": "+10% Schaden gegen Gegner, die von Shadow DoTed betroffen sind\n+16% Schaden gegen Elitegegner\n\nBonus: Another +10% Damage to Shadow DoTed Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Schattenschaden über Zeit, Elitemonster, Schaden.",
+					"deDE": "+10% Schaden gegen Gegner mit Beeinträchtigung: Shadow DoTed\n+16% Schaden gegen Elitegegner\n\nBonus: Another +10% Damage to Shadow DoTed Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Schattenschaden über Zeit, Elitemonster, Schaden.",
 					"esES": "+10% de daño a enemigos con el estado Shadow DoTed\n+16% de daño contra enemigos de élite\n\nBonus: Another +10% Damage to Shadow DoTed Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Daño de sombra en el tiempo, Enemigos de élite, Daño.",
 					"esMX": "+10% de daño a enemigos en estado Shadow DoTed\n+16% de daño a enemigos de Élite\n\nBonus: Another +10% Damage to Shadow DoTed Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Daño de sombra con el tiempo, Monstruos de Élite, Daño.",
 					"frFR": "+10% de dégâts contre les cibles sous cet effet: Shadow DoTed\n+16% de dégâts aux élites\n\nBonus: Another +10% Damage to Shadow DoTed Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Dégâts d'ombre sur la durée, Monstres élites, Dégâts.",
@@ -36501,7 +36501,7 @@ let paragonData = {
 					"zhTW": "燃火"
 				},
 				"descriptionLocalized": {
-					"deDE": "+10% Schaden gegen Gegner, die von Burning betroffen sind\n+16% Schaden gegen Elitegegner\n\nBonus: Another +10% Damage to Burning Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Verbrennung, Elitemonster, Schaden.",
+					"deDE": "+10% Schaden gegen Gegner mit Beeinträchtigung: Burning\n+16% Schaden gegen Elitegegner\n\nBonus: Another +10% Damage to Burning Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Verbrennung, Elitemonster, Schaden.",
 					"esES": "+10% de daño a enemigos con el estado Burning\n+16% de daño contra enemigos de élite\n\nBonus: Another +10% Damage to Burning Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Quemadura, Enemigos de élite, Daño.",
 					"esMX": "+10% de daño a enemigos en estado Burning\n+16% de daño a enemigos de Élite\n\nBonus: Another +10% Damage to Burning Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Quemadura, Monstruos de Élite, Daño.",
 					"frFR": "+10% de dégâts contre les cibles sous cet effet: Burning\n+16% de dégâts aux élites\n\nBonus: Another +10% Damage to Burning Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Brûlure, Monstres élites, Dégâts.",
@@ -37173,7 +37173,7 @@ let paragonData = {
 					"zhTW": "燼火"
 				},
 				"descriptionLocalized": {
-					"deDE": "+10% Schaden gegen Gegner, die von Burning betroffen sind\n+10 Intelligenz\n\nBonus: Another +10% Damage to Burning Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Verbrennung, Schaden, Intelligenz.",
+					"deDE": "+10% Schaden gegen Gegner mit Beeinträchtigung: Burning\n+10 Intelligenz\n\nBonus: Another +10% Damage to Burning Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Verbrennung, Schaden, Intelligenz.",
 					"esES": "+10% de daño a enemigos con el estado Burning\n+10 de inteligencia\n\nBonus: Another +10% Damage to Burning Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Quemadura, Daño, Inteligencia.",
 					"esMX": "+10% de daño a enemigos en estado Burning\n+10 de Inteligencia\n\nBonus: Another +10% Damage to Burning Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Quemadura, Daño, Inteligencia.",
 					"frFR": "+10% de dégâts contre les cibles sous cet effet: Burning\n+10 intelligence\n\nBonus: Another +10% Damage to Burning Enemies if requirements met:\n{thresholdRequirements}\n\nTags: Brûlure, Dégâts, Intelligence.",
