@@ -5464,7 +5464,7 @@ function resizeCanvas() {
 
 		if (pixiTooltip.children.length > 0) drawTooltip(pixiNodes[pixiTooltip.nodeIndex]);
 
-		if ($("#extraButtons2").width() > 0) $("#extraInfo").outerWidth($("#extraButtons2").width() - parseInt($("#groupSelector").css("padding-left")));
+		if ($("#extraButtons2").width() > 0) $("#extraInfo").outerWidth(Math.floor($("#extraButtons2").outerWidth() - 5));
 		$("body").css({"width": newWidth, "height": newHeight }); // prevent undesirable mobile scrolling
 		resetFrameTimer();
 		applyZoomLevel();
