@@ -52,6 +52,13 @@ let codexValues = {
 			},
 			"Tassets of the Dawning Sky": {
 				"values": []
+			},
+			"Juggernaut's Aspect": {
+				"dungeon": "",
+				"region": "",
+				"values": [
+					""
+				]
 			}
 		},
 		"Offensive": {
@@ -147,6 +154,9 @@ let codexValues = {
 				"values": [
 					""
 				]
+			},
+			"Paingorger's Gauntlets": {
+				"values": []
 			}
 		},
 		"Utility": {
@@ -209,6 +219,11 @@ let codexValues = {
 				"values": []
 			},
 			"Flickerstep": {
+				"values": []
+			},
+			"Aspect of Adaptability": {
+				"dungeon": "",
+				"region": "",
 				"values": []
 			}
 		},
@@ -406,6 +421,14 @@ let codexValues = {
 				"values": []
 			},
 			"Tuskhelm of Joritz the Mighty": {
+				"values": []
+			},
+			"Aspect of Sundered Ground": {
+				"dungeon": "",
+				"region": "",
+				"values": []
+			},
+			"Ring of the Ravenous": {
 				"values": []
 			}
 		},
@@ -722,6 +745,9 @@ let codexValues = {
 			},
 			"Dolmen Stone": {
 				"values": []
+			},
+			"Unsung Ascetic's Wraps": {
+				"values": []
 			}
 		},
 		"Utility": {
@@ -751,6 +777,11 @@ let codexValues = {
 				"values": []
 			},
 			"Airidah's Inexorable Will": {
+				"values": []
+			},
+			"Virulent Aspect": {
+				"dungeon": "",
+				"region": "",
 				"values": []
 			}
 		},
@@ -969,6 +1000,9 @@ let codexValues = {
 			},
 			"Lidless Wall": {
 				"values": []
+			},
+			"Mutilator Plate": {
+				"values": []
 			}
 		},
 		"Utility": {
@@ -1054,6 +1088,16 @@ let codexValues = {
 			},
 			"Ring of the Sacrilegious Soul": {
 				"values": []
+			},
+			"Shattered Spirit's Aspect": {
+				"dungeon": "",
+				"region": "",
+				"values": []
+			},
+			"(PH) Shadow Warriors Aspect": {
+				"dungeon": "",
+				"region": "",
+				"values": []
 			}
 		},
 		"Mobility": {},
@@ -1120,6 +1164,11 @@ let codexValues = {
 				"values": []
 			},
 			"Aspect of Elusive Menace": {
+				"dungeon": "",
+				"region": "",
+				"values": []
+			},
+			"Resistant Assailant's Aspect": {
 				"dungeon": "",
 				"region": "",
 				"values": []
@@ -1281,6 +1330,9 @@ let codexValues = {
 				"values": []
 			},
 			"Scoundrel's Leathers": {
+				"values": []
+			},
+			"Beastfall Boots": {
 				"values": []
 			}
 		},
@@ -1475,7 +1527,6 @@ let codexValues = {
 				"dungeon": "",
 				"region": "",
 				"values": [
-					"",
 					""
 				]
 			},
@@ -1564,6 +1615,19 @@ let codexValues = {
 				"values": []
 			},
 			"Tal Rasha's Iridescent Loop": {
+				"values": []
+			},
+			"Aspect of Shredding Blades": {
+				"dungeon": "",
+				"region": "",
+				"values": []
+			},
+			"(PH) Split Incinerate Aspect": {
+				"dungeon": "",
+				"region": "",
+				"values": []
+			},
+			"Starfall Coronet": {
 				"values": []
 			}
 		},

@@ -336,7 +336,22 @@ let codexHistory = {
 	"Utility: Airidah's Inexorable Will": 334,
 	"Resource: Ring of the Sacrilegious Soul": 335,
 	"Resource: Writhing Band of Trickery": 336,
-	"Offensive: Tal Rasha's Iridescent Loop": 337
+	"Offensive: Tal Rasha's Iridescent Loop": 337,
+	"Offensive: Aspect of Sundered Ground": 338,
+	"Offensive: Ring of the Ravenous": 339,
+	"Utility: Virulent Aspect": 340,
+	"Offensive: Unsung Ascetic's Wraps": 341,
+	"Resource: Aspect of Adaptability": 342,
+	"Defensive: Juggernaut's Aspect": 343,
+	"Offensive: Paingorger's Gauntlets": 344,
+	"Resource: Shattered Spirit's Aspect": 345,
+	"Resource: (PH) Shadow Warriors Aspect": 346,
+	"Offensive: Mutilator Plate": 347,
+	"Defensive: Resistant Assailant's Aspect": 348,
+	"Offensive: Beastfall Boots": 349,
+	"Offensive: Aspect of Shredding Blades": 350,
+	"Offensive: (PH) Split Incinerate Aspect": 351,
+	"Offensive: Starfall Coronet": 352
 }
 
 export { codexHistory };
