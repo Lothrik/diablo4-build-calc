@@ -2040,7 +2040,7 @@ function handleReloadButton() {
 		}
 	}
 }
-function handleShareButton() {
+function handleCopyButton() {
 	navigator.clipboard.writeText(window.location.href);
 }
 function onDragStart(event) {
@@ -5506,7 +5506,7 @@ $(document).ready(function() {
 	$("#resetButton").on("click", handleResetButton);
 	$("#saveButton").on("click", handleSaveButton);
 	$("#reloadButton").on("click", handleReloadButton);
-	$("#shareButton").on("click", handleShareButton);
+	$("#copyButton").on("click", handleCopyButton);
 	$("#classSelector").on("change", handleClassSelection);
 	$("#barbarianSelect").on("click", () => $("#classSelector").val("barbarian").change());
 	$("#druidSelect").on("click", () => $("#classSelector").val("druid").change());
