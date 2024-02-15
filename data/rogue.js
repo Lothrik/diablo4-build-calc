@@ -1173,7 +1173,7 @@ Tags: Core, Cutthroat, Imbueable, Damage, Physical, Energy.`,
 		y: 462.11
 	},
 	"Penetrating Shot": {
-		connections: [ "Improved Penetrating Shot", "Core" ],
+		connections: [ "Enhanced Penetrating Shot", "Core" ],
 		description: `Energy Cost: 35
 Lucky Hit Chance: 50% (per hit)
 Fire an arrow that pierces through all enemies in a line, dealing {70/77/84/91/98/105/112/119/126/133}% damage.
@@ -1219,24 +1219,24 @@ Tags: Core, Marksman, Imbueable, Damage, Physical, Energy.`,
 		x: 4.86,
 		y: 290.085
 	},
-	"Improved Penetrating Shot": {
+	"Enhanced Penetrating Shot": {
 		baseSkill: "Penetrating Shot",
-		connections: [ "Penetrating Shot", "Advanced Penetrating Shot", "Enhanced Penetrating Shot" ],
+		connections: [ "Penetrating Shot", "Advanced Penetrating Shot", "Improved Penetrating Shot" ],
 		description: `Penetrating Shot deals x10% increased damage per enemy it pierces.`,
 		nameLocalized: {
-			"deDE": "Geübter Durchschlagender Schuss",
-			"esES": "Disparo penetrante perfeccionado",
-			"esMX": "Disparo Penetrante Mejorado",
-			"frFR": "Tir pénétrant amélioré",
-			"itIT": "Tiro Penetrante Migliorato",
-			"jaJP": "貫通射撃(改良)",
-			"koKR": "향상된 꿰뚫는 사격",
-			"plPL": "Ulepszony Przebijający Strzał",
-			"ptBR": "Disparo Perfurante Aprimorado",
-			"ruRU": "Улучшенный пробивающий выстрел",
-			"trTR": "İyileştirilmiş Delici Atış",
-			"zhCN": "强力穿透射击",
-			"zhTW": "改良穿透射擊"
+			"deDE": "Verbesserter Durchschlagender Schuss",
+			"esES": "Disparo penetrante mejorado",
+			"esMX": "Disparo Penetrante Potenciado",
+			"frFR": "Tir pénétrant renforcé",
+			"itIT": "Tiro Penetrante Rinforzato",
+			"jaJP": "貫通射撃(強化)",
+			"koKR": "강화된 꿰뚫는 사격",
+			"plPL": "Wzmocniony Przebijający Strzał",
+			"ptBR": "Disparo Perfurante Aperfeiçoado",
+			"ruRU": "Усиленный пробивающий выстрел",
+			"trTR": "Geliştirilmiş Delici Atış",
+			"zhCN": "强化穿透射击",
+			"zhTW": "強化穿透射擊"
 },
 		descriptionLocalized: {
 			"deDE": "Durchschlagender Schuss verursacht x10% mehr Schaden pro durchschlagenem Gegner.",
@@ -1253,14 +1253,14 @@ Tags: Core, Marksman, Imbueable, Damage, Physical, Energy.`,
 			"zhCN": "穿透射击每穿透一名敌人, 造成的伤害就会提高 x10%。",
 			"zhTW": "穿透射擊每貫穿一個敵人,造成的傷害提高 x10%。"
 },
-		id: 31,
+		id: 29,
 		maxPoints: 1,
 		x: 3.43,
 		y: 491.945
 	},
 	"Advanced Penetrating Shot": {
 		baseSkill: "Penetrating Shot",
-		connections: [ "Improved Penetrating Shot" ],
+		connections: [ "Enhanced Penetrating Shot" ],
 		description: `When cast with full Energy, Penetrating Shot will Slow all enemies it hits by 50% for 3 seconds. Elite enemies will also be Knocked Down for 1.5 seconds.`,
 		nameLocalized: {
 			"deDE": "Weiterentwickelter Durchschlagender Schuss",
@@ -1297,24 +1297,24 @@ Tags: Core, Marksman, Imbueable, Damage, Physical, Energy.`,
 		x: -151.43,
 		y: 600.305
 	},
-	"Enhanced Penetrating Shot": {
+	"Improved Penetrating Shot": {
 		baseSkill: "Penetrating Shot",
-		connections: [ "Improved Penetrating Shot" ],
+		connections: [ "Enhanced Penetrating Shot" ],
 		description: `Penetrating Shot has a +10% increased Critical Strike Chance. If Penetrating Shot damages at least 3 enemies, you gain +10% increased Critical Strike Chance for 5 seconds.`,
 		nameLocalized: {
-			"deDE": "Verbesserter Durchschlagender Schuss",
-			"esES": "Disparo penetrante mejorado",
-			"esMX": "Disparo Penetrante Potenciado",
-			"frFR": "Tir pénétrant renforcé",
-			"itIT": "Tiro Penetrante Rinforzato",
-			"jaJP": "貫通射撃(強化)",
-			"koKR": "강화된 꿰뚫는 사격",
-			"plPL": "Wzmocniony Przebijający Strzał",
-			"ptBR": "Disparo Perfurante Aperfeiçoado",
-			"ruRU": "Усиленный пробивающий выстрел",
-			"trTR": "Geliştirilmiş Delici Atış",
-			"zhCN": "强化穿透射击",
-			"zhTW": "強化穿透射擊"
+			"deDE": "Geübter Durchschlagender Schuss",
+			"esES": "Disparo penetrante perfeccionado",
+			"esMX": "Disparo Penetrante Mejorado",
+			"frFR": "Tir pénétrant amélioré",
+			"itIT": "Tiro Penetrante Migliorato",
+			"jaJP": "貫通射撃(改良)",
+			"koKR": "향상된 꿰뚫는 사격",
+			"plPL": "Ulepszony Przebijający Strzał",
+			"ptBR": "Disparo Perfurante Aprimorado",
+			"ruRU": "Улучшенный пробивающий выстрел",
+			"trTR": "İyileştirilmiş Delici Atış",
+			"zhCN": "强力穿透射击",
+			"zhTW": "改良穿透射擊"
 },
 		descriptionLocalized: {
 			"deDE": "Durchschlagender Schuss hat eine um +10% erhöhte kritische Trefferchance. Wenn Durchschlagender Schuss mindestens 3 Gegnern Schaden zufügt, erhaltet Ihr 5 Sekunden lang eine um +10% erhöhte kritische Trefferchance.",
@@ -1331,7 +1331,7 @@ Tags: Core, Marksman, Imbueable, Damage, Physical, Energy.`,
 			"zhCN": "穿透射击的暴击几率提高 +10%。如果穿透射击对至少 3 名敌人造成伤害, 你的暴击几率提高 +10%, 持续 5 秒。",
 			"zhTW": "穿透射擊有額外 +10% 爆擊機率。若穿透射擊對至少 3 個敵人造成傷害,你的爆擊機率提高 +10%,持續 5 秒。"
 },
-		id: 29,
+		id: 31,
 		maxPoints: 1,
 		x: 167.52,
 		y: 602.47

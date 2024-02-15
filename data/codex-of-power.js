@@ -285,7 +285,7 @@ let codexData = {
 				"nameLocalized": {
 					"deDE": "[ms]Raufender[fs]Raufende[ns]Raufendes[p]Raufende[c]Raufbold-",
 					"esES": "de luchador",
-					"esMX": "del Combatiente",
+					"esMX": "de Combatiente",
 					"frFR": "du combat",
 					"itIT": "del Rissoso",
 					"jaJP": "喧嘩屋が携えし",
@@ -519,7 +519,7 @@ let codexData = {
 				"nameLocalized": {
 					"deDE": "[ms]Erfahrener[fs]Erfahrene[ns]Erfahrenes[p]Erfahrene[c]Erfahrenen-",
 					"esES": "de veteranía en liza",
-					"esMX": "del Combatiente Veterano",
+					"esMX": "de Combatiente Veterano",
 					"frFR": "de vétéran du combat",
 					"itIT": "del Rissoso Veterano",
 					"jaJP": "熟練の格闘家の",
@@ -727,9 +727,9 @@ let codexData = {
 					"plPL": "Co 25.0 sek. Wypiętrzenie gwarantuje przytłoczenie wroga i obrażenia zwiększone o x{10/20}%. Ten czas jest skracany o 4.0 sek., kiedy Wypiętrzenie przytłacza bossa lub elitarnego wroga.",
 					"ptBR": "A cada 25.0 s, Revolta é sempre um Golpe Brutal e causa x{10/20}% de dano adicional. O temporizador é reduzido em 4.0 s quando Revolta desfere um Golpe Brutal em um chefe ou inimigo de elite.",
 					"ruRU": "Раз в 25.0 сек. \"Выброс земли\" гарантированно наносит подавляющий урон, увеличенный на x{10/20}%. Время восстановления сокращается на 4.0 сек., если \"Выброс земли\" наносит подавляющий урон боссу или особому противнику.",
-					"trTR": "Ayaklanma her 25.0 saniyede bir kez kesin olarak Aşırı Güçlenir ve x{10/20}% artırılmış hasar verir. Ayaklanma, bir Patrona veya Seçkin bir düşmana karşı Aşırı Güçlenirse süre 4.0 saniye kısalır.",
+					"trTR": "Ayaklanma her 25.0 saniyede bir kez kesin olarak Aşırı Güçlenir ve x{10/20}% artırılmış hasar verir. Ayaklanma, bir Patrona veya Seçkin bir düşmana karşı Aşırı Güçlenirse bu süre 4.0 saniye kısalır.",
 					"zhCN": "每隔 25.0 秒,扬石飞沙必定造成压制,并且伤害提高 x{10/20}%。当扬石飞沙对首领或精英敌人造成压制时,该效果的触发间隔缩短 4.0 秒。",
-					"zhTW": "每經過 25.0 秒,動盪震擊必定會造成壓制且造成的傷害提高 x{10/20}%。當動盪震擊對首領或精英怪造成壓制時,此計時器縮短 4.0 秒。"
+					"zhTW": "每經過 25.0 秒,動盪震擊必定會造成壓制且造成的傷害提高 x{10/20}%。當動盪震擊對首領或精英敵人造成壓制時,此計時器縮短 4.0 秒。"
 				},
 				"dungeon": "",
 				"region": ""
@@ -1131,7 +1131,7 @@ let codexData = {
 					"itIT": "[ms]Elmo con Zanne di Joritz il Poderoso",
 					"jaJP": "鉄人ジョリッツの牙付き兜",
 					"koKR": "위대한 조리츠의 엄니 투구",
-					"plPL": "Rogaty Hełm Joritza Mocarnego",
+					"plPL": "[ms]Rogaty Hełm Joritza Mocarnego",
 					"ptBR": "[ms]Elmo de Presas de Joritz, o Poderoso",
 					"ruRU": "[ms]Клыкастый шлем Йорица Могучего",
 					"trTR": "Kudretli Joritz'in Dişten Miğferi",
@@ -1200,7 +1200,7 @@ let codexData = {
 					"itIT": "La durata di Lacerazione aumenta di {2/4} s.\n\nInfliggere danni ai nemici con le abilità di Rissa applica 2.0 accumuli del sanguinamento di Lacerazione. Questo effetto può colpire ogni nemico solo una volta ogni 4.0 s.",
 					"jaJP": "〈レンド〉の持続時間が{2/4}秒延長される。\n\n決闘スキルで敵にダメージを与えると、〈レンド〉の流血効果が2.0個蓄積する。この効果が発動するのは、それぞれの敵に対し4.0秒に1回のみ。",
 					"koKR": "분쇄의 지속시간이 {2/4}초 증가합니다.\n\n난투기술로 적에게 피해를 주면 2.0 중첩의 분쇄 출혈을 부여합니다. 이 효과는 각각의 적에게 4.0초에 한 번씩만 적용됩니다.",
-					"plPL": "Czas działania rozprucia jest zwiększony o {2/4} sek.\n\nZadawanie obrażeń wrogom za pomocą umiejętności Bijatyki wywołuje kumulację efektu krwawienia rozprucia 2.0 razy. Każdy wróg może zostać dotknięty tym efektem tylko raz na 4.0 sek.",
+					"plPL": "Czas działania Rozprucia jest zwiększony o {2/4} sek.\n\nZadawanie obrażeń wrogom za pomocą umiejętności Bijatyki wywołuje kumulację efektu krwawienia rozprucia 2.0 razy. Każdy wróg może zostać dotknięty tym efektem tylko raz na 4.0 sek.",
 					"ptBR": "A duração de Despedaçar é aumentada em {2/4} s.\nCausar dano a inimigos com suas habilidades de briga coloca 2.0 aplicações do Sangramento de Despedaçar. Isso só pode afetar cada inimigo uma vez a cada 4.0 s.",
 					"ruRU": "Время действия \"Рваных ран\" продлевается на {2/4} сек.\n\nКогда умения категории \"Бой без правил\" наносят противникам урон, они применяют к целям 2.0 эффекта кровотечения:эффектов кровотечения от умения \"Рваные раны\". Может применяться к каждому противнику не чаще раза в 4.0 сек.",
 					"trTR": "Parçala süresi {2/4} saniye artar.\n\nDüşmanlara Kapışma Yetenekleriyle hasar vermek 2.0 Parçala Kanaması birikimi uygular. Bir düşmana yalnızca her 4.0 saniyede bir kez etki edebilir.",
@@ -1238,7 +1238,7 @@ let codexData = {
 					"jaJP": "武器の達人の",
 					"koKR": "무기 전문가의",
 					"plPL": "[ms]Fechmistrzowski[fs]Fechmistrzowska[ns]Fechmistrzowskie[p]Fechmistrzowskie",
-					"ptBR": "de Mestre em Armas",
+					"ptBR": "[fs]Mestre em Armas[ms]Mestre em Armas[fp]Mestres em Armas[mp]Mestres em Armas",
 					"ruRU": "[ms]высококлассный[fs]высококлассная[ns]высококлассное[p]высококлассные",
 					"trTR": "[n2]Silah Ustasının",
 					"zhCN": "武器大师的",
@@ -3418,7 +3418,7 @@ let codexData = {
 				"nameLocalized": {
 					"deDE": "Dolmenstein",
 					"esES": "[fs]Piedra de dolmen",
-					"esMX": "Piedra de Dolmen",
+					"esMX": "[fs]Piedra de Dolmen",
 					"frFR": "[fs]Pierre de dolmen",
 					"itIT": "[fs]Pietra del Dolmen",
 					"jaJP": "支石墓の石",
@@ -3914,7 +3914,7 @@ let codexData = {
 					"frFR": "Coup de chance: les compétences de tempête ont jusqu'à {15/25}% de chances d'octroyer 4.0 points d'esprit.\n\nVos compétences de tempête de base sont désormais également des compétences de lycanthrope.",
 					"itIT": "Colpo fortunato: le abilità di Tempesta hanno fino al {15/25}% di probabilità di generare 4.0 spirito.\n\nLe tue abilità Base di Tempesta ora sono anche abilità da Lupo Mannaro.",
 					"jaJP": "幸運の一撃: 嵐スキルを使用すると最大{15/25}%の確率で精神力を4.0得る。\n\n基本嵐スキルが人狼スキルの性質も持つ。",
-					"koKR": "행운의 적중:폭풍 기술이 최대 {15/25}% 확률로 영력을 4.0 부여합니다.\n\n기본 폭풍 기술이 늑대인간 기술로도 취급됩니다.",
+					"koKR": "행운의 적중: 폭풍 기술이 최대 {15/25}% 확률로 영력을 4.0 부여합니다.\n\n기본 폭풍 기술이 늑대인간 기술로도 취급됩니다.",
 					"plPL": "Szczęśliwy traf: Umiejętności Burzy mają maksymalnie {15/25}% szans na przyznanie 4.0 pkt. siły duchowej.\n\nTwoje podstawowe umiejętności Burzy stają się również umiejętnościami Wilkołaka.",
 					"ptBR": "Golpe de Sorte: Habilidades de Tempestade têm até {15/25}% de chance de conceder 4.0 de espírito.\n\nSuas habilidades de Tempestade básicas agora também são habilidades de Lobisomem.",
 					"ruRU": "Удачный удар: умения бури с вероятностью до {15/25}% дают 4.0 ед. духа.\n\nБазовые умения бури теперь также считаются умениями волка.",
@@ -4344,7 +4344,7 @@ let codexData = {
 					"esES": "[fs]vigorosa[ms]vigoroso[fp]vigorosas[mp]vigorosos",
 					"esMX": "Vigoroso",
 					"frFR": "[ms]vigoureux[fs]vigoureuse[mp]vigoureux[fp]vigoureuses",
-					"itIT": "del Vigore",
+					"itIT": "[fs]Vigorosa[ms]Vigoroso[fp]Vigorose[mp]Vigorosi",
 					"jaJP": "頑健なる者の",
 					"koKR": "원기",
 					"plPL": "[ms]Energiczny[fs]Energiczna[ns]Energiczne[p]Energiczne",
@@ -4651,7 +4651,7 @@ let codexData = {
 					"ptBR": "[fs]Arrogante[ms]Arrogante[fp]Arrogantes[mp]Arrogantes",
 					"ruRU": "[ms]высокомерный[fs]высокомерная[ns]высокомерное[p]высокомерные",
 					"trTR": "[n1]Kibirli",
-					"zhCN": "骄狂",
+					"zhCN": "嚣狂",
 					"zhTW": "自負"
 				},
 				"descriptionLocalized": {
@@ -4681,7 +4681,7 @@ let codexData = {
 					"esES": "de reprensión",
 					"esMX": "de Retribución",
 					"frFR": "de vindicte",
-					"itIT": "della Punizione",
+					"itIT": "del Castigo",
 					"jaJP": "因果応報の",
 					"koKR": "응보의",
 					"plPL": "Pomsty",
@@ -4924,7 +4924,7 @@ let codexData = {
 					"plPL": "Obrażenia zadawane określonymi zbiorami typów obrażeń zwiększają się o x{20/30}% na 7.0 sek. Ten efekt obowiązuje na zmianę w 2 zbiorach:\n• Obrażenia od Ognia, Błyskawicy i obrażenia fizyczne.\n• Obrażenia od Zimna, Trucizny i Cienia.",
 					"ptBR": "Você recebe x{20/30}% de dano adicional para um conjunto de tipos de dano por 7.0 s. Esse efeito se alterna entre 2 conjuntos:\n• Ígneo, elétrico e físico.\n• Gélido, venenoso e de sombra.",
 					"ruRU": "Усиливает несколько видов урона на x{20/30}% на 7.0 сек. Поочередно выбирается один из двух наборов урона:\n• огонь, молния и физический.\n• холод, яд и темная магия.",
-					"trTR": "Bir hasar türü grubuna karşı 7.0 saniye boyunca x{20/30}% artırılmış hasar kazan. Bu etki 2 set arasında değişir:\n• Ateş, Yıldırım ve Fiziksel.\n• Soğuk, Zehir ve Gölge.",
+					"trTR": "Bir hasar türü grubuna 7.0 saniye boyunca x{20/30}% artırılmış hasar kazan. Bu etki 2 set arasında değişir:\n• Ateş, Yıldırım ve Fiziksel.\n• Soğuk, Zehir ve Gölge.",
 					"zhCN": "获得对一组伤害类型 x{20/30}% 的伤害提升,持续 7.0 秒。该效果会在 2 组伤害类型之间交替:\n• 火焰、闪电和物理。\n• 冰霜、毒素和暗影。",
 					"zhTW": "使其中一組屬性的傷害提高 x{20/30}%,持續 7.0 秒。此效果會在 2 組屬性之間切換:\n• 火焰、閃電和物理。\n• 冰寒、毒素和暗影。"
 				},
@@ -4990,7 +4990,7 @@ let codexData = {
 				"type": "Unique",
 				"slot": "1H Sword",
 				"dropLevel": 85,
-				"dropWeight": 1,
+				"dropWeight": 1350,
 				"description": "Lucky Hit: Up to a 25% chance to deal {#} Shadow damage to surrounding enemies and reduce their damage done by 20.0% for 5.0 seconds.",
 				"flavor": "Whenever this ancient sword has reappeared throughout history, it portends a time of great strife, as well as a devastating loss of life.",
 				"nameLocalized": {
@@ -5047,7 +5047,7 @@ let codexData = {
 				"type": "Unique",
 				"slot": "2H Staff",
 				"dropLevel": 85,
-				"dropWeight": 1,
+				"dropWeight": 1350,
 				"description": "Gain a random Shrine effect for 20 seconds after killing an Elite enemy. Can only occur once every 30.0 seconds.",
 				"flavor": "\"The angel Lycander left us a portion of her power in this spear. It is all the proof I need that she watches over us still.\"\n- Oracle Argoysni",
 				"nameLocalized": {
@@ -5101,7 +5101,7 @@ let codexData = {
 				"type": "Unique",
 				"slot": "2H Sword",
 				"dropLevel": 85,
-				"dropWeight": 1,
+				"dropWeight": 1350,
 				"description": "Increases your Critical Strike Damage by x100%. The other properties on this weapon can roll higher than normal.",
 				"flavor": "An unbroken lineage of unwavering strength.",
 				"nameLocalized": {
@@ -5374,7 +5374,7 @@ let codexData = {
 				"type": "Unique",
 				"slot": "Helm",
 				"dropLevel": 85,
-				"dropWeight": 1,
+				"dropWeight": 1350,
 				"description": "Lucky Hit: Up to a 20% chance to trigger a poison nova that applies {#} Poisoning damage over 5.0 seconds to enemies in the area.",
 				"flavor": "The horrific whispers of the Maiden of Anguish flicker through your mind, pushing you ever closer to madness...",
 				"nameLocalized": {
@@ -5692,7 +5692,7 @@ let codexData = {
 				"type": "Unique",
 				"slot": "Amulet",
 				"dropLevel": 85,
-				"dropWeight": 1,
+				"dropWeight": 1350,
 				"description": "Gain 60.0 Maximum Resource.\n\nWhen taking damage, 75.0% is drained as 2 Resource for every 1.0% of Maximum Life you would have lost.",
 				"flavor": "\"Do not allow your passions to become obsessions. Fuel the fire that burns within you, but it is madness to allow yourself to become ash to please an uncaring universe.\"\n- Last words of Master Selig",
 				"nameLocalized": {
@@ -5811,7 +5811,7 @@ let codexData = {
 					"itIT": "[ms]Gelardente",
 					"jaJP": "フロストバーン",
 					"koKR": "서리불꽃",
-					"plPL": "Odmrażający Płomień",
+					"plPL": "[ms]Odmrażający Płomień",
 					"ptBR": "[fs]Queimadura de Gelo",
 					"ruRU": "[ms]Обжигающий холод",
 					"trTR": "Buz Yakması",
@@ -5854,7 +5854,7 @@ let codexData = {
 				"type": "Unique",
 				"slot": "Helm",
 				"dropLevel": 85,
-				"dropWeight": 1,
+				"dropWeight": 1350,
 				"description": "Gain 20% Damage Reduction. In addition, gain +4.0 Ranks to all Skills.",
 				"flavor": "\"This headdress was once worn by an assassin disguised as a court mage. Her treachery was unveiled, but not before she used its magic to curse the king's entire lineage.\"\n- The Fall of House Aston",
 				"nameLocalized": {
@@ -6220,7 +6220,7 @@ let codexData = {
 				"type": "Unique",
 				"slot": "Ring",
 				"dropLevel": 85,
-				"dropWeight": 1,
+				"dropWeight": 1350,
 				"description": "Spending your Primary Resource reduces the Resource cost of your Skills and increases your damage by x10% for 3.0 seconds, up to x40%.",
 				"flavor": "\"Yours is the power to pluck the stars from the heavens with the ease of a child gathering fruit from the bough.\"\n- Unknown",
 				"nameLocalized": {
@@ -6280,7 +6280,7 @@ let codexData = {
 					"esES": "de poderío",
 					"esMX": "de Poder",
 					"frFR": "de toute-puissance",
-					"itIT": "della Potenza",
+					"itIT": "della Possenza",
 					"jaJP": "腕力の",
 					"koKR": "위세의",
 					"plPL": "Mocy",
@@ -8659,7 +8659,7 @@ let codexData = {
 					"itIT": "[fp]Brache della Luna di Sangue",
 					"jaJP": "鮮血の月のズボン",
 					"koKR": "핏빛 달의 무릎바지",
-					"plPL": "Bryczesy Krwawego Księżyca",
+					"plPL": "[p]Bryczesy Krwawego Księżyca",
 					"ptBR": "[fp]Calças da Lua Sangrenta",
 					"ruRU": "[p]Брюки кровавой луны",
 					"trTR": "Kanlı Ay Pantolonu",
@@ -9608,7 +9608,7 @@ let codexData = {
 					"zhTW": "寒冰鍊金師"
 				},
 				"descriptionLocalized": {
-					"deDE": "Glückstreffer: Fertigkeiten mit Schatteninfusion haben eine Chance von bis zu 75.0%, eine Explosion zu erzeugen, die dem Ziel und Gegnern in der Nähe {#} Kälteschaden zufügt und sie 25.0% lang unterkühlt. Waren diese Gegner bereits zuvor unterkühlt oder eingefroren, erhöht sich dieser Schaden um x100.0%.",
+					"deDE": "Glückstreffer: Fertigkeiten mit Schatteninfusion haben eine Chance von bis zu 75.0%, eine Explosion zu erzeugen, die dem Ziel und Gegnern in der Nähe {#} Kälteschaden zufügt und sie für 25.0% unterkühlt. Waren diese Gegner bereits zuvor unterkühlt oder eingefroren, erhöht sich dieser Schaden um x100.0%.",
 					"esES": "Golpe de suerte: Las habilidades imbuidas de sombra tienen hasta un 75.0% de probabilidad de provocar una explosión tóxica que inflige {#} de daño de frío al objetivo y a los enemigos cercanos, y los hiela un 25.0%. Si ya estaban helados o congelados, este daño aumenta un x100.0%.",
 					"esMX": "Golpe afortunado: Las habilidades de Imbuición Umbría tienen hasta un 75.0% de probabilidad de liberar una explosión que inflige {#} de daño de frío al objetivo y a los enemigos circundantes, lo que los hiela por un 25.0%. Si ya estaban helados o congelados, aumenta ese daño un x100.0%.",
 					"frFR": "Coup de chance: les compétences imprégnées d'ombre ont jusqu'à 75.0% de chances de déclencher une explosion infligeant {#}points de dégâts de froid à la cible ainsi qu'aux adversaires à proximité, ce qui les glace à hauteur de 25.0%. Si les cibles étaient déjà glacées ou gelées, ces dégâts augmentent de x100.0%.",
@@ -10375,7 +10375,7 @@ let codexData = {
 					"zhTW": "殞獸長靴"
 				},
 				"descriptionLocalized": {
-					"deDE": "Wirkt Ihr eine ultimative Fertigkeit, verbraucht Eure nächste Kernfertigkeit Eure gesamte Energie und verursacht x{0.5/1.5}% erhöhten Schaden pro verbrauchter Energie.\n\nDie Verwendung einer Abklingzeit stellt 5.0 Energie wieder her.",
+					"deDE": "Wirkt Ihr eine ultimative Fertigkeit, verbraucht Eure nächste Kernfertigkeit Eure gesamte Energie und verursacht x{0.5/1.5}% erhöhten Schaden pro verbrauchter Energie.\n\nBei der Nutzung einer Abklingzeit wird 5.0 Energie wiederhergestellt.",
 					"esES": "Cuando lanzas una habilidad definitiva, tu siguiente habilidad principal consume toda tu energía e inflige un x{0.5/1.5}% más de daño por cada punto de energía consumido.\n\nUsar un tiempo de reutilización restaura 5.0 de energía.",
 					"esMX": "Cuando lanzas una habilidad máxima, tu próxima habilidad principal consumirá toda tu energía e infligirá x{0.5/1.5}% más de daño por cada punto de energía consumido.\n\nUsar una recuperación repone 5.0 de energía.",
 					"frFR": "Lorsque vous utilisez une compétence ultime, votre compétence principale suivante consomme toute votre énergie et inflige x{0.5/1.5}% de dégâts supplémentaires par point d'énergie consommé.\n\nUtiliser une compétence avec temps de recharge restaure 5.0 points d'énergie.",
@@ -11019,7 +11019,7 @@ let codexData = {
 					"ruRU": "Лишаясь \"Маскировки\", вы получаете +10.0% к сопротивлению и максимальному сопротивлению всем стихиям на 4.0 сек.\n\nПосле убийства особого противника время восстановления \"Маскировки\" сокращается на {6/10} сек.",
 					"trTR": "Gizlenmeyi bozmak 4.0 saniye boyunca Tüm Elementlere Direnci ve Maksimum Direnci +10.0% artırır.\n\nSeçkin düşman öldürmek, Gizlenme yeteneğinin Bekleme Süresini {6/10} saniye azaltır.",
 					"zhCN": "打破隐蔽状态会获得+10.0% 全元素抗性和抗性上限,持续 4.0 秒。\n\n消灭一个精英敌人可使隐蔽的冷却时间缩短 {6/10} 秒。",
-					"zhTW": "脫離隱匿會獲得 +10.0% 抗性和全元素抗性上限,持續 4.0 秒。\n\n擊殺精英怪敵人會縮短隱匿的冷卻時間 {6/10} 秒。"
+					"zhTW": "脫離隱匿會獲得 +10.0% 抗性和全元素抗性上限,持續 4.0 秒。\n\n擊殺精英敵人會縮短隱匿的冷卻時間 {6/10} 秒。"
 				},
 				"dungeon": "",
 				"region": ""
@@ -11313,7 +11313,7 @@ let codexData = {
 					"esES": "de hipotermia",
 					"esMX": "Congelado",
 					"frFR": "d'engelure",
-					"itIT": "Mordigelo",
+					"itIT": "dell'Ipotermia",
 					"jaJP": "氷撃の",
 					"koKR": "동상에 걸린",
 					"plPL": "[ms]Zmrożony[fs]Zmrożona[ns]Zmrożone[p]Zmrożone",
@@ -11576,7 +11576,7 @@ let codexData = {
 					"deDE": "[ms]Zerschmetterter[fs]Zerschmetterte[ns]Zerschmettertes[p]Zerschmetterte[c]Zerschmetterungs-",
 					"esES": "[fs]destrozada[ms]destrozado[fp]destrozadas[mp]destrozados",
 					"esMX": "Destruido",
-					"frFR": "[ms]fracassant[fs]fracassante[mp]fracassants[fp]fracassantes",
+					"frFR": "[ms]fracassé[fs]fracassée[mp]fracassés[fp]fracassées",
 					"itIT": "[fs]Infranta[ms]Infranto[fp]Infrante[mp]Infranti",
 					"jaJP": "砕かれし",
 					"koKR": "산산조각 난",
@@ -12486,7 +12486,7 @@ let codexData = {
 					"plPL": "Szczęśliwy traf: Kiedy twoje umiejętności Przywoływania trafiają w cel, masz {30/40}% szans na zyskanie +1.0 do rangi umiejętności Przywoływania przez 12.0 sek. Efekt ten może kumulować się maksymalnie 3.0 razy.",
 					"ptBR": "Golpe de Sorte: Quando suas habilidades de Conjuração acertarem, você tem até {30/40}% de chance de ganhar +1.0 ranques das suas habilidades de Conjuração por 12.0 s. Pode acumular até 3.0 vezes.",
 					"ruRU": "Удачный удар: попадания умений категории \"Колдовство\" с вероятностью до {30/40}% повышают уровень умений этой категории на 1.0 на 12.0 сек. Эффект суммируется до 3.0 раз.",
-					"trTR": "Şanslı Vuruş: Çağrı Yeteneklerin isabet ettiğinde 12.0 saniyeliğine en fazla {30/40}% ihtimalle +1.0 Kademe kazanırsın. En fazla 3.0 kez birikebilir.",
+					"trTR": "Şanslı Vuruş: Çağrı Yeteneklerin isabet ettiğinde 12.0 saniyeliğine en fazla {30/40}% ihtimalle Çağrı Yeteneklerine +1.0 Kademe kazanırsın. En fazla 3.0 kez birikebilir.",
 					"zhCN": "幸运一击:当你的召法技能命中时, 你有至多 {30/40}% 几率使你的召法技能获得 +1.0 级别, 持续 12.0 秒。该效果至多叠加 3.0 次。",
 					"zhTW": "幸運觸發:當你的咒喚技能命中時,你的咒喚技能等級最多有 {30/40}% 的機率 +1.0,持續 12.0 秒。最多可以堆疊 3.0 次。"
 				},
@@ -12981,7 +12981,7 @@ let codexData = {
 					"frFR": "Météore dispose désormais de 2.0 charges et d'un temps de recharge de {6/11} s (au lieu d'un coût en mana) et projette 3.0 météores supplémentaires autour de la cible.\n\nL'effet de l'enchantement de Météore et Météore renforcé projette 1.0 météores supplémentaires.",
 					"itIT": "Meteora ora ha 2.0 cariche con un tempo di recupero di {6/11} s, anziché prevedere un costo in mana, e fa cadere 3.0 meteore aggiuntive attorno al bersaglio.\n\nL'effetto incantamento di Meteora e Meteora Rinforzata fanno cadere 1.0 meteora aggiuntiva.",
 					"jaJP": "〈メテオ〉のチャージ数が2.0になり、マナを消費する代わりにチャージのクールダウンが{6/11}秒になって、標的の周囲に3.0個の追加の隕石を落とす。\n\n〈メテオ〉のエンチャントメント効果および〈メテオ(強化)〉により追加で1.0個の隕石を落とす。",
-					"koKR": "운석 낙하가 마나를 소모하는 대신 2.0회의 충전 횟수를 갖게 되며 {6/11}초마다 충전됩니다. 또한 대상 주위에 3.0개의 추가 유성을 떨어뜨립니다.\n\n운석 낙하의 마법부여 효과와 강화된 운석 낙하가 1.0개의 추가 운석을 떨어뜨립니다.",
+					"koKR": "운석 낙하가 마나를 소모하는 대신 2.0회의 충전 횟수를 갖게 되며 {6/11}초마다 충전됩니다. 또한 대상 주위에 3.0개의 추가 운석을 떨어뜨립니다.\n\n운석 낙하의 마법부여 효과와 강화된 운석 낙하가 1.0개의 추가 운석을 떨어뜨립니다.",
 					"plPL": "Meteoryt ma teraz 2.0 ładunki:ładunków o czasie odnowienia {6/11} sek. zamiast kosztu w manie. Dodatkowo 3.0 meteroryty spadają:meteorytów spada wokół celu.\n\nEfekt zaklinania meteorytu oraz wzmocniony meteoryt sprawiają, że z nieba spada 1.0 dodatkowy meteoryt.",
 					"ptBR": "Meteoro agora tem 2.0 cargas com uma recarga de investida de {6/11} s em vez de custo de mana e lança mais 3.0 meteoros ao redor do alvo.\n\nO efeito de encantamento de Meteoro e o Meteoro Aperfeiçoado lançam mais 1.0 meteoro.",
 					"ruRU": "\"Метеорит\" теперь не расходует ману, получает 2.0 заряда:зарядов и обрушивает в указанную область еще 3.0 метеорита:метеоритов. Время восстановления заряда – {6/11} сек.\n\nЭффект чар \"Метеорита\" и \"Усиленный метеорит\" обрушивают в область еще 1.0 метеорита:метеоритов.",
@@ -13016,7 +13016,7 @@ let codexData = {
 				"nameLocalized": {
 					"deDE": "Blaue Rose",
 					"esES": "[fs]Rosa azul",
-					"esMX": "Rosa Azul",
+					"esMX": "[ms]Rosa Azul",
 					"frFR": "[fs]Rose bleue",
 					"itIT": "[fs]Rosa Blu",
 					"jaJP": "青い薔薇",
@@ -13841,7 +13841,7 @@ let codexData = {
 					"zhTW": "奇才"
 				},
 				"descriptionLocalized": {
-					"deDE": "Die Verwendung einer Fertigkeit mit Abklingzeit stellt {15/25} Mana wieder her.",
+					"deDE": "Bei der Nutzung einer Fertigkeit mit Abklingzeit stellt {15/25} Mana wieder her.",
 					"esES": "Usar un tiempo de reutilización restaura {15/25} de maná.",
 					"esMX": "Usar una habilidad con recuperación restaura {15/25} de maná.",
 					"frFR": "Utiliser une compétence avec temps de recharge vous rend {15/25} points de mana.",
@@ -13888,7 +13888,7 @@ let codexData = {
 					"plPL": "Twoja regeneracja many jest zwiększona o x{40/50}%, jeśli twoja postać nie odniosła obrażeń w ciągu ostatnich 2.0 sek.",
 					"ptBR": "Sua regeneração de mana é aumentada em x{40/50}% se você não recebeu dano nos últimos 2.0 s.",
 					"ruRU": "Скорость восстановления маны повышается на x{40/50}%, если вы не получали урон за предыдущие 2.0 сек.",
-					"trTR": "Son 2.0] saniye içinde hasar almadıysan Mana Yenilemesi oranın x{40/50}% artar.",
+					"trTR": "Son 2.0 saniye içinde hasar almadıysan Mana Yenilemesi oranın x{40/50}% artar.",
 					"zhCN": "你在 2.0 秒内未受到伤害, 你的法力回复速度提高 x{40/50}%。",
 					"zhTW": "若 2.0 秒內沒有受到傷害,法力恢復提高 x{40/50}%。"
 				},
