@@ -47,9 +47,9 @@ barbarianData["Basic"] = {
 	"Bash": {
 		connections: [ "Basic", "Enhanced Bash" ],
 		description: `Attack Speed Multiplier: 1.25
-Generate Fury: 13
+Generate Fury: 15
 Lucky Hit Chance: 50% (per hit)
-Bash the enemy with your weapon, dealing {30/33/36/39/42/45/48/51/54/57}% damage. After bashing enemies 4 times, your next Bash will Stun for 1.25 seconds, this increases to 2 seconds if using a Two-Handed weapon.
+Bash the enemy with your weapon, dealing {33/36.3/39.6/42.9/46.2/49.5/52.8/56.1/59.4/62.7}% damage. After bashing enemies 4 times, your next Bash will Stun for 1.25 seconds, this increases to 2 seconds if using a Two-Handed weapon.
 
 Tags: Basic, Bludgeoning, Fury, Physical, Damage, Crowd Control, Two-Handed.`,
 		nameLocalized: {
@@ -68,19 +68,19 @@ Tags: Basic, Bludgeoning, Fury, Physical, Damage, Crowd Control, Two-Handed.`,
 			"zhTW": "猛擊"
 },
 		descriptionLocalized: {
-			"deDE": "Attack Speed Multiplier: 1.25\nErzeugte Wut: 13\nGlückstrefferchance: 50% (per hit)\nVersetzt dem Gegner einen Hieb mit Eurer Waffe und verursacht {30/33/36/39/42/45/48/51/54/57}% Schaden. Wenn Ihr Gegner 4 Mal getroffen habt, betäubt Euer nächster Hieb 1.25 Sek. lang. Wird auf 2 Sek. erhöht, wenn Ihr Zweihandwaffen verwendet.\n\nTags: Basis, Wuchtwaffe, Wut, Physisch, Schaden, Kontrollverlust, Zweihändig.",
-			"esES": "Attack Speed Multiplier: 1.25\nGeneración de furia: 13\nProbabilidad de golpe de suerte: 50% (per hit)\nAporreas al enemigo con tu arma y le infliges {30/33/36/39/42/45/48/51/54/57}% de daño. Tras aporrear enemigos 4 veces, tu siguiente Porrazo aturdirá durante 1.25 s, que aumentarán a 2 s si usas un arma de dos manos.\n\nTags: Básica, Contundente, Furia, Física, Daño, Control de masas, Dos manos.",
-			"esMX": "Attack Speed Multiplier: 1.25\nGeneración de Furia: 13\nProbabilidad de golpe afortunado: 50% (per hit)\nDas un porrazo al enemigo con tu arma e infliges {30/33/36/39/42/45/48/51/54/57}% de daño. Luego de dar porrazos a los enemigos 4 veces, tu próximo Porrazo aturdirá durante 1.25 segundos. Esto aumenta a 2 segundos si usas un arma de dos manos.\n\nTags: Básica, Impacto, Furia, Física, Daño, Control de multitudes, Dos manos.",
-			"frFR": "Attack Speed Multiplier: 1.25\nFureur générée: 13\nChances d'obtenir un coup de chance: 50% (per hit)\nVous frappez l'adversaire avec votre arme et lui infligez {30/33/36/39/42/45/48/51/54/57}% points de dégâts. Après avoir frappé des adversaires 4 fois, votre prochaine Raclée étourdira pendant 1.25 s, cette durée passant à 2 s si vous utilisez une arme à deux mains.\n\nTags: Basique, Arme contondante, Fureur, Dégâts physiques, Dégâts, Perte de contrôle, Arme à deux mains.",
-			"itIT": "Attack Speed Multiplier: 1.25\nGenerazione furia: 13\nProbabilità di colpo fortunato: 50% (per hit)\nColpisci il nemico con la tua arma, infliggendo {30/33/36/39/42/45/48/51/54/57}% danni. Dopo aver colpito i nemici 4 volte, il tuo prossimo Colpo poderoso stordirà il nemico per 1.25 s, che aumenteranno a 2 s se usi un'arma a due mani.\n\nTags: Base, Contundente, Furia, Fisico, Danni, Effetti debilitanti, A due mani.",
-			"jaJP": "Attack Speed Multiplier: 1.25\n怒気生成量: 13\n幸運の一撃発生率: 50% (per hit)\n武器で敵を強打し、{30/33/36/39/42/45/48/51/54/57}%のダメージを与える。敵を4回強打すると、次に繰り出した〈バッシュ〉に1.25秒間スタンさせる効果が加わる。両手用武器を使用している場合、この効果は2秒に増加する。\n\nTags: 基本, 殴打, 怒気, 物理, ダメージ, 操作障害効果, 両手用武器.",
-			"koKR": "Attack Speed Multiplier: 1.25\n생성: 분노 13\n행운의 적중 확률: 50% (per hit)\n무기로 적을 후려쳐, {30/33/36/39/42/45/48/51/54/57}%의 피해를 줍니다. 적을 4번 후려친 후 다음 후려치기 공격은 적을 1.25초 동안 기절시키며, 양손 무기를 사용 중일 경우 기절 시간이 2초로 증가합니다.\n\nTags: 기본, 둔기, 분노, 물리, 피해, 군중 제어, 양손 무기.",
-			"plPL": "Attack Speed Multiplier: 1.25\nGeneruje: 13 pkt. furii\nSzansa na szczęśliwy traf: 50% (per hit)\nGrzmotnij wroga bronią, zadając {30/33/36/39/42/45/48/51/54/57}% pkt. obrażeń. Po grzmotnięciu wrogów 4 razy twoje następne Grzmotnięcie ogłuszy na 1.25 sek., a efekt wydłuży się do 2 sek., jeśli korzystasz z broni dwuręcznej.\n\nTags: Podstawowe, Obuchowe, Furia, Fizyczne, Obrażenia, Ograniczanie Kontroli, Dwuręczne.",
-			"ptBR": "Attack Speed Multiplier: 1.25\nGerar Fúria: 13\nChance de Golpe de Sorte: 50% (per hit)\nGolpeia o inimigo com sua arma, causando {30/33/36/39/42/45/48/51/54/57}% de dano. Depois de golpear inimigos 4 vezes, seu próximo Trombar atordoará por 1.25 s. Isso aumenta para 2 s se estiver usando uma arma de duas mãos.\n\nTags: Básica, Concussão, Fúria, Física, Dano, Controle de Grupo, Duas mãos.",
-			"ruRU": "Attack Speed Multiplier: 1.25\nДает ярость: 13 ед.\nВероятность удачного удара: 50% (per hit)\nВы совершаете сокрушающий удар оружием, нанося противнику {30/33/36/39/42/45/48/51/54/57}% ед. урона. После 4 попаданий следующий \"Сокрушающий удар\" оглушает цель на 1.25 сек. Оглушение продлевается до 2 сек., если вы атакуете двуручным оружием.\n\nTags: Базовое, Дробящее оружие, Ярость, Физический урон, Урон, Контроль, Двуручное.",
-			"trTR": "Attack Speed Multiplier: 1.25\nHiddet Oluştur: 13\nŞanslı Vuruş İhtimali: 50% (per hit)\nSilahınla düşmana darbe indirerek {30/33/36/39/42/45/48/51/54/57}% hasar ver. Düşmanlara 4 kez darbe indirdikten sonra sonraki Darben, 1.25 saniyeliğine Sersemletir. Bir Çift El silah kullanılıyorsa bu süre artarak 2 saniye olur.\n\nTags: Temel, Ezici, Hiddet, Fiziksel, Hasar, Kitle Kontrolü, Çift El.",
-			"zhCN": "Attack Speed Multiplier: 1.25\n生成怒气: 13\n幸运一击几率: 50% (per hit)\n使用你的武器猛击敌人, 造成 {30/33/36/39/42/45/48/51/54/57}% 点伤害。猛击敌人 4 次后, 你的下一个猛击会击昏敌人 1.25 秒, 如果使用双手武器该效果提高至 2 秒。\n\nTags: 基础, 钝击, 怒气, 物理, 伤害, 控制, 双手.",
-			"zhTW": "Attack Speed Multiplier: 1.25\n產生怒氣:13\n幸運觸發機率: 50% (per hit)\n使用武器猛擊敵人時,造成 {30/33/36/39/42/45/48/51/54/57}% 點傷害。猛擊敵人 4 次後,你的下一個猛擊會擊昏 1.25 秒,若使用雙手武器則提高至 2 秒。\n\nTags: 基本, 鈍擊, 怒氣, 物理, 傷害, 控場, 雙手."
+			"deDE": "Attack Speed Multiplier: 1.25\nErzeugte Wut: 15\nGlückstrefferchance: 50% (per hit)\nVersetzt dem Gegner einen Hieb mit Eurer Waffe und verursacht {33/36.3/39.6/42.9/46.2/49.5/52.8/56.1/59.4/62.7}% Schaden. Wenn Ihr Gegner 4 Mal getroffen habt, betäubt Euer nächster Hieb 1.25 Sek. lang. Wird auf 2 Sek. erhöht, wenn Ihr Zweihandwaffen verwendet.\n\nTags: Basis, Wuchtwaffe, Wut, Physisch, Schaden, Kontrollverlust, Zweihändig.",
+			"esES": "Attack Speed Multiplier: 1.25\nGeneración de furia: 15\nProbabilidad de golpe de suerte: 50% (per hit)\nAporreas al enemigo con tu arma y le infliges {33/36.3/39.6/42.9/46.2/49.5/52.8/56.1/59.4/62.7}% de daño. Tras aporrear enemigos 4 veces, tu siguiente Porrazo aturdirá durante 1.25 s, que aumentarán a 2 s si usas un arma de dos manos.\n\nTags: Básica, Contundente, Furia, Física, Daño, Control de masas, Dos manos.",
+			"esMX": "Attack Speed Multiplier: 1.25\nGeneración de Furia: 15\nProbabilidad de golpe afortunado: 50% (per hit)\nDas un porrazo al enemigo con tu arma e infliges {33/36.3/39.6/42.9/46.2/49.5/52.8/56.1/59.4/62.7}% de daño. Luego de dar porrazos a los enemigos 4 veces, tu próximo Porrazo aturdirá durante 1.25 segundos. Esto aumenta a 2 segundos si usas un arma de dos manos.\n\nTags: Básica, Impacto, Furia, Física, Daño, Control de multitudes, Dos manos.",
+			"frFR": "Attack Speed Multiplier: 1.25\nFureur générée: 15\nChances d'obtenir un coup de chance: 50% (per hit)\nVous frappez l'adversaire avec votre arme et lui infligez {33/36.3/39.6/42.9/46.2/49.5/52.8/56.1/59.4/62.7}% points de dégâts. Après avoir frappé des adversaires 4 fois, votre prochaine Raclée étourdira pendant 1.25 s, cette durée passant à 2 s si vous utilisez une arme à deux mains.\n\nTags: Basique, Arme contondante, Fureur, Dégâts physiques, Dégâts, Perte de contrôle, Arme à deux mains.",
+			"itIT": "Attack Speed Multiplier: 1.25\nGenerazione furia: 15\nProbabilità di colpo fortunato: 50% (per hit)\nColpisci il nemico con la tua arma, infliggendo {33/36.3/39.6/42.9/46.2/49.5/52.8/56.1/59.4/62.7}% danni. Dopo aver colpito i nemici 4 volte, il tuo prossimo Colpo poderoso stordirà il nemico per 1.25 s, che aumenteranno a 2 s se usi un'arma a due mani.\n\nTags: Base, Contundente, Furia, Fisico, Danni, Effetti debilitanti, A due mani.",
+			"jaJP": "Attack Speed Multiplier: 1.25\n怒気生成量: 15\n幸運の一撃発生率: 50% (per hit)\n武器で敵を強打し、{33/36.3/39.6/42.9/46.2/49.5/52.8/56.1/59.4/62.7}%のダメージを与える。敵を4回強打すると、次に繰り出した〈バッシュ〉に1.25秒間スタンさせる効果が加わる。両手用武器を使用している場合、この効果は2秒に増加する。\n\nTags: 基本, 殴打, 怒気, 物理, ダメージ, 操作障害効果, 両手用武器.",
+			"koKR": "Attack Speed Multiplier: 1.25\n생성: 분노 15\n행운의 적중 확률: 50% (per hit)\n무기로 적을 후려쳐, {33/36.3/39.6/42.9/46.2/49.5/52.8/56.1/59.4/62.7}%의 피해를 줍니다. 적을 4번 후려친 후 다음 후려치기 공격은 적을 1.25초 동안 기절시키며, 양손 무기를 사용 중일 경우 기절 시간이 2초로 증가합니다.\n\nTags: 기본, 둔기, 분노, 물리, 피해, 군중 제어, 양손 무기.",
+			"plPL": "Attack Speed Multiplier: 1.25\nGeneruje: 15 pkt. furii\nSzansa na szczęśliwy traf: 50% (per hit)\nGrzmotnij wroga bronią, zadając {33/36.3/39.6/42.9/46.2/49.5/52.8/56.1/59.4/62.7}% pkt. obrażeń. Po grzmotnięciu wrogów 4 razy twoje następne Grzmotnięcie ogłuszy na 1.25 sek., a efekt wydłuży się do 2 sek., jeśli korzystasz z broni dwuręcznej.\n\nTags: Podstawowe, Obuchowe, Furia, Fizyczne, Obrażenia, Ograniczanie Kontroli, Dwuręczne.",
+			"ptBR": "Attack Speed Multiplier: 1.25\nGerar Fúria: 15\nChance de Golpe de Sorte: 50% (per hit)\nGolpeia o inimigo com sua arma, causando {33/36.3/39.6/42.9/46.2/49.5/52.8/56.1/59.4/62.7}% de dano. Depois de golpear inimigos 4 vezes, seu próximo Trombar atordoará por 1.25 s. Isso aumenta para 2 s se estiver usando uma arma de duas mãos.\n\nTags: Básica, Concussão, Fúria, Física, Dano, Controle de Grupo, Duas mãos.",
+			"ruRU": "Attack Speed Multiplier: 1.25\nДает ярость: 15 ед.\nВероятность удачного удара: 50% (per hit)\nВы совершаете сокрушающий удар оружием, нанося противнику {33/36.3/39.6/42.9/46.2/49.5/52.8/56.1/59.4/62.7}% ед. урона. После 4 попаданий следующий \"Сокрушающий удар\" оглушает цель на 1.25 сек. Оглушение продлевается до 2 сек., если вы атакуете двуручным оружием.\n\nTags: Базовое, Дробящее оружие, Ярость, Физический урон, Урон, Контроль, Двуручное.",
+			"trTR": "Attack Speed Multiplier: 1.25\nHiddet Oluştur: 15\nŞanslı Vuruş İhtimali: 50% (per hit)\nSilahınla düşmana darbe indirerek {33/36.3/39.6/42.9/46.2/49.5/52.8/56.1/59.4/62.7}% hasar ver. Düşmanlara 4 kez darbe indirdikten sonra sonraki Darben, 1.25 saniyeliğine Sersemletir. Bir Çift El silah kullanılıyorsa bu süre artarak 2 saniye olur.\n\nTags: Temel, Ezici, Hiddet, Fiziksel, Hasar, Kitle Kontrolü, Çift El.",
+			"zhCN": "Attack Speed Multiplier: 1.25\n生成怒气: 15\n幸运一击几率: 50% (per hit)\n使用你的武器猛击敌人, 造成 {33/36.3/39.6/42.9/46.2/49.5/52.8/56.1/59.4/62.7}% 点伤害。猛击敌人 4 次后, 你的下一个猛击会击昏敌人 1.25 秒, 如果使用双手武器该效果提高至 2 秒。\n\nTags: 基础, 钝击, 怒气, 物理, 伤害, 控制, 双手.",
+			"zhTW": "Attack Speed Multiplier: 1.25\n產生怒氣:15\n幸運觸發機率: 50% (per hit)\n使用武器猛擊敵人時,造成 {33/36.3/39.6/42.9/46.2/49.5/52.8/56.1/59.4/62.7}% 點傷害。猛擊敵人 4 次後,你的下一個猛擊會擊昏 1.25 秒,若使用雙手武器則提高至 2 秒。\n\nTags: 基本, 鈍擊, 怒氣, 物理, 傷害, 控場, 雙手."
 },
 		id: 0,
 		maxPoints: 5,
@@ -129,7 +129,7 @@ Tags: Basic, Bludgeoning, Fury, Physical, Damage, Crowd Control, Two-Handed.`,
 	"Battle Bash": {
 		baseSkill: "Bash",
 		connections: [ "Enhanced Bash" ],
-		description: `Damaging a Stunned enemy with Bash generates an additional 3 Fury, or 4 Fury if using a Two-Handed weapon.`,
+		description: `Damaging a Stunned enemy with Bash generates an additional 5 Fury, or 10 Fury if using a Two-Handed weapon.`,
 		nameLocalized: {
 			"deDE": "Schlachthieb",
 			"esES": "Porrazo de batalla",
@@ -146,19 +146,19 @@ Tags: Basic, Bludgeoning, Fury, Physical, Damage, Crowd Control, Two-Handed.`,
 			"zhTW": "戰鬥猛擊"
 },
 		descriptionLocalized: {
-			"deDE": "Wenn Ihr einem betäubten Gegner mit Hieb Schaden zufügt, werden zusätzlich 3 Wut erzeugt oder 4 Wut, wenn Ihr Zweihandwaffen verwendet.",
-			"esES": "Infligir daño a un enemigo aturdido con Porrazo genera 3 más de furia, o 4 de furia si usas un arma de dos manos.",
-			"esMX": "Infligir daño a un enemigo aturdido con Porrazo genera 3 más de Furia, o 4 de Furia si usas un arma de dos manos.",
-			"frFR": "Infliger des dégâts à une cible étourdie avec Raclée génère 3 points de fureur supplémentaires, ou 4 points de fureur supplémentaires si vous utilisez une arme à deux mains.",
-			"itIT": "Infliggere danni a un nemico stordito con Colpo Poderoso ti fornisce 3 furia aggiuntiva o 4 furia se usi un'arma a due mani.",
-			"jaJP": "スタン中の敵に〈バッシュ〉でダメージを与えると、追加で3の怒気を生成する。両手用武器を使用している場合は4の怒気を生成する。",
-			"koKR": "후려치기로 기절한 적에게 피해를 주면 추가로 3의 분노를 생성합니다. 양손 무기를 사용 중일 경우 4의 분노를 생성합니다.",
-			"plPL": "Zranienie ogłuszonego wroga Grzmotnięciem generuje dodatkowo 3 pkt. furii lub 4 pkt. furii, jeśli korzystasz z broni dwuręcznej.",
-			"ptBR": "Causar dano a um inimigo atordoado com Trombar gera 3 de fúria adicional ou 4 de fúria se estiver usando uma arma de duas mãos.",
-			"ruRU": "Когда \"Сокрушающий удар\" наносит урон оглушенному противнику, он дает на 3 ед. больше ярости – на 4, если вы атакуете двуручным оружием.",
-			"trTR": "Sersemletilmiş bir düşmana Darbe ile hasar vermek ilave 3 Hiddet veya bir Çift El silah kullanılıyorsa 4 Hiddet oluşturur.",
-			"zhCN": "使用猛击对被击昏敌人造成伤害可以额外生成 3 点怒气, 或者使用双手武器时生成 4 点怒气。",
-			"zhTW": "以猛擊對昏迷的敵人造成傷害,會產生額外 3 點怒氣,若使用雙手武器則為 4 點怒氣。"
+			"deDE": "Wenn Ihr einem betäubten Gegner mit Hieb Schaden zufügt, werden zusätzlich 5 Wut erzeugt oder 10 Wut, wenn Ihr Zweihandwaffen verwendet.",
+			"esES": "Infligir daño a un enemigo aturdido con Porrazo genera 5 más de furia, o 10 de furia si usas un arma de dos manos.",
+			"esMX": "Infligir daño a un enemigo aturdido con Porrazo genera 5 más de Furia, o 10 de Furia si usas un arma de dos manos.",
+			"frFR": "Infliger des dégâts à une cible étourdie avec Raclée génère 5 points de fureur supplémentaires, ou 10 points de fureur supplémentaires si vous utilisez une arme à deux mains.",
+			"itIT": "Infliggere danni a un nemico stordito con Colpo Poderoso ti fornisce 5 furia aggiuntiva o 10 furia se usi un'arma a due mani.",
+			"jaJP": "スタン中の敵に〈バッシュ〉でダメージを与えると、追加で5の怒気を生成する。両手用武器を使用している場合は10の怒気を生成する。",
+			"koKR": "후려치기로 기절한 적에게 피해를 주면 추가로 5의 분노를 생성합니다. 양손 무기를 사용 중일 경우 10의 분노를 생성합니다.",
+			"plPL": "Zranienie ogłuszonego wroga Grzmotnięciem generuje dodatkowo 5 pkt. furii lub 10 pkt. furii, jeśli korzystasz z broni dwuręcznej.",
+			"ptBR": "Causar dano a um inimigo atordoado com Trombar gera 5 de fúria adicional ou 10 de fúria se estiver usando uma arma de duas mãos.",
+			"ruRU": "Когда \"Сокрушающий удар\" наносит урон оглушенному противнику, он дает на 5 ед. больше ярости – на 10, если вы атакуете двуручным оружием.",
+			"trTR": "Sersemletilmiş bir düşmana Darbe ile hasar vermek ilave 5 Hiddet veya bir Çift El silah kullanılıyorsa 10 Hiddet oluşturur.",
+			"zhCN": "使用猛击对被击昏敌人造成伤害可以额外生成 5 点怒气, 或者使用双手武器时生成 10 点怒气。",
+			"zhTW": "以猛擊對昏迷的敵人造成傷害,會產生額外 5 點怒氣,若使用雙手武器則為 10 點怒氣。"
 },
 		id: 2,
 		maxPoints: 1,
@@ -369,7 +369,7 @@ Tags: Basic, Damage, Physical, Fury, Movement.`,
 		description: `Attack Speed Multiplier: 1.25
 Generate Fury: 4
 Lucky Hit Chance: 30% (per hit)
-Unleash a rapid flurry of blows, dealing {22/24.2/26.4/28.6/30.8/33/35.2/37.4/39.6/41.8}% damage with each pair of hits.
+Unleash a rapid flurry of blows, dealing {24/26.4/28.8/31.2/33.6/36/38.4/40.8/43.2/45.6}% damage with each pair of hits.
 
 If Frenzy hits an enemy, its Attack Speed is increased by +20% for 3 seconds, up to +60%.
 
@@ -390,19 +390,19 @@ Tags: Basic, Dual Wield, Fury, Physical, Damage, Attack Speed.`,
 			"zhTW": "狂亂"
 },
 		descriptionLocalized: {
-			"deDE": "Attack Speed Multiplier: 1.25\nErzeugte Wut: 4\nGlückstrefferchance: 30% (per hit)\nÜberzieht Gegner mit vielen raschen Schlägen, die mit jedem Trefferpaar {22/24.2/26.4/28.6/30.8/33/35.2/37.4/39.6/41.8}% Schaden verursachen.\n\nWenn Raserei einen Gegner trifft, erhöht sich ihre Angriffsgeschwindigkeit 3 Sek. lang um +20% bis maximal +60%.\n\nTags: Basis, Zwei Waffen, Wut, Physisch, Schaden, Angriffsgeschwindigkeit.",
-			"esES": "Attack Speed Multiplier: 1.25\nGeneración de furia: 4\nProbabilidad de golpe de suerte: 30% (per hit)\nDesatas un rápido aluvión de impactos que inflige {22/24.2/26.4/28.6/30.8/33/35.2/37.4/39.6/41.8}% de daño por cada par de golpes.\n\nSi Frenesí golpea a un enemigo, aumenta su velocidad de ataque un +20% durante 3 s, hasta un máximo de un +60%.\n\nTags: Básica, Doble empuñadura, Furia, Física, Daño, Velocidad de ataque.",
-			"esMX": "Attack Speed Multiplier: 1.25\nGeneración de Furia: 4\nProbabilidad de golpe afortunado: 30% (per hit)\nDesatas una veloz ráfaga de golpes que inflige {22/24.2/26.4/28.6/30.8/33/35.2/37.4/39.6/41.8}% de daño cada dos golpes.\n\nSi Frenesí golpea a un enemigo, su velocidad de ataque aumenta un +20% durante 3 segundos, hasta un máximo del +60%.\n\nTags: Básica, Ambidestreza, Furia, Física, Daño, Velocidad de ataque.",
-			"frFR": "Attack Speed Multiplier: 1.25\nFureur générée: 4\nChances d'obtenir un coup de chance: 30% (per hit)\nVous déclenchez une rafale de coups rapides qui inflige {22/24.2/26.4/28.6/30.8/33/35.2/37.4/39.6/41.8}% points de dégâts tous les deux coups portés.\n\nSi Frénésie touche une cible, sa vitesse d'attaque est augmentée de +20% pendant 3 s, jusqu'à un maximum de +60%.\n\nTags: Basique, Deux armes, Fureur, Dégâts physiques, Dégâts, Vitesse d'attaque.",
-			"itIT": "Attack Speed Multiplier: 1.25\nGenerazione furia: 4\nProbabilità di colpo fortunato: 30% (per hit)\nScateni una rapida raffica di colpi, infliggendo {22/24.2/26.4/28.6/30.8/33/35.2/37.4/39.6/41.8}% danni ogni due colpi.\n\nSe Frenesia colpisce un nemico, la sua velocità d'attacco aumenta del +20% per 3 s, fino a un massimo del +60%.\n\nTags: Base, Doppia arma, Furia, Fisico, Danni, Velocità d'attacco.",
-			"jaJP": "Attack Speed Multiplier: 1.25\n怒気生成量: 4\n幸運の一撃発生率: 30% (per hit)\n高速で連打を繰り出し、2連撃が命中するたびに{22/24.2/26.4/28.6/30.8/33/35.2/37.4/39.6/41.8}%のダメージを与える。\n\n〈フレンジー〉が敵に命中すると、攻撃速度が3秒間、+20%増加する。増加量は最大+60%。\n\nTags: 基本, 二刀流, 怒気, 物理, ダメージ, 攻撃速度.",
-			"koKR": "Attack Speed Multiplier: 1.25\n생성: 분노 4\n행운의 적중 확률: 30% (per hit)\n빠르게 연속 공격을 가해 2번 적중할 때마다 {22/24.2/26.4/28.6/30.8/33/35.2/37.4/39.6/41.8}%의 피해를 줍니다.\n\n광분이 적에게 적중하면 광분의 공격 속도가 3초 동안 +20%만큼, 최대 +60%까지 증가합니다.\n\nTags: 기본, 쌍수 무기, 분노, 물리, 피해, 공격 속도.",
-			"plPL": "Attack Speed Multiplier: 1.25\nGeneruje: 4 pkt. furii.\nSzansa na szczęśliwy traf: 30% (per hit)\nWyzwalasz błyskawiczną nawałnicę ciosów, zadając każdymi dwoma trafieniami {22/24.2/26.4/28.6/30.8/33/35.2/37.4/39.6/41.8}% pkt. obrażeń.\n\nJeśli Amok trafi wroga, szybkość ataku umiejętności wzrasta o +20% na 3 sek., maksymalnie do +60%.\n\nTags: Podstawowe, Broń w Każdej Ręce, Furia, Fizyczne, Obrażenia, Szybkość Ataku.",
-			"ptBR": "Attack Speed Multiplier: 1.25\nGerar Fúria: 4\nChance de Golpe de Sorte: 30% (per hit)\nLibera um rápido turbilhão de golpes, causando {22/24.2/26.4/28.6/30.8/33/35.2/37.4/39.6/41.8}% de dano com cada par de acertos.\n\nSe Frenesi atingir um inimigo, a velocidade de ataque é aumentada em +20% por 3 s, até +60%.\n\nTags: Básica, Empunhadura Dupla, Fúria, Física, Dano, Velocidade de Ataque.",
-			"ruRU": "Attack Speed Multiplier: 1.25\nДает ярость: 4 ед.\nВероятность удачного удара: 30% (per hit)\nВы обрушиваете на цель шквал стремительных ударов, нанося {22/24.2/26.4/28.6/30.8/33/35.2/37.4/39.6/41.8}% ед. урона за каждую пару ударов.\n\nКогда \"Бешенство\" поражает противника, скорость атаки этого умения повышается на +20% на 3 сек. вплоть до +60%.\n\nTags: Базовое, Оружие в каждой руке, Ярость, Физический урон, Урон, Скорость атаки.",
-			"trTR": "Attack Speed Multiplier: 1.25\nHiddet Üret: 4\nŞanslı Vuruş İhtimali: 30% (per hit)\nHızlı bir darbe serisi başlatarak her vuruş çiftiyle {22/24.2/26.4/28.6/30.8/33/35.2/37.4/39.6/41.8}% hasar ver.\n\nÇılgınlık bir düşmana isabet ederse Saldırı Hızı 3 saniyeliğine +20% artar. Artış en fazla +60% olabilir.\n\nTags: Temel, İkili Silah, Hiddet, Fiziksel, Hasar, Saldırı Hızı.",
-			"zhCN": "Attack Speed Multiplier: 1.25\n生成怒气: 4\n幸运一击几率: 30% (per hit)\n发动一连串快速打击, 每一组攻击造成 {22/24.2/26.4/28.6/30.8/33/35.2/37.4/39.6/41.8}% 点伤害。\n\n如果狂乱命中敌人, 其攻击速度提高 +20%, 持续 3 秒, 最多提高 +60%。\n\nTags: 基础, 双持, 怒气, 物理, 伤害, 攻击速度.",
-			"zhTW": "Attack Speed Multiplier: 1.25\n產生怒氣:4\n幸運觸發機率: 30% (per hit)\n快速連續攻擊,每組攻擊造成 {22/24.2/26.4/28.6/30.8/33/35.2/37.4/39.6/41.8}% 點傷害。\n\n若狂亂擊中敵人,其攻擊速度提高 +20%,持續 3 秒,最多提高 +60%。\n\nTags: 基本, 雙持, 怒氣, 物理, 傷害, 攻擊速度."
+			"deDE": "Attack Speed Multiplier: 1.25\nErzeugte Wut: 4\nGlückstrefferchance: 30% (per hit)\nÜberzieht Gegner mit vielen raschen Schlägen, die mit jedem Trefferpaar {24/26.4/28.8/31.2/33.6/36/38.4/40.8/43.2/45.6}% Schaden verursachen.\n\nWenn Raserei einen Gegner trifft, erhöht sich ihre Angriffsgeschwindigkeit 3 Sek. lang um +20% bis maximal +60%.\n\nTags: Basis, Zwei Waffen, Wut, Physisch, Schaden, Angriffsgeschwindigkeit.",
+			"esES": "Attack Speed Multiplier: 1.25\nGeneración de furia: 4\nProbabilidad de golpe de suerte: 30% (per hit)\nDesatas un rápido aluvión de impactos que inflige {24/26.4/28.8/31.2/33.6/36/38.4/40.8/43.2/45.6}% de daño por cada par de golpes.\n\nSi Frenesí golpea a un enemigo, aumenta su velocidad de ataque un +20% durante 3 s, hasta un máximo de un +60%.\n\nTags: Básica, Doble empuñadura, Furia, Física, Daño, Velocidad de ataque.",
+			"esMX": "Attack Speed Multiplier: 1.25\nGeneración de Furia: 4\nProbabilidad de golpe afortunado: 30% (per hit)\nDesatas una veloz ráfaga de golpes que inflige {24/26.4/28.8/31.2/33.6/36/38.4/40.8/43.2/45.6}% de daño cada dos golpes.\n\nSi Frenesí golpea a un enemigo, su velocidad de ataque aumenta un +20% durante 3 segundos, hasta un máximo del +60%.\n\nTags: Básica, Ambidestreza, Furia, Física, Daño, Velocidad de ataque.",
+			"frFR": "Attack Speed Multiplier: 1.25\nFureur générée: 4\nChances d'obtenir un coup de chance: 30% (per hit)\nVous déclenchez une rafale de coups rapides qui inflige {24/26.4/28.8/31.2/33.6/36/38.4/40.8/43.2/45.6}% points de dégâts tous les deux coups portés.\n\nSi Frénésie touche une cible, sa vitesse d'attaque est augmentée de +20% pendant 3 s, jusqu'à un maximum de +60%.\n\nTags: Basique, Deux armes, Fureur, Dégâts physiques, Dégâts, Vitesse d'attaque.",
+			"itIT": "Attack Speed Multiplier: 1.25\nGenerazione furia: 4\nProbabilità di colpo fortunato: 30% (per hit)\nScateni una rapida raffica di colpi, infliggendo {24/26.4/28.8/31.2/33.6/36/38.4/40.8/43.2/45.6}% danni ogni due colpi.\n\nSe Frenesia colpisce un nemico, la sua velocità d'attacco aumenta del +20% per 3 s, fino a un massimo del +60%.\n\nTags: Base, Doppia arma, Furia, Fisico, Danni, Velocità d'attacco.",
+			"jaJP": "Attack Speed Multiplier: 1.25\n怒気生成量: 4\n幸運の一撃発生率: 30% (per hit)\n高速で連打を繰り出し、2連撃が命中するたびに{24/26.4/28.8/31.2/33.6/36/38.4/40.8/43.2/45.6}%のダメージを与える。\n\n〈フレンジー〉が敵に命中すると、攻撃速度が3秒間、+20%増加する。増加量は最大+60%。\n\nTags: 基本, 二刀流, 怒気, 物理, ダメージ, 攻撃速度.",
+			"koKR": "Attack Speed Multiplier: 1.25\n생성: 분노 4\n행운의 적중 확률: 30% (per hit)\n빠르게 연속 공격을 가해 2번 적중할 때마다 {24/26.4/28.8/31.2/33.6/36/38.4/40.8/43.2/45.6}%의 피해를 줍니다.\n\n광분이 적에게 적중하면 광분의 공격 속도가 3초 동안 +20%만큼, 최대 +60%까지 증가합니다.\n\nTags: 기본, 쌍수 무기, 분노, 물리, 피해, 공격 속도.",
+			"plPL": "Attack Speed Multiplier: 1.25\nGeneruje: 4 pkt. furii.\nSzansa na szczęśliwy traf: 30% (per hit)\nWyzwalasz błyskawiczną nawałnicę ciosów, zadając każdymi dwoma trafieniami {24/26.4/28.8/31.2/33.6/36/38.4/40.8/43.2/45.6}% pkt. obrażeń.\n\nJeśli Amok trafi wroga, szybkość ataku umiejętności wzrasta o +20% na 3 sek., maksymalnie do +60%.\n\nTags: Podstawowe, Broń w Każdej Ręce, Furia, Fizyczne, Obrażenia, Szybkość Ataku.",
+			"ptBR": "Attack Speed Multiplier: 1.25\nGerar Fúria: 4\nChance de Golpe de Sorte: 30% (per hit)\nLibera um rápido turbilhão de golpes, causando {24/26.4/28.8/31.2/33.6/36/38.4/40.8/43.2/45.6}% de dano com cada par de acertos.\n\nSe Frenesi atingir um inimigo, a velocidade de ataque é aumentada em +20% por 3 s, até +60%.\n\nTags: Básica, Empunhadura Dupla, Fúria, Física, Dano, Velocidade de Ataque.",
+			"ruRU": "Attack Speed Multiplier: 1.25\nДает ярость: 4 ед.\nВероятность удачного удара: 30% (per hit)\nВы обрушиваете на цель шквал стремительных ударов, нанося {24/26.4/28.8/31.2/33.6/36/38.4/40.8/43.2/45.6}% ед. урона за каждую пару ударов.\n\nКогда \"Бешенство\" поражает противника, скорость атаки этого умения повышается на +20% на 3 сек. вплоть до +60%.\n\nTags: Базовое, Оружие в каждой руке, Ярость, Физический урон, Урон, Скорость атаки.",
+			"trTR": "Attack Speed Multiplier: 1.25\nHiddet Üret: 4\nŞanslı Vuruş İhtimali: 30% (per hit)\nHızlı bir darbe serisi başlatarak her vuruş çiftiyle {24/26.4/28.8/31.2/33.6/36/38.4/40.8/43.2/45.6}% hasar ver.\n\nÇılgınlık bir düşmana isabet ederse Saldırı Hızı 3 saniyeliğine +20% artar. Artış en fazla +60% olabilir.\n\nTags: Temel, İkili Silah, Hiddet, Fiziksel, Hasar, Saldırı Hızı.",
+			"zhCN": "Attack Speed Multiplier: 1.25\n生成怒气: 4\n幸运一击几率: 30% (per hit)\n发动一连串快速打击, 每一组攻击造成 {24/26.4/28.8/31.2/33.6/36/38.4/40.8/43.2/45.6}% 点伤害。\n\n如果狂乱命中敌人, 其攻击速度提高 +20%, 持续 3 秒, 最多提高 +60%。\n\nTags: 基础, 双持, 怒气, 物理, 伤害, 攻击速度.",
+			"zhTW": "Attack Speed Multiplier: 1.25\n產生怒氣:4\n幸運觸發機率: 30% (per hit)\n快速連續攻擊,每組攻擊造成 {24/26.4/28.8/31.2/33.6/36/38.4/40.8/43.2/45.6}% 點傷害。\n\n若狂亂擊中敵人,其攻擊速度提高 +20%,持續 3 秒,最多提高 +60%。\n\nTags: 基本, 雙持, 怒氣, 物理, 傷害, 攻擊速度."
 },
 		id: 8,
 		maxPoints: 5,
@@ -528,9 +528,9 @@ Tags: Basic, Dual Wield, Fury, Physical, Damage, Attack Speed.`,
 	},
 	"Flay": {
 		connections: [ "Basic", "Enhanced Flay" ],
-		description: `Generate Fury: 13
+		description: `Generate Fury: 15
 Lucky Hit Chance: 50% (per use)
-Flay the enemy, dealing {5/5.5/6/6.5/7/7.5/8/8.5/9/9.5}% damage and inflicting {40/44/48/52/56/60/64/68/72/76}% Bleeding damage over 5 seconds.
+Flay the enemy, dealing {5.5/6.1/6.6/7.2/7.7/8.2/8.8/9.4/9.9/10.4}% damage and inflicting {44/48.5/53/57/61.5/66/70.5/75/79/83.5}% Bleeding damage over 5 seconds.
 
 Tags: Basic, Bleed, Slashing, Fury, Damage, Physical.`,
 		nameLocalized: {
@@ -549,19 +549,19 @@ Tags: Basic, Bleed, Slashing, Fury, Damage, Physical.`,
 			"zhTW": "剝皮"
 },
 		descriptionLocalized: {
-			"deDE": "Erzeugte Wut: 13\nGlückstrefferchance: 50% (per use)\nSchindet den Gegner und fügt ihm {5/5.5/6/6.5/7/7.5/8/8.5/9/9.5}% Schaden zu. Fügt im Verlauf von 5 Sek. {40/44/48/52/56/60/64/68/72/76}% Blutungsschaden zu.\n\nTags: Basis, Blutung, Hiebwaffe, Wut, Schaden, Physisch.",
-			"esES": "Generación de furia: 13\nProbabilidad de golpe de suerte: 50% (per use)\nLe arrancas la piel al enemigo, lo que inflige {5/5.5/6/6.5/7/7.5/8/8.5/9/9.5}% de daño y aplica {40/44/48/52/56/60/64/68/72/76}% de daño de sangrado durante 5 s.\n\nTags: Básica, Sangrado, Cortante, Furia, Daño, Física.",
-			"esMX": "Generación de Furia: 13\nProbabilidad de golpe afortunado: 50% (per use)\nDespellejas al enemigo, lo que inflige {5/5.5/6/6.5/7/7.5/8/8.5/9/9.5}% de daño y {40/44/48/52/56/60/64/68/72/76}% de daño de sangrado durante 5 segundos.\n\nTags: Básica, Sangrado, Corte, Furia, Daño, Física.",
-			"frFR": "Fureur générée: 13\nChances d'obtenir un coup de chance: 50% (per use)\nVous écorchez l'adversaire, ce qui lui inflige {5/5.5/6/6.5/7/7.5/8/8.5/9/9.5}% points de dégâts à l'impact et {40/44/48/52/56/60/64/68/72/76}% points de dégâts de saignement en 5 s.\n\nTags: Basique, Saignement, Tranchant, Fureur, Dégâts, Dégâts physiques, Arme tranchante.",
-			"itIT": "Generazione furia: 13\nProbabilità di colpo fortunato: 50% (per use)\nScortica il nemico, infliggendo {5/5.5/6/6.5/7/7.5/8/8.5/9/9.5}% danni. Infligge {40/44/48/52/56/60/64/68/72/76}% danni da sanguinamento in 5 s.\n\nTags: Base, Sanguinamento, Tagliente, Furia, Danni, Fisico.",
-			"jaJP": "怒気生成量: 13\n幸運の一撃発生率: 50% (per use)\n敵の皮を剥ぎ、{5/5.5/6/6.5/7/7.5/8/8.5/9/9.5}%のダメージを与える。また5秒間かけて{40/44/48/52/56/60/64/68/72/76}%の流血ダメージを与える。\n\nTags: 基本, 流血, 斬撃, 怒気, ダメージ, 物理.",
-			"koKR": "생성: 분노 13\n행운의 적중 확률: 50% (per use)\n적을 도려내 {5/5.5/6/6.5/7/7.5/8/8.5/9/9.5}%의 피해를 줍니다. 5초에 걸쳐 {40/44/48/52/56/60/64/68/72/76}%의 출혈 피해를 줍니다.\n\nTags: 기본, 출혈, 베는 무기, 분노, 피해, 물리.",
-			"plPL": "Generuje: 13 pkt. furii\nSzansa na szczęśliwy traf: 50% (per use)\nObdzierasz wroga ze skóry, zadając {5/5.5/6/6.5/7/7.5/8/8.5/9/9.5}% pkt. obrażeń i wywołując {40/44/48/52/56/60/64/68/72/76}% pkt. obrażeń od krwawienia przez 5 sek.\n\nTags: Podstawowe, Krwawienie, Sieczne, Furia, Obrażenia, Fizyczne.",
-			"ptBR": "Gerar Fúria: 13\nChance de Golpe de Sorte: 50% (per use)\nEsfola o inimigo, causando {5/5.5/6/6.5/7/7.5/8/8.5/9/9.5}% de dano e aplicando {40/44/48/52/56/60/64/68/72/76}% de dano de sangramento ao longo de 5 s.\n\nTags: Básica, Sangramento, Corte, Fúria, Dano, Física.",
-			"ruRU": "Дает ярость: 13 ед.\nВероятность удачного удара: 50% (per use)\nВы сдираете с противника кожу, нанося {5/5.5/6/6.5/7/7.5/8/8.5/9/9.5}% ед. урона мгновенно и еще {40/44/48/52/56/60/64/68/72/76}% ед. урона от кровотечения за 5 сек.\n\nTags: Базовое, Кровотечение, Рубящее, Ярость, Урон, Физический урон.",
-			"trTR": "Hiddet Üret: 13\nŞanslı Vuruş İhtimali: 50% (per use)\nDüşmanın derisini yüzerek {5/5.5/6/6.5/7/7.5/8/8.5/9/9.5}% hasar ver ve 5 saniye boyunca {40/44/48/52/56/60/64/68/72/76}% Kanama hasarı uygula.\n\nTags: Temel, Kanama, Kesici, Hiddet, Hasar, Fiziksel.",
-			"zhCN": "生成怒气: 13\n幸运一击几率: 50% (per use)\n剥掉敌人的皮, 造成 {5/5.5/6/6.5/7/7.5/8/8.5/9/9.5}% 点伤害, 并在 5 秒内造成 {40/44/48/52/56/60/64/68/72/76}% 点流血伤害。\n\nTags: 基础, 流血, 劈斩, 怒气, 伤害, 物理, 劈砍.",
-			"zhTW": "產生怒氣:13\n幸運觸發機率:50% (per use)\n將敵人剝皮,造成 {5/5.5/6/6.5/7/7.5/8/8.5/9/9.5}% 點傷害,並使其在 5 秒內受到 {40/44/48/52/56/60/64/68/72/76}% 點流血傷害。\n\nTags: 基本, 流血, 斬擊, 怒氣, 傷害, 物理."
+			"deDE": "Erzeugte Wut: 15\nGlückstrefferchance: 50% (per use)\nSchindet den Gegner und fügt ihm {5.5/6.1/6.6/7.2/7.7/8.2/8.8/9.4/9.9/10.4}% Schaden zu. Fügt im Verlauf von 5 Sek. {44/48.5/53/57/61.5/66/70.5/75/79/83.5}% Blutungsschaden zu.\n\nTags: Basis, Blutung, Hiebwaffe, Wut, Schaden, Physisch.",
+			"esES": "Generación de furia: 15\nProbabilidad de golpe de suerte: 50% (per use)\nLe arrancas la piel al enemigo, lo que inflige {5.5/6.1/6.6/7.2/7.7/8.2/8.8/9.4/9.9/10.4}% de daño y aplica {44/48.5/53/57/61.5/66/70.5/75/79/83.5}% de daño de sangrado durante 5 s.\n\nTags: Básica, Sangrado, Cortante, Furia, Daño, Física.",
+			"esMX": "Generación de Furia: 15\nProbabilidad de golpe afortunado: 50% (per use)\nDespellejas al enemigo, lo que inflige {5.5/6.1/6.6/7.2/7.7/8.2/8.8/9.4/9.9/10.4}% de daño y {44/48.5/53/57/61.5/66/70.5/75/79/83.5}% de daño de sangrado durante 5 segundos.\n\nTags: Básica, Sangrado, Corte, Furia, Daño, Física.",
+			"frFR": "Fureur générée: 15\nChances d'obtenir un coup de chance: 50% (per use)\nVous écorchez l'adversaire, ce qui lui inflige {5.5/6.1/6.6/7.2/7.7/8.2/8.8/9.4/9.9/10.4}% points de dégâts à l'impact et {44/48.5/53/57/61.5/66/70.5/75/79/83.5}% points de dégâts de saignement en 5 s.\n\nTags: Basique, Saignement, Tranchant, Fureur, Dégâts, Dégâts physiques, Arme tranchante.",
+			"itIT": "Generazione furia: 15\nProbabilità di colpo fortunato: 50% (per use)\nScortica il nemico, infliggendo {5.5/6.1/6.6/7.2/7.7/8.2/8.8/9.4/9.9/10.4}% danni. Infligge {44/48.5/53/57/61.5/66/70.5/75/79/83.5}% danni da sanguinamento in 5 s.\n\nTags: Base, Sanguinamento, Tagliente, Furia, Danni, Fisico.",
+			"jaJP": "怒気生成量: 15\n幸運の一撃発生率: 50% (per use)\n敵の皮を剥ぎ、{5.5/6.1/6.6/7.2/7.7/8.2/8.8/9.4/9.9/10.4}%のダメージを与える。また5秒間かけて{44/48.5/53/57/61.5/66/70.5/75/79/83.5}%の流血ダメージを与える。\n\nTags: 基本, 流血, 斬撃, 怒気, ダメージ, 物理.",
+			"koKR": "생성: 분노 15\n행운의 적중 확률: 50% (per use)\n적을 도려내 {5.5/6.1/6.6/7.2/7.7/8.2/8.8/9.4/9.9/10.4}%의 피해를 줍니다. 5초에 걸쳐 {44/48.5/53/57/61.5/66/70.5/75/79/83.5}%의 출혈 피해를 줍니다.\n\nTags: 기본, 출혈, 베는 무기, 분노, 피해, 물리.",
+			"plPL": "Generuje: 15 pkt. furii\nSzansa na szczęśliwy traf: 50% (per use)\nObdzierasz wroga ze skóry, zadając {5.5/6.1/6.6/7.2/7.7/8.2/8.8/9.4/9.9/10.4}% pkt. obrażeń i wywołując {44/48.5/53/57/61.5/66/70.5/75/79/83.5}% pkt. obrażeń od krwawienia przez 5 sek.\n\nTags: Podstawowe, Krwawienie, Sieczne, Furia, Obrażenia, Fizyczne.",
+			"ptBR": "Gerar Fúria: 15\nChance de Golpe de Sorte: 50% (per use)\nEsfola o inimigo, causando {5.5/6.1/6.6/7.2/7.7/8.2/8.8/9.4/9.9/10.4}% de dano e aplicando {44/48.5/53/57/61.5/66/70.5/75/79/83.5}% de dano de sangramento ao longo de 5 s.\n\nTags: Básica, Sangramento, Corte, Fúria, Dano, Física.",
+			"ruRU": "Дает ярость: 15 ед.\nВероятность удачного удара: 50% (per use)\nВы сдираете с противника кожу, нанося {5.5/6.1/6.6/7.2/7.7/8.2/8.8/9.4/9.9/10.4}% ед. урона мгновенно и еще {44/48.5/53/57/61.5/66/70.5/75/79/83.5}% ед. урона от кровотечения за 5 сек.\n\nTags: Базовое, Кровотечение, Рубящее, Ярость, Урон, Физический урон.",
+			"trTR": "Hiddet Üret: 15\nŞanslı Vuruş İhtimali: 50% (per use)\nDüşmanın derisini yüzerek {5.5/6.1/6.6/7.2/7.7/8.2/8.8/9.4/9.9/10.4}% hasar ver ve 5 saniye boyunca {44/48.5/53/57/61.5/66/70.5/75/79/83.5}% Kanama hasarı uygula.\n\nTags: Temel, Kanama, Kesici, Hiddet, Hasar, Fiziksel.",
+			"zhCN": "生成怒气: 15\n幸运一击几率: 50% (per use)\n剥掉敌人的皮, 造成 {5.5/6.1/6.6/7.2/7.7/8.2/8.8/9.4/9.9/10.4}% 点伤害, 并在 5 秒内造成 {44/48.5/53/57/61.5/66/70.5/75/79/83.5}% 点流血伤害。\n\nTags: 基础, 流血, 劈斩, 怒气, 伤害, 物理, 劈砍.",
+			"zhTW": "產生怒氣:15\n幸運觸發機率:50% (per use)\n將敵人剝皮,造成 {5.5/6.1/6.6/7.2/7.7/8.2/8.8/9.4/9.9/10.4}% 點傷害,並使其在 5 秒內受到 {44/48.5/53/57/61.5/66/70.5/75/79/83.5}% 點流血傷害。\n\nTags: 基本, 流血, 斬擊, 怒氣, 傷害, 物理."
 },
 		id: 12,
 		maxPoints: 5,
@@ -571,7 +571,7 @@ Tags: Basic, Bleed, Slashing, Fury, Damage, Physical.`,
 	"Enhanced Flay": {
 		baseSkill: "Flay",
 		connections: [ "Flay", "Battle Flay", "Combat Flay" ],
-		description: `Flay has a 15% chance to make the enemy Vulnerable for 2 seconds. Double this chance when using a Two-Handed weapon.`,
+		description: `Flay has a 15% chance to make the enemy Vulnerable for 3 seconds. Double this chance when using a Two-Handed weapon.`,
 		nameLocalized: {
 			"deDE": "Verbessertes Schinden",
 			"esES": "Desollar mejorado",
@@ -588,19 +588,19 @@ Tags: Basic, Bleed, Slashing, Fury, Damage, Physical.`,
 			"zhTW": "強化剝皮"
 },
 		descriptionLocalized: {
-			"deDE": "Schinden verfügt über eine Chance von 15%, den Gegner 2 Sek. lang verwundbar zu machen. Die Verwendung von Zweihandwaffen verdoppelt diese Chance.",
-			"esES": "Desollar tiene un 15% de probabilidad de volver vulnerable al enemigo durante 2 s. Esta probabilidad se duplica al usar un arma de dos manos.",
-			"esMX": "Despellejar tiene un 15% de probabilidad de volver al enemigo vulnerable durante 2 segundos. La probabilidad se duplica cuando usas un arma de dos manos.",
-			"frFR": "Écorchement a 15% de chances de rendre l'adversaire vulnérable pendant 2 s. Ces chances sont doublées lorsque vous utilisez une arme à deux mains.",
-			"itIT": "Scorticamento ha una probabilità del 15% di rendere il nemico vulnerabile per 2 s. Questa probabilità raddoppia se usi un'arma a due mani.",
-			"jaJP": "〈フレイ〉が15%の確率で敵を2秒間脆弱状態にする。両手用武器の場合は確率が倍になる。",
-			"koKR": "도려내기가 15% 확률로 대상을 2초 동안 취약하게 만듭니다. 양손 무기를 사용할 경우 확률이 2배로 증가합니다.",
-			"plPL": "Obdarcie ma 15% szans na wywołanie u celu odsłonięcia na 2 sek. Szansa ta jest podwojona w przypadku korzystania z broni dwuręcznej.",
-			"ptBR": "Esfolar tem 15% de chance de tornar os inimigos vulneráveis por 2 s. A chance é dobrada ao usar uma arma de duas mãos.",
-			"ruRU": "\"Свежевание\" с вероятностью 15% делает цель уязвимой на 2 сек. Эта вероятность удваивается при использовании двуручного оружия.",
-			"trTR": "Deri Yüzme 15% ihtimalle 2 saniyeliğine düşmanı Savunmasız hâle getirir. Çift El silah kullanırken bu ihtimal iki katına çıkar.",
-			"zhCN": "剥皮有 15% 几率使敌人陷入易伤状态, 持续 2 秒。使用双手武器时该几率翻倍。",
-			"zhTW": "剝皮有 15% 機率使敵人易傷 2 秒。使用雙手武器時該機率加倍。"
+			"deDE": "Schinden verfügt über eine Chance von 15%, den Gegner 3 Sek. lang verwundbar zu machen. Die Verwendung von Zweihandwaffen verdoppelt diese Chance.",
+			"esES": "Desollar tiene un 15% de probabilidad de volver vulnerable al enemigo durante 3 s. Esta probabilidad se duplica al usar un arma de dos manos.",
+			"esMX": "Despellejar tiene un 15% de probabilidad de volver al enemigo vulnerable durante 3 segundos. La probabilidad se duplica cuando usas un arma de dos manos.",
+			"frFR": "Écorchement a 15% de chances de rendre l'adversaire vulnérable pendant 3 s. Ces chances sont doublées lorsque vous utilisez une arme à deux mains.",
+			"itIT": "Scorticamento ha una probabilità del 15% di rendere il nemico vulnerabile per 3 s. Questa probabilità raddoppia se usi un'arma a due mani.",
+			"jaJP": "〈フレイ〉が15%の確率で敵を3秒間脆弱状態にする。両手用武器の場合は確率が2倍になる。",
+			"koKR": "도려내기가 15% 확률로 대상을 3초 동안 취약하게 만듭니다. 양손 무기를 사용할 경우 확률이 2배로 증가합니다.",
+			"plPL": "Obdarcie ma 15% szans na wywołanie u celu odsłonięcia na 3 sek. Szansa ta jest podwojona w przypadku korzystania z broni dwuręcznej.",
+			"ptBR": "Esfolar tem 15% de chance de deixar os inimigos vulneráveis por 3 s. A chance é dobrada ao usar uma arma de duas mãos.",
+			"ruRU": "\"Свежевание\" с вероятностью 15% делает цель уязвимой на 3 сек. Эта вероятность удваивается при использовании двуручного оружия.",
+			"trTR": "Deri Yüzme 15% ihtimalle 3 saniyeliğine düşmanı Savunmasız hâle getirir. Çift El silah kullanırken bu ihtimal iki katına çıkar.",
+			"zhCN": "剥皮有 15% 几率使敌人陷入易伤状态,持续 3 秒。使用双手武器时该几率翻倍。",
+			"zhTW": "剝皮有 15% 機率使敵人易傷 3 秒。使用雙手武器時該機率加倍。"
 },
 		id: 13,
 		maxPoints: 1,
@@ -1528,7 +1528,7 @@ Tags: Core, Channeled, Fury, Physical, Damage.`,
 	},
 	"Endless Fury": {
 		connections: [ "Core" ],
-		description: `Basic Skills generate x{7/14/21/28/35/42/49/56/63/70}% more Fury when using Two-Handed weapons.
+		description: `Basic Skills generate x{10/20/30/40/50/60/70/80/90/100}% more Fury when using Two-Handed weapons.
 
 Tags: Fury, Basic, Two-Handed.`,
 		nameLocalized: {
@@ -1547,19 +1547,19 @@ Tags: Fury, Basic, Two-Handed.`,
 			"zhTW": "無盡狂怒"
 },
 		descriptionLocalized: {
-			"deDE": "Basisfertigkeiten erzeugen x{7/14/21/28/35/42/49/56/63/70}% mehr Wut, wenn Ihr Zweihandwaffen verwendet.\n\nTags: Wut, Basis, Zweihändig.",
-			"esES": "Las habilidades básicas generan un x{7/14/21/28/35/42/49/56/63/70}% más de furia al usar armas de dos manos.\n\nTags: Furia, Básica, Dos manos.",
-			"esMX": "Las habilidades básicas generan un x{7/14/21/28/35/42/49/56/63/70}% más de Furia cuando usas armas de dos manos.\n\nTags: Furia, Básica, Dos manos.",
-			"frFR": "Les compétences de base génèrent x{7/14/21/28/35/42/49/56/63/70}% de fureur en plus lorsque vous utilisez des armes à deux mains.\n\nTags: Fureur, Basique, Arme à deux mains.",
-			"itIT": "Le abilità Base generano il x{7/14/21/28/35/42/49/56/63/70}% di furia aggiuntiva se usi armi a due mani.\n\nTags: Furia, Base, A due mani.",
-			"jaJP": "両手用武器を使用する際、基本スキルで回復する怒気がx{7/14/21/28/35/42/49/56/63/70}%増加する。\n\nTags: 怒気, 基本, 両手用武器.",
-			"koKR": "양손 무기를 사용할 때 기본 기술로 생성하는 분노가 x{7/14/21/28/35/42/49/56/63/70}% 증가합니다.\n\nTags: 분노, 기본, 양손 무기.",
-			"plPL": "Umiejętności Podstawowe generują o x{7/14/21/28/35/42/49/56/63/70}% więcej furii, kiedy korzystasz z broni dwuręcznej.\n\nTags: Furia, Podstawowe, Dwuręczne.",
-			"ptBR": "Habilidades básicas geram x{7/14/21/28/35/42/49/56/63/70}% de fúria adicional ao usar armas de duas mãos.\n\nTags: Fúria, Básica, Duas mãos.",
-			"ruRU": "Базовые умения позволяют накопить на x{7/14/21/28/35/42/49/56/63/70}% больше ярости при использовании двуручного оружия.\n\nTags: Ярость, Базовое, Двуручное.",
-			"trTR": "Temel Yetenekler Çift El silahlar kullanırken x{7/14/21/28/35/42/49/56/63/70}% daha fazla Hiddet üretir.\n\nTags: Hiddet, Temel, Çift El.",
-			"zhCN": "使用双手武器时, 基础技能生成的怒气提高 x{7/14/21/28/35/42/49/56/63/70}%。\n\nTags: 怒气, 基础, 双手.",
-			"zhTW": "使用雙手武器時,基本技能產生的怒氣提高 x{7/14/21/28/35/42/49/56/63/70}%。\n\nTags: 怒氣, 基本, 雙手."
+			"deDE": "Basisfertigkeiten erzeugen x{10/20/30/40/50/60/70/80/90/100}% mehr Wut, wenn Ihr Zweihandwaffen verwendet.\n\nTags: Wut, Basis, Zweihändig.",
+			"esES": "Las habilidades básicas generan un x{10/20/30/40/50/60/70/80/90/100}% más de furia al usar armas de dos manos.\n\nTags: Furia, Básica, Dos manos.",
+			"esMX": "Las habilidades básicas generan un x{10/20/30/40/50/60/70/80/90/100}% más de Furia cuando usas armas de dos manos.\n\nTags: Furia, Básica, Dos manos.",
+			"frFR": "Les compétences de base génèrent x{10/20/30/40/50/60/70/80/90/100}% de fureur en plus lorsque vous utilisez des armes à deux mains.\n\nTags: Fureur, Basique, Arme à deux mains.",
+			"itIT": "Le abilità Base generano il x{10/20/30/40/50/60/70/80/90/100}% di furia aggiuntiva se usi armi a due mani.\n\nTags: Furia, Base, A due mani.",
+			"jaJP": "両手用武器を使用する際、基本スキルで回復する怒気がx{10/20/30/40/50/60/70/80/90/100}%増加する。\n\nTags: 怒気, 基本, 両手用武器.",
+			"koKR": "양손 무기를 사용할 때 기본 기술로 생성하는 분노가 x{10/20/30/40/50/60/70/80/90/100}% 증가합니다.\n\nTags: 분노, 기본, 양손 무기.",
+			"plPL": "Umiejętności Podstawowe generują o x{10/20/30/40/50/60/70/80/90/100}% więcej furii, kiedy korzystasz z broni dwuręcznej.\n\nTags: Furia, Podstawowe, Dwuręczne.",
+			"ptBR": "Habilidades básicas geram x{10/20/30/40/50/60/70/80/90/100}% de fúria adicional ao usar armas de duas mãos.\n\nTags: Fúria, Básica, Duas mãos.",
+			"ruRU": "Базовые умения позволяют накопить на x{10/20/30/40/50/60/70/80/90/100}% больше ярости при использовании двуручного оружия.\n\nTags: Ярость, Базовое, Двуручное.",
+			"trTR": "Temel Yetenekler Çift El silahlar kullanırken x{10/20/30/40/50/60/70/80/90/100}% daha fazla Hiddet üretir.\n\nTags: Hiddet, Temel, Çift El.",
+			"zhCN": "使用双手武器时, 基础技能生成的怒气提高 x{10/20/30/40/50/60/70/80/90/100}%。\n\nTags: 怒气, 基础, 双手.",
+			"zhTW": "使用雙手武器時,基本技能產生的怒氣提高 x{10/20/30/40/50/60/70/80/90/100}%。\n\nTags: 怒氣, 基本, 雙手."
 },
 		id: 37,
 		maxPoints: 3,
@@ -1849,7 +1849,7 @@ Tags: Defensive, Barrier, Cooldown, Life.`,
 	"Strategic Iron Skin": {
 		baseSkill: "Iron Skin",
 		connections: [ "Enhanced Iron Skin" ],
-		description: `Iron Skin also grants 15% Maximum Life as Fortify. Double this amount if cast while below 50% Life.`,
+		description: `Iron Skin also grants 20% Maximum Life as Fortify. Double this amount if cast while below 50% Life.`,
 		nameLocalized: {
 			"deDE": "Strategische Eisenhaut",
 			"esES": "Piel férrea estratégica",
@@ -1866,19 +1866,19 @@ Tags: Defensive, Barrier, Cooldown, Life.`,
 			"zhTW": "戰略鋼鐵之膚"
 },
 		descriptionLocalized: {
-			"deDE": "Eisenhaut verleiht außerdem 15% Eures maximalen Lebens als Stählung. Die Menge verdoppelt sich, wenn Ihr beim Einsatz weniger als 50% Leben habt.",
-			"esES": "Piel férrea también otorga un 15% de vida máxima como fortificación. Esta cantidad se duplica si se lanza con menos de un 50% de vida.",
-			"esMX": "Piel de Hierro también otorga un 15% de vida máxima como fortificación. La cantidad se duplica si la habilidad se lanza cuando tienes menos del 50% de vida.",
-			"frFR": "Galvanisation confère aussi un montant de fortification égal à 15% de votre maximum de vie. Ce montant est doublé si vous avez moins de 50% de points de vie au moment de son utilisation.",
-			"itIT": "Pelle di Ferro fornisce anche il 15% della Vita massima come Fortificazione. Questo ammontare raddoppia se la lanci mentre hai meno del 50% della Vita.",
-			"jaJP": "〈アイアンスキン〉に、ライフ最大値の15%にあたるの強化を獲得する効果が加わる。ライフが50%未満の場合は効果が2倍になる。",
-			"koKR": "철갑 피부가 최대 생명력의 15%를 보강으로 부여합니다. 생명력이 50% 미만일 때 시전하면 효과가 2배로 증가합니다.",
-			"plPL": "Żelazna Skóra zapewnia również 15% maksimum zdrowia jako umocnienie. Wartość ta jest podwojona, jeśli użyjesz umiejętności, gdy masz mniej niż 50% zdrowia.",
-			"ptBR": "Pele de Ferro também concede 15% de vida máxima como fortificação. O valor é dobrado se lançar com vida abaixo de 50%.",
-			"ruRU": "\"Железная кожа\" также дает укрепление в объеме 15% максимального запаса здоровья. Этот объем удваивается, если ваш уровень здоровья в момент применения ниже 50%.",
-			"trTR": "Demir Deri ayrıca 15% Maksimum Canı Güçlendirme olarak kazandırır. 50% Can altındayken kullanıldığında bu miktar ikiye katlanır.",
-			"zhCN": "钢铁之肤也会强固你 15% 的生命上限。生命低于 50% 时, 该数值翻倍。",
-			"zhTW": "鋼鐵之膚也會賦予等同 15% 生命值上限的強韌。在生命值低於 50% 時施放可使此效果加倍。"
+			"deDE": "Eisenhaut verleiht außerdem 20% Eures maximalen Lebens als Stählung. Die Menge verdoppelt sich, wenn Ihr beim Einsatz weniger als 50% Leben habt.",
+			"esES": "Piel férrea también otorga un 20% de vida máxima como fortificación. Esta cantidad se duplica si se lanza con menos de un 50% de vida.",
+			"esMX": "Piel de Hierro también otorga un 20% de vida máxima como fortificación. La cantidad se duplica si la habilidad se lanza cuando tienes menos del 50% de vida.",
+			"frFR": "Galvanisation confère aussi un montant de fortification égal à 20% de votre maximum de vie. Ce montant est doublé si vous avez moins de 50% de points de vie au moment de son utilisation.",
+			"itIT": "Pelle di Ferro fornisce anche il 20% della Vita massima come Fortificazione. Questo ammontare raddoppia se la lanci mentre hai meno del 50% della Vita.",
+			"jaJP": "〈アイアンスキン〉に、ライフ最大値の20%にあたるの強化を獲得する効果が加わる。ライフが50%未満の場合は効果が2倍になる。",
+			"koKR": "철갑 피부가 최대 생명력의 20%를 보강으로 부여합니다. 생명력이 50% 미만일 때 시전하면 효과가 2배로 증가합니다.",
+			"plPL": "Żelazna Skóra zapewnia również 20% maksimum zdrowia jako umocnienie. Wartość ta jest podwojona, jeśli użyjesz umiejętności, gdy masz mniej niż 50% zdrowia.",
+			"ptBR": "Pele de Ferro também concede 20% de vida máxima como fortificação. O valor é dobrado se lançar com vida abaixo de 50%.",
+			"ruRU": "\"Железная кожа\" также дает укрепление в объеме 20% максимального запаса здоровья. Этот объем удваивается, если ваш уровень здоровья в момент применения ниже 50%.",
+			"trTR": "Demir Deri ayrıca 20% Maksimum Canı Güçlendirme olarak kazandırır. 50% Can altındayken kullanıldığında bu miktar ikiye katlanır.",
+			"zhCN": "钢铁之肤也会强固你 20% 的生命上限。生命低于 50% 时, 该数值翻倍。",
+			"zhTW": "鋼鐵之膚也會賦予等同 20% 生命值上限的強韌。在生命值低於 50% 時施放可使此效果加倍。"
 },
 		id: 45,
 		maxPoints: 1,
@@ -2088,7 +2088,7 @@ Tags: Defensive, Crowd Control, Damage, Physical, Cooldown.`,
 	"Strategic Ground Stomp": {
 		baseSkill: "Ground Stomp",
 		connections: [ "Enhanced Ground Stomp" ],
-		description: `Reduce the Cooldown of your Ultimate Skill by 1 second for each enemy damaged by Ground Stomp.`,
+		description: `Reduce the Cooldown of your Ultimate Skill by 2 second for each enemy damaged by Ground Stomp.`,
 		nameLocalized: {
 			"deDE": "Strategisches Aufstampfen",
 			"esES": "Pisotón estratégico",
@@ -2105,19 +2105,19 @@ Tags: Defensive, Crowd Control, Damage, Physical, Cooldown.`,
 			"zhTW": "戰略震地踐踏"
 },
 		descriptionLocalized: {
-			"deDE": "Verringert die Abklingzeit für Eure ultimative Fertigkeit für jeden Gegner, der durch Aufstampfen Schaden erleidet, um 1 Sek.",
-			"esES": "Reduce 1 s el tiempo de reutilización de la habilidad definitiva por cada enemigo que sufra daño de Pisotón.",
-			"esMX": "Reduce 1 segundo la recuperación de tu habilidad máxima por cada enemigo dañado por Pisotón.",
-			"frFR": "Le temps de recharge de votre compétence ultime est réduit de 1 s pour chaque cible blessée par Choc terrestre.",
-			"itIT": "Riduce il tempo di recupero della tua abilità Ultra di 1 s per ogni nemico colpito da Passo Tonante.",
-			"jaJP": "〈グラウンド・ストンプ〉で敵にダメージを与えるたびに、奥義スキルのクールダウンが1秒減少する。",
-			"koKR": "발 구르기로 피해를 준 적 하나당 궁극기의 재사용 대기시간이 1초 감소합니다.",
-			"plPL": "Czas odnowienia twojej Mocy Specjalnej jest skrócony o 1 sek. za każdego wroga zranionego Tąpnięciem.",
-			"ptBR": "Reduz a recarga da sua habilidade suprema em 1 segundo por cada inimigo atingido por Pisada Poderosa.",
-			"ruRU": "Время восстановления мощного умения сокращается на 1 сек. за каждого противника, пораженного \"Топотом\".",
-			"trTR": "Tepinme ile hasar verilen her bir düşman başına Ulti Yeteneğinin Bekleme Süresini 1 saniye azalt.",
-			"zhCN": "使用大地践踏每对一名敌人造成伤害, 可以使你终极技能的冷却时间缩短 1 秒。",
-			"zhTW": "震地踐踏每對一個敵人造成傷害,都會使你的絕招冷卻時間縮短 1 秒。"
+			"deDE": "Verringert die Abklingzeit für Eure ultimative Fertigkeit für jeden Gegner, der durch Aufstampfen Schaden erleidet, um 2 Sek.",
+			"esES": "Reduce 2 s el tiempo de reutilización de la habilidad definitiva por cada enemigo que sufra daño de Pisotón.",
+			"esMX": "Reduce 2 segundo la recuperación de tu habilidad máxima por cada enemigo dañado por Pisotón.",
+			"frFR": "Le temps de recharge de votre compétence ultime est réduit de 2 s pour chaque cible blessée par Choc terrestre.",
+			"itIT": "Riduce il tempo di recupero della tua abilità Ultra di 2 s per ogni nemico colpito da Passo Tonante.",
+			"jaJP": "〈グラウンド・ストンプ〉で敵にダメージを与えるたびに、奥義スキルのクールダウンが2秒減少する。",
+			"koKR": "발 구르기로 피해를 준 적 하나당 궁극기의 재사용 대기시간이 2초 감소합니다.",
+			"plPL": "Czas odnowienia twojej Mocy Specjalnej jest skrócony o 2 sek. za każdego wroga zranionego Tąpnięciem.",
+			"ptBR": "Reduz a recarga da sua habilidade suprema em 2 segundo por cada inimigo atingido por Pisada Poderosa.",
+			"ruRU": "Время восстановления мощного умения сокращается на 2 сек. за каждого противника, пораженного \"Топотом\".",
+			"trTR": "Tepinme ile hasar verilen her bir düşman başına Ulti Yeteneğinin Bekleme Süresini 2 saniye azalt.",
+			"zhCN": "使用大地践踏每对一名敌人造成伤害, 可以使你终极技能的冷却时间缩短 2 秒。",
+			"zhTW": "震地踐踏每對一個敵人造成傷害,都會使你的絕招冷卻時間縮短 2 秒。"
 },
 		id: 51,
 		maxPoints: 1,
@@ -4217,7 +4217,7 @@ Tags: Ultimate, Damage, Physical, Cooldown.`,
 	"Prime Call of the Ancients": {
 		baseSkill: "Call of the Ancients",
 		connections: [ "Supreme Call of the Ancients", "Call of the Ancients" ],
-		description: `While Call of the Ancients is active, gain +20% bonus Attack Speed and x10% increased damage.`,
+		description: `While Call of the Ancients is active, gain +20% bonus Attack Speed and x20% increased damage.`,
 		nameLocalized: {
 			"deDE": "Oberste Anrufung der Urahnen",
 			"esES": "Llamada a los Ancestros mayor",
@@ -4234,19 +4234,19 @@ Tags: Ultimate, Damage, Physical, Cooldown.`,
 			"zhTW": "強烈先祖召喚"
 },
 		descriptionLocalized: {
-			"deDE": "Solange Anrufung der Urahnen aktiv ist, erhaltet Ihr zusätzlich +20% Angriffsgeschwindigkeit und verursacht x10% mehr Schaden.",
-			"esES": "Mientras dura Llamada a los Ancestros, obtienes un +20% de velocidad de ataque adicional y un x10% más de daño.",
-			"esMX": "Mientras Llamado Ancestral está activa, obtienes un +20% adicional de velocidad de ataque y un x10% más de daño.",
-			"frFR": "Tant qu'Appel des Anciens est actif, votre vitesse d'attaque est augmentée de +20% et vous infligez x10% de dégâts supplémentaires.",
-			"itIT": "Mentre Richiamo degli Antichi è attivo, la tua velocità d'attacco aumenta del +20% e infliggi il x10% di danni aggiuntivi.",
-			"jaJP": "〈古の民の呼び声〉が発動中は攻撃速度が+20%上昇し、与えるダメージがx10%増加する。",
-			"koKR": "선조의 귀환이 활성화되어 있는 동안 공격 속도가 +20%, 공격력이 x10% 증가합니다.",
-			"plPL": "Kiedy Zew Starożytnych jest aktywny, zyskujesz premię +20% do szybkości ataku oraz x10% do zadawanych obrażeń.",
-			"ptBR": "Enquanto Chamado dos Ancestrais está ativo, recebe +20% de bônus de velocidade de ataque e x10% de dano aumentado.",
-			"ruRU": "Пока действует \"Зов Древних\", ваша скорость атаки повышается на +20%, а наносимый урон увеличивается на x10%.",
-			"trTR": "Kadimlerin Çağrısı etkinken +20% bonus Saldırı Hızı ve x10% artırılmış hasar kazan.",
-			"zhCN": "先祖召唤激活时, 攻击速度提高 +20%, 造成的伤害提高 x10%。",
-			"zhTW": "在先祖召喚效果期間,獲得 +20% 攻擊速度加成,且傷害提高 x10%。"
+			"deDE": "Solange Anrufung der Urahnen aktiv ist, erhaltet Ihr zusätzlich +20% Angriffsgeschwindigkeit und verursacht x20% mehr Schaden.",
+			"esES": "Mientras dura Llamada a los Ancestros, obtienes un +20% de velocidad de ataque adicional y un x20% más de daño.",
+			"esMX": "Mientras Llamado Ancestral está activa, obtienes un +20% adicional de velocidad de ataque y un x20% más de daño.",
+			"frFR": "Tant qu'Appel des Anciens est actif, votre vitesse d'attaque est augmentée de +20% et vous infligez x20% de dégâts supplémentaires.",
+			"itIT": "Mentre Richiamo degli Antichi è attivo, la tua velocità d'attacco aumenta del +20% e infliggi il x20% di danni aggiuntivi.",
+			"jaJP": "〈古の民の呼び声〉が発動中は攻撃速度が+20%上昇し、与えるダメージがx20%増加する。",
+			"koKR": "선조의 귀환이 활성화되어 있는 동안 공격 속도가 +20%, 공격력이 x20% 증가합니다.",
+			"plPL": "Kiedy Zew Starożytnych jest aktywny, zyskujesz premię +20% do szybkości ataku oraz x20% do zadawanych obrażeń.",
+			"ptBR": "Enquanto Chamado dos Ancestrais está ativo, recebe +20% de bônus de velocidade de ataque e x20% de dano aumentado.",
+			"ruRU": "Пока действует \"Зов Древних\", ваша скорость атаки повышается на +20%, а наносимый урон увеличивается на x20%.",
+			"trTR": "Kadimlerin Çağrısı etkinken +20% bonus Saldırı Hızı ve x20% artırılmış hasar kazan.",
+			"zhCN": "先祖召唤激活时, 攻击速度提高 +20%, 造成的伤害提高 x20%。",
+			"zhTW": "在先祖召喚效果期間,獲得 +20% 攻擊速度加成,且傷害提高 x20%。"
 },
 		id: 104,
 		maxPoints: 1,

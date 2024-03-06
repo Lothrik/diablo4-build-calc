@@ -439,7 +439,8 @@ let nodeHistory = {
 		"Summoning: Gruesome Mending": 127,
 		"Summoning: Necrotic Carapace": 128,
 		"Ultimate: Inspiring Leader": 129,
-		"Key Passive: Kalan's Edict": 130
+		"Key Passive: Kalan's Edict": 130,
+		"Corruption: Death's Approach": 131
 	},
 	"Rogue": {
 		"Basic: Blade Shift": 0,

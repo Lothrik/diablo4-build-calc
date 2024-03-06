@@ -59,6 +59,11 @@ let codexValues = {
 				"values": [
 					""
 				]
+			},
+			"Undying Aspect": {
+				"dungeon": "",
+				"region": "",
+				"values": []
 			}
 		},
 		"Offensive": {
@@ -157,6 +162,23 @@ let codexValues = {
 			},
 			"Paingorger's Gauntlets": {
 				"values": []
+			},
+			"Aspect of the Moonrise": {
+				"dungeon": "",
+				"region": "",
+				"values": []
+			},
+			"Aspect of Accursed Touch": {
+				"dungeon": "",
+				"region": "",
+				"values": []
+			},
+			"Blood Boiling Aspect": {
+				"dungeon": "",
+				"region": "",
+				"values": [
+					""
+				]
 			}
 		},
 		"Utility": {
@@ -193,6 +215,11 @@ let codexValues = {
 				"values": []
 			},
 			"Godslayer Crown": {
+				"values": []
+			},
+			"Hectic Aspect": {
+				"dungeon": "",
+				"region": "",
 				"values": []
 			}
 		},
@@ -247,6 +274,13 @@ let codexValues = {
 				"dungeon": "",
 				"region": "",
 				"values": []
+			},
+			"Aspect of Metamorphosis": {
+				"dungeon": "",
+				"region": "",
+				"values": [
+					""
+				]
 			}
 		},
 		"Other": {}

@@ -351,7 +351,13 @@ let codexHistory = {
 	"Offensive: Beastfall Boots": 349,
 	"Offensive: Aspect of Shredding Blades": 350,
 	"Offensive: (PH) Split Incinerate Aspect": 351,
-	"Offensive: Starfall Coronet": 352
+	"Offensive: Starfall Coronet": 352,
+	"Utility: Hectic Aspect": 353,
+	"Defensive: Undying Aspect": 354,
+	"Offensive: Aspect of the Moonrise": 355,
+	"Mobility: Aspect of Metamorphosis": 356,
+	"Offensive: Aspect of Accursed Touch": 357,
+	"Offensive: Blood Boiling Aspect": 358
 }
 
 export { codexHistory };

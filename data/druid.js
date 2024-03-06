@@ -51,9 +51,9 @@ druidData["Basic"] = {
 	"Earth Spike": {
 		connections: [ "Basic", "Enhanced Earth Spike" ],
 		description: `Attack Speed Multiplier: 1.5
-Generate Spirit: 13
+Generate Spirit: 16
 Lucky Hit Chance: 35% (per hit)
-Sunder the earth, impaling the first enemy hit for {17/18.7/20.4/22.1/23.8/25.5/27.2/28.9/30.6/32.3}% damage.
+Sunder the earth, impaling the first enemy hit for {19/20.9/22.8/24.7/26.6/28.5/30.4/32.3/34.2/36.1}% damage.
 
 Tags: Basic, Nature Magic, Earth, Damage, Spirit, Physical.`,
 		nameLocalized: {
@@ -72,19 +72,19 @@ Tags: Basic, Nature Magic, Earth, Damage, Spirit, Physical.`,
 			"zhTW": "大地尖刺"
 },
 		descriptionLocalized: {
-			"deDE": "Attack Speed Multiplier: 1.5\nErzeugte Geisteskraft: 13\nGlückstrefferchance: 35% (per hit)\nSpaltet die Erde, durchbohrt den ersten getroffenen Gegner und verursacht {17/18.7/20.4/22.1/23.8/25.5/27.2/28.9/30.6/32.3}% Schaden.\n\nTags: Basis, Naturmagie, Erde, Schaden, Geisteskraft, Physisch.",
-			"esES": "Attack Speed Multiplier: 1.5\nGeneración de espíritu: 13\nProbabilidad de golpe de suerte: 35% (per hit)\nDestrozas la tierra y empalas al primer enemigo golpeado, que sufre {17/18.7/20.4/22.1/23.8/25.5/27.2/28.9/30.6/32.3}% de daño.\n\nTags: Básica, Magia de la naturaleza, Tierra, Daño, Espíritu, Física.",
-			"esMX": "Attack Speed Multiplier: 1.5\nGeneración de Espíritu: 13\nProbabilidad de golpe afortunado: 35% (per hit)\nRompes la tierra, empalas al primer enemigo golpeado y le infliges {17/18.7/20.4/22.1/23.8/25.5/27.2/28.9/30.6/32.3}% de daño.\n\nTags: Básica, Magia de la naturaleza, Tierra, Daño, Espíritu, Física.",
-			"frFR": "Attack Speed Multiplier: 1.5\nEsprit généré: 13\nChances d'obtenir un coup de chance: 35% (per hit)\nVous fissurez la terre et empalez la première cible touchée, ce qui lui inflige {17/18.7/20.4/22.1/23.8/25.5/27.2/28.9/30.6/32.3}% points de dégâts.\n\nTags: Basique, Magie naturelle, Terre, Dégâts, Esprit, Dégâts physiques.",
-			"itIT": "Attack Speed Multiplier: 1.5\nGenerazione spirito: 13\nProbabilità di colpo fortunato: 35% (per hit)\nSollevi la terra, impalando il primo nemico colpito e infliggendo {17/18.7/20.4/22.1/23.8/25.5/27.2/28.9/30.6/32.3}% danni.\n\nTags: Base, Magia naturale, Terra, Danni, Spirito, Fisico.",
-			"jaJP": "Attack Speed Multiplier: 1.5\n精神力回復量: 13\n幸運の一撃発生率: 35% (per hit)\n大地を砕き、最初に命中した敵を貫いて{17/18.7/20.4/22.1/23.8/25.5/27.2/28.9/30.6/32.3}%のダメージを与える。\n\nTags: 基本, 自然魔法, 土, ダメージ, 精神力, 物理.",
-			"koKR": "Attack Speed Multiplier: 1.5\n생성: 영력 13\n행운의 적중 확률: 35% (per hit)\n대지를 가르고 처음 적중한 적을 꿰뚫어 {17/18.7/20.4/22.1/23.8/25.5/27.2/28.9/30.6/32.3}%의 피해를 줍니다.\n\nTags: 기본, 자연 마법, 대지, 피해, 영력, 물리.",
-			"plPL": "Attack Speed Multiplier: 1.5\nGeneruje: 13 pkt. siły duchowej.\nSzansa na szczęśliwy traf: 35% (per hit)\nRozdzierasz ziemię i przebijasz pierwszego trafionego wroga, zadając mu {17/18.7/20.4/22.1/23.8/25.5/27.2/28.9/30.6/32.3}% pkt. obrażeń.\n\nTags: Podstawowe, Magia Natury, Ziemia, Obrażenia, Siła Duchowa, Fizyczne.",
-			"ptBR": "Attack Speed Multiplier: 1.5\nGerar Espírito: 13\nChance de Golpe de Sorte: 35% (per hit)\nRompe a terra, empalando o primeiro inimigo atingido e causando {17/18.7/20.4/22.1/23.8/25.5/27.2/28.9/30.6/32.3}% de dano.\n\nTags: Básica, Magia da Natureza, Terra, Dano, Espírito, Física.",
-			"ruRU": "Attack Speed Multiplier: 1.5\nДает дух: 13 ед.\nВероятность удачного удара: 35% (per hit)\nЗемля раскалывается, пронзая первого пораженного противника и нанося ему {17/18.7/20.4/22.1/23.8/25.5/27.2/28.9/30.6/32.3}% ед. урона.\n\nTags: Базовое, Силы природы, Земля, Урон, Дух, Физический урон.",
-			"trTR": "Attack Speed Multiplier: 1.5\nRuh Üret: 13\nŞanslı Vuruş İhtimali: 35% (per hit)\nYeri parçalayıp vurulan ilk düşmanı delerek {17/18.7/20.4/22.1/23.8/25.5/27.2/28.9/30.6/32.3}% hasar ver.\n\nTags: Temel, Doğa Sihri, Toprak, Hasar, Ruh, Fiziksel.",
-			"zhCN": "Attack Speed Multiplier: 1.5\n生成灵力: 13\n幸运一击几率: 35% (per hit)\n击碎大地, 刺穿命中的第一名敌人, 造成 {17/18.7/20.4/22.1/23.8/25.5/27.2/28.9/30.6/32.3}% 点伤害。\n\nTags: 基础, 自然魔法, 大地, 伤害, 灵力, 物理.",
-			"zhTW": "Attack Speed Multiplier: 1.5\n產生靈力:13\n幸運觸發機率: 35% (per hit)\n改變地貌,刺穿第一個擊中的敵人,造成 {17/18.7/20.4/22.1/23.8/25.5/27.2/28.9/30.6/32.3}% 點傷害。\n\nTags: 基本, 自然魔法, 大地, 傷害, 靈力, 物理."
+			"deDE": "Attack Speed Multiplier: 1.5\nErzeugte Geisteskraft: 16\nGlückstrefferchance: 35% (per hit)\nSpaltet die Erde, durchbohrt den ersten getroffenen Gegner und verursacht {19/20.9/22.8/24.7/26.6/28.5/30.4/32.3/34.2/36.1}% Schaden.\n\nTags: Basis, Naturmagie, Erde, Schaden, Geisteskraft, Physisch.",
+			"esES": "Attack Speed Multiplier: 1.5\nGeneración de espíritu: 16\nProbabilidad de golpe de suerte: 35% (per hit)\nDestrozas la tierra y empalas al primer enemigo golpeado, que sufre {19/20.9/22.8/24.7/26.6/28.5/30.4/32.3/34.2/36.1}% de daño.\n\nTags: Básica, Magia de la naturaleza, Tierra, Daño, Espíritu, Física.",
+			"esMX": "Attack Speed Multiplier: 1.5\nGeneración de Espíritu: 16\nProbabilidad de golpe afortunado: 35% (per hit)\nRompes la tierra, empalas al primer enemigo golpeado y le infliges {19/20.9/22.8/24.7/26.6/28.5/30.4/32.3/34.2/36.1}% de daño.\n\nTags: Básica, Magia de la naturaleza, Tierra, Daño, Espíritu, Física.",
+			"frFR": "Attack Speed Multiplier: 1.5\nEsprit généré: 16\nChances d'obtenir un coup de chance: 35% (per hit)\nVous fissurez la terre et empalez la première cible touchée, ce qui lui inflige {19/20.9/22.8/24.7/26.6/28.5/30.4/32.3/34.2/36.1}% points de dégâts.\n\nTags: Basique, Magie naturelle, Terre, Dégâts, Esprit, Dégâts physiques.",
+			"itIT": "Attack Speed Multiplier: 1.5\nGenerazione spirito: 16\nProbabilità di colpo fortunato: 35% (per hit)\nSollevi la terra, impalando il primo nemico colpito e infliggendo {19/20.9/22.8/24.7/26.6/28.5/30.4/32.3/34.2/36.1}% danni.\n\nTags: Base, Magia naturale, Terra, Danni, Spirito, Fisico.",
+			"jaJP": "Attack Speed Multiplier: 1.5\n精神力回復量: 16\n幸運の一撃発生率: 35% (per hit)\n大地を砕き、最初に命中した敵を貫いて{19/20.9/22.8/24.7/26.6/28.5/30.4/32.3/34.2/36.1}%のダメージを与える。\n\nTags: 基本, 自然魔法, 土, ダメージ, 精神力, 物理.",
+			"koKR": "Attack Speed Multiplier: 1.5\n생성: 영력 16\n행운의 적중 확률: 35% (per hit)\n대지를 가르고 처음 적중한 적을 꿰뚫어 {19/20.9/22.8/24.7/26.6/28.5/30.4/32.3/34.2/36.1}%의 피해를 줍니다.\n\nTags: 기본, 자연 마법, 대지, 피해, 영력, 물리.",
+			"plPL": "Attack Speed Multiplier: 1.5\nGeneruje: 16 pkt. siły duchowej.\nSzansa na szczęśliwy traf: 35% (per hit)\nRozdzierasz ziemię i przebijasz pierwszego trafionego wroga, zadając mu {19/20.9/22.8/24.7/26.6/28.5/30.4/32.3/34.2/36.1}% pkt. obrażeń.\n\nTags: Podstawowe, Magia Natury, Ziemia, Obrażenia, Siła Duchowa, Fizyczne.",
+			"ptBR": "Attack Speed Multiplier: 1.5\nGerar Espírito: 16\nChance de Golpe de Sorte: 35% (per hit)\nRompe a terra, empalando o primeiro inimigo atingido e causando {19/20.9/22.8/24.7/26.6/28.5/30.4/32.3/34.2/36.1}% de dano.\n\nTags: Básica, Magia da Natureza, Terra, Dano, Espírito, Física.",
+			"ruRU": "Attack Speed Multiplier: 1.5\nДает дух: 16 ед.\nВероятность удачного удара: 35% (per hit)\nЗемля раскалывается, пронзая первого пораженного противника и нанося ему {19/20.9/22.8/24.7/26.6/28.5/30.4/32.3/34.2/36.1}% ед. урона.\n\nTags: Базовое, Силы природы, Земля, Урон, Дух, Физический урон.",
+			"trTR": "Attack Speed Multiplier: 1.5\nRuh Üret: 16\nŞanslı Vuruş İhtimali: 35% (per hit)\nYeri parçalayıp vurulan ilk düşmanı delerek {19/20.9/22.8/24.7/26.6/28.5/30.4/32.3/34.2/36.1}% hasar ver.\n\nTags: Temel, Doğa Sihri, Toprak, Hasar, Ruh, Fiziksel.",
+			"zhCN": "Attack Speed Multiplier: 1.5\n生成灵力: 16\n幸运一击几率: 35% (per hit)\n击碎大地, 刺穿命中的第一名敌人, 造成 {19/20.9/22.8/24.7/26.6/28.5/30.4/32.3/34.2/36.1}% 点伤害。\n\nTags: 基础, 自然魔法, 大地, 伤害, 灵力, 物理.",
+			"zhTW": "Attack Speed Multiplier: 1.5\n產生靈力:16\n幸運觸發機率: 35% (per hit)\n改變地貌,刺穿第一個擊中的敵人,造成 {19/20.9/22.8/24.7/26.6/28.5/30.4/32.3/34.2/36.1}% 點傷害。\n\nTags: 基本, 自然魔法, 大地, 傷害, 靈力, 物理."
 },
 		id: 162,
 		maxPoints: 5,
@@ -94,7 +94,7 @@ Tags: Basic, Nature Magic, Earth, Damage, Spirit, Physical.`,
 	"Enhanced Earth Spike": {
 		baseSkill: "Earth Spike",
 		connections: [ "Earth Spike", "Wild Earth Spike", "Fierce Earth Spike" ],
-		description: `Earth Spike has a 10% chance to Stun for 2.5 seconds.`,
+		description: `Earth Spike has a 15% chance to Stun for 2.5 seconds.`,
 		nameLocalized: {
 			"deDE": "Verbesserter Erdspieß",
 			"esES": "Aguja de tierra mejorada",
@@ -111,19 +111,19 @@ Tags: Basic, Nature Magic, Earth, Damage, Spirit, Physical.`,
 			"zhTW": "強化大地尖刺"
 },
 		descriptionLocalized: {
-			"deDE": "Erdspieß verfügt über eine Chance von 10%, 2.5 Sek. lang zu betäuben.",
-			"esES": "Aguja de tierra tiene una probabilidad de un 10% de aturdir durante 2.5 s.",
-			"esMX": "Púa Terrestre tiene un 10% de probabilidad de aturdir durante 2.5 segundos.",
-			"frFR": "Pointe de terre a 10% de chances d'étourdir pendant 2.5 s.",
-			"itIT": "Spuntone di Terra ha il 10% di probabilità di stordire per 2.5 s.",
-			"jaJP": "〈大地の牙〉が10%の確率で2.5秒間スタンさせる。",
-			"koKR": "대지의 쐐기가 10% 확률로 대상을 2.5초 동안 기절시킵니다.",
-			"plPL": "Istnieje 10% szans na to, że Ziemny Kolec ogłuszy wrogów na 2.5 sek.",
-			"ptBR": "Espeto Terreno tem 10% de chance de atordoar por 2.5 s.",
-			"ruRU": "\"Шип земли\" с вероятностью 10% оглушает цели на 2.5 сек.",
-			"trTR": "Toprak Dikeni 10% ihtimalle 2.5 saniyeliğine Sersemletir.",
-			"zhCN": "大地尖刺有 10% 几率击昏敌人 2.5 秒。",
-			"zhTW": "大地尖刺有 10% 機率擊昏目標,持續 2.5 秒。"
+			"deDE": "Erdspieß verfügt über eine Chance von 15%, 2.5 Sek. lang zu betäuben.",
+			"esES": "Aguja de tierra tiene una probabilidad de un 15% de aturdir durante 2.5 s.",
+			"esMX": "Púa Terrestre tiene un 15% de probabilidad de aturdir durante 2.5 segundos.",
+			"frFR": "Pointe de terre a 15% de chances d'étourdir pendant 2.5 s.",
+			"itIT": "Spuntone di Terra ha il 15% di probabilità di stordire per 2.5 s.",
+			"jaJP": "〈大地の牙〉が15%の確率で2.5秒間スタンさせる。",
+			"koKR": "대지의 쐐기가 15% 확률로 대상을 2.5초 동안 기절시킵니다.",
+			"plPL": "Istnieje 15% szans na to, że Ziemny Kolec ogłuszy wrogów na 2.5 sek.",
+			"ptBR": "Espeto Terreno tem 15% de chance de atordoar por 2.5 s.",
+			"ruRU": "\"Шип земли\" с вероятностью 15% оглушает цели на 2.5 сек.",
+			"trTR": "Toprak Dikeni 15% ihtimalle 2.5 saniyeliğine Sersemletir.",
+			"zhCN": "大地尖刺有 15% 几率击昏敌人 2.5 秒。",
+			"zhTW": "大地尖刺有 15% 機率擊昏目標,持續 2.5 秒。"
 },
 		id: 163,
 		maxPoints: 1,
@@ -172,7 +172,7 @@ Tags: Basic, Nature Magic, Earth, Damage, Spirit, Physical.`,
 	"Fierce Earth Spike": {
 		baseSkill: "Earth Spike",
 		connections: [ "Enhanced Earth Spike" ],
-		description: `Fortify for 8% of your Maximum Life whenever Earth Spike damages enemies who are Stunned, Immobilized, or Knocked Back.`,
+		description: `Fortify for 12% of your Maximum Life whenever Earth Spike damages enemies who are Stunned, Immobilized, or Knocked Back.`,
 		nameLocalized: {
 			"deDE": "Grimmiger Erdspieß",
 			"esES": "Aguja de tierra fiera",
@@ -189,19 +189,19 @@ Tags: Basic, Nature Magic, Earth, Damage, Spirit, Physical.`,
 			"zhTW": "兇狠大地尖刺"
 },
 		descriptionLocalized: {
-			"deDE": "Ihr erhaltet jedes Mal 8% Eures maximalen Lebens als Stählung, wenn Erdspieß betäubten, bewegungsunfähigen oder zurückgestoßenen Gegnern Schaden zufügt.",
-			"esES": "Fortificas un 8% de tu vida máxima cada vez que Aguja de tierra inflige daño a enemigos aturdidos, inmovilizados o repelidos.",
-			"esMX": "Te fortificas con un 8% de tu Vida máxima cuando Púa Terrestre inflige daño a los enemigos aturdidos, inmovilizados o repelidos.",
-			"frFR": "Vous obtenez un montant de fortification égal à 8% de votre maximum points de vie chaque fois que Pointe de terre inflige des dégâts à des cibles étourdies, immobilisées ou repoussées.",
-			"itIT": "Ottieni Fortificazione per il 8% della tua Vita massima quando Spuntone di Terra infligge danni a nemici storditi, immobilizzati o respinti.",
-			"jaJP": "スタン、移動不能、ノックバック状態の敵に〈大地の牙〉でダメージを与えると、ライフ最大値の8%にあたるの強化を獲得する。",
-			"koKR": "대지의 쐐기가 기절 또는 이동 불가 상태이거나 밀려난 적에게 피해를 줄 때마다 최대 생명력의 8%만큼 보강됩니다.",
-			"plPL": "Otrzymujesz umocnienie równe 8% maksimum twojego zdrowia za każdym razem, gdy Ziemny Kolec rani ogłuszonych, unieruchomionych lub odrzuconych wrogów.",
-			"ptBR": "Fortifica em 8% da sua vida máxima sempre que Espeto Terreno causar dano a inimigos atordoados, imobilizados ou repelidos.",
-			"ruRU": "Когда \"Шип земли\" поражает оглушенного, обездвиженного или отброшенного противника, вы получаете укрепление в объеме 8% максимального запаса здоровья.",
-			"trTR": "Toprak Dikeni Sersemletilmiş, Sabitlenmiş veya Geri Savrulmuş düşmanlara her hasar verdiğinde Maksimum Canının 8% kadarına eşit Güçlendirme kazan.",
-			"zhCN": "大地尖刺对被击昏、被定身或被击退的敌人造成伤害时可以强固你 8% 生命上限。",
-			"zhTW": "每當大地尖刺對昏迷、定身或擊退的敵人造成傷害時,賦予你等同生命值上限 8%的強韌。"
+			"deDE": "Ihr erhaltet jedes Mal 12% Eures maximalen Lebens als Stählung, wenn Erdspieß betäubten, bewegungsunfähigen oder zurückgestoßenen Gegnern Schaden zufügt.",
+			"esES": "Fortificas un 12% de tu vida máxima cada vez que Aguja de tierra inflige daño a enemigos aturdidos, inmovilizados o repelidos.",
+			"esMX": "Te fortificas con un 12% de tu Vida máxima cuando Púa Terrestre inflige daño a los enemigos aturdidos, inmovilizados o repelidos.",
+			"frFR": "Vous obtenez un montant de fortification égal à 12% de votre maximum points de vie chaque fois que Pointe de terre inflige des dégâts à des cibles étourdies, immobilisées ou repoussées.",
+			"itIT": "Ottieni Fortificazione per il 12% della tua Vita massima quando Spuntone di Terra infligge danni a nemici storditi, immobilizzati o respinti.",
+			"jaJP": "スタン、移動不能、ノックバック状態の敵に〈大地の牙〉でダメージを与えると、ライフ最大値の12%にあたるの強化を獲得する。",
+			"koKR": "대지의 쐐기가 기절 또는 이동 불가 상태이거나 밀려난 적에게 피해를 줄 때마다 최대 생명력의 12%만큼 보강됩니다.",
+			"plPL": "Otrzymujesz umocnienie równe 12% maksimum twojego zdrowia za każdym razem, gdy Ziemny Kolec rani ogłuszonych, unieruchomionych lub odrzuconych wrogów.",
+			"ptBR": "Fortifica em 12% da sua vida máxima sempre que Espeto Terreno causar dano a inimigos atordoados, imobilizados ou repelidos.",
+			"ruRU": "Когда \"Шип земли\" поражает оглушенного, обездвиженного или отброшенного противника, вы получаете укрепление в объеме 12% максимального запаса здоровья.",
+			"trTR": "Toprak Dikeni Sersemletilmiş, Sabitlenmiş veya Geri Savrulmuş düşmanlara her hasar verdiğinde Maksimum Canının 12% kadarına eşit Güçlendirme kazan.",
+			"zhCN": "大地尖刺对被击昏、被定身或被击退的敌人造成伤害时可以强固你 12% 生命上限。",
+			"zhTW": "每當大地尖刺對昏迷、定身或擊退的敵人造成傷害時,賦予你等同生命值上限 12%的強韌。"
 },
 		id: 165,
 		maxPoints: 1,
@@ -211,9 +211,9 @@ Tags: Basic, Nature Magic, Earth, Damage, Spirit, Physical.`,
 	"Maul": {
 		connections: [ "Basic", "Enhanced Maul" ],
 		description: `Attack Speed Multiplier: 1.1
-Generate Spirit: 17
+Generate Spirit: 20
 Lucky Hit Chance: 30% (per hit)
-Shapeshift into a Werebear and maul enemies in front of you, dealing {22/24.2/26.4/28.6/30.8/33/35.2/37.4/39.6/41.8}% damage.
+Shapeshift into a Werebear and maul enemies in front of you, dealing {24/26.4/28.8/31.2/33.6/36/38.4/40.8/43.2/45.6}% damage.
 
 Tags: Basic, Shapeshifting, Werebear, Spirit, Damage, Physical.`,
 		nameLocalized: {
@@ -232,19 +232,19 @@ Tags: Basic, Shapeshifting, Werebear, Spirit, Damage, Physical.`,
 			"zhTW": "槌擊"
 },
 		descriptionLocalized: {
-			"deDE": "Attack Speed Multiplier: 1.1\nErzeugte Geisteskraft: 17\nGlückstrefferchance: 30% (per hit)\nVerwandelt Euch in einen Werbären und fallt Gegner vor Euch an, wodurch Ihr {22/24.2/26.4/28.6/30.8/33/35.2/37.4/39.6/41.8}% Schaden verursacht.\n\nTags: Basis, Gestaltwandeln, Werbär, Geisteskraft, Schaden, Physisch.",
-			"esES": "Attack Speed Multiplier: 1.1\nGeneración de espíritu: 17\nProbabilidad de golpe de suerte: 30% (per hit)\nTe transformas en hombre oso y vapuleas a los enemigos frente a ti para infligirles {22/24.2/26.4/28.6/30.8/33/35.2/37.4/39.6/41.8}% de daño.\n\nTags: Básica, Cambio de forma, Hombre oso, Espíritu, Daño, Física.",
-			"esMX": "Attack Speed Multiplier: 1.1\nGeneración de Espíritu: 17\nProbabilidad de golpe afortunado: 30% (per hit)\nCambias de forma a un hombre oso, vapuleas a los enemigos que están frente a ti y les infliges {22/24.2/26.4/28.6/30.8/33/35.2/37.4/39.6/41.8}% de daño.\n\nTags: Básica, Metamorfosis, Hombre oso, Espíritu, Daño, Física.",
-			"frFR": "Attack Speed Multiplier: 1.1\nEsprit généré: 17\nChances d'obtenir un coup de chance: 30% (per hit)\nVous vous transformez en ursoïde et mutilez les adversaires devant vous, leur infligeant {22/24.2/26.4/28.6/30.8/33/35.2/37.4/39.6/41.8}% points de dégâts.\n\nTags: Basique, Métamorphose, Ursoïde, Esprit, Dégâts, Dégâts physiques.",
-			"itIT": "Attack Speed Multiplier: 1.1\nGenerazione spirito: 17\nProbabilità di colpo fortunato: 30% (per hit)\nMuti in un Orso Mannaro e graffi i nemici frontali, infliggendo {22/24.2/26.4/28.6/30.8/33/35.2/37.4/39.6/41.8}% danni.\n\nTags: Base, Mutaforma, Orso Mannaro, Spirito, Danni, Fisico.",
-			"jaJP": "Attack Speed Multiplier: 1.1\n精神力回復量: 17\n幸運の一撃発生率: 30% (per hit)\n人熊に変身して前方の敵を爪で切り裂き、{22/24.2/26.4/28.6/30.8/33/35.2/37.4/39.6/41.8}%のダメージを与える。\n\nTags: 基本, 変身, 人熊, 精神力, ダメージ, 物理.",
-			"koKR": "Attack Speed Multiplier: 1.1\n생성: 영력 17\n행운의 적중 확률: 30% (per hit)\n곰인간으로 변신하고 전방의 적을 후려쳐 {22/24.2/26.4/28.6/30.8/33/35.2/37.4/39.6/41.8}%의 피해를 줍니다.\n\nTags: 기본, 변신, 곰인간, 영력, 피해, 물리.",
-			"plPL": "Attack Speed Multiplier: 1.1\nGeneruje: 17 pkt. siły duchowej.\nSzansa na szczęśliwy traf: 30% (per hit)\nPrzemieniasz się w niedźwiedziołaka i turbujesz pobliskich wrogów, zadając im {22/24.2/26.4/28.6/30.8/33/35.2/37.4/39.6/41.8}% pkt. obrażeń.\n\nTags: Podstawowe, Zmiennokształtność, Niedźwiedziołak, Siła Duchowa, Obrażenia, Fizyczne.",
-			"ptBR": "Attack Speed Multiplier: 1.1\nGerar Espírito: 17\nChance de Golpe de Sorte: 30% (per hit)\nTransforma-se em um urso e ataca inimigos à sua frente, causando {22/24.2/26.4/28.6/30.8/33/35.2/37.4/39.6/41.8}% de dano.\n\nTags: Básica, Metamorfose, Urso, Espírito, Dano, Física.",
-			"ruRU": "Attack Speed Multiplier: 1.1\nДает дух: 17 ед.\nВероятность удачного удара: 30% (per hit)\nВы принимаете облик медведя и терзаете противников перед собой, нанося {22/24.2/26.4/28.6/30.8/33/35.2/37.4/39.6/41.8}% ед. урона.\n\nTags: Базовое, Смена облика, Медведь, Дух, Урон, Физический урон.",
-			"trTR": "Attack Speed Multiplier: 1.1\nRuh Üret: 17\nŞanslı Vuruş İhtimali: 30% (per hit)\nBir Ayı Adama dönüşüp önündeki düşmanları hırpalayarak {22/24.2/26.4/28.6/30.8/33/35.2/37.4/39.6/41.8}% hasar ver.\n\nTags: Temel, Dönüşme, Ayı Adam, Ruh, Hasar, Fiziksel.",
-			"zhCN": "Attack Speed Multiplier: 1.1\n生成灵力: 17\n幸运一击几率: 30% (per hit)\n变成熊人并重殴面前的敌人, 造成 {22/24.2/26.4/28.6/30.8/33/35.2/37.4/39.6/41.8}% 点伤害。\n\nTags: 基础, 变形, 熊人, 灵力, 伤害, 物理.",
-			"zhTW": "Attack Speed Multiplier: 1.1\n產生靈力:17\n幸運觸發機率: 30% (per hit)\n變身為熊人,槌擊你前方的敵人,造成 {22/24.2/26.4/28.6/30.8/33/35.2/37.4/39.6/41.8}% 點傷害。\n\nTags: 基本, 變形, 熊人, 靈力, 傷害, 物理."
+			"deDE": "Attack Speed Multiplier: 1.1\nErzeugte Geisteskraft: 20\nGlückstrefferchance: 30% (per hit)\nVerwandelt Euch in einen Werbären und fallt Gegner vor Euch an, wodurch Ihr {24/26.4/28.8/31.2/33.6/36/38.4/40.8/43.2/45.6}% Schaden verursacht.\n\nTags: Basis, Gestaltwandeln, Werbär, Geisteskraft, Schaden, Physisch.",
+			"esES": "Attack Speed Multiplier: 1.1\nGeneración de espíritu: 20\nProbabilidad de golpe de suerte: 30% (per hit)\nTe transformas en hombre oso y vapuleas a los enemigos frente a ti para infligirles {24/26.4/28.8/31.2/33.6/36/38.4/40.8/43.2/45.6}% de daño.\n\nTags: Básica, Cambio de forma, Hombre oso, Espíritu, Daño, Física.",
+			"esMX": "Attack Speed Multiplier: 1.1\nGeneración de Espíritu: 20\nProbabilidad de golpe afortunado: 30% (per hit)\nCambias de forma a un hombre oso, vapuleas a los enemigos que están frente a ti y les infliges {24/26.4/28.8/31.2/33.6/36/38.4/40.8/43.2/45.6}% de daño.\n\nTags: Básica, Metamorfosis, Hombre oso, Espíritu, Daño, Física.",
+			"frFR": "Attack Speed Multiplier: 1.1\nEsprit généré: 20\nChances d'obtenir un coup de chance: 30% (per hit)\nVous vous transformez en ursoïde et mutilez les adversaires devant vous, leur infligeant {24/26.4/28.8/31.2/33.6/36/38.4/40.8/43.2/45.6}% points de dégâts.\n\nTags: Basique, Métamorphose, Ursoïde, Esprit, Dégâts, Dégâts physiques.",
+			"itIT": "Attack Speed Multiplier: 1.1\nGenerazione spirito: 20\nProbabilità di colpo fortunato: 30% (per hit)\nMuti in un Orso Mannaro e graffi i nemici frontali, infliggendo {24/26.4/28.8/31.2/33.6/36/38.4/40.8/43.2/45.6}% danni.\n\nTags: Base, Mutaforma, Orso Mannaro, Spirito, Danni, Fisico.",
+			"jaJP": "Attack Speed Multiplier: 1.1\n精神力回復量: 20\n幸運の一撃発生率: 30% (per hit)\n人熊に変身して前方の敵を爪で切り裂き、{24/26.4/28.8/31.2/33.6/36/38.4/40.8/43.2/45.6}%のダメージを与える。\n\nTags: 基本, 変身, 人熊, 精神力, ダメージ, 物理.",
+			"koKR": "Attack Speed Multiplier: 1.1\n생성: 영력 20\n행운의 적중 확률: 30% (per hit)\n곰인간으로 변신하고 전방의 적을 후려쳐 {24/26.4/28.8/31.2/33.6/36/38.4/40.8/43.2/45.6}%의 피해를 줍니다.\n\nTags: 기본, 변신, 곰인간, 영력, 피해, 물리.",
+			"plPL": "Attack Speed Multiplier: 1.1\nGeneruje: 20 pkt. siły duchowej.\nSzansa na szczęśliwy traf: 30% (per hit)\nPrzemieniasz się w niedźwiedziołaka i turbujesz pobliskich wrogów, zadając im {24/26.4/28.8/31.2/33.6/36/38.4/40.8/43.2/45.6}% pkt. obrażeń.\n\nTags: Podstawowe, Zmiennokształtność, Niedźwiedziołak, Siła Duchowa, Obrażenia, Fizyczne.",
+			"ptBR": "Attack Speed Multiplier: 1.1\nGerar Espírito: 20\nChance de Golpe de Sorte: 30% (per hit)\nTransforma-se em um urso e ataca inimigos à sua frente, causando {24/26.4/28.8/31.2/33.6/36/38.4/40.8/43.2/45.6}% de dano.\n\nTags: Básica, Metamorfose, Urso, Espírito, Dano, Física.",
+			"ruRU": "Attack Speed Multiplier: 1.1\nДает дух: 20 ед.\nВероятность удачного удара: 30% (per hit)\nВы принимаете облик медведя и терзаете противников перед собой, нанося {24/26.4/28.8/31.2/33.6/36/38.4/40.8/43.2/45.6}% ед. урона.\n\nTags: Базовое, Смена облика, Медведь, Дух, Урон, Физический урон.",
+			"trTR": "Attack Speed Multiplier: 1.1\nRuh Üret: 20\nŞanslı Vuruş İhtimali: 30% (per hit)\nBir Ayı Adama dönüşüp önündeki düşmanları hırpalayarak {24/26.4/28.8/31.2/33.6/36/38.4/40.8/43.2/45.6}% hasar ver.\n\nTags: Temel, Dönüşme, Ayı Adam, Ruh, Hasar, Fiziksel.",
+			"zhCN": "Attack Speed Multiplier: 1.1\n生成灵力: 20\n幸运一击几率: 30% (per hit)\n变成熊人并重殴面前的敌人, 造成 {24/26.4/28.8/31.2/33.6/36/38.4/40.8/43.2/45.6}% 点伤害。\n\nTags: 基础, 变形, 熊人, 灵力, 伤害, 物理.",
+			"zhTW": "Attack Speed Multiplier: 1.1\n產生靈力:20\n幸運觸發機率: 30% (per hit)\n變身為熊人,槌擊你前方的敵人,造成 {24/26.4/28.8/31.2/33.6/36/38.4/40.8/43.2/45.6}% 點傷害。\n\nTags: 基本, 變形, 熊人, 靈力, 傷害, 物理."
 },
 		id: 4,
 		maxPoints: 5,
@@ -254,7 +254,7 @@ Tags: Basic, Shapeshifting, Werebear, Spirit, Damage, Physical.`,
 	"Enhanced Maul": {
 		baseSkill: "Maul",
 		connections: [ "Maul", "Wild Maul", "Fierce Maul" ],
-		description: `If an enemy is hit by Maul, then Fortify for 3% of your Maximum Life.`,
+		description: `If an enemy is hit by Maul, then Fortify for 5% of your Maximum Life.`,
 		nameLocalized: {
 			"deDE": "Verbessertes Anfallen",
 			"esES": "Vapulear mejorado",
@@ -271,19 +271,19 @@ Tags: Basic, Shapeshifting, Werebear, Spirit, Damage, Physical.`,
 			"zhTW": "強化槌擊"
 },
 		descriptionLocalized: {
-			"deDE": "Wenn ein Gegner von Anfallen getroffen wird, erhaltet Ihr Stählung in Höhe von 3% Eures maximalen Lebens.",
-			"esES": "Si Vapulear golpea a un enemigo, fortificas un 3% de tu vida máxima.",
-			"esMX": "Si golpeas a un enemigo con Vapulear, te fortificarás con 3% de tu Vida máxima.",
-			"frFR": "Lorsqu'une cible est touchée par Mutilation, vous obtenez un montant de fortification égal à 3% de votre maximum points de vie.",
-			"itIT": "Se un nemico viene colpito da Graffiata, fornisce Fortificazione pari al 3% della tua Vita massima.",
-			"jaJP": "〈熊爪〉が敵に命中すると、ライフ最大値の3%にあたるの強化を獲得する。",
-			"koKR": "적이 할퀴기에 적중당하면 최대 생명력의 3%만큼 보강됩니다.",
-			"plPL": "Jeśli wróg zostanie trafiony Poturbowaniem, zyskujesz umocnienie równe 3% maksimum twojego zdrowia.",
-			"ptBR": "Se um inimigo for atingido por Dilacerar, fortifica você em 3% da sua vida máxima.",
-			"ruRU": "Когда \"Трепка\" поражает противника, вы получаете укрепление в объеме 3% максимального запаса здоровья.",
-			"trTR": "Hırpala bir düşmanı vurursa Maksimum Canının 3% kadarına eşit Güçlendirme kazan.",
-			"zhCN": "如果重殴命中敌人, 则强固你 3% 生命上限。",
-			"zhTW": "槌擊擊中敵人時,會賦予你等同生命值上限 3%的強韌。"
+			"deDE": "Wenn ein Gegner von Anfallen getroffen wird, erhaltet Ihr Stählung in Höhe von 5% Eures maximalen Lebens.",
+			"esES": "Si Vapulear golpea a un enemigo, fortificas un 5% de tu vida máxima.",
+			"esMX": "Si golpeas a un enemigo con Vapulear, te fortificarás con 5% de tu Vida máxima.",
+			"frFR": "Lorsqu'une cible est touchée par Mutilation, vous obtenez un montant de fortification égal à 5% de votre maximum points de vie.",
+			"itIT": "Se un nemico viene colpito da Graffiata, fornisce Fortificazione pari al 5% della tua Vita massima.",
+			"jaJP": "〈熊爪〉が敵に命中すると、ライフ最大値の5%にあたるの強化を獲得する。",
+			"koKR": "적이 할퀴기에 적중당하면 최대 생명력의 5%만큼 보강됩니다.",
+			"plPL": "Jeśli wróg zostanie trafiony Poturbowaniem, zyskujesz umocnienie równe 5% maksimum twojego zdrowia.",
+			"ptBR": "Se um inimigo for atingido por Dilacerar, fortifica você em 5% da sua vida máxima.",
+			"ruRU": "Когда \"Трепка\" поражает противника, вы получаете укрепление в объеме 5% максимального запаса здоровья.",
+			"trTR": "Hırpala bir düşmanı vurursa Maksimum Canının 5% kadarına eşit Güçlendirme kazan.",
+			"zhCN": "如果重殴命中敌人, 则强固你 5% 生命上限。",
+			"zhTW": "槌擊擊中敵人時,會賦予你等同生命值上限 5%的強韌。"
 },
 		id: 5,
 		maxPoints: 1,
@@ -293,7 +293,7 @@ Tags: Basic, Shapeshifting, Werebear, Spirit, Damage, Physical.`,
 	"Wild Maul": {
 		baseSkill: "Maul",
 		connections: [ "Enhanced Maul" ],
-		description: `Maul has a 20% chance to Knock Down enemies for 1.5 seconds.`,
+		description: `Maul has a 20% chance to Knock Down enemies for 2 seconds.`,
 		nameLocalized: {
 			"deDE": "Wildes Anfallen",
 			"esES": "Vapulear salvaje",
@@ -310,19 +310,19 @@ Tags: Basic, Shapeshifting, Werebear, Spirit, Damage, Physical.`,
 			"zhTW": "狂野槌擊"
 },
 		descriptionLocalized: {
-			"deDE": "Anfallen verfügt über eine Chance von 20%, Gegner 1.5 Sek. lang niederzuschlagen.",
-			"esES": "Vapulear tiene un 20% de probabilidad de derribar a los enemigos durante 1.5 s.",
-			"esMX": "Vapulear tiene un 20% de probabilidad de derribar a los enemigos durante 1.5 segundos.",
-			"frFR": "Mutilation a 20% de chances de renverser les cibles pendant 1.5 s.",
-			"itIT": "Graffiata ha una probabilità del 20% di far cadere i nemici per 1.5 s.",
-			"jaJP": "20%の確率で、〈熊爪〉が敵を1.5秒間ノックダウン状態にする。",
-			"koKR": "할퀴기가 20% 확률로 적을 1.5초 동안 쓰러뜨립니다.",
-			"plPL": "Istnieje 20% szans na to, że Poturbowanie powali wrogów na 1.5 sek.",
-			"ptBR": "Dilacerar tem 20% de chance de nocautear inimigos por 1.5 s.",
-			"ruRU": "\"Трепка\" с вероятностью 20% сбивает противников с ног на 1.5 сек.",
-			"trTR": "Hırpala 20% ihtimalle düşmanları 1.5 saniyeliğine Yere Serer.",
-			"zhCN": "重殴有 20% 几率击倒敌人, 持续 1.5 秒。",
-			"zhTW": "槌擊有 20% 機率擊倒敵人,持續 1.5 秒。"
+			"deDE": "Anfallen verfügt über eine Chance von 20%, Gegner 2 Sek. lang niederzuschlagen.",
+			"esES": "Vapulear tiene un 20% de probabilidad de derribar a los enemigos durante 2 s.",
+			"esMX": "Vapulear tiene un 20% de probabilidad de derribar a los enemigos durante 2 segundos.",
+			"frFR": "Mutilation a 20% de chances de renverser les cibles pendant 2 s.",
+			"itIT": "Graffiata ha una probabilità del 20% di far cadere i nemici a terra per 2 s.",
+			"jaJP": "20%の確率で、〈熊爪〉が敵を2秒間ノックダウン状態にする。",
+			"koKR": "할퀴기가 20% 확률로 적을 2초 동안 쓰러뜨립니다.",
+			"plPL": "Istnieje 20% szans na to, że Poturbowanie powali wrogów na 2 sek.",
+			"ptBR": "Dilacerar tem 20% de chance de nocautear inimigos por 2 s.",
+			"ruRU": "\"Трепка\" с вероятностью 20% сбивает противников с ног на 2 сек.",
+			"trTR": "Hırpala 20% ihtimalle düşmanları 2 saniyeliğine yere serer.",
+			"zhCN": "重殴有 20% 的几率击倒敌人,持续 2 秒。",
+			"zhTW": "槌擊有 20% 機率擊倒敵人,持續 2 秒。"
 },
 		id: 6,
 		maxPoints: 1,
@@ -370,9 +370,9 @@ Tags: Basic, Shapeshifting, Werebear, Spirit, Damage, Physical.`,
 	},
 	"Wind Shear": {
 		connections: [ "Basic", "Enhanced Wind Shear" ],
-		description: `Generate Spirit: 14
+		description: `Generate Spirit: 16
 Lucky Hit Chance: 20% (per hit)
-Conjure a piercing blade of wind, dealing {18/19.8/21.6/23.4/25.2/27/28.8/30.6/32.4/34.2}% damage.
+Conjure a piercing blade of wind, dealing {20/22/24/26/28/30/32/34/36/38}% damage.
 
 Tags: Basic, Nature Magic, Storm, Damage, Spirit, Physical.`,
 		nameLocalized: {
@@ -391,19 +391,19 @@ Tags: Basic, Nature Magic, Storm, Damage, Spirit, Physical.`,
 			"zhTW": "削風剪"
 },
 		descriptionLocalized: {
-			"deDE": "Erzeugte Geisteskraft: 14\nGlückstrefferchance: 20% (per hit)\nBeschwört eine durchschlagende Windklinge, die {18/19.8/21.6/23.4/25.2/27/28.8/30.6/32.4/34.2}% Schaden verursacht.\n\nTags: Basis, Naturmagie, Sturm, Schaden, Geisteskraft, Physisch.",
-			"esES": "Generación de espíritu: 14\nProbabilidad de golpe de suerte: 20% (per hit)\nGeneras una hoja de viento perforadora que inflige {18/19.8/21.6/23.4/25.2/27/28.8/30.6/32.4/34.2}% de daño.\n\nTags: Básica, Magia de la naturaleza, Tormenta, Daño, Espíritu, Física.",
-			"esMX": "Generación de Espíritu: 14\nProbabilidad de golpe afortunado: 20% (per hit)\nConjuras una cuchilla de viento penetrante que inflige {18/19.8/21.6/23.4/25.2/27/28.8/30.6/32.4/34.2}% de daño.\n\nTags: Básica, Magia de la naturaleza, Tormenta, Daño, Espíritu, Física.",
-			"frFR": "Esprit généré: 14\nChances d'obtenir un coup de chance: 20% (per hit)\nVous invoquez une lame de vent perçante qui inflige {18/19.8/21.6/23.4/25.2/27/28.8/30.6/32.4/34.2}% points de dégâts.\n\nTags: Basique, Magie naturelle, Tempête, Dégâts, Esprit, Dégâts physiques.",
-			"itIT": "Generazione spirito: 14\nProbabilità di colpo fortunato: 20% (per hit)\nInvochi una lama di vento perforante, infliggendo {18/19.8/21.6/23.4/25.2/27/28.8/30.6/32.4/34.2}% danni.\n\nTags: Base, Magia naturale, Tempesta, Danni, Spirito, Fisico.",
-			"jaJP": "精神力回復量: 14\n幸運の一撃発生率: 20% (per hit)\n貫通力のある風の刃を呼び出し、{18/19.8/21.6/23.4/25.2/27/28.8/30.6/32.4/34.2}%のダメージを与える。\n\nTags: 基本, 自然魔法, 嵐, ダメージ, 精神力, 物理.",
-			"koKR": "생성: 영력 14\n행운의 적중 확률: 20% (per hit)\n관통하는 바람의 칼날을 구현하여 {18/19.8/21.6/23.4/25.2/27/28.8/30.6/32.4/34.2}%의 피해를 줍니다.\n\nTags: 기본, 자연 마법, 폭풍, 피해, 영력, 물리.",
-			"plPL": "Generuje: 14 pkt. siły duchowej\nSzansa na szczęśliwy traf: 20% (per hit)\nPrzyzywasz przebijające ostrze wiatru, które zadaje {18/19.8/21.6/23.4/25.2/27/28.8/30.6/32.4/34.2}% pkt. obrażeń.\n\nTags: Podstawowe, Magia Natury, Burza, Obrażenia, Siła Duchowa, Fizyczne.",
-			"ptBR": "Gerar Espírito: 14\nChance de Golpe de Sorte: 20% (per hit)\nConjura uma lâmina de vento perfurante, causando {18/19.8/21.6/23.4/25.2/27/28.8/30.6/32.4/34.2}% de dano.\n\nTags: Básica, Magia da Natureza, Tempestade, Dano, Espírito, Física.",
-			"ruRU": "Дает дух: 14 ед.\nВероятность удачного удара: 20% (per hit)\nВы создаете рассекающий поток ветра, наносящий {18/19.8/21.6/23.4/25.2/27/28.8/30.6/32.4/34.2}% ед. урона.\n\nTags: Базовое, Силы природы, Буря, Урон, Дух, Физический урон.",
-			"trTR": "Ruh Üret: 14\nŞanslı Vuruş İhtimali: 20% (per hit)\nDelici bir rüzgâr kılıcı oluşturarak {18/19.8/21.6/23.4/25.2/27/28.8/30.6/32.4/34.2}% hasar ver.\n\nTags: Temel, Doğa Sihri, Fırtına, Hasar, Ruh, Fiziksel.",
-			"zhCN": "生成灵力: 14\n幸运一击几率: 20% (per hit)\n召唤一道凛冽的风刃, 造成 {18/19.8/21.6/23.4/25.2/27/28.8/30.6/32.4/34.2}% 点伤害。\n\nTags: 基础, 自然魔法, 风暴, 伤害, 灵力, 物理.",
-			"zhTW": "產生靈力:14\n幸運觸發機率: 20% (per hit)\n呼喚一把銳利的風之刃,造成 {18/19.8/21.6/23.4/25.2/27/28.8/30.6/32.4/34.2}% 點傷害。\n\nTags: 基本, 自然魔法, 風暴, 傷害, 靈力, 物理."
+			"deDE": "Erzeugte Geisteskraft: 16\nGlückstrefferchance: 20% (per hit)\nBeschwört eine durchschlagende Windklinge, die {20/22/24/26/28/30/32/34/36/38}% Schaden verursacht.\n\nTags: Basis, Naturmagie, Sturm, Schaden, Geisteskraft, Physisch.",
+			"esES": "Generación de espíritu: 16\nProbabilidad de golpe de suerte: 20% (per hit)\nGeneras una hoja de viento perforadora que inflige {20/22/24/26/28/30/32/34/36/38}% de daño.\n\nTags: Básica, Magia de la naturaleza, Tormenta, Daño, Espíritu, Física.",
+			"esMX": "Generación de Espíritu: 16\nProbabilidad de golpe afortunado: 20% (per hit)\nConjuras una cuchilla de viento penetrante que inflige {20/22/24/26/28/30/32/34/36/38}% de daño.\n\nTags: Básica, Magia de la naturaleza, Tormenta, Daño, Espíritu, Física.",
+			"frFR": "Esprit généré: 16\nChances d'obtenir un coup de chance: 20% (per hit)\nVous invoquez une lame de vent perçante qui inflige {20/22/24/26/28/30/32/34/36/38}% points de dégâts.\n\nTags: Basique, Magie naturelle, Tempête, Dégâts, Esprit, Dégâts physiques.",
+			"itIT": "Generazione spirito: 16\nProbabilità di colpo fortunato: 20% (per hit)\nInvochi una lama di vento perforante, infliggendo {20/22/24/26/28/30/32/34/36/38}% danni.\n\nTags: Base, Magia naturale, Tempesta, Danni, Spirito, Fisico.",
+			"jaJP": "精神力回復量: 16\n幸運の一撃発生率: 20% (per hit)\n貫通力のある風の刃を呼び出し、{20/22/24/26/28/30/32/34/36/38}%のダメージを与える。\n\nTags: 基本, 自然魔法, 嵐, ダメージ, 精神力, 物理.",
+			"koKR": "생성: 영력 16\n행운의 적중 확률: 20% (per hit)\n관통하는 바람의 칼날을 구현하여 {20/22/24/26/28/30/32/34/36/38}%의 피해를 줍니다.\n\nTags: 기본, 자연 마법, 폭풍, 피해, 영력, 물리.",
+			"plPL": "Generuje: 16 pkt. siły duchowej\nSzansa na szczęśliwy traf: 20% (per hit)\nPrzyzywasz przebijające ostrze wiatru, które zadaje {20/22/24/26/28/30/32/34/36/38}% pkt. obrażeń.\n\nTags: Podstawowe, Magia Natury, Burza, Obrażenia, Siła Duchowa, Fizyczne.",
+			"ptBR": "Gerar Espírito: 16\nChance de Golpe de Sorte: 20% (per hit)\nConjura uma lâmina de vento perfurante, causando {20/22/24/26/28/30/32/34/36/38}% de dano.\n\nTags: Básica, Magia da Natureza, Tempestade, Dano, Espírito, Física.",
+			"ruRU": "Дает дух: 16 ед.\nВероятность удачного удара: 20% (per hit)\nВы создаете рассекающий поток ветра, наносящий {20/22/24/26/28/30/32/34/36/38}% ед. урона.\n\nTags: Базовое, Силы природы, Буря, Урон, Дух, Физический урон.",
+			"trTR": "Ruh Üret: 16\nŞanslı Vuruş İhtimali: 20% (per hit)\nDelici bir rüzgâr kılıcı oluşturarak {20/22/24/26/28/30/32/34/36/38}% hasar ver.\n\nTags: Temel, Doğa Sihri, Fırtına, Hasar, Ruh, Fiziksel.",
+			"zhCN": "生成灵力: 16\n幸运一击几率: 20% (per hit)\n召唤一道凛冽的风刃, 造成 {20/22/24/26/28/30/32/34/36/38}% 点伤害。\n\nTags: 基础, 自然魔法, 风暴, 伤害, 灵力, 物理.",
+			"zhTW": "產生靈力:16\n幸運觸發機率: 20% (per hit)\n呼喚一把銳利的風之刃,造成 {20/22/24/26/28/30/32/34/36/38}% 點傷害。\n\nTags: 基本, 自然魔法, 風暴, 傷害, 靈力, 物理."
 },
 		id: 8,
 		maxPoints: 5,
@@ -491,7 +491,7 @@ Tags: Basic, Nature Magic, Storm, Damage, Spirit, Physical.`,
 	"Wild Wind Shear": {
 		baseSkill: "Wind Shear",
 		connections: [ "Enhanced Wind Shear" ],
-		description: `Wind Shear grants 3 additional Spirit for each enemy hit beyond the first.`,
+		description: `Wind Shear grants 4 additional Spirit for each enemy hit beyond the first.`,
 		nameLocalized: {
 			"deDE": "Wilde Windschere",
 			"esES": "Cortante de viento salvaje",
@@ -508,19 +508,19 @@ Tags: Basic, Nature Magic, Storm, Damage, Spirit, Physical.`,
 			"zhTW": "狂野削風剪"
 },
 		descriptionLocalized: {
-			"deDE": "Windschere verleiht 3 zusätzliche Geisteskraft für jeden weiteren getroffenen Gegner nach dem ersten.",
-			"esES": "Cortante de viento otorga 3 más de espíritu por cada enemigo golpeado después del primero.",
-			"esMX": "Viento Penetrante otorga 3 de Espíritu adicional por cada enemigo que golpees, además del primero.",
-			"frFR": "Vent cisaillant vous confère 3 points d'esprit supplémentaires pour chaque cible touchée après la première cible.",
-			"itIT": "Folata Travolgente genera 3 spirito aggiuntivo per ogni nemico colpito dopo il primo.",
-			"jaJP": "〈風の刃〉が最初の敵に命中した後、攻撃が敵に命中するごとに追加の精神力を3生成する。",
-			"koKR": "바람 칼날이 첫 적에게 적중한 후 추가로 적에게 적중할 때마다 영력을 3 추가로 생성합니다.",
-			"plPL": "Kąsający Wicher zapewnia dodatkowo 3 pkt. siły duchowej za każdego trafionego wroga poza pierwszym.",
-			"ptBR": "Corte de Vento concede 3 de espírito adicional por cada inimigo atingido após o primeiro.",
-			"ruRU": "Поразив одного противника, \"Ветрорез\" начинает восполнять еще 3 ед. духа за каждую последующую цель.",
-			"trTR": "Rüzgâr Kırılması ilk vurulan düşmandan sonraki her bir düşman başına 3 ilave Ruh kazandırır.",
-			"zhCN": "风剪命中第一名敌人后, 每额外命中一名敌人就会获得 3 点灵力。",
-			"zhTW": "削風剪在第一個擊中的敵人之外,每擊中一個敵人就會獲得 3 點額外靈力。"
+			"deDE": "Windschere verleiht 4 zusätzliche Geisteskraft für jeden weiteren getroffenen Gegner nach dem ersten.",
+			"esES": "Cortante de viento otorga 4 más de espíritu por cada enemigo golpeado después del primero.",
+			"esMX": "Viento Penetrante otorga 4 de Espíritu adicional por cada enemigo que golpees, además del primero.",
+			"frFR": "Vent cisaillant vous confère 4 points d'esprit supplémentaires pour chaque cible touchée après la première cible.",
+			"itIT": "Folata Travolgente genera 4 spirito aggiuntivo per ogni nemico colpito dopo il primo.",
+			"jaJP": "〈風の刃〉が最初の敵に命中した後、攻撃が敵に命中するごとに追加の精神力を4生成する。",
+			"koKR": "바람 칼날이 첫 적에게 적중한 후 추가로 적에게 적중할 때마다 영력을 4 추가로 생성합니다.",
+			"plPL": "Kąsający Wicher zapewnia dodatkowo 4 pkt. siły duchowej za każdego trafionego wroga poza pierwszym.",
+			"ptBR": "Corte de Vento concede 4 de espírito adicional por cada inimigo atingido após o primeiro.",
+			"ruRU": "Поразив одного противника, \"Ветрорез\" начинает восполнять еще 4 ед. духа за каждую последующую цель.",
+			"trTR": "Rüzgâr Kırılması ilk vurulan düşmandan sonraki her bir düşman başına 4 ilave Ruh kazandırır.",
+			"zhCN": "风剪命中第一名敌人后, 每额外命中一名敌人就会获得 4 点灵力。",
+			"zhTW": "削風剪在第一個擊中的敵人之外,每擊中一個敵人就會獲得 4 點額外靈力。"
 },
 		id: 11,
 		maxPoints: 1,
@@ -691,9 +691,9 @@ Tags: Basic, Nature Magic, Storm, Damage, Damage Reduction, Spirit, Lightning.`,
 	"Claw": {
 		connections: [ "Basic", "Enhanced Claw" ],
 		description: `Attack Speed Multiplier: 1.1
-Generate Spirit: 12
+Generate Spirit: 15
 Lucky Hit Chance: 50% (per hit)
-Shapeshift into a Werewolf and claw at an enemy for {22/24.2/26.4/28.6/30.8/33/35.2/37.4/39.6/41.8}% damage.
+Shapeshift into a Werewolf and claw at an enemy for {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% damage.
 
 Tags: Basic, Shapeshifting, Werewolf, Damage, Spirit, Physical.`,
 		nameLocalized: {
@@ -712,19 +712,19 @@ Tags: Basic, Shapeshifting, Werewolf, Damage, Spirit, Physical.`,
 			"zhTW": "爪擊"
 },
 		descriptionLocalized: {
-			"deDE": "Attack Speed Multiplier: 1.1\nErzeugte Geisteskraft: 12\nGlückstrefferchance: 50% (per hit)\nVerwandelt Euch in einen Werwolf und schlagt Eure Krallen in einen Gegner, um {22/24.2/26.4/28.6/30.8/33/35.2/37.4/39.6/41.8}% Schaden zu verursachen.\n\nTags: Basis, Gestaltwandeln, Werwolf, Schaden, Geisteskraft, Physisch.",
-			"esES": "Attack Speed Multiplier: 1.1\nGeneración de espíritu: 12\nProbabilidad de golpe de suerte: 50% (per hit)\nTe transformas en un hombre lobo y atacas con tus garras a un enemigo, lo que inflige {22/24.2/26.4/28.6/30.8/33/35.2/37.4/39.6/41.8}% de daño.\n\nTags: Básica, Cambio de forma, Hombre lobo, Daño, Espíritu, Física.",
-			"esMX": "Attack Speed Multiplier: 1.1\nGeneración de Espíritu: 12\nProbabilidad de golpe afortunado: 50% (per hit)\nCambias de forma a un hombre lobo y rasguñas a un enemigo para infligirle {22/24.2/26.4/28.6/30.8/33/35.2/37.4/39.6/41.8}% de daño.\n\nTags: Básica, Metamorfosis, Hombre lobo, Daño, Espíritu, Física.",
-			"frFR": "Attack Speed Multiplier: 1.1\nEsprit généré: 12\nChances d'obtenir un coup de chance: 50% (per hit)\nVous vous transformez en lycanthrope et griffez une cible, ce qui lui inflige {22/24.2/26.4/28.6/30.8/33/35.2/37.4/39.6/41.8}% points de dégâts.\n\nTags: Basique, Métamorphose, Lycanthrope, Dégâts, Esprit, Dégâts physiques.",
-			"itIT": "Attack Speed Multiplier: 1.1\nGenerazione spirito: 12\nProbabilità di colpo fortunato: 50% (per hit)\nMuti in un Lupo Mannaro e artigli un nemico, infliggendo {22/24.2/26.4/28.6/30.8/33/35.2/37.4/39.6/41.8}% danni.\n\nTags: Base, Mutaforma, Lupo Mannaro, Danni, Spirito, Fisico.",
-			"jaJP": "Attack Speed Multiplier: 1.1\n精神力回復量: 12\n幸運の一撃発生率: 50% (per hit)\n人狼に変身して爪で敵を切り裂き、{22/24.2/26.4/28.6/30.8/33/35.2/37.4/39.6/41.8}%のダメージを与える。\n\nTags: 基本, 変身, 人狼, ダメージ, 精神力, 物理.",
-			"koKR": "Attack Speed Multiplier: 1.1\n생성: 영력 12\n행운의 적중 확률: 50% (per hit)\n늑대인간으로 변신하고 발톱으로 적을 공격하여 {22/24.2/26.4/28.6/30.8/33/35.2/37.4/39.6/41.8}%의 피해를 줍니다.\n\nTags: 기본, 변신, 늑대인간, 피해, 영력, 물리.",
-			"plPL": "Attack Speed Multiplier: 1.1\nGeneruje: 12 pkt. siły duchowej\nSzansa na szczęśliwy traf: 50% (per hit)\nPrzemieniasz się w wilkołaka i atakujesz wroga pazurami, zadając {22/24.2/26.4/28.6/30.8/33/35.2/37.4/39.6/41.8}% pkt. obrażeń.\n\nTags: Podstawowe, Zmiennokształtność, Wilkołak, Obrażenia, Siła Duchowa, Fizyczne.",
-			"ptBR": "Attack Speed Multiplier: 1.1\nGerar Espírito: 12\nChance de Golpe de Sorte: 50% (per hit)\nTransforma-se em um lobisomem e ataca um inimigo, causando {22/24.2/26.4/28.6/30.8/33/35.2/37.4/39.6/41.8}% de dano.\n\nTags: Básica, Metamorfose, Lobisomem, Dano, Espírito, Física.",
-			"ruRU": "Attack Speed Multiplier: 1.1\nДает дух: 12 ед.\nВероятность удачного удара: 50% (per hit)\nВы принимаете облик волка и терзаете противника когтями, нанося {22/24.2/26.4/28.6/30.8/33/35.2/37.4/39.6/41.8}% ед. урона.\n\nTags: Базовое, Смена облика, Облик волка, Урон, Дух, Физический урон.",
-			"trTR": "Attack Speed Multiplier: 1.1\nRuh Üret: 12\nŞanslı Vuruş İhtimali: 50% (per hit)\nBir Kurt Adama dönüşüp bir düşmanı pençeleyerek {22/24.2/26.4/28.6/30.8/33/35.2/37.4/39.6/41.8}% hasar ver.\n\nTags: Temel, Dönüşme, Kurt Adam, Hasar, Ruh, Fiziksel.",
-			"zhCN": "Attack Speed Multiplier: 1.1\n生成灵力: 12\n幸运一击几率: 50% (per hit)\n变成狼人并爪击敌人, 造成 {22/24.2/26.4/28.6/30.8/33/35.2/37.4/39.6/41.8}% 点伤害。\n\nTags: 基础, 变形, 狼人, 伤害, 灵力, 物理.",
-			"zhTW": "Attack Speed Multiplier: 1.1\n產生靈力:12\n幸運觸發機率: 50% (per hit)\n變身為狼人並爪擊一名敵人,造成 {22/24.2/26.4/28.6/30.8/33/35.2/37.4/39.6/41.8}% 點傷害。\n\nTags: 基本, 變形, 狼人, 傷害, 靈力, 物理."
+			"deDE": "Attack Speed Multiplier: 1.1\nErzeugte Geisteskraft: 15\nGlückstrefferchance: 50% (per hit)\nVerwandelt Euch in einen Werwolf und schlagt Eure Krallen in einen Gegner, um {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% Schaden zu verursachen.\n\nTags: Basis, Gestaltwandeln, Werwolf, Schaden, Geisteskraft, Physisch.",
+			"esES": "Attack Speed Multiplier: 1.1\nGeneración de espíritu: 15\nProbabilidad de golpe de suerte: 50% (per hit)\nTe transformas en un hombre lobo y atacas con tus garras a un enemigo, lo que inflige {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% de daño.\n\nTags: Básica, Cambio de forma, Hombre lobo, Daño, Espíritu, Física.",
+			"esMX": "Attack Speed Multiplier: 1.1\nGeneración de Espíritu: 15\nProbabilidad de golpe afortunado: 50% (per hit)\nCambias de forma a un hombre lobo y rasguñas a un enemigo para infligirle {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% de daño.\n\nTags: Básica, Metamorfosis, Hombre lobo, Daño, Espíritu, Física.",
+			"frFR": "Attack Speed Multiplier: 1.1\nEsprit généré: 15\nChances d'obtenir un coup de chance: 50% (per hit)\nVous vous transformez en lycanthrope et griffez une cible, ce qui lui inflige {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% points de dégâts.\n\nTags: Basique, Métamorphose, Lycanthrope, Dégâts, Esprit, Dégâts physiques.",
+			"itIT": "Attack Speed Multiplier: 1.1\nGenerazione spirito: 15\nProbabilità di colpo fortunato: 50% (per hit)\nMuti in un Lupo Mannaro e artigli un nemico, infliggendo {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% danni.\n\nTags: Base, Mutaforma, Lupo Mannaro, Danni, Spirito, Fisico.",
+			"jaJP": "Attack Speed Multiplier: 1.1\n精神力回復量: 15\n幸運の一撃発生率: 50% (per hit)\n人狼に変身して爪で敵を切り裂き、{25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}%のダメージを与える。\n\nTags: 基本, 変身, 人狼, ダメージ, 精神力, 物理.",
+			"koKR": "Attack Speed Multiplier: 1.1\n생성: 영력 15\n행운의 적중 확률: 50% (per hit)\n늑대인간으로 변신하고 발톱으로 적을 공격하여 {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}%의 피해를 줍니다.\n\nTags: 기본, 변신, 늑대인간, 피해, 영력, 물리.",
+			"plPL": "Attack Speed Multiplier: 1.1\nGeneruje: 15 pkt. siły duchowej\nSzansa na szczęśliwy traf: 50% (per hit)\nPrzemieniasz się w wilkołaka i atakujesz wroga pazurami, zadając {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% pkt. obrażeń.\n\nTags: Podstawowe, Zmiennokształtność, Wilkołak, Obrażenia, Siła Duchowa, Fizyczne.",
+			"ptBR": "Attack Speed Multiplier: 1.1\nGerar Espírito: 15\nChance de Golpe de Sorte: 50% (per hit)\nTransforma-se em um lobisomem e ataca um inimigo, causando {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% de dano.\n\nTags: Básica, Metamorfose, Lobisomem, Dano, Espírito, Física.",
+			"ruRU": "Attack Speed Multiplier: 1.1\nДает дух: 15 ед.\nВероятность удачного удара: 50% (per hit)\nВы принимаете облик волка и терзаете противника когтями, нанося {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% ед. урона.\n\nTags: Базовое, Смена облика, Облик волка, Урон, Дух, Физический урон.",
+			"trTR": "Attack Speed Multiplier: 1.1\nRuh Üret: 15\nŞanslı Vuruş İhtimali: 50% (per hit)\nBir Kurt Adama dönüşüp bir düşmanı pençeleyerek {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% hasar ver.\n\nTags: Temel, Dönüşme, Kurt Adam, Hasar, Ruh, Fiziksel.",
+			"zhCN": "Attack Speed Multiplier: 1.1\n生成灵力: 15\n幸运一击几率: 50% (per hit)\n变成狼人并爪击敌人, 造成 {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% 点伤害。\n\nTags: 基础, 变形, 狼人, 伤害, 灵力, 物理.",
+			"zhTW": "Attack Speed Multiplier: 1.1\n產生靈力:15\n幸運觸發機率: 50% (per hit)\n變身為狼人並爪擊一名敵人,造成 {25/27.5/30/32.5/35/37.5/40/42.5/45/47.5}% 點傷害。\n\nTags: 基本, 變形, 狼人, 傷害, 靈力, 物理."
 },
 		id: 16,
 		maxPoints: 5,
@@ -773,7 +773,7 @@ Tags: Basic, Shapeshifting, Werewolf, Damage, Spirit, Physical.`,
 	"Fierce Claw": {
 		baseSkill: "Claw",
 		connections: [ "Enhanced Claw" ],
-		description: `Claw applies 15% Poisoning damage over 6 seconds.`,
+		description: `Claw applies 19.8% Poisoning damage over 6 seconds.`,
 		nameLocalized: {
 			"deDE": "Grimmige Klaue",
 			"esES": "Desgarrar fiero",
@@ -790,19 +790,19 @@ Tags: Basic, Shapeshifting, Werewolf, Damage, Spirit, Physical.`,
 			"zhTW": "兇狠爪擊"
 },
 		descriptionLocalized: {
-			"deDE": "Klaue verursacht im Verlauf von 6 Sek. 15% Giftschaden.",
-			"esES": "Desgarrar aplica 15% de daño de veneno durante 6 s.",
-			"esMX": "Garra aplica 15% de daño de veneno durante 6 segundos.",
-			"frFR": "Griffe inflige 15% points de dégâts de poison en 6 s.",
-			"itIT": "Artigliata applica 15% danni da veleno nell'arco di 6 s.",
-			"jaJP": "〈狼爪〉が敵を毒状態にし、6秒かけて15%の毒ダメージを与える。",
-			"koKR": "발톱이 6초에 걸친 15%의 중독 피해를 적용합니다.",
-			"plPL": "Pazury wywołują 15% pkt. obrażeń od zatrucia w ciągu 6 sek.",
-			"ptBR": "Garra aplica 15% de dano venenoso ao longo de 6 s.",
-			"ruRU": "\"Удар когтями\" отравляет противников, нанося 15% ед. урона от отравления за 6 сек.",
-			"trTR": "Pençe 6 saniye boyunca 15% Zehirleme hasarı uygular.",
-			"zhCN": "爪击在 6 秒内持续造成 15% 点毒素伤害。",
-			"zhTW": "爪擊在 6 秒內造成 15% 點中毒傷害。"
+			"deDE": "Klaue verursacht im Verlauf von 6 Sek. 19.8% Giftschaden.",
+			"esES": "Desgarrar aplica 19.8% de daño de veneno durante 6 s.",
+			"esMX": "Garra aplica 19.8% de daño de veneno durante 6 segundos.",
+			"frFR": "Griffe inflige 19.8% points de dégâts de poison en 6 s.",
+			"itIT": "Artigliata applica 19.8% danni da veleno nell'arco di 6 s.",
+			"jaJP": "〈狼爪〉が敵を毒状態にし、6秒かけて19.8%の毒ダメージを与える。",
+			"koKR": "발톱이 6초에 걸친 19.8%의 중독 피해를 적용합니다.",
+			"plPL": "Pazury wywołują 19.8% pkt. obrażeń od zatrucia w ciągu 6 sek.",
+			"ptBR": "Garra aplica 19.8% de dano venenoso ao longo de 6 s.",
+			"ruRU": "\"Удар когтями\" отравляет противников, нанося 19.8% ед. урона от отравления за 6 сек.",
+			"trTR": "Pençe 6 saniye boyunca 19.8% Zehirleme hasarı uygular.",
+			"zhCN": "爪击在 6 秒内持续造成 19.8% 点毒素伤害。",
+			"zhTW": "爪擊在 6 秒內造成 19.8% 點中毒傷害。"
 },
 		id: 18,
 		maxPoints: 1,
@@ -2620,9 +2620,9 @@ druidData["Companion"] = {
 		connections: [ "Companion", "Enhanced Ravens" ],
 		description: `Cooldown: 15 seconds
 Lucky Hit Chance: 45% (per use)
-Passive: 1 Ravens fly above you and periodically attack your enemies for {24/26.4/28.8/31.2/33.6/36/38.4/40.8/43.2/45.6}% damage every 5 seconds.
+Passive: 1 Ravens fly above you and periodically attack your enemies for {31/34.1/37.2/40.3/43.4/46.5/49.6/52.7/55.8/58.9}% damage every 5 seconds.
 
-Active: The target area is swarmed with ravens, dealing {250/275/300/325/350/375/400/425/450/475}% damage over 6 seconds.
+Active: The target area is swarmed with ravens, dealing {300/330/360/390/420/450/480/510/540/570}% damage over 6 seconds.
 
 Tags: Companion, Physical, Damage, Cooldown.`,
 		nameLocalized: {
@@ -2641,19 +2641,19 @@ Tags: Companion, Physical, Damage, Cooldown.`,
 			"zhTW": "掠鴉"
 },
 		descriptionLocalized: {
-			"deDE": "Abklingzeit: 15 Sek.\nGlückstrefferchance: 45% (per use)\nPassiv: 1 Raben kreisen über Euch, greifen wiederholt Eure Gegner an und fügen ihnen dabei alle 5 Sek. {24/26.4/28.8/31.2/33.6/36/38.4/40.8/43.2/45.6}% Schaden zu.\n\nAktiv: Der Zielbereich wird von Raben umschwärmt, die Gegnern im Verlauf von 6 Sek. {250/275/300/325/350/375/400/425/450/475}% Schaden zufügen.\n\nTags: Gefährte, Physisch, Schaden, Abklingzeit.",
-			"esES": "Tiempo de reutilización: 15 s\nProbabilidad de golpe de suerte: 45% (per use)\nPasiva: Te sobrevuelan 1 cuervos que atacan periódicamente a tus enemigos para infligirles {24/26.4/28.8/31.2/33.6/36/38.4/40.8/43.2/45.6}% de daño cada 5 s.\n\nActiva: La bandada invade la zona seleccionada para infligir {250/275/300/325/350/375/400/425/450/475}% de daño durante 6 s.\n\nTags: Compañero, Física, Daño, Tiempo de reutilización.",
-			"esMX": "Recuperación: 15 segundos\nProbabilidad de golpe afortunado: 45% (per use)\nPasiva: 1 cuervos te sobrevuelan y atacan periódicamente a los enemigos, lo que les inflige {24/26.4/28.8/31.2/33.6/36/38.4/40.8/43.2/45.6}% de daño cada 5 segundos.\n\nActiva: Los cuervos atacan el área objetivo en bandada e infligen {250/275/300/325/350/375/400/425/450/475}% de daño durante 6 segundos.\n\nTags: Compañero, Física, Daño, Recuperación.",
-			"frFR": "Temps de recharge: 15 s\nChances d'obtenir un coup de chance: 45% (per use)\nCompétence passive: 1 corbeaux volent au-dessus de vous et attaquent régulièrement vos adversaires en leur infligeant {24/26.4/28.8/31.2/33.6/36/38.4/40.8/43.2/45.6}% points de dégâts toutes les 5 s.\n\nCompétence active: la zone ciblée est assaillie de corbeaux, qui infligent {250/275/300/325/350/375/400/425/450/475}% points de dégâts en 6 s.\n\nTags: Compagnon, Dégâts physiques, Dégâts, Temps de recharge.",
-			"itIT": "Tempo di recupero: 15 s\nProbabilità di colpo fortunato: 45% (per use)\nPassiva:1 Corvi volano sopra di te attaccando periodicamente i nemici, infliggendo {24/26.4/28.8/31.2/33.6/36/38.4/40.8/43.2/45.6}% danni ogni 5 s.\n\nAttiva: l'area bersaglio viene travolta da un nugolo di corvi che infliggono {250/275/300/325/350/375/400/425/450/475}% danni in 6 s.\n\nTags: Compagni, Fisico, Danni, Tempo di recupero.",
-			"jaJP": "クールダウン: 15秒\n幸運の一撃発生率: 45% (per use)\nパッシブ: 1羽の鴉が自らの頭上を飛び回って定期的に敵を攻撃し、5秒ごとに{24/26.4/28.8/31.2/33.6/36/38.4/40.8/43.2/45.6}%のダメージを与える。\n\nアクティブ: 標的エリアに鴉の群れが押し寄せ、6秒かけて{250/275/300/325/350/375/400/425/450/475}%のダメージを与える。\n\nTags: 使い魔, 物理, ダメージ, クールダウン.",
-			"koKR": "재사용 대기시간: 15초\n행운의 적중 확률: 45% (per use)\n지속 효과: 큰까마귀 1마리가 머리 위를 날아다니며 주기적으로 적을 공격해 5초마다 {24/26.4/28.8/31.2/33.6/36/38.4/40.8/43.2/45.6}%의 피해를 줍니다.\n\n사용 효과: 대상 지역에 큰까마귀 떼가 몰려들어, 적에게 6초에 걸쳐 {250/275/300/325/350/375/400/425/450/475}%의 피해를 줍니다.\n\nTags: 동료, 물리, 피해, 재사용 대기시간.",
-			"plPL": "Czas odnowienia: 15 sek.\nSzansa na szczęśliwy traf: 45% (per use)\nDziałanie pasywne: 1 Kruki:Kruków krążą:krąży ci nad głową i co jakiś czas atakują:atakuje twoich wrogów, zadając im {24/26.4/28.8/31.2/33.6/36/38.4/40.8/43.2/45.6}% pkt. obrażeń co 5 sek.\n\nDziałanie aktywne: Stado kruków atakuje wskazany obszar i zadaje {250/275/300/325/350/375/400/425/450/475}% pkt. obrażeń przez 6 sek.\n\nTags: Kompan, Fizyczne, Obrażenia, Odnowienie.",
-			"ptBR": "Recarga: 15 s\nChance de Golpe de Sorte: 45% (per use)\nPassiva: 1 Corvos sobrevoam você e atacam seus inimigos periodicamente, causando {24/26.4/28.8/31.2/33.6/36/38.4/40.8/43.2/45.6}% de dano a cada 5 s.\n\nAtiva: A área selecionada é tomada por corvos, causando {250/275/300/325/350/375/400/425/450/475}% de dano ao longo de 6 s.\n\nTags: Mascote, Física, Dano, Recarga.",
-			"ruRU": "Время восстановления: 15 сек.\nВероятность критического удара: 45% (per use)\nПассивный эффект: 1 ворона:воронов кружат:кружат над вами и время от времени атакуют:атакуют противников, нанося {24/26.4/28.8/31.2/33.6/36/38.4/40.8/43.2/45.6}% ед. урона раз в 5 сек.\n\nЭффект при активации: вороны атакуют цели в указанной области, нанося {250/275/300/325/350/375/400/425/450/475}% ед. урона за 6 сек.\n\nTags: Спутник, Физический урон, Урон, Время восстановления.",
-			"trTR": "Bekleme Süresi: 15 saniye\nŞanslı Vuruş İhtimali: 45% (per use)\nPasif: 1 Kuzgun, belirli aralıklarla üzerinde uçup 5 saniyede bir kez düşmanlarına saldırarak {24/26.4/28.8/31.2/33.6/36/38.4/40.8/43.2/45.6}% hasar verir.\n\nAktif: Kuzgunlar hedef bölgeyi istila ederek 6 saniye boyunca {250/275/300/325/350/375/400/425/450/475}% hasar verir.\n\nTags: Yoldaş, Fiziksel, Hasar, Bekleme Süresi.",
-			"zhCN": "冷却时间: 15 秒\n幸运一击几率: 45% (per use)\n被动: 1 只渡鸦从你的头顶飞过并周期性地攻击敌人, 每 5 秒对敌人造成 {24/26.4/28.8/31.2/33.6/36/38.4/40.8/43.2/45.6}% 点伤害。\n\n主动: 目标区域渡鸦成群, 在 6 秒内造成 {250/275/300/325/350/375/400/425/450/475}% 点伤害。\n\nTags: 同伴, 物理, 伤害, 冷却时间.",
-			"zhTW": "冷卻時間:15 秒\n幸運觸發機率:45% (per use)\n被動效果:1 隻掠鴉在你上空飛翔並定期攻擊敵人,每 5 秒造成 {24/26.4/28.8/31.2/33.6/36/38.4/40.8/43.2/45.6}% 點傷害。\n\n主動效果:掠鴉圍攻指定地點,在 6 秒內造成 {250/275/300/325/350/375/400/425/450/475}% 點傷害。\n\nTags: 同伴, 物理, 傷害, 冷卻時間."
+			"deDE": "Abklingzeit: 15 Sek.\nGlückstrefferchance: 45% (per use)\nPassiv: 1 Raben kreisen über Euch, greifen wiederholt Eure Gegner an und fügen ihnen dabei alle 5 Sek. {31/34.1/37.2/40.3/43.4/46.5/49.6/52.7/55.8/58.9}% Schaden zu.\n\nAktiv: Der Zielbereich wird von Raben umschwärmt, die Gegnern im Verlauf von 6 Sek. {300/330/360/390/420/450/480/510/540/570}% Schaden zufügen.\n\nTags: Gefährte, Physisch, Schaden, Abklingzeit.",
+			"esES": "Tiempo de reutilización: 15 s\nProbabilidad de golpe de suerte: 45% (per use)\nPasiva: Te sobrevuelan 1 cuervos que atacan periódicamente a tus enemigos para infligirles {31/34.1/37.2/40.3/43.4/46.5/49.6/52.7/55.8/58.9}% de daño cada 5 s.\n\nActiva: La bandada invade la zona seleccionada para infligir {300/330/360/390/420/450/480/510/540/570}% de daño durante 6 s.\n\nTags: Compañero, Física, Daño, Tiempo de reutilización.",
+			"esMX": "Recuperación: 15 segundos\nProbabilidad de golpe afortunado: 45% (per use)\nPasiva: 1 cuervos te sobrevuelan y atacan periódicamente a los enemigos, lo que les inflige {31/34.1/37.2/40.3/43.4/46.5/49.6/52.7/55.8/58.9}% de daño cada 5 segundos.\n\nActiva: Los cuervos atacan el área objetivo en bandada e infligen {300/330/360/390/420/450/480/510/540/570}% de daño durante 6 segundos.\n\nTags: Compañero, Física, Daño, Recuperación.",
+			"frFR": "Temps de recharge: 15 s\nChances d'obtenir un coup de chance: 45% (per use)\nCompétence passive: 1 corbeaux volent au-dessus de vous et attaquent régulièrement vos adversaires en leur infligeant {31/34.1/37.2/40.3/43.4/46.5/49.6/52.7/55.8/58.9}% points de dégâts toutes les 5 s.\n\nCompétence active: la zone ciblée est assaillie de corbeaux, qui infligent {300/330/360/390/420/450/480/510/540/570}% points de dégâts en 6 s.\n\nTags: Compagnon, Dégâts physiques, Dégâts, Temps de recharge.",
+			"itIT": "Tempo di recupero: 15 s\nProbabilità di colpo fortunato: 45% (per use)\nPassiva:1 Corvi volano sopra di te attaccando periodicamente i nemici, infliggendo {31/34.1/37.2/40.3/43.4/46.5/49.6/52.7/55.8/58.9}% danni ogni 5 s.\n\nAttiva: l'area bersaglio viene travolta da un nugolo di corvi che infliggono {300/330/360/390/420/450/480/510/540/570}% danni in 6 s.\n\nTags: Compagni, Fisico, Danni, Tempo di recupero.",
+			"jaJP": "クールダウン: 15秒\n幸運の一撃発生率: 45% (per use)\nパッシブ: 1羽の鴉が自らの頭上を飛び回って定期的に敵を攻撃し、5秒ごとに{31/34.1/37.2/40.3/43.4/46.5/49.6/52.7/55.8/58.9}%のダメージを与える。\n\nアクティブ: 標的エリアに鴉の群れが押し寄せ、6秒かけて{300/330/360/390/420/450/480/510/540/570}%のダメージを与える。\n\nTags: 使い魔, 物理, ダメージ, クールダウン.",
+			"koKR": "재사용 대기시간: 15초\n행운의 적중 확률: 45% (per use)\n지속 효과: 큰까마귀 1마리가 머리 위를 날아다니며 주기적으로 적을 공격해 5초마다 {31/34.1/37.2/40.3/43.4/46.5/49.6/52.7/55.8/58.9}%의 피해를 줍니다.\n\n사용 효과: 대상 지역에 큰까마귀 떼가 몰려들어, 적에게 6초에 걸쳐 {300/330/360/390/420/450/480/510/540/570}%의 피해를 줍니다.\n\nTags: 동료, 물리, 피해, 재사용 대기시간.",
+			"plPL": "Czas odnowienia: 15 sek.\nSzansa na szczęśliwy traf: 45% (per use)\nDziałanie pasywne: 1 Kruki:Kruków krążą:krąży ci nad głową i co jakiś czas atakują:atakuje twoich wrogów, zadając im {31/34.1/37.2/40.3/43.4/46.5/49.6/52.7/55.8/58.9}% pkt. obrażeń co 5 sek.\n\nDziałanie aktywne: Stado kruków atakuje wskazany obszar i zadaje {300/330/360/390/420/450/480/510/540/570}% pkt. obrażeń przez 6 sek.\n\nTags: Kompan, Fizyczne, Obrażenia, Odnowienie.",
+			"ptBR": "Recarga: 15 s\nChance de Golpe de Sorte: 45% (per use)\nPassiva: 1 Corvos sobrevoam você e atacam seus inimigos periodicamente, causando {31/34.1/37.2/40.3/43.4/46.5/49.6/52.7/55.8/58.9}% de dano a cada 5 s.\n\nAtiva: A área selecionada é tomada por corvos, causando {300/330/360/390/420/450/480/510/540/570}% de dano ao longo de 6 s.\n\nTags: Mascote, Física, Dano, Recarga.",
+			"ruRU": "Время восстановления: 15 сек.\nВероятность критического удара: 45% (per use)\nПассивный эффект: 1 ворона:воронов кружат:кружат над вами и время от времени атакуют:атакуют противников, нанося {31/34.1/37.2/40.3/43.4/46.5/49.6/52.7/55.8/58.9}% ед. урона раз в 5 сек.\n\nЭффект при активации: вороны атакуют цели в указанной области, нанося {300/330/360/390/420/450/480/510/540/570}% ед. урона за 6 сек.\n\nTags: Спутник, Физический урон, Урон, Время восстановления.",
+			"trTR": "Bekleme Süresi: 15 saniye\nŞanslı Vuruş İhtimali: 45% (per use)\nPasif: 1 Kuzgun, belirli aralıklarla üzerinde uçup 5 saniyede bir kez düşmanlarına saldırarak {31/34.1/37.2/40.3/43.4/46.5/49.6/52.7/55.8/58.9}% hasar verir.\n\nAktif: Kuzgunlar hedef bölgeyi istila ederek 6 saniye boyunca {300/330/360/390/420/450/480/510/540/570}% hasar verir.\n\nTags: Yoldaş, Fiziksel, Hasar, Bekleme Süresi.",
+			"zhCN": "冷却时间: 15 秒\n幸运一击几率: 45% (per use)\n被动: 1 只渡鸦从你的头顶飞过并周期性地攻击敌人, 每 5 秒对敌人造成 {31/34.1/37.2/40.3/43.4/46.5/49.6/52.7/55.8/58.9}% 点伤害。\n\n主动: 目标区域渡鸦成群, 在 6 秒内造成 {300/330/360/390/420/450/480/510/540/570}% 点伤害。\n\nTags: 同伴, 物理, 伤害, 冷却时间.",
+			"zhTW": "冷卻時間:15 秒\n幸運觸發機率:45% (per use)\n被動效果:1 隻掠鴉在你上空飛翔並定期攻擊敵人,每 5 秒造成 {31/34.1/37.2/40.3/43.4/46.5/49.6/52.7/55.8/58.9}% 點傷害。\n\n主動效果:掠鴉圍攻指定地點,在 6 秒內造成 {300/330/360/390/420/450/480/510/540/570}% 點傷害。\n\nTags: 同伴, 物理, 傷害, 冷卻時間."
 },
 		id: 62,
 		maxPoints: 5,
@@ -2821,9 +2821,9 @@ Tags: Companion, Damage.`,
 		connections: [ "Companion", "Enhanced Poison Creeper" ],
 		description: `Cooldown: 20 seconds
 Lucky Hit Chance: 28% (per use)
-Passive: 1 poison creepers periodically emerge from the ground every 7 seconds, applying {36/39.6/43.2/46.8/50.4/54/57.6/61.2/64.8/68.4}% Poisoning damage over 6 seconds to an enemy in the area.
+Passive: 1 poison creepers periodically emerge from the ground every 7 seconds, applying {46.8/51.6/56.4/61.2/66/70.8/75/79.8/84.6/89.4}% Poisoning damage over 6 seconds to an enemy in the area.
 
-Active: Vines strangle all surrounding enemies, Immobilizing them for 2 seconds and Poisoning them for {90/99/108/117/126/135/144/153/162/171}% damage over 2 seconds.
+Active: Vines strangle all surrounding enemies, Immobilizing them for 2 seconds and Poisoning them for {126/138.6/151.2/163.8/176.4/189/201.6/214.2/226.8/239.4}% damage over 2 seconds.
 
 Tags: Companion, Poison, Damage, Cooldown, Crowd Control.`,
 		nameLocalized: {
@@ -2842,19 +2842,19 @@ Tags: Companion, Poison, Damage, Cooldown, Crowd Control.`,
 			"zhTW": "劇毒藤蔓"
 },
 		descriptionLocalized: {
-			"deDE": "Abklingzeit: 20 Sek.\nGlückstrefferchance: 28% (per use)\nPassiv: 1 Giftranken schießen alle 7 Sek. aus dem Boden. Gegner im Wirkungsbereich erleiden im Verlauf von 6 Sek. {36/39.6/43.2/46.8/50.4/54/57.6/61.2/64.8/68.4}% Giftschaden.\n\nAktiv: Die Ranken strangulieren alle Gegner in der Nähe, machen sie 2 Sek. lang bewegungsunfähig, vergiften sie und verursachen dabei im Verlauf von 2 Sek. {90/99/108/117/126/135/144/153/162/171}% Schaden.\n\nTags: Gefährte, Gift, Schaden, Abklingzeit, Kontrollverlust.",
-			"esES": "Tiempo de reutilización: 20 s\nProbabilidad de golpe de suerte: 28% (per use)\nPasiva: 1 enredaderas venenosas emergen del suelo cada 7 s y aplican {36/39.6/43.2/46.8/50.4/54/57.6/61.2/64.8/68.4}% de daño de veneno durante 6 s a un enemigo en la zona.\n\nActiva: Las enredaderas estrangulan a todos los enemigos cercanos y los inmovilizan durante 2 s. Además, les aplican veneno, lo que les inflige {90/99/108/117/126/135/144/153/162/171}% de daño durante 2 s.\n\nTags: Compañero, Veneno, Daño, Tiempo de reutilización, Control de masas.",
-			"esMX": "Recuperación: 20 segundos\nProbabilidad de golpe afortunado: 28% (per use)\nPasiva: 1 lianas venenosas salen periódicamente del suelo cada 7 segundos, y aplica {36/39.6/43.2/46.8/50.4/54/57.6/61.2/64.8/68.4}% de daño de veneno durante 6 segundos a un enemigo en el área.\n\nActiva: Las lianas estrangulan a todos los enemigos circundantes, los inmovilizan durante 2 segundos y los envenenan para infligir {90/99/108/117/126/135/144/153/162/171}% de daño durante 2 segundos.\n\nTags: Compañero, Veneno, Daño, Recuperación, Control de multitudes.",
-			"frFR": "Temps de recharge: 20 s\nChances d'obtenir un coup de chance: 28% (per use)\nCompétence passive :1 lierres empoisonnés surgissent du sol toutes les 7 s, infligeant à une cible dans la zone {36/39.6/43.2/46.8/50.4/54/57.6/61.2/64.8/68.4}% points de dégâts de poison en 6 s.\n\nCompétence active: des lianes enserrent toutes les cibles à proximité, ce qui les immobilise pendant 2 s et les empoisonne à hauteur de {90/99/108/117/126/135/144/153/162/171}% points de dégâts en 2 s.\n\nTags: Compagnon, Poison, Dégâts, Temps de recharge, Perte de contrôle.",
-			"itIT": "Tempo di recupero: 20 s\nProbabilità di colpo fortunato: 28% (per use)\nPassiva: 1 rampicanti velenosi emergono periodicamente dal terreno ogni 7 s, infliggendo {36/39.6/43.2/46.8/50.4/54/57.6/61.2/64.8/68.4}% danni da veleno a un nemico nell'area in 6 s.\n\nAttiva: Dei rampicanti strangolano tutti i nemici circostanti, immobilizzandoli per 2 s e avvelenandoli, infliggendo {90/99/108/117/126/135/144/153/162/171}% danni in 2 s.\n\nTags: Compagni, Veleno, Danni, Tempo di recupero, Effetti debilitanti.",
-			"jaJP": "クールダウン: 20秒\n幸運の一撃発生率: 28% (per use)\nパッシブ: 1本の有毒な蔦が7秒ごとに地面から出現し、エリア内にいる敵1体に6秒間かけて{36/39.6/43.2/46.8/50.4/54/57.6/61.2/64.8/68.4}%の毒ダメージを与える。\n\nアクティブ: 蔦が周囲にいるすべての敵を絡め取って2秒間移動不能にしつつ毒状態にし、2秒間かけて{90/99/108/117/126/135/144/153/162/171}%の毒ダメージを与える。\n\nTags: 使い魔, 毒, ダメージ, クールダウン, 操作障害効果.",
-			"koKR": "재사용 대기시간: 20초\n행운의 적중 확률: 28% (per use)\n지속 효과: 7초마다 바닥에서 1개의 맹독 덩굴이 솟구쳐 나와 해당 지역 내의 적에게 6초에 걸쳐 {36/39.6/43.2/46.8/50.4/54/57.6/61.2/64.8/68.4}%의 중독 피해를 줍니다.\n\n사용 효과: 덩굴이 주변 적들을 얽어 2초 동안 이동 불가 상태로 만들고 중독시켜 2초에 걸쳐 {90/99/108/117/126/135/144/153/162/171}%의 피해를 줍니다.\n\nTags: 동료, 독, 피해, 재사용 대기시간, 군중 제어.",
-			"plPL": "Czas odnowienia: 20 sek.\nSzansa na szczęśliwy traf: 28% (per use)\nDziałanie pasywne: 1 trujące pełzacze wyrastają:trujących pełzaczy wyrasta z ziemi co 7 sek. i zadają:zadaje wrogowi na danym obszarze {36/39.6/43.2/46.8/50.4/54/57.6/61.2/64.8/68.4}% pkt. obrażeń od zatrucia w ciągu 6 sek.\n\nDziałanie aktywne: pnącze pęta wszystkich zatrutych wrogów znajdujących się wokół i unieruchamia ich na 2 sek. oraz zatruwa ich, zadając {90/99/108/117/126/135/144/153/162/171}% pkt. obrażeń w ciągu 2 sek.\n\nTags: Kompan, Trucizna, Obrażenia, Odnowienie, Ograniczanie Kontroli.",
-			"ptBR": "Recarga: 20 seconds\nChance de Golpe de Sorte: 28% (per use)\nPassiva: 1 Rastejantes venenosos emergem periodicamente do solo a cada 7 s, aplicando {36/39.6/43.2/46.8/50.4/54/57.6/61.2/64.8/68.4}% de dano venenoso a um inimigo na área ao longo de 6 s.\n\nAtiva: Vinhas estrangulam todos os inimigos ao redor, imobilizando-os por 2 s e envenenando-os, causando {90/99/108/117/126/135/144/153/162/171}% de dano ao longo de 2 s.\n\nTags: Mascote, Veneno, Dano, Recarga, Controle de Grupo.",
-			"ruRU": "Время восстановления: 20 сек.\nВероятность удачного удара: 28% (per use)\nПассивный эффект: раз в 7 сек. из-под земли появляются:появляются 1 ядовитые лозы, которые отравляют:ядовитых лоз, которые отравляют противника в области поражения, нанося {36/39.6/43.2/46.8/50.4/54/57.6/61.2/64.8/68.4}% ед. урона от отравления за 6 сек.\n\nЭффект при активации: лозы-душители оплетают противников вокруг, обездвиживая их на 2 сек. и нанося {90/99/108/117/126/135/144/153/162/171}% ед. урона от отравления за 2 сек.\n\nTags: Спутник, Яд, Урон, Время восстановления, Контроль.",
-			"trTR": "Bekleme Süresi: 20 saniye\nŞanslı Vuruş İhtimali: 28% (per use)\nPasif: 7 saniyede bir kez yerden 1 zehirli sarmaşık yükselerek bölgedeki bir düşmana 6 saniye boyunca {36/39.6/43.2/46.8/50.4/54/57.6/61.2/64.8/68.4}% Zehir hasarı uygular.\n\nAktif: Asmalar etraftaki tüm düşmanları boğarak 2 saniyeliğine Sabitler ve 2 saniye boyunca {90/99/108/117/126/135/144/153/162/171}% Zehir hasarı verir.\n\nTags: Yoldaş, Zehir, Hasar, Bekleme Süresi, Kitle Kontrolü.",
-			"zhCN": "冷却时间: 20 秒\n幸运一击几率: 28% (per use)\n被动: 每隔 7 秒从地面上出现 1 根剧毒蔓藤, 在 6 秒内对范围内的一名敌人造成 {36/39.6/43.2/46.8/50.4/54/57.6/61.2/64.8/68.4}% 点毒素伤害。\n\n主动: 蔓藤会绞杀周围所有敌人, 将其定身 2 秒并使其中毒, 在 2 秒内造成 {90/99/108/117/126/135/144/153/162/171}% 点伤害。\n\nTags: 同伴, 毒素, 伤害, 冷却时间, 控制.",
-			"zhTW": "冷卻時間:20 秒\n幸運觸發機率:28% (per use)\n被動:每 7 秒會從地面竄出 1 根劇毒藤蔓,並在 6 秒內對範圍內的敵人造成 {36/39.6/43.2/46.8/50.4/54/57.6/61.2/64.8/68.4}% 點中毒傷害。\n\n主動:藤蔓會糾纏住附近所有敵人,使其定身 2 秒,並在 2 秒內造成 {90/99/108/117/126/135/144/153/162/171}% 點中毒傷害。\n\nTags: 同伴, 毒素, 傷害, 冷卻時間, 控場."
+			"deDE": "Abklingzeit: 20 Sek.\nGlückstrefferchance: 28% (per use)\nPassiv: 1 Giftranken schießen alle 7 Sek. aus dem Boden. Gegner im Wirkungsbereich erleiden im Verlauf von 6 Sek. {46.8/51.6/56.4/61.2/66/70.8/75/79.8/84.6/89.4}% Giftschaden.\n\nAktiv: Die Ranken strangulieren alle Gegner in der Nähe, machen sie 2 Sek. lang bewegungsunfähig, vergiften sie und verursachen dabei im Verlauf von 2 Sek. {126/138.6/151.2/163.8/176.4/189/201.6/214.2/226.8/239.4}% Schaden.\n\nTags: Gefährte, Gift, Schaden, Abklingzeit, Kontrollverlust.",
+			"esES": "Tiempo de reutilización: 20 s\nProbabilidad de golpe de suerte: 28% (per use)\nPasiva: 1 enredaderas venenosas emergen del suelo cada 7 s y aplican {46.8/51.6/56.4/61.2/66/70.8/75/79.8/84.6/89.4}% de daño de veneno durante 6 s a un enemigo en la zona.\n\nActiva: Las enredaderas estrangulan a todos los enemigos cercanos y los inmovilizan durante 2 s. Además, les aplican veneno, lo que les inflige {126/138.6/151.2/163.8/176.4/189/201.6/214.2/226.8/239.4}% de daño durante 2 s.\n\nTags: Compañero, Veneno, Daño, Tiempo de reutilización, Control de masas.",
+			"esMX": "Recuperación: 20 segundos\nProbabilidad de golpe afortunado: 28% (per use)\nPasiva: 1 lianas venenosas salen periódicamente del suelo cada 7 segundos, y aplica {46.8/51.6/56.4/61.2/66/70.8/75/79.8/84.6/89.4}% de daño de veneno durante 6 segundos a un enemigo en el área.\n\nActiva: Las lianas estrangulan a todos los enemigos circundantes, los inmovilizan durante 2 segundos y los envenenan para infligir {126/138.6/151.2/163.8/176.4/189/201.6/214.2/226.8/239.4}% de daño durante 2 segundos.\n\nTags: Compañero, Veneno, Daño, Recuperación, Control de multitudes.",
+			"frFR": "Temps de recharge: 20 s\nChances d'obtenir un coup de chance: 28% (per use)\nCompétence passive :1 lierres empoisonnés surgissent du sol toutes les 7 s, infligeant à une cible dans la zone {46.8/51.6/56.4/61.2/66/70.8/75/79.8/84.6/89.4}% points de dégâts de poison en 6 s.\n\nCompétence active: des lianes enserrent toutes les cibles à proximité, ce qui les immobilise pendant 2 s et les empoisonne à hauteur de {126/138.6/151.2/163.8/176.4/189/201.6/214.2/226.8/239.4}% points de dégâts en 2 s.\n\nTags: Compagnon, Poison, Dégâts, Temps de recharge, Perte de contrôle.",
+			"itIT": "Tempo di recupero: 20 s\nProbabilità di colpo fortunato: 28% (per use)\nPassiva: 1 rampicanti velenosi emergono periodicamente dal terreno ogni 7 s, infliggendo {46.8/51.6/56.4/61.2/66/70.8/75/79.8/84.6/89.4}% danni da veleno a un nemico nell'area in 6 s.\n\nAttiva: Dei rampicanti strangolano tutti i nemici circostanti, immobilizzandoli per 2 s e avvelenandoli, infliggendo {126/138.6/151.2/163.8/176.4/189/201.6/214.2/226.8/239.4}% danni in 2 s.\n\nTags: Compagni, Veleno, Danni, Tempo di recupero, Effetti debilitanti.",
+			"jaJP": "クールダウン: 20秒\n幸運の一撃発生率: 28% (per use)\nパッシブ: 1本の有毒な蔦が7秒ごとに地面から出現し、エリア内にいる敵1体に6秒間かけて{46.8/51.6/56.4/61.2/66/70.8/75/79.8/84.6/89.4}%の毒ダメージを与える。\n\nアクティブ: 蔦が周囲にいるすべての敵を絡め取って2秒間移動不能にしつつ毒状態にし、2秒間かけて{126/138.6/151.2/163.8/176.4/189/201.6/214.2/226.8/239.4}%の毒ダメージを与える。\n\nTags: 使い魔, 毒, ダメージ, クールダウン, 操作障害効果.",
+			"koKR": "재사용 대기시간: 20초\n행운의 적중 확률: 28% (per use)\n지속 효과: 7초마다 바닥에서 1개의 맹독 덩굴이 솟구쳐 나와 해당 지역 내의 적에게 6초에 걸쳐 {46.8/51.6/56.4/61.2/66/70.8/75/79.8/84.6/89.4}%의 중독 피해를 줍니다.\n\n사용 효과: 덩굴이 주변 적들을 얽어 2초 동안 이동 불가 상태로 만들고 중독시켜 2초에 걸쳐 {126/138.6/151.2/163.8/176.4/189/201.6/214.2/226.8/239.4}%의 피해를 줍니다.\n\nTags: 동료, 독, 피해, 재사용 대기시간, 군중 제어.",
+			"plPL": "Czas odnowienia: 20 sek.\nSzansa na szczęśliwy traf: 28% (per use)\nDziałanie pasywne: 1 trujące pełzacze wyrastają:trujących pełzaczy wyrasta z ziemi co 7 sek. i zadają:zadaje wrogowi na danym obszarze {46.8/51.6/56.4/61.2/66/70.8/75/79.8/84.6/89.4}% pkt. obrażeń od zatrucia w ciągu 6 sek.\n\nDziałanie aktywne: pnącze pęta wszystkich zatrutych wrogów znajdujących się wokół i unieruchamia ich na 2 sek. oraz zatruwa ich, zadając {126/138.6/151.2/163.8/176.4/189/201.6/214.2/226.8/239.4}% pkt. obrażeń w ciągu 2 sek.\n\nTags: Kompan, Trucizna, Obrażenia, Odnowienie, Ograniczanie Kontroli.",
+			"ptBR": "Recarga: 20 seconds\nChance de Golpe de Sorte: 28% (per use)\nPassiva: 1 Rastejantes venenosos emergem periodicamente do solo a cada 7 s, aplicando {46.8/51.6/56.4/61.2/66/70.8/75/79.8/84.6/89.4}% de dano venenoso a um inimigo na área ao longo de 6 s.\n\nAtiva: Vinhas estrangulam todos os inimigos ao redor, imobilizando-os por 2 s e envenenando-os, causando {126/138.6/151.2/163.8/176.4/189/201.6/214.2/226.8/239.4}% de dano ao longo de 2 s.\n\nTags: Mascote, Veneno, Dano, Recarga, Controle de Grupo.",
+			"ruRU": "Время восстановления: 20 сек.\nВероятность удачного удара: 28% (per use)\nПассивный эффект: раз в 7 сек. из-под земли появляются:появляются 1 ядовитые лозы, которые отравляют:ядовитых лоз, которые отравляют противника в области поражения, нанося {46.8/51.6/56.4/61.2/66/70.8/75/79.8/84.6/89.4}% ед. урона от отравления за 6 сек.\n\nЭффект при активации: лозы-душители оплетают противников вокруг, обездвиживая их на 2 сек. и нанося {126/138.6/151.2/163.8/176.4/189/201.6/214.2/226.8/239.4}% ед. урона от отравления за 2 сек.\n\nTags: Спутник, Яд, Урон, Время восстановления, Контроль.",
+			"trTR": "Bekleme Süresi: 20 saniye\nŞanslı Vuruş İhtimali: 28% (per use)\nPasif: 7 saniyede bir kez yerden 1 zehirli sarmaşık yükselerek bölgedeki bir düşmana 6 saniye boyunca {46.8/51.6/56.4/61.2/66/70.8/75/79.8/84.6/89.4}% Zehir hasarı uygular.\n\nAktif: Asmalar etraftaki tüm düşmanları boğarak 2 saniyeliğine Sabitler ve 2 saniye boyunca {126/138.6/151.2/163.8/176.4/189/201.6/214.2/226.8/239.4}% Zehir hasarı verir.\n\nTags: Yoldaş, Zehir, Hasar, Bekleme Süresi, Kitle Kontrolü.",
+			"zhCN": "冷却时间: 20 秒\n幸运一击几率: 28% (per use)\n被动: 每隔 7 秒从地面上出现 1 根剧毒蔓藤, 在 6 秒内对范围内的一名敌人造成 {46.8/51.6/56.4/61.2/66/70.8/75/79.8/84.6/89.4}% 点毒素伤害。\n\n主动: 蔓藤会绞杀周围所有敌人, 将其定身 2 秒并使其中毒, 在 2 秒内造成 {126/138.6/151.2/163.8/176.4/189/201.6/214.2/226.8/239.4}% 点伤害。\n\nTags: 同伴, 毒素, 伤害, 冷却时间, 控制.",
+			"zhTW": "冷卻時間:20 秒\n幸運觸發機率:28% (per use)\n被動:每 7 秒會從地面竄出 1 根劇毒藤蔓,並在 6 秒內對範圍內的敵人造成 {46.8/51.6/56.4/61.2/66/70.8/75/79.8/84.6/89.4}% 點中毒傷害。\n\n主動:藤蔓會糾纏住附近所有敵人,使其定身 2 秒,並在 2 秒內造成 {126/138.6/151.2/163.8/176.4/189/201.6/214.2/226.8/239.4}% 點中毒傷害。\n\nTags: 同伴, 毒素, 傷害, 冷卻時間, 控場."
 },
 		id: 167,
 		maxPoints: 5,
@@ -2982,9 +2982,9 @@ Tags: Companion, Poison, Damage, Cooldown, Crowd Control.`,
 		connections: [ "Companion", "Enhanced Wolf Pack" ],
 		description: `Cooldown: 11 seconds
 Lucky Hit Chance: 50% (per use)
-Passive: Summon 2 wolf companions that bite enemies for {11/12.1/13.2/14.3/15.4/16.5/17.6/18.7/19.8/20.9}% damage.
+Passive: Summon 2 wolf companions that bite enemies for {14/15.4/16.8/18.2/19.6/21/22.4/23.8/25.2/26.6}% damage.
 
-Active: Direct your wolves to focus an enemy, leaping to them and striking for {135/148.5/162/175.5/189/202.5/216/229.5/243/256.5}% damage.
+Active: Direct your wolves to focus an enemy, leaping to them and striking for {200/220/240/260/280/300/320/340/360/380}% damage.
 
 Tags: Companion, Cooldown, Damage, Physical.`,
 		nameLocalized: {
@@ -3003,19 +3003,19 @@ Tags: Companion, Cooldown, Damage, Physical.`,
 			"zhTW": "狼群"
 },
 		descriptionLocalized: {
-			"deDE": "Abklingzeit: 11 Sek.\nGlückstrefferchance: 50% (per use)\nPassiv: Beschwört 2 Wolfsgefährten, die Gegner beißen und {11/12.1/13.2/14.3/15.4/16.5/17.6/18.7/19.8/20.9}% Schaden verursachen.\n\nAktiv: Befehlt den Wölfen, einen Gegner anzufallen und ihm {135/148.5/162/175.5/189/202.5/216/229.5/243/256.5}% Schaden zuzufügen.\n\nTags: Gefährte, Abklingzeit, Schaden, Physisch.",
-			"esES": "Tiempo de reutilización: 11 s\nProbabilidad de golpe de suerte: 50% (per use)\nPasiva: Invocas 2 lobos que muerden a los enemigos e infligen {11/12.1/13.2/14.3/15.4/16.5/17.6/18.7/19.8/20.9}% de daño.\n\nActiva: Azuzas a tus lobos para que se abalancen sobre un enemigo y le inflijan {135/148.5/162/175.5/189/202.5/216/229.5/243/256.5}% de daño.\n\nTags: Compañero, Tiempo de reutilización, Daño, Física.",
-			"esMX": "Recuperación: 11 segundos\nProbabilidad de golpe afortunado: 50% (per use)\nPasiva: Invocas 2 lobos compañeros que muerden a los enemigos y les infligen {11/12.1/13.2/14.3/15.4/16.5/17.6/18.7/19.8/20.9}% de daño.\n\nActiva: Ordenas a tus lobos enfocarse en un enemigo, sobre quien se abalanzan y le infligen {135/148.5/162/175.5/189/202.5/216/229.5/243/256.5}% de daño.\n\nTags: Compañero, Recuperación, Daño, Física.",
-			"frFR": "Temps de recharge: 11 s\nChances d'obtenir un coup de chance: 50% (per use)\nCompétence passive: vous invoquez 2 compagnons loups qui mordent les adversaires et leur infligent {11/12.1/13.2/14.3/15.4/16.5/17.6/18.7/19.8/20.9}% points de dégâts.\n\nCompétence active: vous ordonnez à vos loups de bondir sur une cible, qu'ils attaquent en infligeant {135/148.5/162/175.5/189/202.5/216/229.5/243/256.5}% points de dégâts.\n\nTags: Compagnon, Temps de recharge, Dégâts, Dégâts physiques.",
-			"itIT": "Tempo di recupero: 11 s\nProbabilità di colpo fortunato: 50% (per use)\nPassiva: evochi 2 compagni lupi che mordono i nemici, infliggendo {11/12.1/13.2/14.3/15.4/16.5/17.6/18.7/19.8/20.9}% danni.\n\nAttiva: indichi ai tuoi lupi un nemico da prendere di mira, così che loro gli balzino sopra infliggendo {135/148.5/162/175.5/189/202.5/216/229.5/243/256.5}% danni.\n\nTags: Compagni, Tempo di recupero, Danni, Fisico.",
-			"jaJP": "クールダウン: 11秒\n幸運の一撃発生率: 50% (per use)\nパッシブ: 召喚された2匹の狼が敵に噛み付いて{11/12.1/13.2/14.3/15.4/16.5/17.6/18.7/19.8/20.9}%のダメージを与える。\n\nアクティブ: 狼を1体の敵に集中して飛び掛からせ、{135/148.5/162/175.5/189/202.5/216/229.5/243/256.5}%のダメージを与える。\n\nTags: 使い魔, クールダウン, ダメージ, 物理.",
-			"koKR": "재사용 대기시간: 11초\n행운의 적중 확률: 50% (per use)\n지속 효과: 적들을 물어 {11/12.1/13.2/14.3/15.4/16.5/17.6/18.7/19.8/20.9}%의 피해를 주는 늑대 동료 2마리를 소환합니다.\n\n사용 효과: 자신의 늑대들에게 적 한 마리를 집중 공격하라고 지시합니다. 늑대들이 해당 적을 덮쳐 {135/148.5/162/175.5/189/202.5/216/229.5/243/256.5}%의 피해를 줍니다.\n\nTags: 동료, 재사용 대기시간, 피해, 물리.",
-			"plPL": "Czas odnowienia: 11 sek.\nSzansa na szczęśliwy traf: 50% (per use)\nDziałanie pasywne: Przywołujesz 2 wilczych kompanów, którzy kąsają wrogów, zadając im {11/12.1/13.2/14.3/15.4/16.5/17.6/18.7/19.8/20.9}% pkt. obrażeń.\n\nDziałanie aktywne: Rozkazujesz wilkom, by skupiły ataki na jednym wrogu, doskoczyły do niego i zadały przy tym {135/148.5/162/175.5/189/202.5/216/229.5/243/256.5}% pkt. obrażeń.\n\nTags: Kompan, Odnowienie, Obrażenia, Fizyczne.",
-			"ptBR": "Recarga: 11 s\nChance de Golpe de Sorte: 50% (per use)\nPassiva: Evoca 2 mascotes lobos que mordem os inimigos, causando {11/12.1/13.2/14.3/15.4/16.5/17.6/18.7/19.8/20.9}% de dano.\n\nAtiva: Direciona os lobos para focarem em um inimigo, saltando neles e causando {135/148.5/162/175.5/189/202.5/216/229.5/243/256.5}% de dano.\n\nTags: Mascote, Recarga, Dano, Física.",
-			"ruRU": "Время восстановления: 11 сек.\nВероятность удачного удара: 50% (per use)\nПассивный эффект: вы призываете 2 волков:волков, которые кусают противников, нанося {11/12.1/13.2/14.3/15.4/16.5/17.6/18.7/19.8/20.9}% ед. урона.\n\nЭффект при активации: волки бросаются на выбранного противника и наносят ему {135/148.5/162/175.5/189/202.5/216/229.5/243/256.5}% ед. урона.\n\nTags: Спутник, Время восстановления, Урон, Физический урон.",
-			"trTR": "Bekleme Süresi: 11 saniye\nŞanslı Vuruş İhtimali: 50% (per use)\nPasif: Düşmanları ısırarak {11/12.1/13.2/14.3/15.4/16.5/17.6/18.7/19.8/20.9}% hasar veren 2 yoldaş kurt çağır.\n\nAktif: Kurtlarını bir düşmana yönlendir. Kurtlar bu düşmana sıçrayıp darbe indirerek {135/148.5/162/175.5/189/202.5/216/229.5/243/256.5}% hasar verirler.\n\nTags: Yoldaş, Bekleme Süresi, Hasar, Fiziksel.",
-			"zhCN": "冷却时间: 11 秒\n幸运一击几率: 50% (per use)\n被动: 召唤 2 只狼同伴撕咬敌人, 造成 {11/12.1/13.2/14.3/15.4/16.5/17.6/18.7/19.8/20.9}% 点伤害。\n\n主动: 标记并指引你的群狼扑咬一名敌人, 造成 {135/148.5/162/175.5/189/202.5/216/229.5/243/256.5}% 点伤害。\n\nTags: 同伴, 冷却时间, 伤害, 物理.",
-			"zhTW": "冷卻時間:11 秒\n幸運觸發機率:50% (per use)\n被動效果:召喚 2 隻惡狼同伴,咬擊敵人造成 {11/12.1/13.2/14.3/15.4/16.5/17.6/18.7/19.8/20.9}% 點傷害。\n\n主動效果:引導狼群鎖定攻擊一個敵人,撲襲敵人造成 {135/148.5/162/175.5/189/202.5/216/229.5/243/256.5}% 點傷害。\n\nTags: 同伴, 冷卻時間, 傷害, 物理."
+			"deDE": "Abklingzeit: 11 Sek.\nGlückstrefferchance: 50% (per use)\nPassiv: Beschwört 2 Wolfsgefährten, die Gegner beißen und {14/15.4/16.8/18.2/19.6/21/22.4/23.8/25.2/26.6}% Schaden verursachen.\n\nAktiv: Befehlt den Wölfen, einen Gegner anzufallen und ihm {200/220/240/260/280/300/320/340/360/380}% Schaden zuzufügen.\n\nTags: Gefährte, Abklingzeit, Schaden, Physisch.",
+			"esES": "Tiempo de reutilización: 11 s\nProbabilidad de golpe de suerte: 50% (per use)\nPasiva: Invocas 2 lobos que muerden a los enemigos e infligen {14/15.4/16.8/18.2/19.6/21/22.4/23.8/25.2/26.6}% de daño.\n\nActiva: Azuzas a tus lobos para que se abalancen sobre un enemigo y le inflijan {200/220/240/260/280/300/320/340/360/380}% de daño.\n\nTags: Compañero, Tiempo de reutilización, Daño, Física.",
+			"esMX": "Recuperación: 11 segundos\nProbabilidad de golpe afortunado: 50% (per use)\nPasiva: Invocas 2 lobos compañeros que muerden a los enemigos y les infligen {14/15.4/16.8/18.2/19.6/21/22.4/23.8/25.2/26.6}% de daño.\n\nActiva: Ordenas a tus lobos enfocarse en un enemigo, sobre quien se abalanzan y le infligen {200/220/240/260/280/300/320/340/360/380}% de daño.\n\nTags: Compañero, Recuperación, Daño, Física.",
+			"frFR": "Temps de recharge: 11 s\nChances d'obtenir un coup de chance: 50% (per use)\nCompétence passive: vous invoquez 2 compagnons loups qui mordent les adversaires et leur infligent {14/15.4/16.8/18.2/19.6/21/22.4/23.8/25.2/26.6}% points de dégâts.\n\nCompétence active: vous ordonnez à vos loups de bondir sur une cible, qu'ils attaquent en infligeant {200/220/240/260/280/300/320/340/360/380}% points de dégâts.\n\nTags: Compagnon, Temps de recharge, Dégâts, Dégâts physiques.",
+			"itIT": "Tempo di recupero: 11 s\nProbabilità di colpo fortunato: 50% (per use)\nPassiva: evochi 2 compagni lupi che mordono i nemici, infliggendo {14/15.4/16.8/18.2/19.6/21/22.4/23.8/25.2/26.6}% danni.\n\nAttiva: indichi ai tuoi lupi un nemico da prendere di mira, così che loro gli balzino sopra infliggendo {200/220/240/260/280/300/320/340/360/380}% danni.\n\nTags: Compagni, Tempo di recupero, Danni, Fisico.",
+			"jaJP": "クールダウン: 11秒\n幸運の一撃発生率: 50% (per use)\nパッシブ: 召喚された2匹の狼が敵に噛み付いて{14/15.4/16.8/18.2/19.6/21/22.4/23.8/25.2/26.6}%のダメージを与える。\n\nアクティブ: 狼を1体の敵に集中して飛び掛からせ、{200/220/240/260/280/300/320/340/360/380}%のダメージを与える。\n\nTags: 使い魔, クールダウン, ダメージ, 物理.",
+			"koKR": "재사용 대기시간: 11초\n행운의 적중 확률: 50% (per use)\n지속 효과: 적들을 물어 {14/15.4/16.8/18.2/19.6/21/22.4/23.8/25.2/26.6}%의 피해를 주는 늑대 동료 2마리를 소환합니다.\n\n사용 효과: 자신의 늑대들에게 적 한 마리를 집중 공격하라고 지시합니다. 늑대들이 해당 적을 덮쳐 {200/220/240/260/280/300/320/340/360/380}%의 피해를 줍니다.\n\nTags: 동료, 재사용 대기시간, 피해, 물리.",
+			"plPL": "Czas odnowienia: 11 sek.\nSzansa na szczęśliwy traf: 50% (per use)\nDziałanie pasywne: Przywołujesz 2 wilczych kompanów, którzy kąsają wrogów, zadając im {14/15.4/16.8/18.2/19.6/21/22.4/23.8/25.2/26.6}% pkt. obrażeń.\n\nDziałanie aktywne: Rozkazujesz wilkom, by skupiły ataki na jednym wrogu, doskoczyły do niego i zadały przy tym {200/220/240/260/280/300/320/340/360/380}% pkt. obrażeń.\n\nTags: Kompan, Odnowienie, Obrażenia, Fizyczne.",
+			"ptBR": "Recarga: 11 s\nChance de Golpe de Sorte: 50% (per use)\nPassiva: Evoca 2 mascotes lobos que mordem os inimigos, causando {14/15.4/16.8/18.2/19.6/21/22.4/23.8/25.2/26.6}% de dano.\n\nAtiva: Direciona os lobos para focarem em um inimigo, saltando neles e causando {200/220/240/260/280/300/320/340/360/380}% de dano.\n\nTags: Mascote, Recarga, Dano, Física.",
+			"ruRU": "Время восстановления: 11 сек.\nВероятность удачного удара: 50% (per use)\nПассивный эффект: вы призываете 2 волков:волков, которые кусают противников, нанося {14/15.4/16.8/18.2/19.6/21/22.4/23.8/25.2/26.6}% ед. урона.\n\nЭффект при активации: волки бросаются на выбранного противника и наносят ему {200/220/240/260/280/300/320/340/360/380}% ед. урона.\n\nTags: Спутник, Время восстановления, Урон, Физический урон.",
+			"trTR": "Bekleme Süresi: 11 saniye\nŞanslı Vuruş İhtimali: 50% (per use)\nPasif: Düşmanları ısırarak {14/15.4/16.8/18.2/19.6/21/22.4/23.8/25.2/26.6}% hasar veren 2 yoldaş kurt çağır.\n\nAktif: Kurtlarını bir düşmana yönlendir. Kurtlar bu düşmana sıçrayıp darbe indirerek {200/220/240/260/280/300/320/340/360/380}% hasar verirler.\n\nTags: Yoldaş, Bekleme Süresi, Hasar, Fiziksel.",
+			"zhCN": "冷却时间: 11 秒\n幸运一击几率: 50% (per use)\n被动: 召唤 2 只狼同伴撕咬敌人, 造成 {14/15.4/16.8/18.2/19.6/21/22.4/23.8/25.2/26.6}% 点伤害。\n\n主动: 标记并指引你的群狼扑咬一名敌人, 造成 {200/220/240/260/280/300/320/340/360/380}% 点伤害。\n\nTags: 同伴, 冷却时间, 伤害, 物理.",
+			"zhTW": "冷卻時間:11 秒\n幸運觸發機率:50% (per use)\n被動效果:召喚 2 隻惡狼同伴,咬擊敵人造成 {14/15.4/16.8/18.2/19.6/21/22.4/23.8/25.2/26.6}% 點傷害。\n\n主動效果:引導狼群鎖定攻擊一個敵人,撲襲敵人造成 {200/220/240/260/280/300/320/340/360/380}% 點傷害。\n\nTags: 同伴, 冷卻時間, 傷害, 物理."
 },
 		id: 71,
 		maxPoints: 5,
@@ -4792,7 +4792,7 @@ Tags: Fortify.`,
 	},
 	"Quickshift": {
 		connections: [ "Ultimate", "Natural Fortitude", "Heightened Senses" ],
-		description: `When a Shapeshifting Skill transforms you into a different form, it deals x{5/10/15/20/25/30/35/40/45/50}% increased damage.
+		description: `When a Shapeshifting Skill transforms you into a different form, it deals x{7/14/21/28/35/42/49/56/63/70}% increased damage.
 
 Tags: Shapeshifting, Damage.`,
 		nameLocalized: {
@@ -4811,19 +4811,19 @@ Tags: Shapeshifting, Damage.`,
 			"zhTW": "迅變"
 },
 		descriptionLocalized: {
-			"deDE": "Wenn eine Gestaltwandelfertigkeit Euch eine andere Gestalt verleiht, verursacht sie x{5/10/15/20/25/30/35/40/45/50}% mehr Schaden.\n\nTags: Gestaltwandeln, Schaden.",
-			"esES": "Cuando una habilidad de cambio de forma te transforma, inflige un x{5/10/15/20/25/30/35/40/45/50}% más de daño.\n\nTags: Cambio de forma, Daño.",
-			"esMX": "Cuando una habilidad de Metamorfosis te cambia a una forma distinta, inflige un x{5/10/15/20/25/30/35/40/45/50}% más de daño.\n\nTags: Metamorfosis, Daño.",
-			"frFR": "Lorsqu'une compétence de métamorphose vous fait prendre une autre forme, celle-ci inflige x{5/10/15/20/25/30/35/40/45/50}% de dégâts supplémentaires.\n\nTags: Métamorphose, Dégâts.",
-			"itIT": "Dopo aver cambiato forma con un'abilità Mutaforma, infliggi il x{5/10/15/20/25/30/35/40/45/50}% di danni aggiuntivi.\n\nTags: Mutaforma, Danni.",
-			"jaJP": "変身スキルによって別の形態に変わった際、敵に与えるダメージがx{5/10/15/20/25/30/35/40/45/50}%増加する。\n\nTags: 変身, ダメージ.",
-			"koKR": "변신 기술의 효과로 다른 형상으로 변신하면 해당 기술로 주는 피해가 x{5/10/15/20/25/30/35/40/45/50}% 증가합니다.\n\nTags: 변신, 피해.",
-			"plPL": "Kiedy umiejętność Zmiennokształtności zmienia twoją formę, zadaje ona obrażenia zwiększone o x{5/10/15/20/25/30/35/40/45/50}%.\n\nTags: Zmiennokształtność, Obrażenia.",
-			"ptBR": "Quando uma habilidade de Metamorfose transforma você em uma forma diferente, ela causa x{5/10/15/20/25/30/35/40/45/50}% de dano aumentado.\n\nTags: Metamorfose, Dano.",
-			"ruRU": "Если умение смены облика заставляет вас совершить превращение, оно наносит на x{5/10/15/20/25/30/35/40/45/50}% больше урона.\n\nTags: Смена облика, Урон.",
-			"trTR": "Bir Şekil Değiştirme Yeteneği sana başka bir form kazandırdığında x{5/10/15/20/25/30/35/40/45/50}% artırılmış hasar verir.\n\nTags: Dönüşme, Hasar.",
-			"zhCN": "当变形技能使你变为另一个形态, 该技能造成的伤害提高 x{5/10/15/20/25/30/35/40/45/50}%。\n\nTags: 变形, 伤害.",
-			"zhTW": "當你使用變形技能改變形態,該技能造成的傷害提高 x{5/10/15/20/25/30/35/40/45/50}%。\n\nTags: 變形, 傷害."
+			"deDE": "Wenn eine Gestaltwandelfertigkeit Euch eine andere Gestalt verleiht, verursacht sie x{7/14/21/28/35/42/49/56/63/70}% mehr Schaden.\n\nTags: Gestaltwandeln, Schaden.",
+			"esES": "Cuando una habilidad de cambio de forma te transforma, inflige un x{7/14/21/28/35/42/49/56/63/70}% más de daño.\n\nTags: Cambio de forma, Daño.",
+			"esMX": "Cuando una habilidad de Metamorfosis te cambia a una forma distinta, inflige un x{7/14/21/28/35/42/49/56/63/70}% más de daño.\n\nTags: Metamorfosis, Daño.",
+			"frFR": "Lorsqu'une compétence de métamorphose vous fait prendre une autre forme, celle-ci inflige x{7/14/21/28/35/42/49/56/63/70}% de dégâts supplémentaires.\n\nTags: Métamorphose, Dégâts.",
+			"itIT": "Dopo aver cambiato forma con un'abilità Mutaforma, infliggi il x{7/14/21/28/35/42/49/56/63/70}% di danni aggiuntivi.\n\nTags: Mutaforma, Danni.",
+			"jaJP": "変身スキルによって別の形態に変わった際、敵に与えるダメージがx{7/14/21/28/35/42/49/56/63/70}%増加する。\n\nTags: 変身, ダメージ.",
+			"koKR": "변신 기술의 효과로 다른 형상으로 변신하면 해당 기술로 주는 피해가 x{7/14/21/28/35/42/49/56/63/70}% 증가합니다.\n\nTags: 변신, 피해.",
+			"plPL": "Kiedy umiejętność Zmiennokształtności zmienia twoją formę, zadaje ona obrażenia zwiększone o x{7/14/21/28/35/42/49/56/63/70}%.\n\nTags: Zmiennokształtność, Obrażenia.",
+			"ptBR": "Quando uma habilidade de Metamorfose transforma você em uma forma diferente, ela causa x{7/14/21/28/35/42/49/56/63/70}% de dano aumentado.\n\nTags: Metamorfose, Dano.",
+			"ruRU": "Если умение смены облика заставляет вас совершить превращение, оно наносит на x{7/14/21/28/35/42/49/56/63/70}% больше урона.\n\nTags: Смена облика, Урон.",
+			"trTR": "Bir Şekil Değiştirme Yeteneği sana başka bir form kazandırdığında x{7/14/21/28/35/42/49/56/63/70}% artırılmış hasar verir.\n\nTags: Dönüşme, Hasar.",
+			"zhCN": "当变形技能使你变为另一个形态, 该技能造成的伤害提高 x{7/14/21/28/35/42/49/56/63/70}%。\n\nTags: 变形, 伤害.",
+			"zhTW": "當你使用變形技能改變形態,該技能造成的傷害提高 x{7/14/21/28/35/42/49/56/63/70}%。\n\nTags: 變形, 傷害."
 },
 		id: 117,
 		maxPoints: 3,
@@ -5447,7 +5447,7 @@ Tags: Critical Strikes, Damage, Werewolf, Shapeshifting, Injured.`,
 		connections: [ "Key Passive" ],
 		description: `After being a Werewolf for 2 seconds, gain +30% Attack Speed for 15 seconds.
 
-After being a Werebear for 2 seconds, deal x30% increased damage for 15 seconds.
+After being a Werebear for 2 seconds, deal x50% increased damage for 15 seconds.
 
 Tags: Shapeshifting, Attack Speed, Damage, Werewolf, Werebear.`,
 		nameLocalized: {
@@ -5466,19 +5466,19 @@ Tags: Shapeshifting, Attack Speed, Damage, Werewolf, Werebear.`,
 			"zhTW": "野獸狂暴"
 },
 		descriptionLocalized: {
-			"deDE": "Nach 2 Sek. in Werwolfgestalt erhaltet Ihr 15 Sek. lang +30% Angriffsgeschwindigkeit.\n\nNach 2 Sek. in Werbärgestalt verursacht Ihr 15 Sek. lang x30% mehr Schaden.\n\nTags: Gestaltwandeln, Angriffsgeschwindigkeit, Schaden, Werwolf, Werbär.",
-			"esES": "Tras estar en forma de hombre lobo durante 2 s, obtienes un +30% de velocidad de ataque durante 15 s.\n\nTras estar en forma de hombre oso durante 2 s, infliges un x30% más de daño durante 15 s.\n\nTags: Cambio de forma, Velocidad de ataque, Daño, Hombre lobo, Hombre oso.",
-			"esMX": "Después de ser hombre lobo durante 2 segundos, obtienes un +30% de velocidad de ataque durante 15 segundos.\n\nDespués de ser un hombre oso durante 2 segundos, infliges un x30% más de daño durante 15 segundos.\n\nTags: Metamorfosis, Velocidad de ataque, Daño, Hombre lobo, Hombre oso.",
-			"frFR": "Si vous restez sous forme de lycanthrope pendant 2 s, votre vitesse d'attaque est augmentée de +30% pendant 15 s.\n\nSi vous restez sous forme ursoïde pendant 2 s, vous infligez x30% de dégâts supplémentaires pendant 15 s.\n\nTags: Métamorphose, Vitesse d'attaque, Dégâts, Lycanthrope, Ursoïde.",
-			"itIT": "Dopo essere stato un Lupo Mannaro per 2 s, la tua velocità d'attacco aumenta del +30% per 15 s.\n\nDopo essere stato un Orso Mannaro per 2 s, infliggi il x30% di danni aggiuntivi per 15 s.\n\nTags: Mutaforma, Velocità d'attacco, Danni, Lupo Mannaro, Orso Mannaro.",
-			"jaJP": "2秒間人狼でいた後、攻撃速度が15秒間+30%上昇する。\n\n2秒間人熊でいた後、与えるダメージが15秒間x30%増加する。\n\nTags: 変身, 攻撃速度, ダメージ, 人狼, 人熊.",
-			"koKR": "2초 이상 늑대인간 형상을 유지하면 공격 속도가 15초 동안 +30% 증가합니다.\n\n2초 이상 곰인간 형상을 유지하면 15초 동안 주는 피해가 x30% 증가합니다.\n\nTags: 변신, 공격 속도, 피해, 늑대인간, 곰인간.",
-			"plPL": "Po spędzeniu co najmniej 2 sek. pod postacią wilkołaka otrzymujesz premię +30% do szybkości ataku na 15 sek.\n\nPo spędzeniu co najmniej 2 sek. pod postacią niedźwiedziołaka zadajesz obrażenia zwiększone o x30% przez 15 sek.\n\nTags: Zmiennokształtność, Szybkość Ataku, Obrażenia, Wilkołak, Niedźwiedziołak.",
-			"ptBR": "Depois de ser um lobisomem por 2 s, recebe +30% de velocidade de ataque por 15 s.\n\nDepois de ser um urso por 2 s, causa x30% de dano aumentado por 15 s.\n\nTags: Metamorfose, Velocidade de Ataque, Dano, Lobisomem, Urso.",
-			"ruRU": "Если вы пробудете в облике волка в течение 2 сек., ваша скорость атаки повысится на +30% на 15 сек.\n\nПробыв в облике медведя в течение 2 сек., вы наносите на x30% больше урона в течение 15 сек.\n\nTags: Смена облика, Скорость атаки, Урон, Облик волка, Медведь.",
-			"trTR": "2 saniye boyunca bir Kurt Adam olduktan sonra 15 saniyeliğine +30% Saldırı Hızı kazan.\n\n2 saniye boyunca bir Ayı Adam olduktan sonra 15 saniyeliğine x30% artırılmış hasar ver.\n\nTags: Dönüşme, Saldırı Hızı, Hasar, Kurt Adam, Ayı Adam.",
-			"zhCN": "变成狼人 2 秒后, 攻击速度提高 +30%, 持续 15 秒。\n\n变成熊人 2 秒后, 造成的伤害提高 x30%, 持续 15 秒。\n\nTags: 变形, 攻击速度, 伤害, 狼人, 熊人.",
-			"zhTW": "在變身狼人 2 秒後,獲得 +30% 攻擊速度,持續 15 秒。\n\n在變身熊人 2 秒後,造成的傷害提高 x30%,持續 15 秒。\n\nTags: 變形, 攻擊速度, 傷害, 狼人, 熊人."
+			"deDE": "Nach 2 Sek. in Werwolfgestalt erhaltet Ihr 15 Sek. lang +30% Angriffsgeschwindigkeit.\n\nNach 2 Sek. in Werbärgestalt verursacht Ihr 15 Sek. lang x50% mehr Schaden.\n\nTags: Gestaltwandeln, Angriffsgeschwindigkeit, Schaden, Werwolf, Werbär.",
+			"esES": "Tras estar en forma de hombre lobo durante 2 s, obtienes un +30% de velocidad de ataque durante 15 s.\n\nTras estar en forma de hombre oso durante 2 s, infliges un x50% más de daño durante 15 s.\n\nTags: Cambio de forma, Velocidad de ataque, Daño, Hombre lobo, Hombre oso.",
+			"esMX": "Después de ser hombre lobo durante 2 segundos, obtienes un +30% de velocidad de ataque durante 15 segundos.\n\nDespués de ser un hombre oso durante 2 segundos, infliges un x50% más de daño durante 15 segundos.\n\nTags: Metamorfosis, Velocidad de ataque, Daño, Hombre lobo, Hombre oso.",
+			"frFR": "Si vous restez sous forme de lycanthrope pendant 2 s, votre vitesse d'attaque est augmentée de +30% pendant 15 s.\n\nSi vous restez sous forme ursoïde pendant 2 s, vous infligez x50% de dégâts supplémentaires pendant 15 s.\n\nTags: Métamorphose, Vitesse d'attaque, Dégâts, Lycanthrope, Ursoïde.",
+			"itIT": "Dopo essere stato un Lupo Mannaro per 2 s, la tua velocità d'attacco aumenta del +30% per 15 s.\n\nDopo essere stato un Orso Mannaro per 2 s, infliggi il x50% di danni aggiuntivi per 15 s.\n\nTags: Mutaforma, Velocità d'attacco, Danni, Lupo Mannaro, Orso Mannaro.",
+			"jaJP": "2秒間人狼でいた後、攻撃速度が15秒間+30%上昇する。\n\n2秒間人熊でいた後、与えるダメージが15秒間x50%増加する。\n\nTags: 変身, 攻撃速度, ダメージ, 人狼, 人熊.",
+			"koKR": "2초 이상 늑대인간 형상을 유지하면 공격 속도가 15초 동안 +30% 증가합니다.\n\n2초 이상 곰인간 형상을 유지하면 15초 동안 주는 피해가 x50% 증가합니다.\n\nTags: 변신, 공격 속도, 피해, 늑대인간, 곰인간.",
+			"plPL": "Po spędzeniu co najmniej 2 sek. pod postacią wilkołaka otrzymujesz premię +30% do szybkości ataku na 15 sek.\n\nPo spędzeniu co najmniej 2 sek. pod postacią niedźwiedziołaka zadajesz obrażenia zwiększone o x50% przez 15 sek.\n\nTags: Zmiennokształtność, Szybkość Ataku, Obrażenia, Wilkołak, Niedźwiedziołak.",
+			"ptBR": "Depois de ser um lobisomem por 2 s, recebe +30% de velocidade de ataque por 15 s.\n\nDepois de ser um urso por 2 s, causa x50% de dano aumentado por 15 s.\n\nTags: Metamorfose, Velocidade de Ataque, Dano, Lobisomem, Urso.",
+			"ruRU": "Если вы пробудете в облике волка в течение 2 сек., ваша скорость атаки повысится на +30% на 15 сек.\n\nПробыв в облике медведя в течение 2 сек., вы наносите на x50% больше урона в течение 15 сек.\n\nTags: Смена облика, Скорость атаки, Урон, Облик волка, Медведь.",
+			"trTR": "2 saniye boyunca bir Kurt Adam olduktan sonra 15 saniyeliğine +30% Saldırı Hızı kazan.\n\n2 saniye boyunca bir Ayı Adam olduktan sonra 15 saniyeliğine x50% artırılmış hasar ver.\n\nTags: Dönüşme, Saldırı Hızı, Hasar, Kurt Adam, Ayı Adam.",
+			"zhCN": "变成狼人 2 秒后, 攻击速度提高 +30%, 持续 15 秒。\n\n变成熊人 2 秒后, 造成的伤害提高 x50%, 持续 15 秒。\n\nTags: 变形, 攻击速度, 伤害, 狼人, 熊人.",
+			"zhTW": "在變身狼人 2 秒後,獲得 +30% 攻擊速度,持續 15 秒。\n\n在變身熊人 2 秒後,造成的傷害提高 x50%,持續 15 秒。\n\nTags: 變形, 攻擊速度, 傷害, 狼人, 熊人."
 },
 		id: 133,
 		maxPoints: 1,
@@ -5487,7 +5487,7 @@ Tags: Shapeshifting, Attack Speed, Damage, Werewolf, Werebear.`,
 	},
 	"Perfect Storm": {
 		connections: [ "Key Passive" ],
-		description: `Storm Skills that you cast grant 1 Spirit and deal x15% increased damage when damaging a Vulnerable, Immobilized or Slowed enemy.
+		description: `Storm Skills that you cast grant 1 Spirit and deal x20% increased damage when damaging a Vulnerable, Immobilized or Slowed enemy.
 
 Tags: Vulnerable, Damage, Spirit, Storm, Crowd Control, Nature Magic.`,
 		nameLocalized: {
@@ -5506,19 +5506,19 @@ Tags: Vulnerable, Damage, Spirit, Storm, Crowd Control, Nature Magic.`,
 			"zhTW": "完美風暴"
 },
 		descriptionLocalized: {
-			"deDE": "Von Euch gewirkte Sturmfertigkeiten verleihen 1 Geisteskraft und fügen einem verwundbaren, bewegungsunfähigen oder verlangsamten Gegner x15% mehr Schaden zu.\n\nTags: Verwundbar, Schaden, Geisteskraft, Sturm, Kontrollverlust, Naturmagie.",
-			"esES": "Las habilidades de tormenta que lanzas te otorgan 1 de espíritu e infligen un x15% más de daño a enemigos vulnerables, inmovilizados o ralentizados.\n\nTags: Vulnerable, Daño, Espíritu, Tormenta, Control de masas, Magia de la naturaleza.",
-			"esMX": "Las habilidades de Tormenta que lances te otorgan 1 de Espíritu e infligen un x15% más de daño a los enemigos vulnerables, inmovilizados o ralentizados.\n\nTags: Vulnerable, Daño, Espíritu, Tormenta, Control de multitudes, Magia de la naturaleza.",
-			"frFR": "Les compétences de tempête que vous lancez vous confèrent 1 points d'esprit et infligent x15% de dégâts supplémentaires lorsqu'elles infligent des dégâts à des cibles vulnérables, immobilisées ou ralenties.\n\nTags: Vulnérable, Dégâts, Esprit, Tempête, Perte de contrôle, Magie naturelle.",
-			"itIT": "Le abilità di Tempesta che utilizzi generano 1 spirito e infliggono il x15% di danni aggiuntivi a un nemico vulnerabile, immobilizzato o rallentato.\n\nTags: Vulnerabilità, Danni, Spirito, Tempesta, Effetti debilitanti, Magia naturale.",
-			"jaJP": "使用した嵐スキルが精神力を1付与し、脆弱、移動不能またはスロウ状態の敵に与えるダメージがx15%増加する。\n\nTags: 脆弱, ダメージ, 精神力, 嵐, 操作障害効果, 自然魔法.",
-			"koKR": "자신이 시전하는 폭풍 기술이 1의 영력을 부여하고 취약 또는 이동 불가, 감속 상태의 적에게 주는 피해가 x15% 증가합니다.\n\nTags: 취약, 피해, 영력, 폭풍, 군중 제어, 자연 마법.",
-			"plPL": "Twoje umiejętności Burzy zapewniają 1 pkt. siły duchowej i zadają obrażenia zwiększone o x15%, gdy ranią cele odsłonięte, unieruchomione lub spowolnione.\n\nTags: Odsłonięcie, Obrażenia, Siła Duchowa, Burza, Ograniczanie Kontroli, Magia Natury.",
-			"ptBR": "As habilidades de Tempestade lançadas por você concedem 1 de espírito e causam x15% de dano aumentado ao atingir um inimigo vulnerável, imobilizado ou desacelerado.\n\nTags: Vulnerável, Dano, Espírito, Tempestade, Controle de Grupo, Magia da Natureza.",
-			"ruRU": "Примененные вами умения бури восполняют 1 ед. духа и наносят на x15% больше урона уязвимым, обездвиженным и замедленным противникам.\n\nTags: Уязвимость, Урон, Дух, Буря, Контроль, Силы природы.",
-			"trTR": "Kullandığın Fırtına Yetenekleri 1 Ruh kazandırır ve Savunmasız, Sabitlenmiş veya Yavaşlatılmış düşmanlara verilen hasarı x15% artırır.\n\nTags: Savunmasız, Hasar, Ruh, Fırtına, Kitle Kontrolü, Doğa Sihri.",
-			"zhCN": "你施放的风暴技能给予 1 点灵力, 并且对处于易伤、定身或减速状态的敌人造成的伤害提高 x15%。\n\nTags: 易伤, 伤害, 灵力, 风暴, 控制, 自然魔法.",
-			"zhTW": "你施放的風暴技能會賦予 1 點靈力,對易傷、定身或緩速敵人的傷害提高 x15%。\n\nTags: 易傷, 傷害, 靈力, 風暴, 控場, 自然魔法."
+			"deDE": "Von Euch gewirkte Sturmfertigkeiten verleihen 1 Geisteskraft und fügen einem verwundbaren, bewegungsunfähigen oder verlangsamten Gegner x20% mehr Schaden zu.\n\nTags: Verwundbar, Schaden, Geisteskraft, Sturm, Kontrollverlust, Naturmagie.",
+			"esES": "Las habilidades de tormenta que lanzas te otorgan 1 de espíritu e infligen un x20% más de daño a enemigos vulnerables, inmovilizados o ralentizados.\n\nTags: Vulnerable, Daño, Espíritu, Tormenta, Control de masas, Magia de la naturaleza.",
+			"esMX": "Las habilidades de Tormenta que lances te otorgan 1 de Espíritu e infligen un x20% más de daño a los enemigos vulnerables, inmovilizados o ralentizados.\n\nTags: Vulnerable, Daño, Espíritu, Tormenta, Control de multitudes, Magia de la naturaleza.",
+			"frFR": "Les compétences de tempête que vous lancez vous confèrent 1 points d'esprit et infligent x20% de dégâts supplémentaires lorsqu'elles infligent des dégâts à des cibles vulnérables, immobilisées ou ralenties.\n\nTags: Vulnérable, Dégâts, Esprit, Tempête, Perte de contrôle, Magie naturelle.",
+			"itIT": "Le abilità di Tempesta che utilizzi generano 1 spirito e infliggono il x20% di danni aggiuntivi a un nemico vulnerabile, immobilizzato o rallentato.\n\nTags: Vulnerabilità, Danni, Spirito, Tempesta, Effetti debilitanti, Magia naturale.",
+			"jaJP": "使用した嵐スキルが精神力を1付与し、脆弱、移動不能またはスロウ状態の敵に与えるダメージがx20%増加する。\n\nTags: 脆弱, ダメージ, 精神力, 嵐, 操作障害効果, 自然魔法.",
+			"koKR": "자신이 시전하는 폭풍 기술이 1의 영력을 부여하고 취약 또는 이동 불가, 감속 상태의 적에게 주는 피해가 x20% 증가합니다.\n\nTags: 취약, 피해, 영력, 폭풍, 군중 제어, 자연 마법.",
+			"plPL": "Twoje umiejętności Burzy zapewniają 1 pkt. siły duchowej i zadają obrażenia zwiększone o x20%, gdy ranią cele odsłonięte, unieruchomione lub spowolnione.\n\nTags: Odsłonięcie, Obrażenia, Siła Duchowa, Burza, Ograniczanie Kontroli, Magia Natury.",
+			"ptBR": "As habilidades de Tempestade lançadas por você concedem 1 de espírito e causam x20% de dano aumentado ao atingir um inimigo vulnerável, imobilizado ou desacelerado.\n\nTags: Vulnerável, Dano, Espírito, Tempestade, Controle de Grupo, Magia da Natureza.",
+			"ruRU": "Примененные вами умения бури восполняют 1 ед. духа и наносят на x20% больше урона уязвимым, обездвиженным и замедленным противникам.\n\nTags: Уязвимость, Урон, Дух, Буря, Контроль, Силы природы.",
+			"trTR": "Kullandığın Fırtına Yetenekleri 1 Ruh kazandırır ve Savunmasız, Sabitlenmiş veya Yavaşlatılmış düşmanlara verilen hasarı x20% artırır.\n\nTags: Savunmasız, Hasar, Ruh, Fırtına, Kitle Kontrolü, Doğa Sihri.",
+			"zhCN": "你施放的风暴技能给予 1 点灵力, 并且对处于易伤、定身或减速状态的敌人造成的伤害提高 x20%。\n\nTags: 易伤, 伤害, 灵力, 风暴, 控制, 自然魔法.",
+			"zhTW": "你施放的風暴技能會賦予 1 點靈力,對易傷、定身或緩速敵人的傷害提高 x20%。\n\nTags: 易傷, 傷害, 靈力, 風暴, 控場, 自然魔法."
 },
 		id: 134,
 		maxPoints: 1,
@@ -5529,7 +5529,7 @@ Tags: Vulnerable, Damage, Spirit, Storm, Crowd Control, Nature Magic.`,
 		connections: [ "Key Passive" ],
 		description: `Gain x20% additional Maximum Life while in Werebear form and for 3 seconds after leaving Werebear form.
 
-While Healthy, deal x25% increased damage, and x25% increased Overpower damage.
+While Healthy, deal x30% increased damage, and x30% increased Overpower damage.
 
 Tags: Healthy, Shapeshifting, Life, Werebear, Damage, Overpower.`,
 		nameLocalized: {
@@ -5548,19 +5548,19 @@ Tags: Healthy, Shapeshifting, Life, Werebear, Damage, Overpower.`,
 			"zhTW": "熊之力"
 },
 		descriptionLocalized: {
-			"deDE": "Erhaltet in Werbärgestalt sowie 3 Sek. nach dem Verlassen der Werbärgestalt zusätzlich x20% maximales Leben.\n\nWenn Ihr gesund seid, verursacht Ihr x25% erhöhten Schaden und x25% erhöhten Überwältigungsschaden.\n\nTags: Gesund, Gestaltwandeln, Leben, Werbär, Schaden, Überwältigen.",
-			"esES": "Obtienes un x20% de tu vida máxima adicional mientras estás en forma de hombre oso y durante 3 s tras abandonarla.\n\nEn estado saludable, infliges un x25% más de daño y un x25% más de daño de arrollamiento.\n\nTags: Saludable, Cambio de forma, Vida, Hombre oso, Daño, Arrollamiento.",
-			"esMX": "Obtienes un x20% de vida máxima adicional mientras estás en forma de hombre oso y durante 3 segundos después de abandonar la forma de hombre oso.\n\nMientras estás saludable, infliges un x25% más de daño y x25% más de daño abrumador.\n\nTags: Saludable, Metamorfosis, Vida, Hombre oso, Daño, Abrumar.",
-			"frFR": "Votre maximum de points de vie est augmenté de x20% lorsque vous adoptez la forme ursoïde. Cet effet persiste pendant 3 s après avoir quitté cette forme.\n\nTant que vous êtes en bonne santé, vous infligez x25% de dégâts supplémentaires et x25% points de dégâts d'accablement supplémentaires.\n\nTags: En bonne santé, Métamorphose, Vie, Ursoïde, Dégâts, Accablement.",
-			"itIT": "La tua Vita massima aumenta del x20% quando sei in forma di Orso Mannaro e per 3 s dopo che la forma di Orso Mannaro è terminata.\n\nQuando sei in salute, infliggi il x25% di danni aggiuntivi e il x25% di danni da Sopraffazione aggiuntivi.\n\nTags: In salute, Mutaforma, Vita, Orso Mannaro, Danni, Sopraffazione.",
-			"jaJP": "人熊形態の間はライフ最大値がx20%増加し、この効果は人熊形態を解除した後も3秒間持続する。\n\n健全状態の時、敵に与えるダメージがx25%、オーバーパワーダメージがx25%増加する。\n\nTags: 健全, 変身, ライフ, 人熊, ダメージ, オーバーパワー.",
-			"koKR": "곰인간 형상일 때 그리고 곰인간 형상에서 벗어난 후 3초 동안 최대 생명력이 추가로 x20% 증가합니다.\n\n건강 상태에서 주는 피해가 x25% 증가하고 제압 피해가 x25% 증가합니다.\n\nTags: 건강, 변신, 생명력, 곰인간, 피해, 제압.",
-			"plPL": "Twoje maksymalne zdrowie jest zwiększone o x20%, kiedy jesteś pod postacią niedźwiedziołaka, oraz przez 3 sek. po przemianie z tej postaci.\n\nKiedy jesteś w pełni sił, zadajesz obrażenia zwiększone o x25% oraz obrażenia od Przytłoczenia zwiększone o x25%.\n\nTags: Pełnia Sił, Zmiennokształtność, Zdrowie, Niedźwiedziołak, Obrażenia, Przytłoczenie.",
-			"ptBR": "Recebe x20% de vida máxima adicional enquanto está na forma de urso e por 3 s após sair da forma de urso.\n\nEnquanto você está saudável, causa x25% a mais de dano e x25% a mais de dano de Golpe Brutal.\n\nTags: Saudável, Metamorfose, Vida, Urso, Dano, Golpe Brutal.",
-			"ruRU": "Ваш максимальный запас здоровья увеличивается еще на x20% в облике медведя. Бонус сохраняется в течение 3 сек. после смены облика.\n\nПри высоком уровне здоровья наносимый урон увеличивается на x25%, а подавляющий урон – еще на x25%.\n\nTags: Высокое здоровье, Смена облика, Здоровье, Медведь, Урон, Подавление.",
-			"trTR": "Ayı Adam formundayken ve Ayı Adam formundan çıktıktan sonraki 3 saniye boyunca x20% ilave Maksimum Can kazan.\n\nSağlıklıyken x25% ilave hasar ve x25% artırılmış Aşırı Güç hasarı ver.\n\nTags: Sağlıklı, Dönüşme, Can, Ayı Adam, Hasar, Aşırı Güç.",
-			"zhCN": "熊人形态下的生命上限额外提高 x20%, 离开熊人形态后, 该效果还会持续 3 秒。\n\n健康状态下, 造成的伤害提高 x25%, 压制伤害提高 x25%。\n\nTags: 健康, 变形, 生命, 熊人, 伤害, 压制.",
-			"zhTW": "在熊人形態下與解除熊人形態後 3 秒內,你的生命值上限提高 x20%。\n\n在健康狀態下,你造成的傷害提高 x25%,壓制傷害提高 x25%。\n\nTags: 健康, 變形, 生命值, 熊人, 傷害, 壓制."
+			"deDE": "Erhaltet in Werbärgestalt sowie 3 Sek. nach dem Verlassen der Werbärgestalt zusätzlich x20% maximales Leben.\n\nWenn Ihr gesund seid, verursacht Ihr x30% erhöhten Schaden und x30% erhöhten Überwältigungsschaden.\n\nTags: Gesund, Gestaltwandeln, Leben, Werbär, Schaden, Überwältigen.",
+			"esES": "Obtienes un x20% de tu vida máxima adicional mientras estás en forma de hombre oso y durante 3 s tras abandonarla.\n\nEn estado saludable, infliges un x30% más de daño y un x30% más de daño de arrollamiento.\n\nTags: Saludable, Cambio de forma, Vida, Hombre oso, Daño, Arrollamiento.",
+			"esMX": "Obtienes un x20% de vida máxima adicional mientras estás en forma de hombre oso y durante 3 segundos después de abandonar la forma de hombre oso.\n\nMientras estás saludable, infliges un x30% más de daño y x30% más de daño abrumador.\n\nTags: Saludable, Metamorfosis, Vida, Hombre oso, Daño, Abrumar.",
+			"frFR": "Votre maximum de points de vie est augmenté de x20% lorsque vous adoptez la forme ursoïde. Cet effet persiste pendant 3 s après avoir quitté cette forme.\n\nTant que vous êtes en bonne santé, vous infligez x30% de dégâts supplémentaires et x30% points de dégâts d'accablement supplémentaires.\n\nTags: En bonne santé, Métamorphose, Vie, Ursoïde, Dégâts, Accablement.",
+			"itIT": "La tua Vita massima aumenta del x20% quando sei in forma di Orso Mannaro e per 3 s dopo che la forma di Orso Mannaro è terminata.\n\nQuando sei in salute, infliggi il x30% di danni aggiuntivi e il x30% di danni da Sopraffazione aggiuntivi.\n\nTags: In salute, Mutaforma, Vita, Orso Mannaro, Danni, Sopraffazione.",
+			"jaJP": "人熊形態の間はライフ最大値がx20%増加し、この効果は人熊形態を解除した後も3秒間持続する。\n\n健全状態の時、敵に与えるダメージがx30%、オーバーパワーダメージがx30%増加する。\n\nTags: 健全, 変身, ライフ, 人熊, ダメージ, オーバーパワー.",
+			"koKR": "곰인간 형상일 때 그리고 곰인간 형상에서 벗어난 후 3초 동안 최대 생명력이 추가로 x20% 증가합니다.\n\n건강 상태에서 주는 피해가 x30% 증가하고 제압 피해가 x30% 증가합니다.\n\nTags: 건강, 변신, 생명력, 곰인간, 피해, 제압.",
+			"plPL": "Twoje maksymalne zdrowie jest zwiększone o x20%, kiedy jesteś pod postacią niedźwiedziołaka, oraz przez 3 sek. po przemianie z tej postaci.\n\nKiedy jesteś w pełni sił, zadajesz obrażenia zwiększone o x30% oraz obrażenia od Przytłoczenia zwiększone o x30%.\n\nTags: Pełnia Sił, Zmiennokształtność, Zdrowie, Niedźwiedziołak, Obrażenia, Przytłoczenie.",
+			"ptBR": "Recebe x20% de vida máxima adicional enquanto está na forma de urso e por 3 s após sair da forma de urso.\n\nEnquanto você está saudável, causa x30% a mais de dano e x30% a mais de dano de Golpe Brutal.\n\nTags: Saudável, Metamorfose, Vida, Urso, Dano, Golpe Brutal.",
+			"ruRU": "Ваш максимальный запас здоровья увеличивается еще на x20% в облике медведя. Бонус сохраняется в течение 3 сек. после смены облика.\n\nПри высоком уровне здоровья наносимый урон увеличивается на x30%, а подавляющий урон – еще на x30%.\n\nTags: Высокое здоровье, Смена облика, Здоровье, Медведь, Урон, Подавление.",
+			"trTR": "Ayı Adam formundayken ve Ayı Adam formundan çıktıktan sonraki 3 saniye boyunca x20% ilave Maksimum Can kazan.\n\nSağlıklıyken x30% ilave hasar ve x30% artırılmış Aşırı Güç hasarı ver.\n\nTags: Sağlıklı, Dönüşme, Can, Ayı Adam, Hasar, Aşırı Güç.",
+			"zhCN": "熊人形态下的生命上限额外提高 x20%, 离开熊人形态后, 该效果还会持续 3 秒。\n\n健康状态下, 造成的伤害提高 x30%, 压制伤害提高 x30%。\n\nTags: 健康, 变形, 生命, 熊人, 伤害, 压制.",
+			"zhTW": "在熊人形態下與解除熊人形態後 3 秒內,你的生命值上限提高 x20%。\n\n在健康狀態下,你造成的傷害提高 x30%,壓制傷害提高 x30%。\n\nTags: 健康, 變形, 生命值, 熊人, 傷害, 壓制."
 },
 		id: 135,
 		maxPoints: 1,

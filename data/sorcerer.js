@@ -1023,7 +1023,7 @@ Whenever you cast a Non-Basic Skill, you have a 30% chance to launch a Frozen Or
 		connections: [ "Core", "Enhanced Incinerate" ],
 		description: `Mana Cost: 12.5 per second
 Lucky Hit Chance: 8.348% (per use)
-Channel a beam of fire, Burning enemies for {13.5/14.85/16.2/17.55/18.9/20.25/21.6/22.95/24.3/25.65}% damage per second. Damage per second increases over 2 seconds, up to {72.9/80.2/87.5/94.8/102.1/109.4/116.6/123.9/131.2/138.5}%.
+Channel a beam of fire, Burning enemies for {19/20.9/22.8/24.7/26.6/28.5/30.4/32.3/34.2/36.1}% damage per second. Damage per second increases over 2 seconds, up to {102.6/112.9/123.1/133.4/143.6/153.9/164.2/174.4/184.7/194.9}%.
 
 Tags: Core, Pyromancy, Channeled, Damage, Burn, Mana.
 
@@ -1045,19 +1045,19 @@ Every 14 seconds, a serpent spawns and Incinerates enemies for 8 seconds.`,
 			"zhTW": "熾焚烈焰"
 },
 		descriptionLocalized: {
-			"deDE": "Manakosten: 12.5 pro Sekunde\nGlückstrefferchance: 8.348% (per use)\nKanalisiert einen Feuerstrahl, der Gegner verbrennt und ihnen {13.5/14.85/16.2/17.55/18.9/20.25/21.6/22.95/24.3/25.65}% Schaden pro Sekunde zufügt. Der Schaden pro Sekunde erhöht sich im Verlauf von 2 Sek., bis maximal {72.9/80.2/87.5/94.8/102.1/109.4/116.6/123.9/131.2/138.5}%.\n\nTags: Kern, Pyromanie, Kanalisiert, Schaden, Verbrennung, Mana.\n\n— Enchantment Effect —\nAlle 14 Sek. erscheint eine Schlange und schickt Gegner 8 Sek. lang in den Flammentod.",
-			"esES": "Coste de maná: 12.5 por segundo\nProbabilidad de golpe de suerte: 8.348% (per use)\nCanalizas un haz de fuego que inflige {13.5/14.85/16.2/17.55/18.9/20.25/21.6/22.95/24.3/25.65}% de daño de quemadura por segundo a los enemigos. El daño por segundo aumenta a lo largo de 2 s, hasta un máximo de {72.9/80.2/87.5/94.8/102.1/109.4/116.6/123.9/131.2/138.5}%.\n\nTags: Principal, Piromancia, Canalizada, Daño, Quemadura, Maná.\n\n— Enchantment Effect —\nCada 14 s aparece una sierpe e Incinera a los enemigos durante 8 s.",
-			"esMX": "Costo de maná: 12.5 por segundo\nProbabilidad de golpe afortunado: 8.348% (per use)\nCanalizas un rayo de fuego que quema a los enemigos y les inflige {13.5/14.85/16.2/17.55/18.9/20.25/21.6/22.95/24.3/25.65}% de daño por segundo. El daño por segundo aumenta durante 2 segundos, hasta un máximo de {72.9/80.2/87.5/94.8/102.1/109.4/116.6/123.9/131.2/138.5}%.\n\nTags: Principal, Piromancia, Canalizado, Daño, Quemadura, Maná.\n\n— Enchantment Effect —\nCada 14 segundos, aparece una serpiente e incinera a los enemigos durante 8 segundos.",
-			"frFR": "Coût en mana: 12.5 par seconde\nChances d'obtenir un coup de chance: 8.348% (per use)\nVous canalisez un rayon de feu et brûlez les adversaires, ce qui leur inflige {13.5/14.85/16.2/17.55/18.9/20.25/21.6/22.95/24.3/25.65}% points de dégâts par seconde. Les dégâts infligés par seconde augmentent sur une durée de 2 s, jusqu'à un maximum de {72.9/80.2/87.5/94.8/102.1/109.4/116.6/123.9/131.2/138.5}%.\n\nTags: Principale, Pyromancie, Canalisation, Dégâts, Brûlure, Mana.\n\n— Enchantment Effect —\nToutes les 14 s, un serpent apparaît et incinère les adversaires pendant 8 s.",
-			"itIT": "Costo in mana: 12.5 al secondo\nProbabilità di colpo fortunato: 8.348% (per use)\nCanalizzi un raggio di fuoco che manda in fiamme i nemici infliggendo {13.5/14.85/16.2/17.55/18.9/20.25/21.6/22.95/24.3/25.65}% danni al secondo. I danni al secondo aumentano per 2 s, fino a un massimo di {72.9/80.2/87.5/94.8/102.1/109.4/116.6/123.9/131.2/138.5}%.\n\nTags: Primaria, Piromanzia, Canalizzazione, Danni, Bruciatura, Mana.\n\n— Enchantment Effect —\nOgni 14 s, generi un serpente che incenerisce i nemici per 8 s.",
-			"jaJP": "マナ消費量: 毎秒12.5\n幸運の一撃発生率: 16% (per use)\n一直線の炎を継続的に放って敵を炎上させ、毎秒{13.5/14.85/16.2/17.55/18.9/20.25/21.6/22.95/24.3/25.65}%のダメージを与える。秒間ダメージは2秒間かけて増加し、最大{72.9/80.2/87.5/94.8/102.1/109.4/116.6/123.9/131.2/138.5}%に到達する。\n\nTags: コア, 火術, 連続発動, ダメージ, 炎上, マナ.\n\n— Enchantment Effect —\n14秒ごとに大蛇が出現し、8秒間にわたって敵に〈インシネレート〉を放つ。",
-			"koKR": "소모: 초당 마나 12.5\n행운의 적중 확률: 8.348% (per use)\n불의 광선을 집중하여 적을 불태우고 초당 {13.5/14.85/16.2/17.55/18.9/20.25/21.6/22.95/24.3/25.65}%의 피해를 줍니다. 초당 피해는 2초에 걸쳐 최대 {72.9/80.2/87.5/94.8/102.1/109.4/116.6/123.9/131.2/138.5}%까지 증가합니다.\n\nTags: 핵심, 방화, 정신 집중, 피해, 불태우기, 마나.\n\n— Enchantment Effect —\n14초마다 뱀이 생성되어 적들을 8초 동안 소각합니다.",
-			"plPL": "Koszt: 12.5 pkt. many na sekundę.\nSzansa na szczęśliwy traf: 8.348% (per use)\nWyzwalasz promień ognia, który podpala wrogów, zadając im {13.5/14.85/16.2/17.55/18.9/20.25/21.6/22.95/24.3/25.65}% pkt. obrażeń na sekundę. Obrażenia na sekundę są zwiększone po upływie 2 sek., maksymalnie do {72.9/80.2/87.5/94.8/102.1/109.4/116.6/123.9/131.2/138.5}%.\n\nTags: Główne, Piromancja, Podtrzymanie, Obrażenia, Podpalenie, Mana.\n\n— Enchantment Effect —\nCo 14 sek. pojawia się wąż, który wymierza Spopielenie w pobliskiego wroga na 8 sek.",
-			"ptBR": "Custo de mana: 12.5 por segundo\nChance de Golpe de Sorte: 8.348% (per use)\nCanaliza um feixe de fogo, queimando os inimigos e causando {13.5/14.85/16.2/17.55/18.9/20.25/21.6/22.95/24.3/25.65}% de dano por segundo. O dano por segundo aumenta ao longo de 2 s, até {72.9/80.2/87.5/94.8/102.1/109.4/116.6/123.9/131.2/138.5}%.\n\nTags: Principal, Piromancia, Canalizada, Dano, Queimadura, Mana.\n\n— Enchantment Effect —\nA cada 14 s, uma serpente surge e incinera inimigos próximos por 8 s.",
-			"ruRU": "Затраты маны: 12.5 ед. в сек.\nВероятность удачного удара: 8.348% (per use)\nВы поддерживаете поток пламени, наносящий противникам {13.5/14.85/16.2/17.55/18.9/20.25/21.6/22.95/24.3/25.65}% ед. урона в секунду. Урон в секунду увеличивается в течение 2 сек., достигая {72.9/80.2/87.5/94.8/102.1/109.4/116.6/123.9/131.2/138.5}% ед.\n\nTags: Основное, Пиромантия, Поддерживаемое, Урон, Горение, Мана.\n\n— Enchantment Effect —\nРаз в 14 сек. появляется змей, поражающий ближайшего противника \"Испепелением\" в течение 8 сек.",
-			"trTR": "Mana Bedeli: Saniyede 12.5\nŞanslı Vuruş İhtimali: 8.348% (per use)\nBir ateş akımını yönlendirip düşmanları Yakarak saniye başına {13.5/14.85/16.2/17.55/18.9/20.25/21.6/22.95/24.3/25.65}% hasar ver. Saniye başına hasar 2 saniye boyunca artarak en fazla {72.9/80.2/87.5/94.8/102.1/109.4/116.6/123.9/131.2/138.5}% olur.\n\nTags: Çekirdek, Alev Büyüsü, Yönlendirmeli, Hasar, Yakma, Mana.\n\n— Enchantment Effect —\nHer 14 saniyede bir yılan ortaya çıkar ve düşmanları 8 saniyeliğine Yakar.",
-			"zhCN": "法力消耗: 12.5 每秒\n幸运一击几率: 8.348% (per use)\n引导一道火焰射线燃烧敌人, 每秒造成 {13.5/14.85/16.2/17.55/18.9/20.25/21.6/22.95/24.3/25.65}% 点伤害。在 2 秒内, 伤害每秒都会提高, 最多 {72.9/80.2/87.5/94.8/102.1/109.4/116.6/123.9/131.2/138.5}% 点。\n\nTags: 核心, 爆焰, 引导, 伤害, 燃烧, 法力.\n\n— Enchantment Effect —\n每 14 秒, 召唤一条蛇并焚烧敌人, 持续 8 秒。",
-			"zhTW": "法力消耗:每秒 12.5\n幸運觸發機率:8.348% (per use)\n引導一道火焰燃燒敵人,每秒造成 {13.5/14.85/16.2/17.55/18.9/20.25/21.6/22.95/24.3/25.65}% 點傷害。每秒造成的傷害在 2 秒內會逐漸提高,最多提高 {72.9/80.2/87.5/94.8/102.1/109.4/116.6/123.9/131.2/138.5}% 點。\n\nTags: 核心, 焰術, 引導, 傷害, 燃燒, 法力.\n\n— Enchantment Effect —\n每 14 秒生成一條火蛇,它會對敵人施放熾焚烈焰,持續 8 秒。"
+			"deDE": "Manakosten: 12.5 pro Sekunde\nGlückstrefferchance: 8.348% (per use)\nKanalisiert einen Feuerstrahl, der Gegner verbrennt und ihnen {19/20.9/22.8/24.7/26.6/28.5/30.4/32.3/34.2/36.1}% Schaden pro Sekunde zufügt. Der Schaden pro Sekunde erhöht sich im Verlauf von 2 Sek., bis maximal {102.6/112.9/123.1/133.4/143.6/153.9/164.2/174.4/184.7/194.9}%.\n\nTags: Kern, Pyromanie, Kanalisiert, Schaden, Verbrennung, Mana.\n\n— Enchantment Effect —\nAlle 14 Sek. erscheint eine Schlange und schickt Gegner 8 Sek. lang in den Flammentod.",
+			"esES": "Coste de maná: 12.5 por segundo\nProbabilidad de golpe de suerte: 8.348% (per use)\nCanalizas un haz de fuego que inflige {19/20.9/22.8/24.7/26.6/28.5/30.4/32.3/34.2/36.1}% de daño de quemadura por segundo a los enemigos. El daño por segundo aumenta a lo largo de 2 s, hasta un máximo de {102.6/112.9/123.1/133.4/143.6/153.9/164.2/174.4/184.7/194.9}%.\n\nTags: Principal, Piromancia, Canalizada, Daño, Quemadura, Maná.\n\n— Enchantment Effect —\nCada 14 s aparece una sierpe e Incinera a los enemigos durante 8 s.",
+			"esMX": "Costo de maná: 12.5 por segundo\nProbabilidad de golpe afortunado: 8.348% (per use)\nCanalizas un rayo de fuego que quema a los enemigos y les inflige {19/20.9/22.8/24.7/26.6/28.5/30.4/32.3/34.2/36.1}% de daño por segundo. El daño por segundo aumenta durante 2 segundos, hasta un máximo de {102.6/112.9/123.1/133.4/143.6/153.9/164.2/174.4/184.7/194.9}%.\n\nTags: Principal, Piromancia, Canalizado, Daño, Quemadura, Maná.\n\n— Enchantment Effect —\nCada 14 segundos, aparece una serpiente e incinera a los enemigos durante 8 segundos.",
+			"frFR": "Coût en mana: 12.5 par seconde\nChances d'obtenir un coup de chance: 8.348% (per use)\nVous canalisez un rayon de feu et brûlez les adversaires, ce qui leur inflige {19/20.9/22.8/24.7/26.6/28.5/30.4/32.3/34.2/36.1}% points de dégâts par seconde. Les dégâts infligés par seconde augmentent sur une durée de 2 s, jusqu'à un maximum de {102.6/112.9/123.1/133.4/143.6/153.9/164.2/174.4/184.7/194.9}%.\n\nTags: Principale, Pyromancie, Canalisation, Dégâts, Brûlure, Mana.\n\n— Enchantment Effect —\nToutes les 14 s, un serpent apparaît et incinère les adversaires pendant 8 s.",
+			"itIT": "Costo in mana: 12.5 al secondo\nProbabilità di colpo fortunato: 8.348% (per use)\nCanalizzi un raggio di fuoco che manda in fiamme i nemici infliggendo {19/20.9/22.8/24.7/26.6/28.5/30.4/32.3/34.2/36.1}% danni al secondo. I danni al secondo aumentano per 2 s, fino a un massimo di {102.6/112.9/123.1/133.4/143.6/153.9/164.2/174.4/184.7/194.9}%.\n\nTags: Primaria, Piromanzia, Canalizzazione, Danni, Bruciatura, Mana.\n\n— Enchantment Effect —\nOgni 14 s, generi un serpente che incenerisce i nemici per 8 s.",
+			"jaJP": "マナ消費量: 毎秒12.5\n幸運の一撃発生率: 16% (per use)\n一直線の炎を継続的に放って敵を炎上させ、毎秒{19/20.9/22.8/24.7/26.6/28.5/30.4/32.3/34.2/36.1}%のダメージを与える。秒間ダメージは2秒間かけて増加し、最大{102.6/112.9/123.1/133.4/143.6/153.9/164.2/174.4/184.7/194.9}%に到達する。\n\nTags: コア, 火術, 連続発動, ダメージ, 炎上, マナ.\n\n— Enchantment Effect —\n14秒ごとに大蛇が出現し、8秒間にわたって敵に〈インシネレート〉を放つ。",
+			"koKR": "소모: 초당 마나 12.5\n행운의 적중 확률: 8.348% (per use)\n불의 광선을 집중하여 적을 불태우고 초당 {19/20.9/22.8/24.7/26.6/28.5/30.4/32.3/34.2/36.1}%의 피해를 줍니다. 초당 피해는 2초에 걸쳐 최대 {102.6/112.9/123.1/133.4/143.6/153.9/164.2/174.4/184.7/194.9}%까지 증가합니다.\n\nTags: 핵심, 방화, 정신 집중, 피해, 불태우기, 마나.\n\n— Enchantment Effect —\n14초마다 뱀이 생성되어 적들을 8초 동안 소각합니다.",
+			"plPL": "Koszt: 12.5 pkt. many na sekundę.\nSzansa na szczęśliwy traf: 8.348% (per use)\nWyzwalasz promień ognia, który podpala wrogów, zadając im {19/20.9/22.8/24.7/26.6/28.5/30.4/32.3/34.2/36.1}% pkt. obrażeń na sekundę. Obrażenia na sekundę są zwiększone po upływie 2 sek., maksymalnie do {102.6/112.9/123.1/133.4/143.6/153.9/164.2/174.4/184.7/194.9}%.\n\nTags: Główne, Piromancja, Podtrzymanie, Obrażenia, Podpalenie, Mana.\n\n— Enchantment Effect —\nCo 14 sek. pojawia się wąż, który wymierza Spopielenie w pobliskiego wroga na 8 sek.",
+			"ptBR": "Custo de mana: 12.5 por segundo\nChance de Golpe de Sorte: 8.348% (per use)\nCanaliza um feixe de fogo, queimando os inimigos e causando {19/20.9/22.8/24.7/26.6/28.5/30.4/32.3/34.2/36.1}% de dano por segundo. O dano por segundo aumenta ao longo de 2 s, até {102.6/112.9/123.1/133.4/143.6/153.9/164.2/174.4/184.7/194.9}%.\n\nTags: Principal, Piromancia, Canalizada, Dano, Queimadura, Mana.\n\n— Enchantment Effect —\nA cada 14 s, uma serpente surge e incinera inimigos próximos por 8 s.",
+			"ruRU": "Затраты маны: 12.5 ед. в сек.\nВероятность удачного удара: 8.348% (per use)\nВы поддерживаете поток пламени, наносящий противникам {19/20.9/22.8/24.7/26.6/28.5/30.4/32.3/34.2/36.1}% ед. урона в секунду. Урон в секунду увеличивается в течение 2 сек., достигая {102.6/112.9/123.1/133.4/143.6/153.9/164.2/174.4/184.7/194.9}% ед.\n\nTags: Основное, Пиромантия, Поддерживаемое, Урон, Горение, Мана.\n\n— Enchantment Effect —\nРаз в 14 сек. появляется змей, поражающий ближайшего противника \"Испепелением\" в течение 8 сек.",
+			"trTR": "Mana Bedeli: Saniyede 12.5\nŞanslı Vuruş İhtimali: 8.348% (per use)\nBir ateş akımını yönlendirip düşmanları Yakarak saniye başına {19/20.9/22.8/24.7/26.6/28.5/30.4/32.3/34.2/36.1}% hasar ver. Saniye başına hasar 2 saniye boyunca artarak en fazla {102.6/112.9/123.1/133.4/143.6/153.9/164.2/174.4/184.7/194.9}% olur.\n\nTags: Çekirdek, Alev Büyüsü, Yönlendirmeli, Hasar, Yakma, Mana.\n\n— Enchantment Effect —\nHer 14 saniyede bir yılan ortaya çıkar ve düşmanları 8 saniyeliğine Yakar.",
+			"zhCN": "法力消耗: 12.5 每秒\n幸运一击几率: 8.348% (per use)\n引导一道火焰射线燃烧敌人, 每秒造成 {19/20.9/22.8/24.7/26.6/28.5/30.4/32.3/34.2/36.1}% 点伤害。在 2 秒内, 伤害每秒都会提高, 最多 {102.6/112.9/123.1/133.4/143.6/153.9/164.2/174.4/184.7/194.9}% 点。\n\nTags: 核心, 爆焰, 引导, 伤害, 燃烧, 法力.\n\n— Enchantment Effect —\n每 14 秒, 召唤一条蛇并焚烧敌人, 持续 8 秒。",
+			"zhTW": "法力消耗:每秒 12.5\n幸運觸發機率:8.348% (per use)\n引導一道火焰燃燒敵人,每秒造成 {19/20.9/22.8/24.7/26.6/28.5/30.4/32.3/34.2/36.1}% 點傷害。每秒造成的傷害在 2 秒內會逐漸提高,最多提高 {102.6/112.9/123.1/133.4/143.6/153.9/164.2/174.4/184.7/194.9}% 點。\n\nTags: 核心, 焰術, 引導, 傷害, 燃燒, 法力.\n\n— Enchantment Effect —\n每 14 秒生成一條火蛇,它會對敵人施放熾焚烈焰,持續 8 秒。"
 },
 		id: 24,
 		maxPoints: 5,
@@ -1067,7 +1067,7 @@ Every 14 seconds, a serpent spawns and Incinerates enemies for 8 seconds.`,
 	"Enhanced Incinerate": {
 		baseSkill: "Incinerate",
 		connections: [ "Incinerate", "Destructive Incinerate", "Greater Incinerate" ],
-		description: `While channeling Incinerate, you Burn enemies around you for 25% of the damage per second.`,
+		description: `While channeling Incinerate, you Burn enemies around you for 50% of the damage per second.`,
 		nameLocalized: {
 			"deDE": "Verbesserter Flammentod",
 			"esES": "Incinerar mejorado",
@@ -1084,19 +1084,19 @@ Every 14 seconds, a serpent spawns and Incinerates enemies for 8 seconds.`,
 			"zhTW": "強化熾焚烈焰"
 },
 		descriptionLocalized: {
-			"deDE": "Während des Kanalisierens von Flammentod verbrennt Ihr Gegner um Euch herum und fügt ihnen 25% des Schadens pro Sekunde zu.",
-			"esES": "Mientras se canaliza Incinerar, quemas a los enemigos que te rodean e infliges un 25% del daño de la habilidad por segundo.",
-			"esMX": "Mientras canalizas Incinerar, infliges un 25% de daño de quemadura por segundo a los enemigos a tu alrededor.",
-			"frFR": "Pendant la canalisation d'Incinération, vous brûlez les adversaires autour de vous en leur infligeant 25% des dégâts par seconde.",
-			"itIT": "Durante la canalizzazione di Incenerimento, mandi in fiamme i nemici circostanti, infliggendo il 25% dei danni ogni secondo.",
-			"jaJP": "〈インシネレート〉を使用している間、付近の敵を炎上させて毎秒25%のダメージを与える。",
-			"koKR": "소각에 정신을 집중하는 동안 주위의 적들을 불태워 초당 피해의 25%만큼 피해를 줍니다.",
-			"plPL": "Podczas podtrzymywania Spopielenia podpalasz wrogów wokół siebie i zadajesz im 25% obrażeń na sekundę.",
-			"ptBR": "Enquanto canaliza Incinerar, você queima inimigos ao seu redor, causando 25% do dano por segundo.",
-			"ruRU": "При поддержании \"Испепеления\" вы также опаляете противников вокруг себя, нанося 25% урона раз в сек.",
-			"trTR": "Yakmayı yönlendirirken etrafındaki düşmanları Yakarak saniye başına hasarın 25% kadarına eşit hasar verirsin.",
-			"zhCN": "在引导焚烧时, 你会燃烧附近的敌人, 每秒造成伤害, 相当于焚烧的 25%。",
-			"zhTW": "引導熾焚烈焰時,你會燃燒附近的敵人,每秒造成其傷害值的 25%。"
+			"deDE": "Während des Kanalisierens von Flammentod verbrennt Ihr Gegner um Euch herum und fügt ihnen 50% des Schadens pro Sekunde zu.",
+			"esES": "Mientras se canaliza Incinerar, quemas a los enemigos que te rodean e infliges un 50% del daño de la habilidad por segundo.",
+			"esMX": "Mientras canalizas Incinerar, infliges un 50% de daño de quemadura por segundo a los enemigos a tu alrededor.",
+			"frFR": "Pendant la canalisation d'Incinération, vous brûlez les adversaires autour de vous en leur infligeant 50% des dégâts par seconde.",
+			"itIT": "Durante la canalizzazione di Incenerimento, mandi in fiamme i nemici circostanti, infliggendo il 50% dei danni ogni secondo.",
+			"jaJP": "〈インシネレート〉を使用している間、付近の敵を炎上させて毎秒50%のダメージを与える。",
+			"koKR": "소각에 정신을 집중하는 동안 주위의 적들을 불태워 초당 피해의 50%만큼 피해를 줍니다.",
+			"plPL": "Podczas podtrzymywania Spopielenia podpalasz wrogów wokół siebie i zadajesz im 50% obrażeń na sekundę.",
+			"ptBR": "Enquanto canaliza Incinerar, você queima inimigos ao seu redor, causando 50% do dano por segundo.",
+			"ruRU": "При поддержании \"Испепеления\" вы также опаляете противников вокруг себя, нанося 50% урона раз в сек.",
+			"trTR": "Yakmayı yönlendirirken etrafındaki düşmanları Yakarak saniye başına hasarın 50% kadarına eşit hasar verirsin.",
+			"zhCN": "在引导焚烧时, 你会燃烧附近的敌人, 每秒造成伤害, 相当于焚烧的 50%。",
+			"zhTW": "引導熾焚烈焰時,你會燃燒附近的敵人,每秒造成其傷害值的 50%。"
 },
 		id: 25,
 		maxPoints: 1,
@@ -1106,7 +1106,7 @@ Every 14 seconds, a serpent spawns and Incinerates enemies for 8 seconds.`,
 	"Destructive Incinerate": {
 		baseSkill: "Incinerate",
 		connections: [ "Enhanced Incinerate" ],
-		description: `Enemies deal 25% less damage while Burning from Incinerate.`,
+		description: `Enemies deal 30% less damage while Burning from Incinerate.`,
 		nameLocalized: {
 			"deDE": "Zerstörerischer Flammentod",
 			"esES": "Incinerar destructor",
@@ -1123,19 +1123,19 @@ Every 14 seconds, a serpent spawns and Incinerates enemies for 8 seconds.`,
 			"zhTW": "毀滅熾焚烈焰"
 },
 		descriptionLocalized: {
-			"deDE": "Während Gegner durch Flammentod brennen, verursachen sie 25% weniger Schaden.",
-			"esES": "Los enemigos infligen un 25% menos de daño mientras están quemándose por Incinerar.",
-			"esMX": "Los enemigos infligen un 25% menos de daño mientras están bajo los efectos de quemadura de Incinerar.",
-			"frFR": "Les cibles enflammées par Incinération infligent 25% de dégâts en moins.",
-			"itIT": "I nemici infliggono il 25% di danni in meno mentre sono in fiamme a causa di Incenerimento.",
-			"jaJP": "〈インシネレート〉によって炎上状態になっている敵が与えるダメージが25%減少する。",
-			"koKR": "소각으로 연소 상태가 된 적에게 받는 피해가 25% 감소합니다.",
-			"plPL": "Wrogowie podpaleni przez Spopielenie zadają obrażenia zmniejszone o 25%.",
-			"ptBR": "Inimigos causam 25% de dano reduzido enquanto queimam com Incinerar.",
-			"ruRU": "Подожженные \"Испепелением\" противники наносят на 25% меньше урона.",
-			"trTR": "Yakma ile Yanan düşmanlar 25% daha az hasar verir.",
-			"zhCN": "敌人因焚烧而燃烧时, 其造成的伤害降低 25%。",
-			"zhTW": "熾焚烈焰使敵人燃燒時,其造成的傷害降低 25%。"
+			"deDE": "Während Gegner durch Flammentod brennen, verursachen sie 30% weniger Schaden.",
+			"esES": "Los enemigos infligen un 30% menos de daño mientras están quemándose por Incinerar.",
+			"esMX": "Los enemigos infligen un 30% menos de daño mientras están bajo los efectos de quemadura de Incinerar.",
+			"frFR": "Les cibles enflammées par Incinération infligent 30% de dégâts en moins.",
+			"itIT": "I nemici infliggono il 30% di danni in meno mentre sono in fiamme a causa di Incenerimento.",
+			"jaJP": "〈インシネレート〉によって炎上状態になっている敵が与えるダメージが30%減少する。",
+			"koKR": "소각으로 연소 상태가 된 적에게 받는 피해가 30% 감소합니다.",
+			"plPL": "Wrogowie podpaleni przez Spopielenie zadają obrażenia zmniejszone o 30%.",
+			"ptBR": "Inimigos causam 30% de dano reduzido enquanto queimam com Incinerar.",
+			"ruRU": "Подожженные \"Испепелением\" противники наносят на 30% меньше урона.",
+			"trTR": "Yakma ile Yanan düşmanlar 30% daha az hasar verir.",
+			"zhCN": "敌人因焚烧而燃烧时, 其造成的伤害降低 30%。",
+			"zhTW": "熾焚烈焰使敵人燃燒時,其造成的傷害降低 30%。"
 },
 		id: 26,
 		maxPoints: 1,
@@ -1145,7 +1145,7 @@ Every 14 seconds, a serpent spawns and Incinerates enemies for 8 seconds.`,
 	"Greater Incinerate": {
 		baseSkill: "Incinerate",
 		connections: [ "Enhanced Incinerate" ],
-		description: `Every 3 seconds an enemy has been hit by Incinerate, they are Immobilized for 1 seconds.`,
+		description: `Every 3 seconds an enemy has been hit by Incinerate, they are Immobilized for 1.5 seconds.`,
 		nameLocalized: {
 			"deDE": "Großer Flammentod",
 			"esES": "Incinerar superior",
@@ -1162,19 +1162,19 @@ Every 14 seconds, a serpent spawns and Incinerates enemies for 8 seconds.`,
 			"zhTW": "強效熾焚烈焰"
 },
 		descriptionLocalized: {
-			"deDE": "Alle 3 Sek., die ein Gegner von Flammentod getroffen wurde, wird er 1 Sek. lang bewegungsunfähig.",
-			"esES": "Por cada 3 s que ha pasado un enemigo afectado por Incinerar, queda inmovilizado durante 1 s.",
-			"esMX": "Por cada 3 segundos que un enemigo es golpeado por Incinerar, queda inmovilizado durante 1 segundos.",
-			"frFR": "Chaque fois qu'une cible est touchée par Incinération pendant 3 s, elle est immobilisée pendant 1 s.",
-			"itIT": "I nemici colpiti da Incenerimento ogni 3 s vengono immobilizzati per 1 s.",
-			"jaJP": "〈インシネレート〉が3秒間敵に命中するごとに、その敵が1秒間にわたり移動不能になる。",
-			"koKR": "적이 3초 동안 소각에 적중될 때마다 해당 적이 1초 동안 이동 불가 상태가 됩니다.",
-			"plPL": "Za każde 3 sek., które wróg spędził pod wpływem Spopielenia, zostaje on unieruchomiony na 1 sek.",
-			"ptBR": "A cada 3 s que um inimigo for atingido por Incinerar, ele é imobilizado por 1 s.",
-			"ruRU": "Пораженные противники, непрерывно получающие урон от \"Испепеления\", обездвиживаются на 1 сек. раз в 3 сек.",
-			"trTR": "Bir düşman Yakma ile vurulduğu her 3 saniyede 1 saniyeliğine Sabitlenir.",
-			"zhCN": "每隔 3 秒, 会有一名被焚烧命中的敌人被定身 1 秒。",
-			"zhTW": "熾焚烈焰每持續擊中敵人 3 秒,可使其定身 1 秒。"
+			"deDE": "Alle 3 Sek., die ein Gegner von Flammentod getroffen wurde, wird er 1.5 Sek. lang bewegungsunfähig.",
+			"esES": "Por cada 3 s que ha pasado un enemigo afectado por Incinerar, queda inmovilizado durante 1.5 s.",
+			"esMX": "Por cada 3 segundos que un enemigo es golpeado por Incinerar, queda inmovilizado durante 1.5 segundos.",
+			"frFR": "Chaque fois qu'une cible est touchée par Incinération pendant 3 s, elle est immobilisée pendant 1.5 s.",
+			"itIT": "I nemici colpiti da Incenerimento ogni 3 s vengono immobilizzati per 1.5 s.",
+			"jaJP": "3秒ごとに〈インシネレート〉の命中した敵1体が、1.5秒間にわたり移動不能になる。",
+			"koKR": "적이 3초 동안 소각에 적중될 때마다 해당 적이 1.5초 동안 이동 불가 상태가 됩니다.",
+			"plPL": "Za każde 3 sek., które wróg spędził pod wpływem Spopielenia, zostaje on unieruchomiony na 1.5 sek.",
+			"ptBR": "A cada 3 s que um inimigo for atingido por Incinerar, ele é imobilizado por 1.5 s.",
+			"ruRU": "Пораженные противники, непрерывно получающие урон от \"Испепеления\", обездвиживаются на 1.5 сек. раз в 3 сек.",
+			"trTR": "Bir düşman Yakma ile vurulduğu her 3 saniyede 1.5 saniyeliğine sabitlenir.",
+			"zhCN": "每隔 3 秒,会有一名被焚烧命中的敌人被定身 1.5 秒。",
+			"zhTW": "每 3 秒內被熾焚烈焰擊中的敵人會定身 1.5 秒。"
 },
 		id: 27,
 		maxPoints: 1,
@@ -2530,7 +2530,7 @@ sorcererData["Conjuration"] = {
 		connections: [ "Conjuration", "Enhanced Hydra" ],
 		description: `Mana Cost: 20
 Lucky Hit Chance: 2.5% (per hit)
-Summon a 3-headed hydra for 10 seconds. Each head spits fire at enemies, dealing {12/13.2/14.4/15.6/16.8/18/19.2/20.4/21.6/22.8}% damage.
+Summon a 3-headed hydra for 10 seconds. Each head spits fire at enemies, dealing {14/15.4/16.8/18.2/19.6/21/22.4/23.8/25.2/26.6}% damage.
 
 Maximum 1 active Hydras at a time.
 
@@ -2554,19 +2554,19 @@ After spending 200 Mana, a 5-headed Hydra spawns for {5.7/6.2} seconds.`,
 			"zhTW": "多頭蛇"
 },
 		descriptionLocalized: {
-			"deDE": "Manakosten: 20\nGlückstrefferchance: 2.5% (per hit)\nBeschwört 10 Sek. lang eine 3-köpfige Hydra. Jeder Kopf speit Feuer auf Gegner und verursacht {12/13.2/14.4/15.6/16.8/18/19.2/20.4/21.6/22.8}% Schaden.\n\nMaximal 1 aktive Hydras gleichzeitig.\n\nTags: Beschwörung, Pyromanie, Schaden, Feuer, Mana.\n\n— Enchantment Effect —\nWenn Ihr 200 Mana verbraucht, erscheint {5.7/6.2} Sek. lang eine 5-köpfige Hydra.",
-			"esES": "Coste de maná: 20\nProbabilidad de golpe de suerte: 2.5% (per hit)\nInvocas una hidra de 3 cabezas durante 10 s. Cada cabeza escupe fuego a los enemigos y les inflige {12/13.2/14.4/15.6/16.8/18/19.2/20.4/21.6/22.8}% de daño.\n\nMáximo de 1 hidras activas a la vez.\n\nTags: Evocación, Piromancia, Daño, Fuego, Maná.\n\n— Enchantment Effect —\nTras gastar 200 de maná, aparece una hidra de 5 cabezas durante {5.7/6.2} s.",
-			"esMX": "Costo de maná: 20\nProbabilidad de golpe afortunado: 2.5% (per hit)\nInvocas una hidra de 3 cabezas durante 10 segundos. Cada cabeza escupe fuego a los enemigos y les inflige {12/13.2/14.4/15.6/16.8/18/19.2/20.4/21.6/22.8}% de daño.\n\nPuedes tener como máximo 1 Hidras a la vez.\n\nTags: Conjuración, Piromancia, Daño, Fuego, Maná.\n\n— Enchantment Effect —\nDespués de usar 200 de maná, se genera una Hidra de 5 cabezas que dura {5.7/6.2} segundos.",
-			"frFR": "Coût en mana: 20\nChances d'obtenir un coup de chance: 2.5% (per hit)\nVous invoquez une hydre à 3 têtes qui dure 10 s. Chaque tête crache du feu sur les adversaires, ce qui inflige {12/13.2/14.4/15.6/16.8/18/19.2/20.4/21.6/22.8}% points de dégâts.\n\nVous pouvez avoir jusqu'à 1 hydres actives à la fois.\n\nTags: Conjuration, Pyromancie, Dégâts, Feu, Mana.\n\n— Enchantment Effect —\nAprès avoir dépensé 200 points de mana, une hydre à 5 têtes apparaît pendant {5.7/6.2} s.",
-			"itIT": "Costo in mana: 20\nProbabilità di colpo fortunato: 2.5% (per hit)\nEvochi un'Idra a 3 teste per 10 s. Ogni testa sputa fuoco contro i nemici, infliggendo {12/13.2/14.4/15.6/16.8/18/19.2/20.4/21.6/22.8}% danni.\n\nNumero massimo di Idra evocabili simultaneamente: 1.\n\nTags: Invocazione, Piromanzia, Danni, Fuoco, Mana.\n\n— Enchantment Effect —\nDopo aver consumato 200 mana, generi un'Idra a 5 teste per {5.7/6.2} s.",
-			"jaJP": "マナ消費量: 20\n幸運の一撃発生率: 2.5% (per hit)\n頭が3頭ある〈ヒュドラ〉を10秒間にわたり召喚する。それぞれの頭が周囲の敵に炎を吐き、{12/13.2/14.4/15.6/16.8/18/19.2/20.4/21.6/22.8}%のダメージを与える。\n\n最大で1体の〈ヒュドラ〉を同時に使役可能。\n\nTags: 召喚, 火術, ダメージ, 火炎, マナ.\n\n— Enchantment Effect —\nマナを200消費すると、{5.7/6.2}秒間にわたり頭が5頭ある〈ヒュドラ〉が出現する。",
-			"koKR": "소모: 마나 20\n행운의 적중 확률: 2.5% (per hit)\n머리가 3개 달린 히드라를 소환합니다. 히드라는 10초 동안 지속되며, 머리는 각각 적에게 불을 내뿜어 {12/13.2/14.4/15.6/16.8/18/19.2/20.4/21.6/22.8}%의 피해를 줍니다.\n\n히드라는 한 번에 최대 1마리까지 활성화될 수 있습니다.\n\nTags: 구현, 방화, 피해, 화염, 마나.\n\n— Enchantment Effect —\n마나를 200 소모하면 {5.7/6.2}초 동안 머리가 5개인 히드라가 생성됩니다.",
-			"plPL": "Koszt: 20 pkt. many.\nSzansa na szczęśliwy traf: 2.5% (per hit)\nPrzyzywasz Hydrę o 3 głowach na 10 sek. Każda głowa spluwa ogniem we wrogów i zadaje im {12/13.2/14.4/15.6/16.8/18/19.2/20.4/21.6/22.8}% pkt. obrażeń.\n\nJednocześnie możesz mieć maksymalnie 1 aktywne Hydry:aktywnych Hydr.\n\nTags: Przyzywanie, Piromancja, Obrażenia, Ogień, Mana.\n\n— Enchantment Effect —\nPo zużyciu 200 pkt. many na {5.7/6.2} sek. pojawia się 5-głowa Hydra.",
-			"ptBR": "Custo de mana: 20\nChance de Golpe de Sorte: 2.5% (per hit)\nEvoca uma hidra com 3 cabeças por 10 s. Cada cabeça cospe fogo em inimigos, causando {12/13.2/14.4/15.6/16.8/18/19.2/20.4/21.6/22.8}% de dano.\n\nMáximo de 1 Hidras ativas por vez.\n\nTags: Conjuração, Piromancia, Dano, Fogo, Mana.\n\n— Enchantment Effect —\nDepois de gastar 200 de mana, uma Hidra com 5 cabeças surge por {5.7/6.2} s.",
-			"ruRU": "Затраты маны: 20 ед.\nВероятность удачного удара: 2.5% (per hit)\nВы на 10 сек. призываете гидру с 3 головами:головами. Каждая голова изрыгает в противников пламя, наносящее {12/13.2/14.4/15.6/16.8/18/19.2/20.4/21.6/22.8}% ед. урона.\n\nОдновременно можно призвать 1 гидр:гидр.\n\nTags: Колдовство, Пиромантия, Урон, Огонь, Мана.\n\n— Enchantment Effect —\nПотратив 200 ед. маны, вы на {5.7/6.2} сек. призываете гидру с 5 головами:головами.",
-			"trTR": "Mana Bedeli: 20\nŞanslı Vuruş İhtimali: 2.5% (per hit)\n10 saniyeliğine 3 başlı bir hidra çağır. Her baş, düşmanlara ateş püskürterek {12/13.2/14.4/15.6/16.8/18/19.2/20.4/21.6/22.8}% hasar verir.\n\nAynı anda en fazla 1 etkin Hidra bulunabilir.\n\nTags: Büyü, Alev Büyüsü, Hasar, Ateş, Mana.\n\n— Enchantment Effect —\n200 Mana harcadıktan sonra {5.7/6.2} saniyeliğine 5 başlı bir Hidra ortaya çıkar.",
-			"zhCN": "法力消耗: 20\n幸运一击几率: 2.5% (per hit)\n召唤一只有 3 个头的多头蛇, 持续 10 秒。每个头都会对敌人喷吐火焰, 造成 {12/13.2/14.4/15.6/16.8/18/19.2/20.4/21.6/22.8}% 点伤害。\n\n同一时间最多可激活 1 只多头蛇。\n\nTags: 召唤魔法, 爆焰, 伤害, 火焰, 法力.\n\n— Enchantment Effect —\n消耗 200 点法力后, 召唤一只拥有 5 个头的多头蛇, 持续 {5.7/6.2} 秒。",
-			"zhTW": "法力消耗:20\n幸運觸發機率:2.5% (per hit)\n召喚出有 3 顆頭的多頭蛇,持續 10 秒。每顆蛇頭會對敵人噴火,造成 {12/13.2/14.4/15.6/16.8/18/19.2/20.4/21.6/22.8}% 點傷害。\n\n最多可同時擁有 1 個|4多頭蛇:多頭蛇。\n\nTags: 咒喚, 焰術, 傷害, 火焰, 法力.\n\n— Enchantment Effect —\n花費 200 點法力後,會生成一隻 5 個頭的多頭蛇,持續 {5.7/6.2} 秒。"
+			"deDE": "Manakosten: 20\nGlückstrefferchance: 2.5% (per hit)\nBeschwört 10 Sek. lang eine 3-köpfige Hydra. Jeder Kopf speit Feuer auf Gegner und verursacht {14/15.4/16.8/18.2/19.6/21/22.4/23.8/25.2/26.6}% Schaden.\n\nMaximal 1 aktive Hydras gleichzeitig.\n\nTags: Beschwörung, Pyromanie, Schaden, Feuer, Mana.\n\n— Enchantment Effect —\nWenn Ihr 200 Mana verbraucht, erscheint {5.7/6.2} Sek. lang eine 5-köpfige Hydra.",
+			"esES": "Coste de maná: 20\nProbabilidad de golpe de suerte: 2.5% (per hit)\nInvocas una hidra de 3 cabezas durante 10 s. Cada cabeza escupe fuego a los enemigos y les inflige {14/15.4/16.8/18.2/19.6/21/22.4/23.8/25.2/26.6}% de daño.\n\nMáximo de 1 hidras activas a la vez.\n\nTags: Evocación, Piromancia, Daño, Fuego, Maná.\n\n— Enchantment Effect —\nTras gastar 200 de maná, aparece una hidra de 5 cabezas durante {5.7/6.2} s.",
+			"esMX": "Costo de maná: 20\nProbabilidad de golpe afortunado: 2.5% (per hit)\nInvocas una hidra de 3 cabezas durante 10 segundos. Cada cabeza escupe fuego a los enemigos y les inflige {14/15.4/16.8/18.2/19.6/21/22.4/23.8/25.2/26.6}% de daño.\n\nPuedes tener como máximo 1 Hidras a la vez.\n\nTags: Conjuración, Piromancia, Daño, Fuego, Maná.\n\n— Enchantment Effect —\nDespués de usar 200 de maná, se genera una Hidra de 5 cabezas que dura {5.7/6.2} segundos.",
+			"frFR": "Coût en mana: 20\nChances d'obtenir un coup de chance: 2.5% (per hit)\nVous invoquez une hydre à 3 têtes qui dure 10 s. Chaque tête crache du feu sur les adversaires, ce qui inflige {14/15.4/16.8/18.2/19.6/21/22.4/23.8/25.2/26.6}% points de dégâts.\n\nVous pouvez avoir jusqu'à 1 hydres actives à la fois.\n\nTags: Conjuration, Pyromancie, Dégâts, Feu, Mana.\n\n— Enchantment Effect —\nAprès avoir dépensé 200 points de mana, une hydre à 5 têtes apparaît pendant {5.7/6.2} s.",
+			"itIT": "Costo in mana: 20\nProbabilità di colpo fortunato: 2.5% (per hit)\nEvochi un'Idra a 3 teste per 10 s. Ogni testa sputa fuoco contro i nemici, infliggendo {14/15.4/16.8/18.2/19.6/21/22.4/23.8/25.2/26.6}% danni.\n\nNumero massimo di Idra evocabili simultaneamente: 1.\n\nTags: Invocazione, Piromanzia, Danni, Fuoco, Mana.\n\n— Enchantment Effect —\nDopo aver consumato 200 mana, generi un'Idra a 5 teste per {5.7/6.2} s.",
+			"jaJP": "マナ消費量: 20\n幸運の一撃発生率: 2.5% (per hit)\n頭が3頭ある〈ヒュドラ〉を10秒間にわたり召喚する。それぞれの頭が周囲の敵に炎を吐き、{14/15.4/16.8/18.2/19.6/21/22.4/23.8/25.2/26.6}%のダメージを与える。\n\n最大で1体の〈ヒュドラ〉を同時に使役可能。\n\nTags: 召喚, 火術, ダメージ, 火炎, マナ.\n\n— Enchantment Effect —\nマナを200消費すると、{5.7/6.2}秒間にわたり頭が5頭ある〈ヒュドラ〉が出現する。",
+			"koKR": "소모: 마나 20\n행운의 적중 확률: 2.5% (per hit)\n머리가 3개 달린 히드라를 소환합니다. 히드라는 10초 동안 지속되며, 머리는 각각 적에게 불을 내뿜어 {14/15.4/16.8/18.2/19.6/21/22.4/23.8/25.2/26.6}%의 피해를 줍니다.\n\n히드라는 한 번에 최대 1마리까지 활성화될 수 있습니다.\n\nTags: 구현, 방화, 피해, 화염, 마나.\n\n— Enchantment Effect —\n마나를 200 소모하면 {5.7/6.2}초 동안 머리가 5개인 히드라가 생성됩니다.",
+			"plPL": "Koszt: 20 pkt. many.\nSzansa na szczęśliwy traf: 2.5% (per hit)\nPrzyzywasz Hydrę o 3 głowach na 10 sek. Każda głowa spluwa ogniem we wrogów i zadaje im {14/15.4/16.8/18.2/19.6/21/22.4/23.8/25.2/26.6}% pkt. obrażeń.\n\nJednocześnie możesz mieć maksymalnie 1 aktywne Hydry:aktywnych Hydr.\n\nTags: Przyzywanie, Piromancja, Obrażenia, Ogień, Mana.\n\n— Enchantment Effect —\nPo zużyciu 200 pkt. many na {5.7/6.2} sek. pojawia się 5-głowa Hydra.",
+			"ptBR": "Custo de mana: 20\nChance de Golpe de Sorte: 2.5% (per hit)\nEvoca uma hidra com 3 cabeças por 10 s. Cada cabeça cospe fogo em inimigos, causando {14/15.4/16.8/18.2/19.6/21/22.4/23.8/25.2/26.6}% de dano.\n\nMáximo de 1 Hidras ativas por vez.\n\nTags: Conjuração, Piromancia, Dano, Fogo, Mana.\n\n— Enchantment Effect —\nDepois de gastar 200 de mana, uma Hidra com 5 cabeças surge por {5.7/6.2} s.",
+			"ruRU": "Затраты маны: 20 ед.\nВероятность удачного удара: 2.5% (per hit)\nВы на 10 сек. призываете гидру с 3 головами:головами. Каждая голова изрыгает в противников пламя, наносящее {14/15.4/16.8/18.2/19.6/21/22.4/23.8/25.2/26.6}% ед. урона.\n\nОдновременно можно призвать 1 гидр:гидр.\n\nTags: Колдовство, Пиромантия, Урон, Огонь, Мана.\n\n— Enchantment Effect —\nПотратив 200 ед. маны, вы на {5.7/6.2} сек. призываете гидру с 5 головами:головами.",
+			"trTR": "Mana Bedeli: 20\nŞanslı Vuruş İhtimali: 2.5% (per hit)\n10 saniyeliğine 3 başlı bir hidra çağır. Her baş, düşmanlara ateş püskürterek {14/15.4/16.8/18.2/19.6/21/22.4/23.8/25.2/26.6}% hasar verir.\n\nAynı anda en fazla 1 etkin Hidra bulunabilir.\n\nTags: Büyü, Alev Büyüsü, Hasar, Ateş, Mana.\n\n— Enchantment Effect —\n200 Mana harcadıktan sonra {5.7/6.2} saniyeliğine 5 başlı bir Hidra ortaya çıkar.",
+			"zhCN": "法力消耗: 20\n幸运一击几率: 2.5% (per hit)\n召唤一只有 3 个头的多头蛇, 持续 10 秒。每个头都会对敌人喷吐火焰, 造成 {14/15.4/16.8/18.2/19.6/21/22.4/23.8/25.2/26.6}% 点伤害。\n\n同一时间最多可激活 1 只多头蛇。\n\nTags: 召唤魔法, 爆焰, 伤害, 火焰, 法力.\n\n— Enchantment Effect —\n消耗 200 点法力后, 召唤一只拥有 5 个头的多头蛇, 持续 {5.7/6.2} 秒。",
+			"zhTW": "法力消耗:20\n幸運觸發機率:2.5% (per hit)\n召喚出有 3 顆頭的多頭蛇,持續 10 秒。每顆蛇頭會對敵人噴火,造成 {14/15.4/16.8/18.2/19.6/21/22.4/23.8/25.2/26.6}% 點傷害。\n\n最多可同時擁有 1 個|4多頭蛇:多頭蛇。\n\nTags: 咒喚, 焰術, 傷害, 火焰, 法力.\n\n— Enchantment Effect —\n花費 200 點法力後,會生成一隻 5 個頭的多頭蛇,持續 {5.7/6.2} 秒。"
 },
 		id: 61,
 		maxPoints: 5,
@@ -3547,7 +3547,7 @@ Every 15 seconds, a Blizzard forms over you and follows you for 6 seconds.`,
 		description: `Attack Speed Multiplier: 1.25
 Mana Cost: 50
 Lucky Hit Chance: 5% (per hit)
-Discharge a ball of lightning that slowly moves forward, continually zapping enemies for {18/19.8/21.6/23.4/25.2/27/28.8/30.6/32.4/34.2}% damage.
+Discharge a ball of lightning that slowly moves forward, continually zapping enemies for {19.8/21.8/23.8/25.7/27.7/29.7/31.7/33.7/35.6/37.6}% damage.
 
 Tags: Mastery, Shock, Damage, Lightning, Mana.
 
@@ -3569,19 +3569,19 @@ Lucky Hit: Critical Strikes have up to a 25% chance to spawn a static Ball Light
 			"zhTW": "球狀閃電"
 },
 		descriptionLocalized: {
-			"deDE": "Attack Speed Multiplier: 1.25\nManakosten: 50\nGlückstrefferchance: 5% (per hit)\nEntlädt eine Blitzkugel, die sich langsam vorwärts bewegt und Gegnern mit ihren Stromstößen kontinuierlich {18/19.8/21.6/23.4/25.2/27/28.8/30.6/32.4/34.2}% Schaden zufügt.\n\nTags: Beherrschung, Schock, Schaden, Blitz, Mana.\n\n— Enchantment Effect —\nGlückstreffer: Kritische Treffer verfügen über eine Chance von bis zu 25%, einen statischen Kugelblitz zu erzeugen.",
-			"esES": "Attack Speed Multiplier: 1.25\nCoste de maná: 50\nProbabilidad de golpe de suerte: 5% (per hit)\nLanzas una bola de rayos que se desplaza lentamente hacia delante y electrocuta continuamente a los enemigos, lo que inflige {18/19.8/21.6/23.4/25.2/27/28.8/30.6/32.4/34.2}% de daño.\n\nTags: Maestría, Electrocución, Daño, Rayos, Maná.\n\n— Enchantment Effect —\nGolpe de suerte: Los golpes críticos tienen hasta un 25% de probabilidad de generar una Bola de rayos estática.",
-			"esMX": "Attack Speed Multiplier: 1.25\nCosto de maná: 50\nProbabilidad de golpe afortunado: 5% (per hit)\nLiberas una bola de rayos que se mueve lentamente hacia adelante, electrocuta a los enemigos de manera continua y les inflige {18/19.8/21.6/23.4/25.2/27/28.8/30.6/32.4/34.2}% de daño.\n\nTags: Dominio, Rayo, Daño, Maná.\n\n— Enchantment Effect —\nGolpe afortunado: Los golpes críticos tienen hasta un 25% de probabilidad de generar un Rayo Globular estático.",
-			"frFR": "Attack Speed Multiplier: 1.25\nCoût en mana: 50\nChances d'obtenir un coup de chance: 5% (per hit)\nVous libérez une boule de foudre qui avance lentement et électrocute les adversaires en continu en leur infligeant {18/19.8/21.6/23.4/25.2/27/28.8/30.6/32.4/34.2}% points de dégâts.\n\nTags: Maîtrise, Foudre, Dégâts, Mana.\n\n— Enchantment Effect —\nCoup de chance: les coups critiques ont jusqu'à 25% de chances de générer une sphère foudroyante statique.",
-			"itIT": "Attack Speed Multiplier: 1.25\nCosto in mana: 50\nProbabilità di colpo fortunato: 5% (per hit)\nScateni una palla di fulmini che avanza lentamente, fulminando continuamente i nemici e infliggendo {18/19.8/21.6/23.4/25.2/27/28.8/30.6/32.4/34.2}% danni.\n\nTags: Dominio, Folgore, Danni, Fulmine, Mana.\n\n— Enchantment Effect —\nColpo fortunato: i colpi critici hanno fino al 25% di probabilità di generare una Palla Fulminante statica.",
-			"jaJP": "Attack Speed Multiplier: 1.25\nマナ消費量: 50\n幸運の一撃発生率: 5% (per hit)\nゆっくりと前進する球電を放ち、敵を感電させ続け{18/19.8/21.6/23.4/25.2/27/28.8/30.6/32.4/34.2}%のダメージを与える。\n\nTags: マスター, 電撃, ダメージ, マナ.\n\n— Enchantment Effect —\n幸運の一撃: クリティカルヒット時、最大25%の確率で静電気を帯びた〈ボール・ライトニング〉が発生する。",
-			"koKR": "Attack Speed Multiplier: 1.25\n소모: 마나 50\n행운의 적중 확률: 5% (per hit)\n전방으로 천천히 움직이는 번개의 구체를 방출합니다. 구체는 계속해서 적을 감전시켜 {18/19.8/21.6/23.4/25.2/27/28.8/30.6/32.4/34.2}%의 피해를 줍니다.\n\nTags: 숙련, 감전, 피해, 번개, 마나.\n\n— Enchantment Effect —\n행운의 적중: 극대화 시 최대 25%의 확률로 정지해 있는 구상 번개가 생성됩니다.",
-			"plPL": "Attack Speed Multiplier: 1.25\nKoszt: 50 pkt. many\nSzansa na szczęśliwy traf: 5% (per hit)\nWyzwalasz kulę błyskawic, która powoli przemieszcza się do przodu, nieprzerwanie porażając wrogów i zadając im {18/19.8/21.6/23.4/25.2/27/28.8/30.6/32.4/34.2}% pkt. obrażeń.\n\nTags: Mistrzostwo, Porażenie, Obrażenia, Błyskawice, Mana.\n\n— Enchantment Effect —\nSzczęśliwy traf: Trafienia krytyczne mają maksymalnie 25% szans na stworzenie statycznego Pioruna Kulistego.",
-			"ptBR": "Attack Speed Multiplier: 1.25\nCusto de mana: 50\nChance de Golpe de Sorte: 5% (per hit)\nDispara uma bola de eletricidade que avança lentamente, atacando inimigos de forma contínua e causando {18/19.8/21.6/23.4/25.2/27/28.8/30.6/32.4/34.2}% de dano.\n\nTags: Maestria, Choque, Dano, Eletricidade, Mana.\n\n— Enchantment Effect —\nGolpe de Sorte: Acertos críticos têm até 25% de chance de gerar uma Bola de Eletricidade estática.",
-			"ruRU": "Attack Speed Multiplier: 1.25\nЗатраты маны: 50 ед.\nВероятность удачного удара: 5% (per hit)\nВы выпускаете шаровую молнию, которая медленно летит вперед, время от времени нанося противникам по {18/19.8/21.6/23.4/25.2/27/28.8/30.6/32.4/34.2}% ед. урона.\n\nTags: Искусность, Шок, Урон, Молния, Мана.\n\n— Enchantment Effect —\nУдачный удар: критические удары с вероятностью до 25% создают неподвижную \"Шаровую молнию\".",
-			"trTR": "Attack Speed Multiplier: 1.25\nMana Bedeli: 50\nŞanslı Vuruş İhtimali: 5% (per hit)\nYavaşça ilerleyerek düşmanları çarpan ve {18/19.8/21.6/23.4/25.2/27/28.8/30.6/32.4/34.2}% hasar veren bir yıldırım topu fırlat.\n\nTags: Ustalık, Şok, Hasar, Yıldırım, Mana.\n\n— Enchantment Effect —\nŞanslı Vuruş: Kritik Vuruşlar en fazla 25% ihtimalle sabit bir Yıldırım Topu oluşturur.",
-			"zhCN": "Attack Speed Multiplier: 1.25\n法力消耗: 50\n幸运一击几率: 5% (per hit)\n放出一个向前缓慢移动的闪电球持续电击敌人, 造成 {18/19.8/21.6/23.4/25.2/27/28.8/30.6/32.4/34.2}% 点伤害。\n\nTags: 掌控, 电冲, 伤害, 闪电, 法力.\n\n— Enchantment Effect —\n幸运一击: 暴击最多有 25% 几率形成一团静止的球状闪电。",
-			"zhTW": "Attack Speed Multiplier: 1.25\n法力消耗:50\n幸運觸發機率: 5% (per hit)\n放出緩慢向前移動的閃電球,持續電擊敵人造成 {18/19.8/21.6/23.4/25.2/27/28.8/30.6/32.4/34.2}% 點傷害。\n\nTags: 精通, 電能, 傷害, 閃電, 法力.\n\n— Enchantment Effect —\n幸運觸發:爆擊有最多 25% 的機率生成一個靜態的球狀閃電。"
+			"deDE": "Attack Speed Multiplier: 1.25\nManakosten: 50\nGlückstrefferchance: 5% (per hit)\nEntlädt eine Blitzkugel, die sich langsam vorwärts bewegt und Gegnern mit ihren Stromstößen kontinuierlich {19.8/21.8/23.8/25.7/27.7/29.7/31.7/33.7/35.6/37.6}% Schaden zufügt.\n\nTags: Beherrschung, Schock, Schaden, Blitz, Mana.\n\n— Enchantment Effect —\nGlückstreffer: Kritische Treffer verfügen über eine Chance von bis zu 25%, einen statischen Kugelblitz zu erzeugen.",
+			"esES": "Attack Speed Multiplier: 1.25\nCoste de maná: 50\nProbabilidad de golpe de suerte: 5% (per hit)\nLanzas una bola de rayos que se desplaza lentamente hacia delante y electrocuta continuamente a los enemigos, lo que inflige {19.8/21.8/23.8/25.7/27.7/29.7/31.7/33.7/35.6/37.6}% de daño.\n\nTags: Maestría, Electrocución, Daño, Rayos, Maná.\n\n— Enchantment Effect —\nGolpe de suerte: Los golpes críticos tienen hasta un 25% de probabilidad de generar una Bola de rayos estática.",
+			"esMX": "Attack Speed Multiplier: 1.25\nCosto de maná: 50\nProbabilidad de golpe afortunado: 5% (per hit)\nLiberas una bola de rayos que se mueve lentamente hacia adelante, electrocuta a los enemigos de manera continua y les inflige {19.8/21.8/23.8/25.7/27.7/29.7/31.7/33.7/35.6/37.6}% de daño.\n\nTags: Dominio, Rayo, Daño, Maná.\n\n— Enchantment Effect —\nGolpe afortunado: Los golpes críticos tienen hasta un 25% de probabilidad de generar un Rayo Globular estático.",
+			"frFR": "Attack Speed Multiplier: 1.25\nCoût en mana: 50\nChances d'obtenir un coup de chance: 5% (per hit)\nVous libérez une boule de foudre qui avance lentement et électrocute les adversaires en continu en leur infligeant {19.8/21.8/23.8/25.7/27.7/29.7/31.7/33.7/35.6/37.6}% points de dégâts.\n\nTags: Maîtrise, Foudre, Dégâts, Mana.\n\n— Enchantment Effect —\nCoup de chance: les coups critiques ont jusqu'à 25% de chances de générer une sphère foudroyante statique.",
+			"itIT": "Attack Speed Multiplier: 1.25\nCosto in mana: 50\nProbabilità di colpo fortunato: 5% (per hit)\nScateni una palla di fulmini che avanza lentamente, fulminando continuamente i nemici e infliggendo {19.8/21.8/23.8/25.7/27.7/29.7/31.7/33.7/35.6/37.6}% danni.\n\nTags: Dominio, Folgore, Danni, Fulmine, Mana.\n\n— Enchantment Effect —\nColpo fortunato: i colpi critici hanno fino al 25% di probabilità di generare una Palla Fulminante statica.",
+			"jaJP": "Attack Speed Multiplier: 1.25\nマナ消費量: 50\n幸運の一撃発生率: 5% (per hit)\nゆっくりと前進する球電を放ち、敵を感電させ続け{19.8/21.8/23.8/25.7/27.7/29.7/31.7/33.7/35.6/37.6}%のダメージを与える。\n\nTags: マスター, 電撃, ダメージ, マナ.\n\n— Enchantment Effect —\n幸運の一撃: クリティカルヒット時、最大25%の確率で静電気を帯びた〈ボール・ライトニング〉が発生する。",
+			"koKR": "Attack Speed Multiplier: 1.25\n소모: 마나 50\n행운의 적중 확률: 5% (per hit)\n전방으로 천천히 움직이는 번개의 구체를 방출합니다. 구체는 계속해서 적을 감전시켜 {19.8/21.8/23.8/25.7/27.7/29.7/31.7/33.7/35.6/37.6}%의 피해를 줍니다.\n\nTags: 숙련, 감전, 피해, 번개, 마나.\n\n— Enchantment Effect —\n행운의 적중: 극대화 시 최대 25%의 확률로 정지해 있는 구상 번개가 생성됩니다.",
+			"plPL": "Attack Speed Multiplier: 1.25\nKoszt: 50 pkt. many\nSzansa na szczęśliwy traf: 5% (per hit)\nWyzwalasz kulę błyskawic, która powoli przemieszcza się do przodu, nieprzerwanie porażając wrogów i zadając im {19.8/21.8/23.8/25.7/27.7/29.7/31.7/33.7/35.6/37.6}% pkt. obrażeń.\n\nTags: Mistrzostwo, Porażenie, Obrażenia, Błyskawice, Mana.\n\n— Enchantment Effect —\nSzczęśliwy traf: Trafienia krytyczne mają maksymalnie 25% szans na stworzenie statycznego Pioruna Kulistego.",
+			"ptBR": "Attack Speed Multiplier: 1.25\nCusto de mana: 50\nChance de Golpe de Sorte: 5% (per hit)\nDispara uma bola de eletricidade que avança lentamente, atacando inimigos de forma contínua e causando {19.8/21.8/23.8/25.7/27.7/29.7/31.7/33.7/35.6/37.6}% de dano.\n\nTags: Maestria, Choque, Dano, Eletricidade, Mana.\n\n— Enchantment Effect —\nGolpe de Sorte: Acertos críticos têm até 25% de chance de gerar uma Bola de Eletricidade estática.",
+			"ruRU": "Attack Speed Multiplier: 1.25\nЗатраты маны: 50 ед.\nВероятность удачного удара: 5% (per hit)\nВы выпускаете шаровую молнию, которая медленно летит вперед, время от времени нанося противникам по {19.8/21.8/23.8/25.7/27.7/29.7/31.7/33.7/35.6/37.6}% ед. урона.\n\nTags: Искусность, Шок, Урон, Молния, Мана.\n\n— Enchantment Effect —\nУдачный удар: критические удары с вероятностью до 25% создают неподвижную \"Шаровую молнию\".",
+			"trTR": "Attack Speed Multiplier: 1.25\nMana Bedeli: 50\nŞanslı Vuruş İhtimali: 5% (per hit)\nYavaşça ilerleyerek düşmanları çarpan ve {19.8/21.8/23.8/25.7/27.7/29.7/31.7/33.7/35.6/37.6}% hasar veren bir yıldırım topu fırlat.\n\nTags: Ustalık, Şok, Hasar, Yıldırım, Mana.\n\n— Enchantment Effect —\nŞanslı Vuruş: Kritik Vuruşlar en fazla 25% ihtimalle sabit bir Yıldırım Topu oluşturur.",
+			"zhCN": "Attack Speed Multiplier: 1.25\n法力消耗: 50\n幸运一击几率: 5% (per hit)\n放出一个向前缓慢移动的闪电球持续电击敌人, 造成 {19.8/21.8/23.8/25.7/27.7/29.7/31.7/33.7/35.6/37.6}% 点伤害。\n\nTags: 掌控, 电冲, 伤害, 闪电, 法力.\n\n— Enchantment Effect —\n幸运一击: 暴击最多有 25% 几率形成一团静止的球状闪电。",
+			"zhTW": "Attack Speed Multiplier: 1.25\n法力消耗:50\n幸運觸發機率: 5% (per hit)\n放出緩慢向前移動的閃電球,持續電擊敵人造成 {19.8/21.8/23.8/25.7/27.7/29.7/31.7/33.7/35.6/37.6}% 點傷害。\n\nTags: 精通, 電能, 傷害, 閃電, 法力.\n\n— Enchantment Effect —\n幸運觸發:爆擊有最多 25% 的機率生成一個靜態的球狀閃電。"
 },
 		id: 86,
 		maxPoints: 5,
@@ -3907,7 +3907,7 @@ Tags: Crackling Energy, Mana.`,
 	},
 	"Shocking Impact": {
 		connections: [ "Static Discharge" ],
-		description: `Every time you Stun an enemy, you deal {15/30/45/60/75/90/105/120/135/150}% Lightning damage to them.
+		description: `Every time you Stun an enemy, you deal {20/40/60/80/100/120/140/160/180/200}% Lightning damage to them.
 
 Tags: Damage, Crowd Control, Lightning.`,
 		nameLocalized: {
@@ -3926,19 +3926,19 @@ Tags: Damage, Crowd Control, Lightning.`,
 			"zhTW": "電能震擊"
 },
 		descriptionLocalized: {
-			"deDE": "Jedes Mal, wenn Ihr einen Gegner betäubt, fügt Ihr ihm {15/30/45/60/75/90/105/120/135/150}% Blitzschaden zu.\n\nTags: Schaden, Kontrollverlust, Blitz.",
-			"esES": "Cada vez que aturdes a un enemigo, le infliges {15/30/45/60/75/90/105/120/135/150}% de daño de rayos.\n\nTags: Daño, Control de masas, Rayos.",
-			"esMX": "Cada vez que aturdes a un enemigo, le infliges {15/30/45/60/75/90/105/120/135/150}% de daño de rayo.\n\nTags: Daño, Control de multitudes, Rayo.",
-			"frFR": "Chaque fois que vous étourdissez une cible, vous lui infligez {15/30/45/60/75/90/105/120/135/150}% points de dégâts de foudre.\n\nTags: Dégâts, Perte de contrôle, Foudre.",
-			"itIT": "Infliggi {15/30/45/60/75/90/105/120/135/150}% danni da fulmine a un nemico ogni volta che lo stordisci.\n\nTags: Danni, Effetti debilitanti, Fulmine.",
-			"jaJP": "敵1体をスタンさせるごとに、敵に与える電撃ダメージが{15/30/45/60/75/90/105/120/135/150}%増加する。\n\nTags: ダメージ, 操作障害効果, 電撃.",
-			"koKR": "적을 기절시킬 때마다 적에게 {15/30/45/60/75/90/105/120/135/150}%의 번개 피해를 줍니다.\n\nTags: 피해, 군중 제어, 번개.",
-			"plPL": "Za każdym razem, gdy ogłuszasz wroga, zadajesz mu {15/30/45/60/75/90/105/120/135/150}% obrażeń od Błyskawic.\n\nTags: Obrażenia, Ograniczanie Kontroli, Błyskawice.",
-			"ptBR": "Sempre que você atordoar um inimigo, você causa {15/30/45/60/75/90/105/120/135/150}% de dano elétrico a ele.\n\nTags: Dano, Controle de Grupo, Eletricidade.",
-			"ruRU": "Оглушая противника, вы наносите ему {15/30/45/60/75/90/105/120/135/150}% ед. урона от молнии.\n\nTags: Урон, Контроль, Молния.",
-			"trTR": "Bir düşmanı her Sersemlettiğinde düşmana {15/30/45/60/75/90/105/120/135/150}% Yıldırım hasarı verirsin.\n\nTags: Hasar, Kitle Kontrolü, Yıldırım.",
-			"zhCN": "每次你击昏一名敌人, 都会对其造成 {15/30/45/60/75/90/105/120/135/150}% 点闪电伤害。\n\nTags: 伤害, 控制, 闪电.",
-			"zhTW": "你每次擊昏敵人時,對其造成 {15/30/45/60/75/90/105/120/135/150}% 點電擊傷害。\n\nTags: 傷害, 控場, 閃電."
+			"deDE": "Jedes Mal, wenn Ihr einen Gegner betäubt, fügt Ihr ihm {20/40/60/80/100/120/140/160/180/200}% Blitzschaden zu.\n\nTags: Schaden, Kontrollverlust, Blitz.",
+			"esES": "Cada vez que aturdes a un enemigo, le infliges {20/40/60/80/100/120/140/160/180/200}% de daño de rayos.\n\nTags: Daño, Control de masas, Rayos.",
+			"esMX": "Cada vez que aturdes a un enemigo, le infliges {20/40/60/80/100/120/140/160/180/200}% de daño de rayo.\n\nTags: Daño, Control de multitudes, Rayo.",
+			"frFR": "Chaque fois que vous étourdissez une cible, vous lui infligez {20/40/60/80/100/120/140/160/180/200}% points de dégâts de foudre.\n\nTags: Dégâts, Perte de contrôle, Foudre.",
+			"itIT": "Infliggi {20/40/60/80/100/120/140/160/180/200}% danni da fulmine a un nemico ogni volta che lo stordisci.\n\nTags: Danni, Effetti debilitanti, Fulmine.",
+			"jaJP": "敵1体をスタンさせるごとに、敵に与える電撃ダメージが{20/40/60/80/100/120/140/160/180/200}%増加する。\n\nTags: ダメージ, 操作障害効果, 電撃.",
+			"koKR": "적을 기절시킬 때마다 적에게 {20/40/60/80/100/120/140/160/180/200}%의 번개 피해를 줍니다.\n\nTags: 피해, 군중 제어, 번개.",
+			"plPL": "Za każdym razem, gdy ogłuszasz wroga, zadajesz mu {20/40/60/80/100/120/140/160/180/200}% obrażeń od Błyskawic.\n\nTags: Obrażenia, Ograniczanie Kontroli, Błyskawice.",
+			"ptBR": "Sempre que você atordoar um inimigo, você causa {20/40/60/80/100/120/140/160/180/200}% de dano elétrico a ele.\n\nTags: Dano, Controle de Grupo, Eletricidade.",
+			"ruRU": "Оглушая противника, вы наносите ему {20/40/60/80/100/120/140/160/180/200}% ед. урона от молнии.\n\nTags: Урон, Контроль, Молния.",
+			"trTR": "Bir düşmanı her Sersemlettiğinde düşmana {20/40/60/80/100/120/140/160/180/200}% Yıldırım hasarı verirsin.\n\nTags: Hasar, Kitle Kontrolü, Yıldırım.",
+			"zhCN": "每次你击昏一名敌人, 都会对其造成 {20/40/60/80/100/120/140/160/180/200}% 点闪电伤害。\n\nTags: 伤害, 控制, 闪电.",
+			"zhTW": "你每次擊昏敵人時,對其造成 {20/40/60/80/100/120/140/160/180/200}% 點電擊傷害。\n\nTags: 傷害, 控場, 閃電."
 },
 		id: 95,
 		maxPoints: 3,
@@ -3947,7 +3947,7 @@ Tags: Damage, Crowd Control, Lightning.`,
 	},
 	"Icy Veil": {
 		connections: [ "Mastery", "Snap Freeze", "Cold Front" ],
-		description: `Your Barriers have a +{5/10/15/20/25/30/35/40/45/50}% increased duration.
+		description: `Your Barriers have an +{8/16/24/32/40/48/56/64/72/80}% increased duration.
 
 Tags: Barrier.`,
 		nameLocalized: {
@@ -3966,19 +3966,19 @@ Tags: Barrier.`,
 			"zhTW": "寒冰帷幕"
 },
 		descriptionLocalized: {
-			"deDE": "Eure Barrieren halten +{5/10/15/20/25/30/35/40/45/50}% länger an.\n\nTags: Barriere.",
-			"esES": "Tus barreras duran un +{5/10/15/20/25/30/35/40/45/50}% más.\n\nTags: Barrera.",
-			"esMX": "Tus barreras duran un +{5/10/15/20/25/30/35/40/45/50}% más.\n\nTags: Barrera.",
-			"frFR": "La durée de vos barrières est augmentée de +{5/10/15/20/25/30/35/40/45/50}%.\n\nTags: Barrière.",
-			"itIT": "La durata delle tue barriere aumenta del +{5/10/15/20/25/30/35/40/45/50}%.\n\nTags: Barriera.",
-			"jaJP": "自分の障壁の持続時間が+{5/10/15/20/25/30/35/40/45/50}%延長される。\n\nTags: 障壁.",
-			"koKR": "보호막의 지속시간이 +{5/10/15/20/25/30/35/40/45/50}% 증가합니다.\n\nTags: 보호막.",
-			"plPL": "Czas działania twoich barier jest wydłużony o +{5/10/15/20/25/30/35/40/45/50}%.\n\nTags: Bariera.",
-			"ptBR": "Suas barreiras têm +{5/10/15/20/25/30/35/40/45/50}% de duração aumentada.\n\nTags: Barreira.",
-			"ruRU": "Ваши барьеры действуют на x{5/10/15/20/25/30/35/40/45/50}% дольше.\n\nTags: Барьер.",
-			"trTR": "Bariyerlerin +{5/10/15/20/25/30/35/40/45/50}% artırılmış süreye sahip olur.\n\nTags: Bariyer.",
-			"zhCN": "你的屏障持续时间延长 +{5/10/15/20/25/30/35/40/45/50}%。\n\nTags: 屏障.",
-			"zhTW": "你的屏障持續時間延長 +{5/10/15/20/25/30/35/40/45/50}%。\n\nTags: 屏障."
+			"deDE": "Eure Barrieren halten +{8/16/24/32/40/48/56/64/72/80}% länger an.\n\nTags: Barriere.",
+			"esES": "Tus barreras duran un +{8/16/24/32/40/48/56/64/72/80}% más.\n\nTags: Barrera.",
+			"esMX": "Tus barreras duran un +{8/16/24/32/40/48/56/64/72/80}% más.\n\nTags: Barrera.",
+			"frFR": "La durée de vos barrières est augmentée de +{8/16/24/32/40/48/56/64/72/80}%.\n\nTags: Barrière.",
+			"itIT": "La durata delle tue barriere aumenta del +{8/16/24/32/40/48/56/64/72/80}%.\n\nTags: Barriera.",
+			"jaJP": "自分の障壁の持続時間が+{8/16/24/32/40/48/56/64/72/80}%延長される。\n\nTags: 障壁.",
+			"koKR": "보호막의 지속시간이 +{8/16/24/32/40/48/56/64/72/80}% 증가합니다.\n\nTags: 보호막.",
+			"plPL": "Czas działania twoich barier jest wydłużony o +{8/16/24/32/40/48/56/64/72/80}%.\n\nTags: Bariera.",
+			"ptBR": "Suas barreiras têm +{8/16/24/32/40/48/56/64/72/80}% a mais de duração.\n\nTags: Barreira.",
+			"ruRU": "Ваши барьеры действуют на +{8/16/24/32/40/48/56/64/72/80}% дольше.\n\nTags: Барьер.",
+			"trTR": "Bariyerlerin +{8/16/24/32/40/48/56/64/72/80}% artırılmış süreye sahip olur.\n\nTags: Bariyer.",
+			"zhCN": "你的屏障持续时间延长 +{8/16/24/32/40/48/56/64/72/80}%。\n\nTags: 屏障.",
+			"zhTW": "你的屏障持續時間延長 +{8/16/24/32/40/48/56/64/72/80}%。\n\nTags: 屏障."
 },
 		id: 96,
 		maxPoints: 3,
@@ -3987,7 +3987,7 @@ Tags: Barrier.`,
 	},
 	"Snap Freeze": {
 		connections: [ "Icy Veil" ],
-		description: `Lucky Hit: Frost Skills have up to a {3/6/9/12/15/18/21/24/27/30}% chance to instantly Freeze.
+		description: `Lucky Hit: Frost Skills have up to a {5/10/15/20/25/30/35/40/45/50}% chance to instantly Freeze.
 
 Tags: Frozen, Lucky Hit, Crowd Control, Frost.`,
 		nameLocalized: {
@@ -4006,19 +4006,19 @@ Tags: Frozen, Lucky Hit, Crowd Control, Frost.`,
 			"zhTW": "急速冷凍"
 },
 		descriptionLocalized: {
-			"deDE": "Glückstreffer: Frostfertigkeiten verfügen über eine Chance von bis zu {3/6/9/12/15/18/21/24/27/30}%, Gegner einzufrieren.\n\nTags: Eingefroren, Glückstreffer, Kontrollverlust, Frost.",
-			"esES": "Golpe de suerte: Tus habilidades de escarcha tienen hasta un {3/6/9/12/15/18/21/24/27/30}% de probabilidad de congelar al instante.\n\nTags: Congelación, Golpe de suerte, Control de masas, Escarcha.",
-			"esMX": "Golpe afortunado: Las habilidades de Hielo tienen hasta un {3/6/9/12/15/18/21/24/27/30}% de probabilidad de congelar instantáneamente.\n\nTags: Congelado, Golpe afortunado, Control de multitudes, Hielo.",
-			"frFR": "Coup de chance: vos compétences de givre ont jusqu'à {3/6/9/12/15/18/21/24/27/30}% de chances de geler instantanément les adversaires.\n\nTags: Gel, Coup de chance, Perte de contrôle, Givre.",
-			"itIT": "Colpo fortunato: le abilità di freddo hanno fino al {3/6/9/12/15/18/21/24/27/30}% di probabilità di congelare istantaneamente.\n\nTags: Congelamento, Colpo fortunato, Effetti debilitanti, Gelo.",
-			"jaJP": "幸運の一撃: 凍結スキルが、最大{3/6/9/12/15/18/21/24/27/30}%の確率で即座に対象を凍結させる。\n\nTags: 凍結, 幸運の一撃, 操作障害効果.",
-			"koKR": "행운의 적중: 서리 기술이 최대 {3/6/9/12/15/18/21/24/27/30}% 확률로 대상을 즉시 빙결시킵니다.\n\nTags: 빙결, 행운의 적중, 군중 제어, 서리.",
-			"plPL": "Szczęśliwy traf: Twoje umiejętności Lodu mają maksymalnie {3/6/9/12/15/18/21/24/27/30}% szans na natychmiastowe zamrożenie celu.\n\nTags: Zamrożenie, Szczęśliwy Traf, Ograniczanie Kontroli, Lód.",
-			"ptBR": "Golpe de Sorte: Habilidades de Geleira têm até {3/6/9/12/15/18/21/24/27/30}% de chance de congelar instantaneamente.\n\nTags: Congelado, Golpe de Sorte, Controle de Grupo, Geleira.",
-			"ruRU": "Удачный удар: умения мороза с вероятностью до {3/6/9/12/15/18/21/24/27/30}% мгновенно замораживают цель.\n\nTags: Заморозка, Удачный удар, Контроль, Мороз.",
-			"trTR": "Şanslı Vuruş: Buz Yetenekleri en fazla %{3/6/9/12/15/18/21/24/27/30} ihtimalle anında Dondurur.\n\nTags: Donuk, Şanslı Vuruş, Kitle Kontrolü, Soğuk.",
-			"zhCN": "幸运一击: 寒霜技能最多有 {3/6/9/12/15/18/21/24/27/30}% 几率立即冻结敌人。\n\nTags: 冻结, 幸运一击, 控制, 寒霜.",
-			"zhTW": "幸運觸發:冰霜技能有最多 {3/6/9/12/15/18/21/24/27/30}% 的機率立刻凍結敵人。\n\nTags: 凍結, 幸運觸發, 控場, 冰霜."
+			"deDE": "Glückstreffer: Frostfertigkeiten verfügen über eine Chance von bis zu {5/10/15/20/25/30/35/40/45/50}%, Gegner einzufrieren.\n\nTags: Eingefroren, Glückstreffer, Kontrollverlust, Frost.",
+			"esES": "Golpe de suerte: Tus habilidades de escarcha tienen hasta un {5/10/15/20/25/30/35/40/45/50}% de probabilidad de congelar al instante.\n\nTags: Congelación, Golpe de suerte, Control de masas, Escarcha.",
+			"esMX": "Golpe afortunado: Las habilidades de Hielo tienen hasta un {5/10/15/20/25/30/35/40/45/50}% de probabilidad de congelar instantáneamente.\n\nTags: Congelado, Golpe afortunado, Control de multitudes, Hielo.",
+			"frFR": "Coup de chance: vos compétences de givre ont jusqu'à {5/10/15/20/25/30/35/40/45/50}% de chances de geler instantanément les adversaires.\n\nTags: Gel, Coup de chance, Perte de contrôle, Givre.",
+			"itIT": "Colpo fortunato: le abilità di freddo hanno fino al {5/10/15/20/25/30/35/40/45/50}% di probabilità di congelare istantaneamente.\n\nTags: Congelamento, Colpo fortunato, Effetti debilitanti, Gelo.",
+			"jaJP": "幸運の一撃: 凍結スキルが、最大{5/10/15/20/25/30/35/40/45/50}%の確率で即座に対象を凍結させる。\n\nTags: 凍結, 幸運の一撃, 操作障害効果.",
+			"koKR": "행운의 적중: 서리 기술이 최대 {5/10/15/20/25/30/35/40/45/50}% 확률로 대상을 즉시 빙결시킵니다.\n\nTags: 빙결, 행운의 적중, 군중 제어, 서리.",
+			"plPL": "Szczęśliwy traf: Twoje umiejętności Lodu mają maksymalnie {5/10/15/20/25/30/35/40/45/50}% szans na natychmiastowe zamrożenie celu.\n\nTags: Zamrożenie, Szczęśliwy Traf, Ograniczanie Kontroli, Lód.",
+			"ptBR": "Golpe de Sorte: Habilidades de Geleira têm até {5/10/15/20/25/30/35/40/45/50}% de chance de congelar instantaneamente.\n\nTags: Congelado, Golpe de Sorte, Controle de Grupo, Geleira.",
+			"ruRU": "Удачный удар: умения мороза с вероятностью до {5/10/15/20/25/30/35/40/45/50}% мгновенно замораживают цель.\n\nTags: Заморозка, Удачный удар, Контроль, Мороз.",
+			"trTR": "Şanslı Vuruş: Buz Yetenekleri en fazla %{5/10/15/20/25/30/35/40/45/50} ihtimalle anında Dondurur.\n\nTags: Donuk, Şanslı Vuruş, Kitle Kontrolü, Soğuk.",
+			"zhCN": "幸运一击: 寒霜技能最多有 {5/10/15/20/25/30/35/40/45/50}% 几率立即冻结敌人。\n\nTags: 冻结, 幸运一击, 控制, 寒霜.",
+			"zhTW": "幸運觸發:冰霜技能有最多 {5/10/15/20/25/30/35/40/45/50}% 的機率立刻凍結敵人。\n\nTags: 凍結, 幸運觸發, 控場, 冰霜."
 },
 		id: 135,
 		maxPoints: 3,
@@ -5034,7 +5034,7 @@ Tags: Healing, Burn.`,
 	},
 	"Soulfire": {
 		connections: [ "Warmth", "Fiery Surge" ],
-		description: `After standing still for 1.5 seconds, your Pyromancy Skills cost {5/10/15/20/25/30/35/40/45/50}% less Mana.
+		description: `Your Pyromancy Skills cost {4/8/12/16/20/24/28/32/36/40}% less Mana and deal x{2/4/6/8/10/12/14/16/18/20}% increased damage. Double these bonuses after standing still for 2 seconds.
 
 Tags: Mana, Pyromancy.`,
 		nameLocalized: {
@@ -5053,19 +5053,19 @@ Tags: Mana, Pyromancy.`,
 			"zhTW": "靈魂之火"
 },
 		descriptionLocalized: {
-			"deDE": "Wenn Ihr 1.5 Sek. lang stillsteht, kosten Eure Pyromaniefertigkeiten {5/10/15/20/25/30/35/40/45/50}% weniger Mana.\n\nTags: Mana, Pyromanie.",
-			"esES": "Tras permanecer inmóvil durante 1.5 s, tus habilidades de piromancia cuestan un {5/10/15/20/25/30/35/40/45/50}% menos de maná.\n\nTags: Maná, Piromancia.",
-			"esMX": "Después de permanecer inmóvil durante 1.5 segundos, tus habilidades de Piromancia cuestan un {5/10/15/20/25/30/35/40/45/50}% menos de maná.\n\nTags: Maná, Piromancia.",
-			"frFR": "Après 1.5 s d'immobilité, vos compétences de pyromancie coûtent {5/10/15/20/25/30/35/40/45/50}% de mana en moins.\n\nTags: Mana, Pyromancie.",
-			"itIT": "Rimanendo immobile per 1.5 s, il costo in mana delle tue abilità di piromanzia si riduce del {5/10/15/20/25/30/35/40/45/50}%.\n\nTags: Mana, Piromanzia.",
-			"jaJP": "1.5秒間静止していると、火術スキルのマナ消費量が{5/10/15/20/25/30/35/40/45/50}%減少する。\n\nTags: マナ, 火術.",
-			"koKR": "1.5초 동안 가만히 서 있은 후, 자신의 방화 기술의 마나 소모량이 {5/10/15/20/25/30/35/40/45/50}% 감소합니다.\n\nTags: 마나, 방화.",
-			"plPL": "Jeśli pozostaniesz w bezruchu przez 1.5 sek., koszt twoich umiejętności Piromancji będzie zmniejszony o {5/10/15/20/25/30/35/40/45/50}% many.\n\nTags: Mana, Piromancja.",
-			"ptBR": "Depois de permanecer imóvel por 1.5 s, suas habilidades de Piromancia custam {5/10/15/20/25/30/35/40/45/50}% a menos de mana.\n\nTags: Mana, Piromancia.",
-			"ruRU": "Когда вы стоите неподвижно в течение 1.5 сек., затраты маны на ваши умения категории \"Пиромантия\" сокращаются на {5/10/15/20/25/30/35/40/45/50}%.\n\nTags: Мана, Пиромантия.",
-			"trTR": "1.5 saniye sabit durduktan sonraki Alev Büyüsü Yeteneklerin {5/10/15/20/25/30/35/40/45/50}% daha az Mana harcar.\n\nTags: Mana, Alev Büyüsü.",
-			"zhCN": "站立不动 1.5 秒后, 你的爆焰技能消耗的法力降低 {5/10/15/20/25/30/35/40/45/50}%。\n\nTags: 法力, 爆焰.",
-			"zhTW": "站立不動 1.5 秒後,你的焰術技能法力消耗降低 {5/10/15/20/25/30/35/40/45/50}%。\n\nTags: 法力, 焰術."
+			"deDE": "Eure Pyromanie-Fertigkeiten kosten {4/8/12/16/20/24/28/32/36/40}% weniger Mana und verursachen x{2/4/6/8/10/12/14/16/18/20}% erhöhten Schaden. Steht Ihr 2 Sek. lang still, verdoppeln sich diese Boni.\n\nTags: Mana, Pyromanie.",
+			"esES": "Tus habilidades de piromancia cuestan un {4/8/12/16/20/24/28/32/36/40}% menos de maná e infligen un x{2/4/6/8/10/12/14/16/18/20}% más de daño. Estos bonus se duplican tras permanecer inmóvil durante 2 s.\n\nTags: Maná, Piromancia.",
+			"esMX": "Tus habilidades de Piromancia cuestan {4/8/12/16/20/24/28/32/36/40}% menos de maná e infligen un x{2/4/6/8/10/12/14/16/18/20}% más de daño. Estas bonificaciones se duplican al quedarte inmóvil durante 2 segundos.\n\nTags: Maná, Piromancia.",
+			"frFR": "Vos compétences de pyromancie consomment {4/8/12/16/20/24/28/32/36/40}% de mana en moins et infligent x{2/4/6/8/10/12/14/16/18/20}% de dégâts supplémentaires. Ces bonus sont doublés lorsque vous ne bougez pas pendant 2 s.\n\nTags: Mana, Pyromancie.",
+			"itIT": "Le tue abilità di piromanzia costano il {4/8/12/16/20/24/28/32/36/40}% di mana in meno e infliggono danni aumentati del x{2/4/6/8/10/12/14/16/18/20}%. Questi bonus raddoppiano se si rimane immobili per 2 s.\n\nTags: Mana, Piromanzia.",
+			"jaJP": "火術スキルのマナ消費量が{4/8/12/16/20/24/28/32/36/40}%減少し、ダメージがx{2/4/6/8/10/12/14/16/18/20}%増加する。2秒間静止していると、これらのボーナスが2倍になる。\n\nTags: マナ, 火術.",
+			"koKR": "방화 기술의 마나 소모량이 {4/8/12/16/20/24/28/32/36/40}% 감소하고 적에게 주는 피해가 x{2/4/6/8/10/12/14/16/18/20}% 증가합니다. 2초 동안 가만히 서있으면 효과가 2배로 증가합니다.\n\nTags: 마나, 방화.",
+			"plPL": "Koszt twoich umiejętności Piromancji jest zmniejszony o {4/8/12/16/20/24/28/32/36/40}% many oraz zadają one obrażenia zwiększone o x{2/4/6/8/10/12/14/16/18/20}%. Jeżeli pozostaniesz w bezruchu przez 2 sek., podwoisz te premie.\n\nTags: Mana, Piromancja.",
+			"ptBR": "Suas habilidades de piromancia custam {4/8/12/16/20/24/28/32/36/40}% menos mana e causam x{2/4/6/8/10/12/14/16/18/20}% a mais de dano. Os bônus dobram após permanecer imóvel por 2 s.\n\nTags: Mana, Piromancia.",
+			"ruRU": "Умения категории \"Пиромантия\" расходуют на {4/8/12/16/20/24/28/32/36/40}% меньше маны и наносят на x{2/4/6/8/10/12/14/16/18/20}% больше урона. Когда вы стоите неподвижно не меньше 2 сек., бонус удваивается.\n\nTags: Мана, Пиромантия.",
+			"trTR": "Alev Büyüsü Yeteneklerin {4/8/12/16/20/24/28/32/36/40}% daha az Mana harcar ve x{2/4/6/8/10/12/14/16/18/20}% artırılmış hasar verir. 2 saniye sabit durduktan sonra bu bonuslar ikiye katlanır.\n\nTags: Mana, Alev Büyüsü.",
+			"zhCN": "你的爆焰技能消耗的法力降低 {4/8/12/16/20/24/28/32/36/40}%,造成的伤害提高 x{2/4/6/8/10/12/14/16/18/20}%。站立不动 2 秒后,这些加成翻倍。\n\nTags: 法力, 爆焰.",
+			"zhTW": "你的焰術技能消耗的法力減少 {4/8/12/16/20/24/28/32/36/40}%,且造成的傷害提高 2。若持續站立不動 x{2/4/6/8/10/12/14/16/18/20}% 秒,此效果加倍。\n\nTags: 法力, 焰術."
 },
 		id: 139,
 		maxPoints: 3,
@@ -5117,7 +5117,7 @@ Tags: Frozen, Crowd Control, Damage.`,
 	},
 	"Avalanche": {
 		connections: [ "Key Passive" ],
-		description: `Lucky Hit: Your Frost Skills have up to a 10% chance to make your next cast of Ice Shards, Frozen Orb, or Blizzard consume no Mana and deal x40% increased damage. Chance is doubled against Vulnerable enemies.
+		description: `Lucky Hit: Your Frost Skills have up to a 10% chance to make your next cast of Ice Shards, Frozen Orb, or Blizzard consume no Mana and deal x45% increased damage. Chance is doubled against Vulnerable enemies.
 
 Tags: Vulnerable, Lucky Hit, Mana, Damage, Frost.`,
 		nameLocalized: {
@@ -5136,19 +5136,19 @@ Tags: Vulnerable, Lucky Hit, Mana, Damage, Frost.`,
 			"zhTW": "雪崩"
 },
 		descriptionLocalized: {
-			"deDE": "Glückstreffer: Eure Frostfertigkeiten verfügen über eine Chance von bis zu 10%, zu erwirken, dass der nächste Einsatz von Eissplitter, Gefrorene Kugel oder Blizzard kein Mana verbraucht und x40% mehr Schaden verursacht. Bei verwundbaren Gegnern ist die Chance doppelt so hoch.\n\nTags: Verwundbar, Glückstreffer, Mana, Schaden, Frost.",
-			"esES": "Golpe de suerte: Tus habilidades de escarcha tienen hasta un 10% de probabilidad de hacer que tu siguiente lanzamiento de Esquirlas de hielo, Orbe congelado o Ventisca no consuma maná e inflija un x40% más de daño. La probabilidad se duplica contra enemigos vulnerables.\n\nTags: Vulnerable, Golpe de suerte, Maná, Daño, Escarcha.",
-			"esMX": "Golpe afortunado: Tus habilidades de Hielo tienen hasta un 10% de probabilidad de hacer que tu próximo lanzamiento de Fragmentos de Hielo, Orbe Gélido o Ventisca no consuma maná e inflija un x40% más de daño. La probabilidad se duplica contra enemigos vulnerables.\n\nTags: Vulnerable, Golpe afortunado, Maná, Daño, Hielo.",
-			"frFR": "Coup de chance: vos compétences de givre ont jusqu'à 10% de chances d'annuler le coût en mana de votre prochaine utilisation d'Éclats de glace, d'Orbe gelé ou de Blizzard et d'augmenter ses dégâts de x40%. Ces chances sont doublées contre les adversaires vulnérables.\n\nTags: Vulnérable, Coup de chance, Mana, Dégâts, Givre.",
-			"itIT": "Colpo fortunato: le tue abilità di freddo hanno fino al 10% di probabilità di azzerare il costo in mana del prossimo utilizzo di Schegge di Ghiaccio, Globo di Gelo o Tormenta, infliggendo inoltre il x40% di danni aggiuntivi con esse. Questa probabilità raddoppia contro i nemici vulnerabili.\n\nTags: Vulnerabilità, Colpo fortunato, Mana, Danni, Gelo.",
-			"jaJP": "幸運の一撃: 凍結スキルが最大10%の確率で次に使用する〈アイスシャード〉、〈フローズンオーブ〉、〈ブリザード〉がマナを消費しなくなり、与えるダメージがx40%増加する。脆弱状態の敵に対しては発生率が2倍になる。\n\nTags: 脆弱, 幸運の一撃, マナ, ダメージ, 凍結.",
-			"koKR": "행운의 적중: 서리 기술을 사용하면 최대 10% 확률로 다음 얼음 파편이나 얼음 보주, 눈보라 시전 시 마나가 소모되지 않고 주는 피해가 x40% 증가합니다. 취약 상태의 적에게는 확률이 2배로 증가합니다.\n\nTags: 취약, 행운의 적중, 마나, 피해, 서리.",
-			"plPL": "Szczęśliwy traf: Twoje umiejętności Lodu mają do 10% szans na to, że twoje następne Lodowe Odłamki, Zamarznięta Kula albo Zamieć nie zużyją many i zadadzą obrażenia zwiększone o x40%. Szansa ta jest podwojona w przypadku odsłoniętych wrogów.\n\nTags: Odsłonięcie, Szczęśliwy Traf, Mana, Obrażenia, Lód.",
-			"ptBR": "Golpe de Sorte: Suas habilidades de Geleira têm até 10% de chance de fazer seu próximo lançamento de Estilhaços de Gelo, Orbe Congelado ou Nevasca não consumir mana e causar x40% de dano aumentado. A chance é dobrada contra inimigos vulneráveis.\n\nTags: Vulnerável, Golpe de Sorte, Mana, Dano, Geleira.",
-			"ruRU": "Удачный удар: ваши умения мороза с вероятностью до 10% позволяют применить \"Осколки льда\", \"Морозную сферу\" или \"Снежную бурю\" без затрат маны и с увеличенным на x40% уроном. Вероятность удваивается, если цель уязвима.\n\nTags: Уязвимость, Удачный удар, Мана, Урон, Мороз.",
-			"trTR": "Şanslı Vuruş: Buz Yeteneklerin en fazla 10% ihtimalle bir sonraki Buz Parçaları, Donmuş Küre veya Kar Fırtınası kullanımının hiç Mana harcamamasını ve x40% artırılmış hasar vermesini sağlar. Bu ihtimal Savunmasız düşmanlara karşı ikiye katlanır.\n\nTags: Savunmasız, Şanslı Vuruş, Mana, Hasar, Soğuk.",
-			"zhCN": "幸运一击: 你的寒霜技能有最高 10% 几率使你施放的下一个寒冰碎片 、冰霜球或暴风雪 不消耗法力并且造成的伤害提高 x40%。该几率对易伤敌人翻倍。\n\nTags: 易伤, 幸运一击, 法力, 伤害, 寒霜.",
-			"zhTW": "幸運觸發:你的冰霜技能有最高 10% 機率使你下一次施放寒冰裂片、冰封球或暴風雪時不消耗法力,且造成的傷害提高 x40%。對易傷敵人的機率加倍。\n\nTags: 易傷, 幸運觸發, 法力, 傷害, 冰霜."
+			"deDE": "Glückstreffer: Eure Frostfertigkeiten verfügen über eine Chance von bis zu 10%, zu erwirken, dass der nächste Einsatz von Eissplitter, Gefrorene Kugel oder Blizzard kein Mana verbraucht und x45% mehr Schaden verursacht. Bei verwundbaren Gegnern ist die Chance doppelt so hoch.\n\nTags: Verwundbar, Glückstreffer, Mana, Schaden, Frost.",
+			"esES": "Golpe de suerte: Tus habilidades de escarcha tienen hasta un 10% de probabilidad de hacer que tu siguiente lanzamiento de Esquirlas de hielo, Orbe congelado o Ventisca no consuma maná e inflija un x45% más de daño. La probabilidad se duplica contra enemigos vulnerables.\n\nTags: Vulnerable, Golpe de suerte, Maná, Daño, Escarcha.",
+			"esMX": "Golpe afortunado: Tus habilidades de Hielo tienen hasta un 10% de probabilidad de hacer que tu próximo lanzamiento de Fragmentos de Hielo, Orbe Gélido o Ventisca no consuma maná e inflija un x45% más de daño. La probabilidad se duplica contra enemigos vulnerables.\n\nTags: Vulnerable, Golpe afortunado, Maná, Daño, Hielo.",
+			"frFR": "Coup de chance: vos compétences de givre ont jusqu'à 10% de chances d'annuler le coût en mana de votre prochaine utilisation d'Éclats de glace, d'Orbe gelé ou de Blizzard et d'augmenter ses dégâts de x45%. Ces chances sont doublées contre les adversaires vulnérables.\n\nTags: Vulnérable, Coup de chance, Mana, Dégâts, Givre.",
+			"itIT": "Colpo fortunato: le tue abilità di freddo hanno fino al 10% di probabilità di azzerare il costo in mana del prossimo utilizzo di Schegge di Ghiaccio, Globo di Gelo o Tormenta, infliggendo inoltre il x45% di danni aggiuntivi con esse. Questa probabilità raddoppia contro i nemici vulnerabili.\n\nTags: Vulnerabilità, Colpo fortunato, Mana, Danni, Gelo.",
+			"jaJP": "幸運の一撃: 凍結スキルが最大10%の確率で次に使用する〈アイスシャード〉、〈フローズンオーブ〉、〈ブリザード〉がマナを消費しなくなり、与えるダメージがx45%増加する。脆弱状態の敵に対しては発生率が2倍になる。\n\nTags: 脆弱, 幸運の一撃, マナ, ダメージ, 凍結.",
+			"koKR": "행운의 적중: 서리 기술을 사용하면 최대 10% 확률로 다음 얼음 파편이나 얼음 보주, 눈보라 시전 시 마나가 소모되지 않고 주는 피해가 x45% 증가합니다. 취약 상태의 적에게는 확률이 2배로 증가합니다.\n\nTags: 취약, 행운의 적중, 마나, 피해, 서리.",
+			"plPL": "Szczęśliwy traf: Twoje umiejętności Lodu mają do 10% szans na to, że twoje następne Lodowe Odłamki, Zamarznięta Kula albo Zamieć nie zużyją many i zadadzą obrażenia zwiększone o x45%. Szansa ta jest podwojona w przypadku odsłoniętych wrogów.\n\nTags: Odsłonięcie, Szczęśliwy Traf, Mana, Obrażenia, Lód.",
+			"ptBR": "Golpe de Sorte: Suas habilidades de Geleira têm até 10% de chance de fazer seu próximo lançamento de Estilhaços de Gelo, Orbe Congelado ou Nevasca não consumir mana e causar x45% de dano aumentado. A chance é dobrada contra inimigos vulneráveis.\n\nTags: Vulnerável, Golpe de Sorte, Mana, Dano, Geleira.",
+			"ruRU": "Удачный удар: ваши умения мороза с вероятностью до 10% позволяют применить \"Осколки льда\", \"Морозную сферу\" или \"Снежную бурю\" без затрат маны и с увеличенным на x45% уроном. Вероятность удваивается, если цель уязвима.\n\nTags: Уязвимость, Удачный удар, Мана, Урон, Мороз.",
+			"trTR": "Şanslı Vuruş: Buz Yeteneklerin en fazla 10% ihtimalle bir sonraki Buz Parçaları, Donmuş Küre veya Kar Fırtınası kullanımının hiç Mana harcamamasını ve x45% artırılmış hasar vermesini sağlar. Bu ihtimal Savunmasız düşmanlara karşı ikiye katlanır.\n\nTags: Savunmasız, Şanslı Vuruş, Mana, Hasar, Soğuk.",
+			"zhCN": "幸运一击: 你的寒霜技能有最高 10% 几率使你施放的下一个寒冰碎片 、冰霜球或暴风雪 不消耗法力并且造成的伤害提高 x45%。该几率对易伤敌人翻倍。\n\nTags: 易伤, 幸运一击, 法力, 伤害, 寒霜.",
+			"zhTW": "幸運觸發:你的冰霜技能有最高 10% 機率使你下一次施放寒冰裂片、冰封球或暴風雪時不消耗法力,且造成的傷害提高 x45%。對易傷敵人的機率加倍。\n\nTags: 易傷, 幸運觸發, 法力, 傷害, 冰霜."
 },
 		id: 140,
 		maxPoints: 1,

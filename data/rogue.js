@@ -832,7 +832,7 @@ Tags: Basic, Marksman, Vulnerable, Damage, Physical.`,
 			"ruRU": "Каждая 3-я \"Стрела силы\" пронзает всех пораженных противников.",
 			"trTR": "Kuvvetli Ok her 3. kullanılışında vurulan düşmanları deler.",
 			"zhCN": "每第 3 次施放的蓄力劲射会穿透所有命中的敌人。",
-			"zhTW": "每第 3次施放的強力箭矢會貫穿所有命中的敵人。"
+			"zhTW": "每第 3 次施放的強力箭矢會貫穿所有命中的敵人。"
 },
 		id: 19,
 		maxPoints: 1,
@@ -1011,12 +1011,12 @@ Tags: Core, Cutthroat, Imbueable, Damage, Physical, Energy.`,
 		connections: [ "Enhanced Flurry", "Core" ],
 		description: `Energy Cost: {#}
 Lucky Hit Chance: 10% (per hit)
-Unleash a flurry of stabs and slashes, striking enemies in front of you 4 times and dealing a total of {60/66/72/78/84/90/96/102/108/114}% damage to each.
+Unleash a flurry of stabs and slashes, striking enemies in front of you 4 times and dealing a total of {66/72.6/79.2/85.8/92.4/99/105.6/112.2/118.8/125.4}% damage to each.
 
 Combo Points increase damage and grant an Attack Speed bonus for 3 seconds.
-• 1 Point: {75/82.5/90/97.5/105/112.5/120/127.5/135/142.5}% damage, +15% bonus
-• 2 Points: {90/99/108/117/126/135/144/153/162/171}% damage, +30% bonus
-• 3 Points: {105/115.5/126/136.5/147/157.5/168/178.5/189/199.5}% damage, +45% bonus
+• 1 Point: {82.5/90.8/99/107.2/115.5/123.8/132/140.2/148.5/156.8}% damage, +15% bonus
+• 2 Points: {99/108.9/118.8/128.7/138.6/148.5/158.4/168.3/178.2/188.1}% damage, +30% bonus
+• 3 Points: {115.5/127/138.6/150.2/161.7/173.2/184.8/196.4/207.9/219.4}% damage, +45% bonus
 
 Tags: Core, Cutthroat, Imbueable, Damage, Physical, Energy.`,
 		nameLocalized: {
@@ -1035,19 +1035,19 @@ Tags: Core, Cutthroat, Imbueable, Damage, Physical, Energy.`,
 			"zhTW": "狂襲"
 },
 		descriptionLocalized: {
-			"deDE": "Energiekosten: {#}\nGlückstrefferchance: 10% (per hit)\nEntfesselt einen Sturm aus Klingenhieben, der Gegner vor Euch 4-mal trifft und jedem Gegner insgesamt {60/66/72/78/84/90/96/102/108/114}% Schaden zufügt.\n\nKombopunkte erhöhen den Schaden und verleihen 3 Sek. lang einen Angriffsgeschwindigkeitsbonus.\n • 1 Punkt: {75/82.5/90/97.5/105/112.5/120/127.5/135/142.5}% Schaden, +15% Bonus\n • 2 Punkte: {90/99/108/117/126/135/144/153/162/171}% Schaden, +30% Bonus\n • 3 Punkte: {105/115.5/126/136.5/147/157.5/168/178.5/189/199.5}% Schaden, +45% Bonus\n\nTags: Kern, Meucheln, Infusionsfähig, Schaden, Physisch, Energie.",
-			"esES": "Coste de energía: {#}\nProbabilidad de golpe de suerte: 10% (per hit)\nEjecutas un aluvión de puñaladas y tajos para golpear 4 veces a los enemigos frente a ti e infligir un total de {60/66/72/78/84/90/96/102/108/114}% de daño a cada uno.\n\nLos puntos de combo aumentan el daño y otorgan un bonus de velocidad de ataque durante 3 s.\n• 1 punto: {75/82.5/90/97.5/105/112.5/120/127.5/135/142.5}% de daño y un +15% de bonus\n• 2 puntos: {90/99/108/117/126/135/144/153/162/171}% de daño y un +30% de bonus\n• 3 puntos: {105/115.5/126/136.5/147/157.5/168/178.5/189/199.5}% de daño y un +45% de bonus\n\nTags: Principal, Degollación, Imbuible, Daño, Física, Energía.",
-			"esMX": "Costo de Energía: {#}\nProbabilidad de golpe afortunado: 10% (per hit)\nDesatas una ráfaga de puñaladas y cuchilladas que golpean a los enemigos frente a ti 4 veces e infligen un total de {60/66/72/78/84/90/96/102/108/114}% de daño a cada uno.\n\nLos puntos de combo aumentan el daño y otorgan una bonificación de velocidad de ataque durante 3 segundos.\n• 1 punto: {75/82.5/90/97.5/105/112.5/120/127.5/135/142.5}% de daño, +15% de bonificación\n• 2 puntos: {90/99/108/117/126/135/144/153/162/171}% de daño, +30% de bonificación\n• 3 puntos: {105/115.5/126/136.5/147/157.5/168/178.5/189/199.5}% de daño, +45% de bonificación\n\nTags: Principal, Degollador, Imbuible, Daño, Física, Energía.",
-			"frFR": "Coût en énergie: {#}\nChances d'obtenir un coup de chance: 10% (per hit)\nVous déclenchez une rafale de coups et frappez les adversaires devant vous 4 fois, ce qui inflige {60/66/72/78/84/90/96/102/108/114}% points de dégâts au total à chaque cible.\n\nLes points de combo augmentent les dégâts et confèrent un bonus à la vitesse d'attaque pendant 3 s.\n• 1 point: {75/82.5/90/97.5/105/112.5/120/127.5/135/142.5}% points de dégâts, bonus de +15%.\n• 2 points: {90/99/108/117/126/135/144/153/162/171}% points de dégâts, bonus de +30%.\n• 3 points: {105/115.5/126/136.5/147/157.5/168/178.5/189/199.5}% points de dégâts, bonus de +45%.\n\nTags: Principale, Coupe-jarret, Imprégnable, Dégâts, Dégâts physiques, Énergie.",
-			"itIT": "Costo in energia: {#}\nProbabilità di colpo fortunato: 10% (per hit)\nScateni una raffica di colpi e fendenti, che colpisce i nemici frontali per 4 volte e infligge a ciascuno un totale di {60/66/72/78/84/90/96/102/108/114}% danni.\n\nI punti combo aumentano i danni e forniscono un bonus alla velocità d'attacco per 3 s.\n• 1 punto: {75/82.5/90/97.5/105/112.5/120/127.5/135/142.5}% danni, bonus del +15%\n• 2 punti: {90/99/108/117/126/135/144/153/162/171}% danni, bonus del +30%\n• 3 punti: {105/115.5/126/136.5/147/157.5/168/178.5/189/199.5}% danni, bonus del +45%\n\nTags: Primaria, Sgozzamento, Infondibile, Danni, Fisico, Energia.",
-			"jaJP": "エネルギー消費量: {#}\n幸運の一撃発生率: 10% (per hit)\n高速の刺突と斬撃を繰り出して前方の敵を4回攻撃し、敵それぞれに合計で{60/66/72/78/84/90/96/102/108/114}%のダメージを与える。\n\nコンボポイントでダメージが上昇し、3秒間、攻撃速度ボーナスを得る:\n• 1ポイント: {75/82.5/90/97.5/105/112.5/120/127.5/135/142.5}%ダメージ、+15%のボーナス\n• 2ポイント: {90/99/108/117/126/135/144/153/162/171}%ダメージ、+30%のボーナス\n• 3ポイント: {105/115.5/126/136.5/147/157.5/168/178.5/189/199.5}%ダメージ、+45%のボーナス\n\nTags: コア, 喉かき, 注入可能, ダメージ, 物理, エネルギー.",
-			"koKR": "소모: 기력 {#}\n행운의 적중 확률: 10% (per hit)\n전방의 적들을 4번 마구 찌르고 베어 각각의 적에게 총 {60/66/72/78/84/90/96/102/108/114}%의 피해를 줍니다.\n\n연계 점수에 따라 3초 동안 피해가 증가하고 공격 속도가 증가합니다.\n• 1점: 피해 {75/82.5/90/97.5/105/112.5/120/127.5/135/142.5}%, 추가 +15%\n• 2점: 피해 {90/99/108/117/126/135/144/153/162/171}%, 추가 +30%\n• 3점: 피해 {105/115.5/126/136.5/147/157.5/168/178.5/189/199.5}%, 추가 +45%\n\nTags: 핵심, 암살, 주입 가능, 피해, 물리, 기력.",
-			"plPL": "Koszt: {#} pkt. energii\nSzansa na szczęśliwy traf: 10% (per hit)\nWyzwalasz nawałnicę cięć i ciosów, atakując wrogów przed tobą 4 razy i zadając każdemu z nich w sumie {60/66/72/78/84/90/96/102/108/114}% pkt. obrażeń.\n\nPunkty kombinacji zwiększają zadawane obrażenia i zapewniają na 3 sek. premię do szybkości ataku.\n• 1 pkt.: {75/82.5/90/97.5/105/112.5/120/127.5/135/142.5}% pkt. obrażeń, premia +15% sek.\n• 2 pkt.: {90/99/108/117/126/135/144/153/162/171}% pkt. obrażeń, premia +30% sek.\n• 3 pkt.: {105/115.5/126/136.5/147/157.5/168/178.5/189/199.5}% pkt. obrażeń, premia +45% sek.\n\nTags: Główne, Napaść, Nasycalne, Obrażenia, Fizyczne, Energia.",
-			"ptBR": "Custo de energia: {#}\nChance de Golpe de Sorte: 10% (per hit)\nLibera um turbilhão de punhaladas e cortes, atingindo inimigos à sua frente 4 vezes e causando {60/66/72/78/84/90/96/102/108/114}% de dano a cada um.\n\nPontos de combo aumentam o dano e concedem um bônus de velocidade de ataque por 3 s.\n• 1 ponto: {75/82.5/90/97.5/105/112.5/120/127.5/135/142.5}% de dano, +15% de bônus\n• 2 pontos: {90/99/108/117/126/135/144/153/162/171}% de dano, +30% de bônus\n• 3 pontos: {105/115.5/126/136.5/147/157.5/168/178.5/189/199.5}% de dano, +45% de bônus\n\nTags: Principal, Degola, Imbuível, Dano, Física, Energia.",
-			"ruRU": "Затраты энергии: {#}\nВероятность удачного удара: 10% (per hit)\nВы обрушиваете на противников перед собой шквал из 4 рубящих и режущих ударов, в общей сложности нанося {60/66/72/78/84/90/96/102/108/114}% ед. урона каждой цели.\n\nДополнительные приемы серии увеличивают урон и повышают скорость атаки на 3 сек.\n• 1 прием: {75/82.5/90/97.5/105/112.5/120/127.5/135/142.5}% ед. урона, +15% к скорости атаки\n• 2 приема: {90/99/108/117/126/135/144/153/162/171}% ед. урона, +30% к скорости атаки\n• 3 приема: {105/115.5/126/136.5/147/157.5/168/178.5/189/199.5}% ед. урона, +45% к скорости атаки\n\nTags: Основное, Головорез, Насыщение, Урон, Физический урон, Энергия.",
-			"trTR": "Enerji Bedeli: {#}\nŞanslı Vuruş İhtimali: 10% (per hit)\nBıçaklamalar ve kesiklerle dolu coşkulu bir saldırı başlatarak önündeki düşmanlara 4 kez vur ve her birine toplamda {60/66/72/78/84/90/96/102/108/114}% hasar ver.\n\nKombo Puanları, 3 saniye boyunca hasarı artırır ve bir Saldırı Hızı bonusu kazandırır.\n• 1 Puan: {75/82.5/90/97.5/105/112.5/120/127.5/135/142.5}% hasar, +15% bonus\n• 2 Puan: {90/99/108/117/126/135/144/153/162/171}% hasar, +30% bonus\n• 3 Puan: {105/115.5/126/136.5/147/157.5/168/178.5/189/199.5}% hasar, +45% bonus\n\nTags: Çekirdek, Cani, Aşılanabilir, Hasar, Fiziksel, Enerji.",
-			"zhCN": "能量消耗: {#}\n幸运一击几率: 10% (per hit)\n连续刺击并劈砍前方的敌人 4 次, 造成总计 {60/66/72/78/84/90/96/102/108/114}% 点伤害。\n\n连击点数会提高伤害并给予攻击速度加成, 持续 3 秒。\n• 1点: {75/82.5/90/97.5/105/112.5/120/127.5/135/142.5}% 点伤害, +15% 加成\n• 2点: {90/99/108/117/126/135/144/153/162/171}%伤害, +30% 加成\n• 3点: {105/115.5/126/136.5/147/157.5/168/178.5/189/199.5}% 点伤害, +45% 加成\n\nTags: 核心, 刺杀, 可灌注, 伤害, 物理, 能量.",
-			"zhTW": "能量消耗:{#}\n幸運觸發機率: 10% (per hit)\n對你前方的敵人施展連環刺擊與斬擊 4 次,對每一個敵人造成總計 {60/66/72/78/84/90/96/102/108/114}% 點傷害。\n\n連擊點數會提高傷害與攻擊速度加成,持續 3 秒。\n• 1 點:{75/82.5/90/97.5/105/112.5/120/127.5/135/142.5}% 點傷害,+15% 加成\n• 2 點:{90/99/108/117/126/135/144/153/162/171}% 點傷害,+30% 加成\n• 3 點:{105/115.5/126/136.5/147/157.5/168/178.5/189/199.5}% 點傷害,+45% 加成\n\nTags: 核心, 割喉, 可灌注, 傷害, 物理, 能量."
+			"deDE": "Energiekosten: {#}\nGlückstrefferchance: 10% (per hit)\nEntfesselt einen Sturm aus Klingenhieben, der Gegner vor Euch 4-mal trifft und jedem Gegner insgesamt {66/72.6/79.2/85.8/92.4/99/105.6/112.2/118.8/125.4}% Schaden zufügt.\n\nKombopunkte erhöhen den Schaden und verleihen 3 Sek. lang einen Angriffsgeschwindigkeitsbonus.\n • 1 Punkt: {82.5/90.8/99/107.2/115.5/123.8/132/140.2/148.5/156.8}% Schaden, +15% Bonus\n • 2 Punkte: {99/108.9/118.8/128.7/138.6/148.5/158.4/168.3/178.2/188.1}% Schaden, +30% Bonus\n • 3 Punkte: {115.5/127/138.6/150.2/161.7/173.2/184.8/196.4/207.9/219.4}% Schaden, +45% Bonus\n\nTags: Kern, Meucheln, Infusionsfähig, Schaden, Physisch, Energie.",
+			"esES": "Coste de energía: {#}\nProbabilidad de golpe de suerte: 10% (per hit)\nEjecutas un aluvión de puñaladas y tajos para golpear 4 veces a los enemigos frente a ti e infligir un total de {66/72.6/79.2/85.8/92.4/99/105.6/112.2/118.8/125.4}% de daño a cada uno.\n\nLos puntos de combo aumentan el daño y otorgan un bonus de velocidad de ataque durante 3 s.\n• 1 punto: {82.5/90.8/99/107.2/115.5/123.8/132/140.2/148.5/156.8}% de daño y un +15% de bonus\n• 2 puntos: {99/108.9/118.8/128.7/138.6/148.5/158.4/168.3/178.2/188.1}% de daño y un +30% de bonus\n• 3 puntos: {115.5/127/138.6/150.2/161.7/173.2/184.8/196.4/207.9/219.4}% de daño y un +45% de bonus\n\nTags: Principal, Degollación, Imbuible, Daño, Física, Energía.",
+			"esMX": "Costo de Energía: {#}\nProbabilidad de golpe afortunado: 10% (per hit)\nDesatas una ráfaga de puñaladas y cuchilladas que golpean a los enemigos frente a ti 4 veces e infligen un total de {66/72.6/79.2/85.8/92.4/99/105.6/112.2/118.8/125.4}% de daño a cada uno.\n\nLos puntos de combo aumentan el daño y otorgan una bonificación de velocidad de ataque durante 3 segundos.\n• 1 punto: {82.5/90.8/99/107.2/115.5/123.8/132/140.2/148.5/156.8}% de daño, +15% de bonificación\n• 2 puntos: {99/108.9/118.8/128.7/138.6/148.5/158.4/168.3/178.2/188.1}% de daño, +30% de bonificación\n• 3 puntos: {115.5/127/138.6/150.2/161.7/173.2/184.8/196.4/207.9/219.4}% de daño, +45% de bonificación\n\nTags: Principal, Degollador, Imbuible, Daño, Física, Energía.",
+			"frFR": "Coût en énergie: {#}\nChances d'obtenir un coup de chance: 10% (per hit)\nVous déclenchez une rafale de coups et frappez les adversaires devant vous 4 fois, ce qui inflige {66/72.6/79.2/85.8/92.4/99/105.6/112.2/118.8/125.4}% points de dégâts au total à chaque cible.\n\nLes points de combo augmentent les dégâts et confèrent un bonus à la vitesse d'attaque pendant 3 s.\n• 1 point: {82.5/90.8/99/107.2/115.5/123.8/132/140.2/148.5/156.8}% points de dégâts, bonus de +15%.\n• 2 points: {99/108.9/118.8/128.7/138.6/148.5/158.4/168.3/178.2/188.1}% points de dégâts, bonus de +30%.\n• 3 points: {115.5/127/138.6/150.2/161.7/173.2/184.8/196.4/207.9/219.4}% points de dégâts, bonus de +45%.\n\nTags: Principale, Coupe-jarret, Imprégnable, Dégâts, Dégâts physiques, Énergie.",
+			"itIT": "Costo in energia: {#}\nProbabilità di colpo fortunato: 10% (per hit)\nScateni una raffica di colpi e fendenti, che colpisce i nemici frontali per 4 volte e infligge a ciascuno un totale di {66/72.6/79.2/85.8/92.4/99/105.6/112.2/118.8/125.4}% danni.\n\nI punti combo aumentano i danni e forniscono un bonus alla velocità d'attacco per 3 s.\n• 1 punto: {82.5/90.8/99/107.2/115.5/123.8/132/140.2/148.5/156.8}% danni, bonus del +15%\n• 2 punti: {99/108.9/118.8/128.7/138.6/148.5/158.4/168.3/178.2/188.1}% danni, bonus del +30%\n• 3 punti: {115.5/127/138.6/150.2/161.7/173.2/184.8/196.4/207.9/219.4}% danni, bonus del +45%\n\nTags: Primaria, Sgozzamento, Infondibile, Danni, Fisico, Energia.",
+			"jaJP": "エネルギー消費量: {#}\n幸運の一撃発生率: 10% (per hit)\n高速の刺突と斬撃を繰り出して前方の敵を4回攻撃し、敵それぞれに合計で{66/72.6/79.2/85.8/92.4/99/105.6/112.2/118.8/125.4}%のダメージを与える。\n\nコンボポイントでダメージが上昇し、3秒間、攻撃速度ボーナスを得る:\n• 1ポイント: {82.5/90.8/99/107.2/115.5/123.8/132/140.2/148.5/156.8}%ダメージ、+15%のボーナス\n• 2ポイント: {99/108.9/118.8/128.7/138.6/148.5/158.4/168.3/178.2/188.1}%ダメージ、+30%のボーナス\n• 3ポイント: {115.5/127/138.6/150.2/161.7/173.2/184.8/196.4/207.9/219.4}%ダメージ、+45%のボーナス\n\nTags: コア, 喉かき, 注入可能, ダメージ, 物理, エネルギー.",
+			"koKR": "소모: 기력 {#}\n행운의 적중 확률: 10% (per hit)\n전방의 적들을 4번 마구 찌르고 베어 각각의 적에게 총 {66/72.6/79.2/85.8/92.4/99/105.6/112.2/118.8/125.4}%의 피해를 줍니다.\n\n연계 점수에 따라 3초 동안 피해가 증가하고 공격 속도가 증가합니다.\n• 1점: 피해 {82.5/90.8/99/107.2/115.5/123.8/132/140.2/148.5/156.8}%, 추가 +15%\n• 2점: 피해 {99/108.9/118.8/128.7/138.6/148.5/158.4/168.3/178.2/188.1}%, 추가 +30%\n• 3점: 피해 {115.5/127/138.6/150.2/161.7/173.2/184.8/196.4/207.9/219.4}%, 추가 +45%\n\nTags: 핵심, 암살, 주입 가능, 피해, 물리, 기력.",
+			"plPL": "Koszt: {#} pkt. energii\nSzansa na szczęśliwy traf: 10% (per hit)\nWyzwalasz nawałnicę cięć i ciosów, atakując wrogów przed tobą 4 razy i zadając każdemu z nich w sumie {66/72.6/79.2/85.8/92.4/99/105.6/112.2/118.8/125.4}% pkt. obrażeń.\n\nPunkty kombinacji zwiększają zadawane obrażenia i zapewniają na 3 sek. premię do szybkości ataku.\n• 1 pkt.: {82.5/90.8/99/107.2/115.5/123.8/132/140.2/148.5/156.8}% pkt. obrażeń, premia +15% sek.\n• 2 pkt.: {99/108.9/118.8/128.7/138.6/148.5/158.4/168.3/178.2/188.1}% pkt. obrażeń, premia +30% sek.\n• 3 pkt.: {115.5/127/138.6/150.2/161.7/173.2/184.8/196.4/207.9/219.4}% pkt. obrażeń, premia +45% sek.\n\nTags: Główne, Napaść, Nasycalne, Obrażenia, Fizyczne, Energia.",
+			"ptBR": "Custo de energia: {#}\nChance de Golpe de Sorte: 10% (per hit)\nLibera um turbilhão de punhaladas e cortes, atingindo inimigos à sua frente 4 vezes e causando {66/72.6/79.2/85.8/92.4/99/105.6/112.2/118.8/125.4}% de dano a cada um.\n\nPontos de combo aumentam o dano e concedem um bônus de velocidade de ataque por 3 s.\n• 1 ponto: {82.5/90.8/99/107.2/115.5/123.8/132/140.2/148.5/156.8}% de dano, +15% de bônus\n• 2 pontos: {99/108.9/118.8/128.7/138.6/148.5/158.4/168.3/178.2/188.1}% de dano, +30% de bônus\n• 3 pontos: {115.5/127/138.6/150.2/161.7/173.2/184.8/196.4/207.9/219.4}% de dano, +45% de bônus\n\nTags: Principal, Degola, Imbuível, Dano, Física, Energia.",
+			"ruRU": "Затраты энергии: {#}\nВероятность удачного удара: 10% (per hit)\nВы обрушиваете на противников перед собой шквал из 4 рубящих и режущих ударов, в общей сложности нанося {66/72.6/79.2/85.8/92.4/99/105.6/112.2/118.8/125.4}% ед. урона каждой цели.\n\nДополнительные приемы серии увеличивают урон и повышают скорость атаки на 3 сек.\n• 1 прием: {82.5/90.8/99/107.2/115.5/123.8/132/140.2/148.5/156.8}% ед. урона, +15% к скорости атаки\n• 2 приема: {99/108.9/118.8/128.7/138.6/148.5/158.4/168.3/178.2/188.1}% ед. урона, +30% к скорости атаки\n• 3 приема: {115.5/127/138.6/150.2/161.7/173.2/184.8/196.4/207.9/219.4}% ед. урона, +45% к скорости атаки\n\nTags: Основное, Головорез, Насыщение, Урон, Физический урон, Энергия.",
+			"trTR": "Enerji Bedeli: {#}\nŞanslı Vuruş İhtimali: 10% (per hit)\nBıçaklamalar ve kesiklerle dolu coşkulu bir saldırı başlatarak önündeki düşmanlara 4 kez vur ve her birine toplamda {66/72.6/79.2/85.8/92.4/99/105.6/112.2/118.8/125.4}% hasar ver.\n\nKombo Puanları, 3 saniye boyunca hasarı artırır ve bir Saldırı Hızı bonusu kazandırır.\n• 1 Puan: {82.5/90.8/99/107.2/115.5/123.8/132/140.2/148.5/156.8}% hasar, +15% bonus\n• 2 Puan: {99/108.9/118.8/128.7/138.6/148.5/158.4/168.3/178.2/188.1}% hasar, +30% bonus\n• 3 Puan: {115.5/127/138.6/150.2/161.7/173.2/184.8/196.4/207.9/219.4}% hasar, +45% bonus\n\nTags: Çekirdek, Cani, Aşılanabilir, Hasar, Fiziksel, Enerji.",
+			"zhCN": "能量消耗: {#}\n幸运一击几率: 10% (per hit)\n连续刺击并劈砍前方的敌人 4 次, 造成总计 {66/72.6/79.2/85.8/92.4/99/105.6/112.2/118.8/125.4}% 点伤害。\n\n连击点数会提高伤害并给予攻击速度加成, 持续 3 秒。\n• 1点: {82.5/90.8/99/107.2/115.5/123.8/132/140.2/148.5/156.8}% 点伤害, +15% 加成\n• 2点: {99/108.9/118.8/128.7/138.6/148.5/158.4/168.3/178.2/188.1}%伤害, +30% 加成\n• 3点: {115.5/127/138.6/150.2/161.7/173.2/184.8/196.4/207.9/219.4}% 点伤害, +45% 加成\n\nTags: 核心, 刺杀, 可灌注, 伤害, 物理, 能量.",
+			"zhTW": "能量消耗:{#}\n幸運觸發機率: 10% (per hit)\n對你前方的敵人施展連環刺擊與斬擊 4 次,對每一個敵人造成總計 {66/72.6/79.2/85.8/92.4/99/105.6/112.2/118.8/125.4}% 點傷害。\n\n連擊點數會提高傷害與攻擊速度加成,持續 3 秒。\n• 1 點:{82.5/90.8/99/107.2/115.5/123.8/132/140.2/148.5/156.8}% 點傷害,+15% 加成\n• 2 點:{99/108.9/118.8/128.7/138.6/148.5/158.4/168.3/178.2/188.1}% 點傷害,+30% 加成\n• 3 點:{115.5/127/138.6/150.2/161.7/173.2/184.8/196.4/207.9/219.4}% 點傷害,+45% 加成\n\nTags: 核心, 割喉, 可灌注, 傷害, 物理, 能量."
 },
 		id: 24,
 		maxPoints: 5,
@@ -1097,7 +1097,7 @@ Tags: Core, Cutthroat, Imbueable, Damage, Physical, Energy.`,
 	"Improved Flurry": {
 		baseSkill: "Flurry",
 		connections: [ "Enhanced Flurry" ],
-		description: `If Flurry hits any Vulnerable enemy it will make all enemies hit by that cast Vulnerable for 3 seconds.`,
+		description: `Flurry deals x20% increased damage to Vulnerable enemies. If Flurry hits any Vulnerable enemy it will make all enemies hit by that cast Vulnerable for 3 seconds.`,
 		nameLocalized: {
 			"deDE": "Geübter Klingensturm",
 			"esES": "Aluvión perfeccionado",
@@ -1114,19 +1114,19 @@ Tags: Core, Cutthroat, Imbueable, Damage, Physical, Energy.`,
 			"zhTW": "改良狂襲"
 },
 		descriptionLocalized: {
-			"deDE": "Wenn Klingensturm einen verwundbaren Gegner trifft, werden alle Gegner, die von diesem Einsatz getroffen werden, 3 Sek. lang verwundbar.",
-			"esES": "Si Aluvión golpea a cualquier enemigo vulnerable, volverá vulnerables durante 3 s a todos los enemigos golpeados por el lanzamiento.",
-			"esMX": "Si Ráfaga golpea a algún enemigo vulnerable, volverá vulnerables a todos los enemigos golpeados por ese lanzamiento durante 3 segundos.",
-			"frFR": "Si Rafale touche une cible vulnérable, toutes les cibles qu'elle touche lors de cette utilisation deviennent vulnérables pendant 3 s.",
-			"itIT": "Se Raffica colpisce un nemico vulnerabile renderà tutti i nemici colpiti da quel lancio vulnerabili per 3 s.",
-			"jaJP": "〈コンビネーション〉が脆弱状態の敵に命中すると、その際に命中していたすべての敵を3秒間にわたり脆弱状態にする。",
-			"koKR": "연타가 취약 상태의 적에게 적중하면 해당 기술을 시전하여 적중한 모든 적이 3초 동안 취약 상태가 됩니다.",
-			"plPL": "Jeśli Szybkie Natarcie trafi odsłoniętego wroga, wszyscy wrogowie trafieni tym użyciem staną się odsłonięci na 3 sek.",
-			"ptBR": "Se Turbilhão atingir qualquer inimigo vulnerável, ele deixará todos os inimigos atingidos por esse lançamento vulneráveis por 3 s.",
-			"ruRU": "Когда \"Шквал\" поражает уязвимого противника, все противники, пораженные за это применение умения, становятся уязвимыми на 3 сек.",
-			"trTR": "Coşku herhangi bir Savunmasız düşmana vurursa bu kullanım sırasında vurulan tüm düşmanları 3 saniyeliğine Savunmasız hâle getirir.",
-			"zhCN": "如果快刀乱刺命中任意易伤的敌人, 其会使所有被该次技能命中的敌人都陷入易伤状态, 持续 3 秒。",
-			"zhTW": "若狂襲擊中任何易傷的敵人,會對該次施放擊中的所有敵人造成易傷,持續 3 秒。"
+			"deDE": "Klingensturm verursacht x20% erhöhten Schaden gegen verwundbare Gegner. Wenn Klingensturm einen verwundbaren Gegner trifft, werden alle Gegner, die von diesem Einsatz getroffen werden, 3 Sek. lang verwundbar.",
+			"esES": "Aluvión inflige un x20% más de daño a enemigos vulnerables. Si Aluvión golpea a cualquier enemigo vulnerable, volverá vulnerables durante 3 s a todos los enemigos golpeados por el lanzamiento.",
+			"esMX": "Ráfaga inflige un x20% más de daño a los enemigos vulnerables. Si Ráfaga golpea a algún enemigo vulnerable, volverá vulnerables a todos los enemigos golpeados por ese lanzamiento durante 3 segundos.",
+			"frFR": "Rafale inflige x20% de dégâts supplémentaires aux adversaires vulnérables. Si Rafale touche une cible vulnérable, toutes les cibles qu'elle touche lors de cette utilisation deviennent vulnérables pendant 3 s.",
+			"itIT": "Raffica infligge danni aumentati del x20% ai nemici vulnerabili. Se Raffica colpisce un nemico vulnerabile, rende tutti i nemici colpiti da quel lancio vulnerabili per 3 s.",
+			"jaJP": "脆弱状態の敵に対する〈コンビネーション〉のダメージがx20%増加する。〈コンビネーション〉が脆弱状態の敵に命中すると、その際に命中していたすべての敵を3秒間にわたり脆弱状態にする。",
+			"koKR": "연타가 취약 상태의 적에게 주는 피해가 x20% 증가합니다. 연타가 취약 상태의 적에게 적중하면 해당 기술을 시전하여 적중한 모든 적이 3초 동안 취약 상태가 됩니다.",
+			"plPL": "Szybkie Natarcie zadaje obrażenia zwiększone o x20% odsłoniętym wrogom. Jeżeli Szybkie Natarcie trafi odsłoniętego wroga, wszyscy wrogowie trafieni tym użyciem staną się odsłonięci na 3 sek.",
+			"ptBR": "Turbilhão causa x20% a mais de dano a inimigos vulneráveis. Se atingir qualquer inimigo vulnerável, o Turbilhão deixará todos os inimigos atingidos por esse lançamento vulneráveis por 3 s.",
+			"ruRU": "\"Шквал\" наносит на x20% больше урона уязвимым противникам. Когда \"Шквал\" поражает уязвимого противника, все противники, пораженные за это применение умения, становятся уязвимыми на 3 сек.",
+			"trTR": "Coşku Savunmasız düşmanlara x20% artırılmış hasar verir. Coşku herhangi bir Savunmasız düşmana vurursa bu kullanım sırasında vurulan tüm düşmanları 3 saniyeliğine Savunmasız hâle getirir.",
+			"zhCN": "快刀乱刺对易伤的敌人造成的伤害提升 x20%。如果快刀乱刺命中任意易伤的敌人,其会使所有被该次技能命中的敌人都陷入易伤状态,持续 3 秒。",
+			"zhTW": "狂襲對易傷造成的傷害提高 x20%。若狂襲擊中任何易傷的敵人,會對該次施放擊中的所有敵人造成易傷,持續 3 秒。"
 },
 		id: 26,
 		maxPoints: 1,
@@ -1136,7 +1136,7 @@ Tags: Core, Cutthroat, Imbueable, Damage, Physical, Energy.`,
 	"Advanced Flurry": {
 		baseSkill: "Flurry",
 		connections: [ "Enhanced Flurry" ],
-		description: `Evading through an enemy will cause your next Flurry to Stun enemies for 2.5 seconds.`,
+		description: `Evading through an enemy will cause your next Flurry to deal x30% increased damage and Stun enemies for 2.5 seconds.`,
 		nameLocalized: {
 			"deDE": "Weiterentwickelter Klingensturm",
 			"esES": "Aluvión avanzado",
@@ -1153,19 +1153,19 @@ Tags: Core, Cutthroat, Imbueable, Damage, Physical, Energy.`,
 			"zhTW": "進階狂襲"
 },
 		descriptionLocalized: {
-			"deDE": "Wenn Ihr durch einen Gegner hindurch entrinnt, wird Euer nächster Klingensturm Gegner 2.5 Sek. lang betäuben.",
-			"esES": "Evadirte a través de un enemigo hace que tu siguiente Aluvión aturda a los enemigos durante 2.5 s.",
-			"esMX": "Atravesar a un enemigo para evadir hará que tu siguiente Ráfaga aturda a los enemigos durante 2.5 segundos.",
-			"frFR": "Après avoir effectué une esquive en traversant une cible, votre prochaine Rafale étourdit les cibles pendant 2.5 s.",
-			"itIT": "Schivando attraverso un nemico il tuo prossimo utilizzo di Raffica stordirà i nemici per 2.5 s.",
-			"jaJP": "敵をすり抜けて回避すると、次に使用する〈コンビネーション〉が敵を2.5秒間にわたりスタンさせる。",
-			"koKR": "피하기로 적을 통과하면 다음 연타가 적을 2.5초 동안 기절시킵니다.",
-			"plPL": "Przeniknięcie przez wroga przy użyciu Odskoku sprawi, że twoje następne Szybkie Natarcie ogłuszy wrogów na 2.5 sek.",
-			"ptBR": "Evadir através de um inimigo fará seu próximo Turbilhão atordoar inimigos por 2.5 s.",
-			"ruRU": "Когда вы уклоняетесь через противника, ваш следующий \"Шквал\" оглушает противников на 2.5 сек.",
-			"trTR": "Kaçınarak bir düşmanın içinden geçmek, bir sonraki Coşkunun düşmanları 2.5 saniyeliğine Sersemletmesini sağlar.",
-			"zhCN": "闪避穿过敌人攻击将使你的下一个快刀乱刺击昏敌人 2.5 秒。",
-			"zhTW": "閃避穿過敵人會使你的下一個狂襲擊昏敵人 2.5 秒。"
+			"deDE": "Wenn Ihr durch einen Gegner hindurch entrinnt, verursacht Euer nächster Klingensturm x30% erhöhten Schaden und betäubt Gegner 2.5 Sek. lang.",
+			"esES": "Evadirte a través de un enemigo hace que tu siguiente Aluvión inflija un x30% más de daño y aturda a los enemigos durante 2.5 s.",
+			"esMX": "Atravesar a un enemigo para evadir hace que tu siguiente Ráfaga inflija un x30% más de daño y aturda a los enemigos durante 2.5 segundos.",
+			"frFR": "Après avoir effectué une esquive en traversant une cible, votre prochaine Rafale inflige x30% de dégâts supplémentaires et étourdit les cibles pendant 2.5 s.",
+			"itIT": "Attraversare un nemico con Elusione fa sì che il successivo lancio di Raffica infligga danni aumentati del x30% e stordisca i nemici per 2.5 s.",
+			"jaJP": "敵をすり抜けて回避すると、次に使用する〈コンビネーション〉のダメージがx30%増加し、敵を2.5秒間にわたりスタンさせる。",
+			"koKR": "피하기로 적을 통과하면 다음 연타로 주는 피해가 x30% 증가하고 적을 2.5초 동안 기절시킵니다.",
+			"plPL": "Przeniknięcie przez wroga przy użyciu Odskoku sprawi, że twoje następne Szybkie Natarcie zada większe obrażenia i ogłuszy wrogów na 2.5 sek.",
+			"ptBR": "Evadir através de um inimigo fará seu próximo Turbilhão para causar x30% a mais de dano e atordoar inimigos por 2.5 s.",
+			"ruRU": "Когда вы уклоняетесь через противника, ваш следующий \"Шквал\" наносит на x30% больше урона и оглушает противников на 2.5 сек.",
+			"trTR": "Kaçınarak bir düşmanın içinden geçmek, bir sonraki Coşkunun x30% artırılmış hasar vermesini ve düşmanları 2.5 saniyeliğine Sersemletmesini sağlar.",
+			"zhCN": "使用闪避穿过敌人会使你的下一个快刀乱刺造成的伤害提升 x30%,并且击昏敌人 2.5 秒。",
+			"zhTW": "閃避穿過敵人會使你的下一個狂襲造成 x30% 點傷害,並擊昏敵人 2.5 秒。"
 },
 		id: 27,
 		maxPoints: 1,
@@ -1340,12 +1340,12 @@ Tags: Core, Marksman, Imbueable, Damage, Physical, Energy.`,
 		connections: [ "Enhanced Rapid Fire", "Core" ],
 		description: `Energy Cost: {#}
 Lucky Hit Chance: 20% (per hit)
-Rapidly fire 5 arrows, each dealing {30/33/36/39/42/45/48/51/54/57}% damage.
+Rapidly fire 5 arrows, each dealing {33/36.3/39.6/42.9/46.2/49.5/52.8/56.1/59.4/62.7}% damage.
 
 Combo Points increase damage and arrows fired:
-• 1 Point: {33/36.3/39.6/42.9/46.2/49.5/52.8/56.1/59.4/62.7}% damage, 6 arrows
-• 2 Points: {36.8/40.4/44.1/47.8/51.5/55.1/58.8/62.5/66.2/69.8}% damage, 7 arrows
-• 3 Points: {42/46.2/50.4/54.6/58.8/63/67.2/71.4/75.6/79.8}% damage, 8 arrows
+• 1 Point: {36.3/39.9/43.6/47.2/50.8/54.4/58.1/61.7/65.3/69}% damage, 6 arrows
+• 2 Points: {40.4/44.5/48.5/52.6/56.6/60.6/64.7/68.7/72.8/76.8}% damage, 7 arrows
+• 3 Points: {46.2/50.8/55.4/60.1/64.7/69.3/73.9/78.5/83.2/87.8}% damage, 8 arrows
 
 Tags: Core, Marksman, Imbueable, Damage, Physical, Energy.`,
 		nameLocalized: {
@@ -1364,19 +1364,19 @@ Tags: Core, Marksman, Imbueable, Damage, Physical, Energy.`,
 			"zhTW": "連射"
 },
 		descriptionLocalized: {
-			"deDE": "Energiekosten: {#}\nGlückstrefferchance: 20% (per hit)\nFeuert schnell 5 Pfeile ab, die jeweils {30/33/36/39/42/45/48/51/54/57}% Schaden verursachen.\n\nKombopunkte erhöhen den Schaden und die Menge der abgeschossenen Pfeile::\n • 1 Punkt: {33/36.3/39.6/42.9/46.2/49.5/52.8/56.1/59.4/62.7}% Schaden, 6 Pfeile\n • 2 Punkte: {36.8/40.4/44.1/47.8/51.5/55.1/58.8/62.5/66.2/69.8}% Schaden, 7 Pfeile\n • 3 Punkte: {42/46.2/50.4/54.6/58.8/63/67.2/71.4/75.6/79.8}% Schaden, 8 Pfeile\n\nTags: Kern, Präzision, Infusionsfähig, Schaden, Physisch, Energie.",
-			"esES": "Coste de energía: {#}\nProbabilidad de golpe de suerte: 20% (per hit)\nDisparas rápidamente 5 flechas que infligen {30/33/36/39/42/45/48/51/54/57}% de daño cada una.\n\nLos puntos de combo aumentan el daño y el número de flechas lanzadas:\n• 1 punto: {33/36.3/39.6/42.9/46.2/49.5/52.8/56.1/59.4/62.7}% de daño y 6 flechas\n• 2 puntos: {36.8/40.4/44.1/47.8/51.5/55.1/58.8/62.5/66.2/69.8}% de daño y 7 flechas\n• 3 puntos: {42/46.2/50.4/54.6/58.8/63/67.2/71.4/75.6/79.8}% de daño y 8 flechas\n\nTags: Principal, Tirador, Imbuible, Daño, Física, Energía.",
-			"esMX": "Costo de Energía: {#}\nProbabilidad de golpe afortunado: 20% (per hit)\nDisparas 5 flechas con rapidez que infligen {30/33/36/39/42/45/48/51/54/57}% de daño cada una.\n\nLos puntos de combo aumentan el daño y la cantidad de flechas disparadas:\n• 1 punto: {33/36.3/39.6/42.9/46.2/49.5/52.8/56.1/59.4/62.7}% de daño, 6 flechas\n• 2 puntos: {36.8/40.4/44.1/47.8/51.5/55.1/58.8/62.5/66.2/69.8}% de daño, 7 flechas\n• 3 puntos: {42/46.2/50.4/54.6/58.8/63/67.2/71.4/75.6/79.8}% de daño, 8 flechas\n\nTags: Principal, Tirador, Imbuible, Daño, Física, Energía.",
-			"frFR": "Coût en énergie: {#}\nChances d'obtenir un coup de chance: 20% (per hit)\nVous tirez rapidement 5 flèches qui infligent chacune {30/33/36/39/42/45/48/51/54/57}% points de dégâts.\n\nLes points de combo augmentent les dégâts et le nombre de flèches tirées :\n• 1 point: {33/36.3/39.6/42.9/46.2/49.5/52.8/56.1/59.4/62.7}% points de dégâts, 6 flèches\n• 2 points: {36.8/40.4/44.1/47.8/51.5/55.1/58.8/62.5/66.2/69.8}% points de dégâts, 7 flèches\n• 3 points: {42/46.2/50.4/54.6/58.8/63/67.2/71.4/75.6/79.8}% points de dégâts, 8 flèches\n\nTags: Principale, Tir d'élite, Imprégnable, Dégâts, Dégâts physiques, Énergie.",
-			"itIT": "Costo in energia: {#}\nProbabilità di colpo fortunato: 20% (per hit)\nScagli rapidamente 5 frecce che infliggono {30/33/36/39/42/45/48/51/54/57}% danni ciascuna.\n\nI punti combo aumentano i danni e le frecce scagliate:\n• 1 punto: {33/36.3/39.6/42.9/46.2/49.5/52.8/56.1/59.4/62.7}% danni, 6 frecce\n• 2 punti: {36.8/40.4/44.1/47.8/51.5/55.1/58.8/62.5/66.2/69.8}% danni, 7 frecce\n• 3 punti: {42/46.2/50.4/54.6/58.8/63/67.2/71.4/75.6/79.8}% danni, 8 frecce\n\nTags: Primaria, Tiro di precisione, Infondibile, Danni, Fisico, Energia.",
-			"jaJP": "エネルギー消費量: {#}\n幸運の一撃発生率: 20% (per hit)\n矢を5本連射し、それぞれの矢が{30/33/36/39/42/45/48/51/54/57}%のダメージを与える。\n\nコンボポイントでダメージと放たれる矢の数が増大:\n• 1ポイント: {33/36.3/39.6/42.9/46.2/49.5/52.8/56.1/59.4/62.7}%ダメージ、6本の矢\n• 2ポイント: {36.8/40.4/44.1/47.8/51.5/55.1/58.8/62.5/66.2/69.8}%ダメージ、7本の矢\n• 3ポイント: {42/46.2/50.4/54.6/58.8/63/67.2/71.4/75.6/79.8}%ダメージ、8本の矢\n\nTags: コア, 射手, 注入可能, ダメージ, 物理, エネルギー.",
-			"koKR": "소모: 기력 {#}\n행운의 적중 확률: 20% (per hit)\n화살 5개를 빠르게 발사하여 각각 {30/33/36/39/42/45/48/51/54/57}%의 피해를 줍니다.\n\n연계 점수에 따라 주는 피해와 발사하는 화살 개수가 증가합니다.\n• 1점: 피해 {33/36.3/39.6/42.9/46.2/49.5/52.8/56.1/59.4/62.7}%, 화살 6개\n• 2점: 피해 {36.8/40.4/44.1/47.8/51.5/55.1/58.8/62.5/66.2/69.8}%, 화살 7개\n• 3점: 피해 {42/46.2/50.4/54.6/58.8/63/67.2/71.4/75.6/79.8}%, 화살 8개\n\nTags: 핵심, 명사수, 주입 가능, 피해, 물리, 기력.",
-			"plPL": "Koszt: {#} pkt. energii\nSzansa na szczęśliwy traf: 20% (per hit)\nSzybko wypuszczasz strzały (5), z których każda zadaje {30/33/36/39/42/45/48/51/54/57}% pkt. obrażeń.\n\nPunkty kombinacji zwiększają zadawane obrażenia i liczbę wypuszczonych strzał:\n • 1 pkt.: {33/36.3/39.6/42.9/46.2/49.5/52.8/56.1/59.4/62.7}% pkt. obrażeń, strzały: 6.\n • 2 pkt.: {36.8/40.4/44.1/47.8/51.5/55.1/58.8/62.5/66.2/69.8}% pkt. obrażeń, strzały: 7.\n • 3 pkt.: {42/46.2/50.4/54.6/58.8/63/67.2/71.4/75.6/79.8}% pkt. obrażeń, strzały: 8.\n\nTags: Główne, Strzelectwo, Nasycalne, Obrażenia, Fizyczne, Energia.",
-			"ptBR": "Custo de energia: {#}\nChance de Golpe de Sorte: 20% (per hit)\nDispara 5 flechas rapidamente. Cada uma causa {30/33/36/39/42/45/48/51/54/57}% de dano.\n\nPontos de combo aumentam o dano e a quantidade de flechas disparadas:\n• 1: {33/36.3/39.6/42.9/46.2/49.5/52.8/56.1/59.4/62.7}% de dano, 6 flechas\n• 2: {36.8/40.4/44.1/47.8/51.5/55.1/58.8/62.5/66.2/69.8}% de dano, 7 flechas\n• 3: {42/46.2/50.4/54.6/58.8/63/67.2/71.4/75.6/79.8}% de dano, 8 flechas\n\nTags: Principal, Atirador, Imbuível, Dano, Física, Energia.",
-			"ruRU": "Затраты энергии: {#}\nВероятность удачного удара: 20% (per hit)\nВы стремительно выпускаете 5 стрелы, наносящие:стрел, наносящих по {30/33/36/39/42/45/48/51/54/57}% ед. урона.\n\nДополнительные приемы серии увеличивают урон и количество стрел:\n• 1 прием: {33/36.3/39.6/42.9/46.2/49.5/52.8/56.1/59.4/62.7}% ед. урона, 6 стрелы:стрел\n• 2 приема: {36.8/40.4/44.1/47.8/51.5/55.1/58.8/62.5/66.2/69.8}% ед. урона, 7 стрелы:стрел\n• 3 приема: {42/46.2/50.4/54.6/58.8/63/67.2/71.4/75.6/79.8}% ед. урона, 8 стрелы:стрел\n\nTags: Основное, Стрелок, Насыщение, Урон, Физический урон, Энергия.",
-			"trTR": "Enerji Bedeli: {#}\nŞanslı Vuruş İhtimali: 20% (per hit)\nHızlıca her biri {30/33/36/39/42/45/48/51/54/57}% hasar veren 5 ok at.\n\nKombo Puanları hasarı ve atılan ok sayısını artırır:\n• 1 Puan: {33/36.3/39.6/42.9/46.2/49.5/52.8/56.1/59.4/62.7}% hasar, 6 ok\n• 2 Puan: {36.8/40.4/44.1/47.8/51.5/55.1/58.8/62.5/66.2/69.8}% hasar, 7 ok\n• 3 Puan: {42/46.2/50.4/54.6/58.8/63/67.2/71.4/75.6/79.8}% hasar, 8 ok\n\nTags: Çekirdek, Nişancı, Aşılanabilir, Hasar, Fiziksel, Enerji.",
-			"zhCN": "能量消耗: {#}\n幸运一击几率: 20% (per hit)\n快速发射 5 支箭矢, 每支造成 {30/33/36/39/42/45/48/51/54/57}% 点伤害。\n\n连击点数会提高伤害并增加箭矢数量:\n• 1点: {33/36.3/39.6/42.9/46.2/49.5/52.8/56.1/59.4/62.7}% 点伤害, 6 支箭矢\n• 2点: {36.8/40.4/44.1/47.8/51.5/55.1/58.8/62.5/66.2/69.8}% 点伤害, 7 支箭矢\n• 3点: {42/46.2/50.4/54.6/58.8/63/67.2/71.4/75.6/79.8}% 点伤害, 8 支箭矢\n\nTags: 核心, 神射手, 可灌注, 伤害, 物理, 能量.",
-			"zhTW": "能量消耗:{#}\n幸運觸發機率: 20% (per hit)\n連續發射 5 支箭矢,每支造成 {30/33/36/39/42/45/48/51/54/57}% 點傷害。\n\n連擊點數會提高傷害與射出的箭矢數量:\n• 1 點:{33/36.3/39.6/42.9/46.2/49.5/52.8/56.1/59.4/62.7}% 點傷害,6 支箭矢\n• 2 點:{36.8/40.4/44.1/47.8/51.5/55.1/58.8/62.5/66.2/69.8}% 點傷害,7 支箭矢\n• 3 點:{42/46.2/50.4/54.6/58.8/63/67.2/71.4/75.6/79.8}% 點傷害,8 支箭矢\n\nTags: 核心, 射手, 可灌注, 傷害, 物理, 能量."
+			"deDE": "Energiekosten: {#}\nGlückstrefferchance: 20% (per hit)\nFeuert schnell 5 Pfeile ab, die jeweils {33/36.3/39.6/42.9/46.2/49.5/52.8/56.1/59.4/62.7}% Schaden verursachen.\n\nKombopunkte erhöhen den Schaden und die Menge der abgeschossenen Pfeile::\n • 1 Punkt: {36.3/39.9/43.6/47.2/50.8/54.4/58.1/61.7/65.3/69}% Schaden, 6 Pfeile\n • 2 Punkte: {40.4/44.5/48.5/52.6/56.6/60.6/64.7/68.7/72.8/76.8}% Schaden, 7 Pfeile\n • 3 Punkte: {46.2/50.8/55.4/60.1/64.7/69.3/73.9/78.5/83.2/87.8}% Schaden, 8 Pfeile\n\nTags: Kern, Präzision, Infusionsfähig, Schaden, Physisch, Energie.",
+			"esES": "Coste de energía: {#}\nProbabilidad de golpe de suerte: 20% (per hit)\nDisparas rápidamente 5 flechas que infligen {33/36.3/39.6/42.9/46.2/49.5/52.8/56.1/59.4/62.7}% de daño cada una.\n\nLos puntos de combo aumentan el daño y el número de flechas lanzadas:\n• 1 punto: {36.3/39.9/43.6/47.2/50.8/54.4/58.1/61.7/65.3/69}% de daño y 6 flechas\n• 2 puntos: {40.4/44.5/48.5/52.6/56.6/60.6/64.7/68.7/72.8/76.8}% de daño y 7 flechas\n• 3 puntos: {46.2/50.8/55.4/60.1/64.7/69.3/73.9/78.5/83.2/87.8}% de daño y 8 flechas\n\nTags: Principal, Tirador, Imbuible, Daño, Física, Energía.",
+			"esMX": "Costo de Energía: {#}\nProbabilidad de golpe afortunado: 20% (per hit)\nDisparas 5 flechas con rapidez que infligen {33/36.3/39.6/42.9/46.2/49.5/52.8/56.1/59.4/62.7}% de daño cada una.\n\nLos puntos de combo aumentan el daño y la cantidad de flechas disparadas:\n• 1 punto: {36.3/39.9/43.6/47.2/50.8/54.4/58.1/61.7/65.3/69}% de daño, 6 flechas\n• 2 puntos: {40.4/44.5/48.5/52.6/56.6/60.6/64.7/68.7/72.8/76.8}% de daño, 7 flechas\n• 3 puntos: {46.2/50.8/55.4/60.1/64.7/69.3/73.9/78.5/83.2/87.8}% de daño, 8 flechas\n\nTags: Principal, Tirador, Imbuible, Daño, Física, Energía.",
+			"frFR": "Coût en énergie: {#}\nChances d'obtenir un coup de chance: 20% (per hit)\nVous tirez rapidement 5 flèches qui infligent chacune {33/36.3/39.6/42.9/46.2/49.5/52.8/56.1/59.4/62.7}% points de dégâts.\n\nLes points de combo augmentent les dégâts et le nombre de flèches tirées :\n• 1 point: {36.3/39.9/43.6/47.2/50.8/54.4/58.1/61.7/65.3/69}% points de dégâts, 6 flèches\n• 2 points: {40.4/44.5/48.5/52.6/56.6/60.6/64.7/68.7/72.8/76.8}% points de dégâts, 7 flèches\n• 3 points: {46.2/50.8/55.4/60.1/64.7/69.3/73.9/78.5/83.2/87.8}% points de dégâts, 8 flèches\n\nTags: Principale, Tir d'élite, Imprégnable, Dégâts, Dégâts physiques, Énergie.",
+			"itIT": "Costo in energia: {#}\nProbabilità di colpo fortunato: 20% (per hit)\nScagli rapidamente 5 frecce che infliggono {33/36.3/39.6/42.9/46.2/49.5/52.8/56.1/59.4/62.7}% danni ciascuna.\n\nI punti combo aumentano i danni e le frecce scagliate:\n• 1 punto: {36.3/39.9/43.6/47.2/50.8/54.4/58.1/61.7/65.3/69}% danni, 6 frecce\n• 2 punti: {40.4/44.5/48.5/52.6/56.6/60.6/64.7/68.7/72.8/76.8}% danni, 7 frecce\n• 3 punti: {46.2/50.8/55.4/60.1/64.7/69.3/73.9/78.5/83.2/87.8}% danni, 8 frecce\n\nTags: Primaria, Tiro di precisione, Infondibile, Danni, Fisico, Energia.",
+			"jaJP": "エネルギー消費量: {#}\n幸運の一撃発生率: 20% (per hit)\n矢を5本連射し、それぞれの矢が{33/36.3/39.6/42.9/46.2/49.5/52.8/56.1/59.4/62.7}%のダメージを与える。\n\nコンボポイントでダメージと放たれる矢の数が増大:\n• 1ポイント: {36.3/39.9/43.6/47.2/50.8/54.4/58.1/61.7/65.3/69}%ダメージ、6本の矢\n• 2ポイント: {40.4/44.5/48.5/52.6/56.6/60.6/64.7/68.7/72.8/76.8}%ダメージ、7本の矢\n• 3ポイント: {46.2/50.8/55.4/60.1/64.7/69.3/73.9/78.5/83.2/87.8}%ダメージ、8本の矢\n\nTags: コア, 射手, 注入可能, ダメージ, 物理, エネルギー.",
+			"koKR": "소모: 기력 {#}\n행운의 적중 확률: 20% (per hit)\n화살 5개를 빠르게 발사하여 각각 {33/36.3/39.6/42.9/46.2/49.5/52.8/56.1/59.4/62.7}%의 피해를 줍니다.\n\n연계 점수에 따라 주는 피해와 발사하는 화살 개수가 증가합니다.\n• 1점: 피해 {36.3/39.9/43.6/47.2/50.8/54.4/58.1/61.7/65.3/69}%, 화살 6개\n• 2점: 피해 {40.4/44.5/48.5/52.6/56.6/60.6/64.7/68.7/72.8/76.8}%, 화살 7개\n• 3점: 피해 {46.2/50.8/55.4/60.1/64.7/69.3/73.9/78.5/83.2/87.8}%, 화살 8개\n\nTags: 핵심, 명사수, 주입 가능, 피해, 물리, 기력.",
+			"plPL": "Koszt: {#} pkt. energii\nSzansa na szczęśliwy traf: 20% (per hit)\nSzybko wypuszczasz strzały (5), z których każda zadaje {33/36.3/39.6/42.9/46.2/49.5/52.8/56.1/59.4/62.7}% pkt. obrażeń.\n\nPunkty kombinacji zwiększają zadawane obrażenia i liczbę wypuszczonych strzał:\n • 1 pkt.: {36.3/39.9/43.6/47.2/50.8/54.4/58.1/61.7/65.3/69}% pkt. obrażeń, strzały: 6.\n • 2 pkt.: {40.4/44.5/48.5/52.6/56.6/60.6/64.7/68.7/72.8/76.8}% pkt. obrażeń, strzały: 7.\n • 3 pkt.: {46.2/50.8/55.4/60.1/64.7/69.3/73.9/78.5/83.2/87.8}% pkt. obrażeń, strzały: 8.\n\nTags: Główne, Strzelectwo, Nasycalne, Obrażenia, Fizyczne, Energia.",
+			"ptBR": "Custo de energia: {#}\nChance de Golpe de Sorte: 20% (per hit)\nDispara 5 flechas rapidamente. Cada uma causa {33/36.3/39.6/42.9/46.2/49.5/52.8/56.1/59.4/62.7}% de dano.\n\nPontos de combo aumentam o dano e a quantidade de flechas disparadas:\n• 1: {36.3/39.9/43.6/47.2/50.8/54.4/58.1/61.7/65.3/69}% de dano, 6 flechas\n• 2: {40.4/44.5/48.5/52.6/56.6/60.6/64.7/68.7/72.8/76.8}% de dano, 7 flechas\n• 3: {46.2/50.8/55.4/60.1/64.7/69.3/73.9/78.5/83.2/87.8}% de dano, 8 flechas\n\nTags: Principal, Atirador, Imbuível, Dano, Física, Energia.",
+			"ruRU": "Затраты энергии: {#}\nВероятность удачного удара: 20% (per hit)\nВы стремительно выпускаете 5 стрелы, наносящие:стрел, наносящих по {33/36.3/39.6/42.9/46.2/49.5/52.8/56.1/59.4/62.7}% ед. урона.\n\nДополнительные приемы серии увеличивают урон и количество стрел:\n• 1 прием: {36.3/39.9/43.6/47.2/50.8/54.4/58.1/61.7/65.3/69}% ед. урона, 6 стрелы:стрел\n• 2 приема: {40.4/44.5/48.5/52.6/56.6/60.6/64.7/68.7/72.8/76.8}% ед. урона, 7 стрелы:стрел\n• 3 приема: {46.2/50.8/55.4/60.1/64.7/69.3/73.9/78.5/83.2/87.8}% ед. урона, 8 стрелы:стрел\n\nTags: Основное, Стрелок, Насыщение, Урон, Физический урон, Энергия.",
+			"trTR": "Enerji Bedeli: {#}\nŞanslı Vuruş İhtimali: 20% (per hit)\nHızlıca her biri {33/36.3/39.6/42.9/46.2/49.5/52.8/56.1/59.4/62.7}% hasar veren 5 ok at.\n\nKombo Puanları hasarı ve atılan ok sayısını artırır:\n• 1 Puan: {36.3/39.9/43.6/47.2/50.8/54.4/58.1/61.7/65.3/69}% hasar, 6 ok\n• 2 Puan: {40.4/44.5/48.5/52.6/56.6/60.6/64.7/68.7/72.8/76.8}% hasar, 7 ok\n• 3 Puan: {46.2/50.8/55.4/60.1/64.7/69.3/73.9/78.5/83.2/87.8}% hasar, 8 ok\n\nTags: Çekirdek, Nişancı, Aşılanabilir, Hasar, Fiziksel, Enerji.",
+			"zhCN": "能量消耗: {#}\n幸运一击几率: 20% (per hit)\n快速发射 5 支箭矢, 每支造成 {33/36.3/39.6/42.9/46.2/49.5/52.8/56.1/59.4/62.7}% 点伤害。\n\n连击点数会提高伤害并增加箭矢数量:\n• 1点: {36.3/39.9/43.6/47.2/50.8/54.4/58.1/61.7/65.3/69}% 点伤害, 6 支箭矢\n• 2点: {40.4/44.5/48.5/52.6/56.6/60.6/64.7/68.7/72.8/76.8}% 点伤害, 7 支箭矢\n• 3点: {46.2/50.8/55.4/60.1/64.7/69.3/73.9/78.5/83.2/87.8}% 点伤害, 8 支箭矢\n\nTags: 核心, 神射手, 可灌注, 伤害, 物理, 能量.",
+			"zhTW": "能量消耗:{#}\n幸運觸發機率: 20% (per hit)\n連續發射 5 支箭矢,每支造成 {33/36.3/39.6/42.9/46.2/49.5/52.8/56.1/59.4/62.7}% 點傷害。\n\n連擊點數會提高傷害與射出的箭矢數量:\n• 1 點:{36.3/39.9/43.6/47.2/50.8/54.4/58.1/61.7/65.3/69}% 點傷害,6 支箭矢\n• 2 點:{40.4/44.5/48.5/52.6/56.6/60.6/64.7/68.7/72.8/76.8}% 點傷害,7 支箭矢\n• 3 點:{46.2/50.8/55.4/60.1/64.7/69.3/73.9/78.5/83.2/87.8}% 點傷害,8 支箭矢\n\nTags: 核心, 射手, 可灌注, 傷害, 物理, 能量."
 },
 		id: 32,
 		maxPoints: 5,
@@ -2318,7 +2318,7 @@ Tags: Agility, Trap, Crowd Control, Damage, Physical, Cooldown.`,
 	"Enhanced Caltrops": {
 		baseSkill: "Caltrops",
 		connections: [ "Caltrops", "Methodical Caltrops", "Disciplined Caltrops" ],
-		description: `Enemies in Caltrops take x10% increased damage from you, increased by x5% each second.`,
+		description: `Enemies in Caltrops take x10% increased damage from you, increased by x5% each second, up to x45%`,
 		nameLocalized: {
 			"deDE": "Verbesserte Krähenfüße",
 			"esES": "Abrojos mejorados",
@@ -2335,19 +2335,19 @@ Tags: Agility, Trap, Crowd Control, Damage, Physical, Cooldown.`,
 			"zhTW": "強化釘爪刺"
 },
 		descriptionLocalized: {
-			"deDE": "Gegner in Krähenfüßen erleiden x10% erhöhten Schaden durch Euch, der sich jede Sekunde um x5% erhöht.",
-			"esES": "Infliges un x10% más de daño a los enemigos que estén en el interior de los abrojos. Esta cantidad aumenta un x5% por segundo.",
-			"esMX": "Los enemigos en los Abrojos reciben x10% más de daño de tu parte, aumenta un x5% por segundo.",
-			"frFR": "Vous infligez aux adversaires pris dans des chausses-trappes x10% de dégâts supplémentaires, plus x5% par seconde.",
-			"itIT": "I nemici nell'area dei Triboli subiscono il x10% di danni aggiuntivi da parte tua, che aumentano del x5% ogni secondo.",
-			"jaJP": "〈鉄菱〉の範囲内の敵に対して自身の与えるダメージがx10%増加する。毎秒x5%増加する。",
-			"koKR": "쇠못 덫에 있는 적에게 주는 피해가 x10% 증가하고, 매초 x5%만큼 추가로 증가합니다.",
-			"plPL": "Wrogowie w Kolczatkach odnoszą obrażenia zwiększone o x10% od twoich ataków. Obrażenia te zwiększają się o x5% na sek.",
-			"ptBR": "Inimigos em Estrepes recebem x10% a mais de dano de você, com aumento de x5% a cada segundo.",
-			"ruRU": "Враги в области действия \"Шипов\" получают от вас на x10% больше урона. Бонус увеличивается на x5% каждую секунду.",
-			"trTR": "İğnelerdeki düşmanlar, senden x10% artırılmış hasar alır ve bu her saniye x5% artar.",
-			"zhCN": "敌人在铁蒺藜范围内时, 受到来自你的伤害提高 x5%, 每秒提高 x10%。",
-			"zhTW": "你對釘爪刺範圍內敵人造成的傷害提高 x10%,每秒會再提高 x5%。"
+			"deDE": "Gegner in Krähenfüßen erleiden x10% erhöhten Schaden durch Euch, der sich jede Sekunde um x5% bis maximal x45% erhöht.",
+			"esES": "Infliges un x10% más de daño a los enemigos que estén en el interior de los abrojos. Esta cantidad aumenta un x5% por segundo, hasta un máximo de un x45%.",
+			"esMX": "Los enemigos en los Abrojos reciben un x10% más de daño de tu parte, el cual aumenta un x5% por segundo, hasta un máximo de x45%.",
+			"frFR": "Vous infligez aux cibles adverses prises dans des chausse-trappes x10% de dégâts supplémentaires, plus x5% par seconde jusqu'à un maximum de x45%.",
+			"itIT": "I nemici nell'area dei Triboli subiscono il x10% di danni aggiuntivi da parte tua, che aumentano del x5% ogni secondo, fino al x45%.",
+			"jaJP": "〈鉄菱〉の範囲内の敵に対して自身の与えるダメージがx10%増加する。毎秒x5%、最大x45%まで増加する。",
+			"koKR": "쇠못 덫에 걸린 적에게 주는 피해가 x10% 증가하고, 매초 x5%만큼 최대 x45%까지 추가로 증가합니다.",
+			"plPL": "Wrogowie w Kolczatkach odnoszą obrażenia zwiększone o x10% od twoich ataków. Obrażenia te zwiększają się o x5% na sek., maksymalnie o x45%.",
+			"ptBR": "Inimigos em Estrepes recebem x10% a mais de dano de você, com aumento de x5% a cada segundo, até um máximo de x45%.",
+			"ruRU": "Враги в области действия \"Шипов\" получают от вас на x10% больше урона. Бонус увеличивается на x5% каждую секунду вплоть до x45%.",
+			"trTR": "İğnelerdeki düşmanlar, senden x10% artırılmış hasar alır ve bu en fazla x45% olmak üzere her saniye x5% artar.",
+			"zhCN": "敌人在铁蒺藜范围内时,受到来自你的伤害提高 x5%,每秒提高 x10%,最高提升x45%。",
+			"zhTW": "你對釘爪刺範圍內敵人造成的傷害提高 x10%,每秒會再提高 x5%,最多提高至 x45%。"
 },
 		id: 54,
 		maxPoints: 1,
@@ -4564,7 +4564,7 @@ Tags: Vulnerable, Crowd Control, Critical Strikes, Trap.`,
 		description: `Attack Speed Multiplier: 1.15
 Cooldown: 55 seconds
 Lucky Hit Chance: 2% (per hit)
-Arrows rain down over a large area 2 times, each wave dealing 100% damage.
+Arrows rain down over a large area 2 times, each wave dealing 110% damage.
 
 Tags: Ultimate, Marksman, Imbueable, Damage, Physical, Cooldown.`,
 		nameLocalized: {
@@ -4583,19 +4583,19 @@ Tags: Ultimate, Marksman, Imbueable, Damage, Physical, Cooldown.`,
 			"zhTW": "箭雨"
 },
 		descriptionLocalized: {
-			"deDE": "Attack Speed Multiplier: 1.15\nAbklingzeit: 55 Sek.\nGlückstrefferchance: 2% (per hit)\nPfeile regnen 2-mal auf ein großes Gebiet herab, wobei jede Welle 100% Schaden verursacht.\n\nTags: Ultimativ, Präzision, Infusionsfähig, Schaden, Physisch, Abklingzeit.",
-			"esES": "Attack Speed Multiplier: 1.15\nTiempo de reutilización: 55 s\nProbabilidad de golpe de suerte: 2% (per hit)\nCae una lluvia de flechas en una gran zona 2 veces. Cada oleada inflige 100% de daño.\n\nTags: Definitiva, Tirador, Imbuible, Daño, Física, Tiempo de reutilización.",
-			"esMX": "Attack Speed Multiplier: 1.15\nRecuperación: 55 segundos\nProbabilidad de golpe afortunado: 2% (per hit)\nHaces llover flechas sobre un área grande 2 veces, y cada ola inflige 100% de daño.\n\nTags: Máxima, Tirador, Imbuible, Daño, Física, Recuperación.",
-			"frFR": "Attack Speed Multiplier: 1.15\nTemps de recharge: 55 s\nChances d'obtenir un coup de chance: 2% (per hit)\nVous faites pleuvoir des flèches sur une large zone à 2 reprises, chaque vague infligeant 100% points de dégâts.\n\nTags: Ultime, Tir d'élite, Imprégnable, Dégâts, Dégâts physiques, Temps de recharge.",
-			"itIT": "Attack Speed Multiplier: 1.15\nTempo di recupero: 55 s\nProbabilità di colpo fortunato: 2% (per hit)\nFrecce piovono su un'ampia area per 2 volte, infliggendo 100% danni a ogni ondata.\n\nTags: Ultra, Tiro di precisione, Infondibile, Danni, Fisico, Tempo di recupero.",
-			"jaJP": "Attack Speed Multiplier: 1.15\nクールダウン: 55秒\n幸運の一撃発生率: 2% (per hit)\n広範囲に矢の雨が2回にわたって降り注ぎ、1回ごとに100%のダメージを与える。\n\nTags: 奥義, 射手, 注入可能, ダメージ, 物理, クールダウン.",
-			"koKR": "Attack Speed Multiplier: 1.15\n재사용 대기시간: 55초\n행운의 적중 확률: 2% (per hit)\n넓은 지역에 화살비가 2번 쏟아져, 각각 100%의 피해를 줍니다.\n\nTags: 궁극기, 명사수, 주입 가능, 피해, 물리, 재사용 대기시간.",
-			"plPL": "Attack Speed Multiplier: 1.15\nCzas odnowienia: 55 sek.\nSzansa na szczęśliwy traf: 2% (per hit)\nStrzały spadają falami na duży obszar 2 razy, a każda fala zadaje 100% pkt. obrażeń.\n\nTags: Specjalne, Strzelectwo, Nasycalne, Obrażenia, Fizyczne, Odnowienie.",
-			"ptBR": "Attack Speed Multiplier: 1.15\nRecarga: 55 s\nChance de Golpe de Sorte: 2% (per hit)\nFlechas são disparadas em uma grande área 2 vezes. Cada onda causa 100% de dano.\n\nTags: Suprema, Atirador, Imbuível, Dano, Física, Recarga.",
-			"ruRU": "Attack Speed Multiplier: 1.15\nВремя восстановления: 55 сек.\nВероятность удачного удара: 2% (per hit)\nГрад стрел поражает широкую область 2 залпами, которые наносят по 100% ед. урона.\n\nTags: Мощное умение, Стрелок, Насыщение, Урон, Физический урон, Время восстановления.",
-			"trTR": "Attack Speed Multiplier: 1.15\nBekleme Süresi: 55 saniye\nŞanslı Vuruş İhtimali: 2% (per hit)\nOklar geniş bir bölgeye 2 kez yağmur gibi yağar ve her dalga 100% hasar verir.\n\nTags: Ulti, Nişancı, Aşılanabilir, Hasar, Fiziksel, Bekleme Süresi.",
-			"zhCN": "Attack Speed Multiplier: 1.15\n冷却时间: 55 秒\n幸运一击几率: 2% (per hit)\n箭矢如雨一般在大范围内落下 2 次, 每波造成 100% 点伤害。\n\nTags: 终极技能, 神射手, 可灌注, 伤害, 物理, 冷却时间.",
-			"zhTW": "Attack Speed Multiplier: 1.15\n冷卻時間:55 秒\n幸運觸發機率: 2% (per hit)\n降下 2 波大範圍的箭雨,每波造成 100% 點傷害。\n\nTags: 絕招, 射手, 可灌注, 傷害, 物理, 冷卻時間."
+			"deDE": "Attack Speed Multiplier: 1.15\nAbklingzeit: 55 Sek.\nGlückstrefferchance: 2% (per hit)\nPfeile regnen 2-mal auf ein großes Gebiet herab, wobei jede Welle 110% Schaden verursacht.\n\nTags: Ultimativ, Präzision, Infusionsfähig, Schaden, Physisch, Abklingzeit.",
+			"esES": "Attack Speed Multiplier: 1.15\nTiempo de reutilización: 55 s\nProbabilidad de golpe de suerte: 2% (per hit)\nCae una lluvia de flechas en una gran zona 2 veces. Cada oleada inflige 110% de daño.\n\nTags: Definitiva, Tirador, Imbuible, Daño, Física, Tiempo de reutilización.",
+			"esMX": "Attack Speed Multiplier: 1.15\nRecuperación: 55 segundos\nProbabilidad de golpe afortunado: 2% (per hit)\nHaces llover flechas sobre un área grande 2 veces, y cada ola inflige 110% de daño.\n\nTags: Máxima, Tirador, Imbuible, Daño, Física, Recuperación.",
+			"frFR": "Attack Speed Multiplier: 1.15\nTemps de recharge: 55 s\nChances d'obtenir un coup de chance: 2% (per hit)\nVous faites pleuvoir des flèches sur une large zone à 2 reprises, chaque vague infligeant 110% points de dégâts.\n\nTags: Ultime, Tir d'élite, Imprégnable, Dégâts, Dégâts physiques, Temps de recharge.",
+			"itIT": "Attack Speed Multiplier: 1.15\nTempo di recupero: 55 s\nProbabilità di colpo fortunato: 2% (per hit)\nFrecce piovono su un'ampia area per 2 volte, infliggendo 110% danni a ogni ondata.\n\nTags: Ultra, Tiro di precisione, Infondibile, Danni, Fisico, Tempo di recupero.",
+			"jaJP": "Attack Speed Multiplier: 1.15\nクールダウン: 55秒\n幸運の一撃発生率: 2% (per hit)\n広範囲に矢の雨が2回にわたって降り注ぎ、1回ごとに110%のダメージを与える。\n\nTags: 奥義, 射手, 注入可能, ダメージ, 物理, クールダウン.",
+			"koKR": "Attack Speed Multiplier: 1.15\n재사용 대기시간: 55초\n행운의 적중 확률: 2% (per hit)\n넓은 지역에 화살비가 2번 쏟아져, 각각 110%의 피해를 줍니다.\n\nTags: 궁극기, 명사수, 주입 가능, 피해, 물리, 재사용 대기시간.",
+			"plPL": "Attack Speed Multiplier: 1.15\nCzas odnowienia: 55 sek.\nSzansa na szczęśliwy traf: 2% (per hit)\nStrzały spadają falami na duży obszar 2 razy, a każda fala zadaje 110% pkt. obrażeń.\n\nTags: Specjalne, Strzelectwo, Nasycalne, Obrażenia, Fizyczne, Odnowienie.",
+			"ptBR": "Attack Speed Multiplier: 1.15\nRecarga: 55 s\nChance de Golpe de Sorte: 2% (per hit)\nFlechas são disparadas em uma grande área 2 vezes. Cada onda causa 110% de dano.\n\nTags: Suprema, Atirador, Imbuível, Dano, Física, Recarga.",
+			"ruRU": "Attack Speed Multiplier: 1.15\nВремя восстановления: 55 сек.\nВероятность удачного удара: 2% (per hit)\nГрад стрел поражает широкую область 2 залпами, которые наносят по 110% ед. урона.\n\nTags: Мощное умение, Стрелок, Насыщение, Урон, Физический урон, Время восстановления.",
+			"trTR": "Attack Speed Multiplier: 1.15\nBekleme Süresi: 55 saniye\nŞanslı Vuruş İhtimali: 2% (per hit)\nOklar geniş bir bölgeye 2 kez yağmur gibi yağar ve her dalga 110% hasar verir.\n\nTags: Ulti, Nişancı, Aşılanabilir, Hasar, Fiziksel, Bekleme Süresi.",
+			"zhCN": "Attack Speed Multiplier: 1.15\n冷却时间: 55 秒\n幸运一击几率: 2% (per hit)\n箭矢如雨一般在大范围内落下 2 次, 每波造成 110% 点伤害。\n\nTags: 终极技能, 神射手, 可灌注, 伤害, 物理, 冷却时间.",
+			"zhTW": "Attack Speed Multiplier: 1.15\n冷卻時間:55 秒\n幸運觸發機率: 2% (per hit)\n降下 2 波大範圍的箭雨,每波造成 110% 點傷害。\n\nTags: 絕招, 射手, 可灌注, 傷害, 物理, 冷卻時間."
 },
 		id: 112,
 		maxPoints: 1,
@@ -4980,7 +4980,7 @@ Tags: Trap, Grenade, Damage, Physical, Cooldown, Crowd Control, Lucky Hit.`,
 		connections: [ "Key Passive" ],
 		description: `When you cast a Marksman Skill, you gain a stack of Precision. You gain an additional stack if that Skill Critically Strikes, once per cast.
 
-When you reach 6 stacks of Precision, your next Marksman Ultimate or Core Skill is a guaranteed Critical Strike and deals x50% increased Critical Strike Damage, consuming all stacks of Precision. This damage is further increased by x15% of your Critical Strike Damage bonus.
+When you reach 4 stacks of Precision, your next Marksman Ultimate or Core Skill is a guaranteed Critical Strike and deals x50% increased Critical Strike Damage, consuming all stacks of Precision. This damage is further increased by x15% of your Critical Strike Damage bonus.
 
 Tags: Marksman, Critical Strikes, Damage.`,
 		nameLocalized: {
@@ -4999,19 +4999,19 @@ Tags: Marksman, Critical Strikes, Damage.`,
 			"zhTW": "精準射擊"
 },
 		descriptionLocalized: {
-			"deDE": "Wirkt Ihr eine Präzisionsfertigkeit, erhaltet Ihr einen Stapel Präzision. Trifft die Fertigkeit kritisch, erhaltet Ihr einmal pro Einsatz einen zusätzlichen Stapel.\n\nErlangt Ihr 6 Stapel Präzision, trifft Eure nächste ultimative oder Kern-Präzisionsfertigkeit garantiert kritisch und verursacht x50% erhöhten kritischen Trefferschaden, wobei alle Stapel Präzision verbraucht werden. Dieser Schaden wird zusätzlich um x15% Eures Schadensbonus für kritische Treffer erhöht.\n\nTags: Präzision, Kritische Treffer, Schaden.",
-			"esES": "Cuando lanzas una habilidad de tirador, obtienes una acumulación de Precisión. Una vez por lanzamiento, obtienes una acumulación más si la habilidad asesta un golpe crítico.\n\nCuando alcanzas 6 acumulaciones de Precisión, tu siguiente habilidad definitiva o principal de tirador es un golpe crítico garantizado que inflige un x50% más de daño de golpe crítico y consume todas las acumulaciones de Precisión. Este daño aumenta también una cantidad equivalente a un x15% de tu bonus de daño de golpe crítico.\n\nTags: Tirador, Golpes críticos, Daño.",
-			"esMX": "Cuando lanzas una habilidad de Tirador, obtienes una acumulación de Precisión. Si esa habilidad asesta un golpe crítico, obtienes una acumulación adicional una vez por lanzamiento.\n\nAl llegar a 6 acumulaciones de Precisión, tu siguiente habilidad máxima o principal de Tirador será un golpe crítico garantizado e infligirá un x50% más de daño de golpe crítico, consumiendo todas las acumulaciones de Precisión. Este daño tiene un aumento adicional del x15% de tu bonificación de daño de golpe crítico.\n\nTags: Tirador, Golpes críticos, Daño.",
-			"frFR": "Lorsque vous lancez une compétence de tir d'élite, vous obtenez un cumul de Précision. Vous obtenez un cumul supplémentaire si la compétence inflige un coup critique (maximum un par utilisation).\n\nLorsque vous atteignez 6 cumuls de Précision, vous consommez ces derniers pour lancer votre prochaine compétence ultime ou principale de tir d'élite, qui est un coup critique garanti infligeant x50% de dégâts critiques supplémentaires. Ces dégâts augmentent également de x15% de votre bonus de dégâts critiques.\n\nTags: Tir d'élite, Coups critiques, Dégâts.",
-			"itIT": "Quando utilizzi un'abilità di Tiro di precisione, ottieni un accumulo di Precisione. Ottieni un accumulo aggiuntivo se quell'abilità infligge danni critici, una volta per utilizzo.\n\nQuando raggiungi 6 accumuli di Precisione, la tua prossima abilità di Tiro di precisione Primaria o Ultra infligge sempre danni critici aumentati del x50%, consumando tutti gli accumuli di Precisione. Questi danni aumentano ulteriormente del x15%del tuo bonus ai danni critici.\n\nTags: Tiro di precisione, Colpi critici, Danni.",
-			"jaJP": "射手スキルを使用すると〈精度〉の蓄積を1つ獲得する。そのスキルがクリティカルヒットになると、使用1回につき〈精度〉の蓄積が1つ追加される。\n\n〈精度〉の蓄積が6に達すると、次に使用した射手の奥義またはコアスキルが必ずクリティカルヒットとなり、蓄積した〈精度〉をすべて消費してx50%上昇したクリティカルヒットダメージを与える。このダメージはさらに自身のクリティカルヒットダメージボーナスのx15%上昇する。\n\nTags: 射手, クリティカルヒット, ダメージ.",
-			"koKR": "명사수 기술을 시전하면 정밀도 중첩을 1개 얻습니다. 해당 기술이 극대화로 적중하면 시전당 한 번 추가 중첩을 얻습니다.\n\n정밀도가 6 중첩에 도달하면 모든 정밀도 중첩을 소모하여 다음 명사수 궁극기 또는 핵심 기술이 확정적으로 극대화로 적중하고, x50% 증가한 극대화 피해를 줍니다. 이 피해는 극대화 피해 증가 효과의 x15%만큼 추가로 증가합니다.\n\nTags: 명사수, 극대화, 피해.",
-			"plPL": "Kiedy używasz umiejętności Strzelectwo, zyskujesz ładunek Precyzji. Zyskujesz dodatkowy ładunek, raz na użycie umiejętności, jeżeli ta umiejętność trafi krytycznie.\n\nGdy zbierzesz 6 ładunki:ładunków Precyzji, twoja kolejna umiejętność Specjalna lub Główna Strzelectwa wywoła gwarantowane trafienie krytyczne i zada przy tym obrażenia od trafień krytycznych zwiększone o x50%, co zużyje wszystkie ładunki Precyzji. Te obrażenia są dodatkowo zwiększone o x15% twojej premii do obrażeń od trafień krytycznych.\n\nTags: Strzelectwo, Trafienia Krytyczne, Obrażenia.",
-			"ptBR": "Quando você lança uma habilidade de Atirador, você recebe um acúmulo de precisão. Um acúmulo adicional é ganho se o acerto for crítico, uma vez por lançamento.\n\nQuando você atinge 6 acúmulos de precisão, sua próxima habilidade suprema ou principal de Atirador é um acerto crítico garantido e causa x50% a mais de dano de acerto crítico, consumindo todos os acúmulos de precisão. O dano aumenta em mais x15% do seu bônus de dano de acerto crítico.\n\nTags: Atirador, Acertos Críticos, Dano.",
-			"ruRU": "Когда вы применяете умение стрелка, вы получаете эффект \"Точность\". Если оно наносит критический удар, вы получаете еще один эффект (не более одного раза за применение).\n\nКогда вы накапливаете 6 эффекта:эффектов \"Точности\", ваше следующее мощное или основное умение стрелка гарантированно наносит критический урон, увеличенный на x50% и еще на x15% бонуса к урону от критических ударов. После этого все эффекты \"Точности\" снимаются.\n\nTags: Стрелок, Критические удары, Урон.",
-			"trTR": "Bir Nişancı Yeteneği kullandığında İsabet yığını kazanırsın. O Yetenek Kritik Vuruş yaparsa kullanım başına ek bir yığın daha kazanırsın.\n\n6 İsabet yığınına ulaştığında sonraki Nişancı Ultin veya Çekirdek Yeteneğin garanti olarak Kritik Vuruş olur ve x50% artırılmış Kritik Vuruş Hasarı vererek tüm İsabet yığınlarını harcar. Bu hasar, Kritik Vuruş Hasar bonusunun x15% kadarı ile daha da artırılır.\n\nTags: Nişancı, Kritik Vuruşlar, Hasar.",
-			"zhCN": "当你施放神射手技能时, 你获得一层精准。该技能暴击时, 你获得额外一层, 每次施放触发一次。\n\n当你达到 6 层精准时, 你的下一个神射手终极技能或核心技能必定暴击, 造成的暴击伤害提高 x50%, 并消耗所有精准层数。此伤害可以进一步按你的暴击伤害加成的 x15% 获得提高。\n\nTags: 神射手, 暴击, 伤害.",
-			"zhTW": "當你施放射手技能時,可獲得一層精準射擊效果。若是該技能爆擊,再額外獲得一層效果(每次施放觸發一次)。\n\n達到 6 層精準射擊時,你的下一次射手絕招或核心技能必定爆擊,額外造成 x50% 爆擊傷害,並消耗所有精準射擊的堆疊層數。此傷害會進一步提高,等同你爆擊傷害加成的 x15%。\n\nTags: 射手, 爆擊, 傷害."
+			"deDE": "Wirkt Ihr eine Präzisionsfertigkeit, erhaltet Ihr einen Stapel Präzision. Trifft die Fertigkeit kritisch, erhaltet Ihr einmal pro Einsatz einen zusätzlichen Stapel.\n\nErlangt Ihr 4 Stapel Präzision, trifft Eure nächste ultimative oder Kern-Präzisionsfertigkeit garantiert kritisch und verursacht x50% erhöhten kritischen Trefferschaden, wobei alle Stapel Präzision verbraucht werden. Dieser Schaden wird zusätzlich um x15% Eures Schadensbonus für kritische Treffer erhöht.\n\nTags: Präzision, Kritische Treffer, Schaden.",
+			"esES": "Cuando lanzas una habilidad de tirador, obtienes una acumulación de Precisión. Una vez por lanzamiento, obtienes una acumulación más si la habilidad asesta un golpe crítico.\n\nCuando alcanzas 4 acumulaciones de Precisión, tu siguiente habilidad definitiva o principal de tirador es un golpe crítico garantizado que inflige un x50% más de daño de golpe crítico y consume todas las acumulaciones de Precisión. Este daño aumenta también una cantidad equivalente a un x15% de tu bonus de daño de golpe crítico.\n\nTags: Tirador, Golpes críticos, Daño.",
+			"esMX": "Cuando lanzas una habilidad de Tirador, obtienes una acumulación de Precisión. Si esa habilidad asesta un golpe crítico, obtienes una acumulación adicional una vez por lanzamiento.\n\nAl llegar a 4 acumulaciones de Precisión, tu siguiente habilidad máxima o principal de Tirador será un golpe crítico garantizado e infligirá un x50% más de daño de golpe crítico, consumiendo todas las acumulaciones de Precisión. Este daño tiene un aumento adicional del x15% de tu bonificación de daño de golpe crítico.\n\nTags: Tirador, Golpes críticos, Daño.",
+			"frFR": "Lorsque vous lancez une compétence de tir d'élite, vous obtenez un cumul de Précision. Vous obtenez un cumul supplémentaire si la compétence inflige un coup critique (maximum un par utilisation).\n\nLorsque vous atteignez 4 cumuls de Précision, vous consommez ces derniers pour lancer votre prochaine compétence ultime ou principale de tir d'élite, qui est un coup critique garanti infligeant x50% de dégâts critiques supplémentaires. Ces dégâts augmentent également de x15% de votre bonus de dégâts critiques.\n\nTags: Tir d'élite, Coups critiques, Dégâts.",
+			"itIT": "Quando utilizzi un'abilità di Tiro di precisione, ottieni un accumulo di Precisione. Ottieni un accumulo aggiuntivo se quell'abilità infligge danni critici, una volta per utilizzo.\n\nQuando raggiungi 4 accumuli di Precisione, la tua prossima abilità di Tiro di precisione Primaria o Ultra infligge sempre danni critici aumentati del x50%, consumando tutti gli accumuli di Precisione. Questi danni aumentano ulteriormente del x15%del tuo bonus ai danni critici.\n\nTags: Tiro di precisione, Colpi critici, Danni.",
+			"jaJP": "射手スキルを使用すると〈精度〉の蓄積を1つ獲得する。そのスキルがクリティカルヒットになると、使用1回につき〈精度〉の蓄積が1つ追加される。\n\n〈精度〉の蓄積が4に達すると、次に使用した射手の奥義またはコアスキルが必ずクリティカルヒットとなり、蓄積した〈精度〉をすべて消費してx50%上昇したクリティカルヒットダメージを与える。このダメージはさらに自身のクリティカルヒットダメージボーナスのx15%上昇する。\n\nTags: 射手, クリティカルヒット, ダメージ.",
+			"koKR": "명사수 기술을 시전하면 정밀도 중첩을 1개 얻습니다. 해당 기술이 극대화로 적중하면 시전당 한 번 추가 중첩을 얻습니다.\n\n정밀도가 4 중첩에 도달하면 모든 정밀도 중첩을 소모하여 다음 명사수 궁극기 또는 핵심 기술이 확정적으로 극대화로 적중하고, x50% 증가한 극대화 피해를 줍니다. 이 피해는 극대화 피해 증가 효과의 x15%만큼 추가로 증가합니다.\n\nTags: 명사수, 극대화, 피해.",
+			"plPL": "Kiedy używasz umiejętności Strzelectwo, zyskujesz ładunek Precyzji. Zyskujesz dodatkowy ładunek, raz na użycie umiejętności, jeżeli ta umiejętność trafi krytycznie.\n\nGdy zbierzesz 4 ładunki:ładunków Precyzji, twoja kolejna umiejętność Specjalna lub Główna Strzelectwa wywoła gwarantowane trafienie krytyczne i zada przy tym obrażenia od trafień krytycznych zwiększone o x50%, co zużyje wszystkie ładunki Precyzji. Te obrażenia są dodatkowo zwiększone o x15% twojej premii do obrażeń od trafień krytycznych.\n\nTags: Strzelectwo, Trafienia Krytyczne, Obrażenia.",
+			"ptBR": "Quando você lança uma habilidade de Atirador, você recebe um acúmulo de precisão. Um acúmulo adicional é ganho se o acerto for crítico, uma vez por lançamento.\n\nQuando você atinge 4 acúmulos de precisão, sua próxima habilidade suprema ou principal de Atirador é um acerto crítico garantido e causa x50% a mais de dano de acerto crítico, consumindo todos os acúmulos de precisão. O dano aumenta em mais x15% do seu bônus de dano de acerto crítico.\n\nTags: Atirador, Acertos Críticos, Dano.",
+			"ruRU": "Когда вы применяете умение стрелка, вы получаете эффект \"Точность\". Если оно наносит критический удар, вы получаете еще один эффект (не более одного раза за применение).\n\nКогда вы накапливаете 4 эффекта:эффектов \"Точности\", ваше следующее мощное или основное умение стрелка гарантированно наносит критический урон, увеличенный на x50% и еще на x15% бонуса к урону от критических ударов. После этого все эффекты \"Точности\" снимаются.\n\nTags: Стрелок, Критические удары, Урон.",
+			"trTR": "Bir Nişancı Yeteneği kullandığında İsabet yığını kazanırsın. O Yetenek Kritik Vuruş yaparsa kullanım başına ek bir yığın daha kazanırsın.\n\n4 İsabet yığınına ulaştığında sonraki Nişancı Ultin veya Çekirdek Yeteneğin garanti olarak Kritik Vuruş olur ve x50% artırılmış Kritik Vuruş Hasarı vererek tüm İsabet yığınlarını harcar. Bu hasar, Kritik Vuruş Hasar bonusunun x15% kadarı ile daha da artırılır.\n\nTags: Nişancı, Kritik Vuruşlar, Hasar.",
+			"zhCN": "当你施放神射手技能时, 你获得一层精准。该技能暴击时, 你获得额外一层, 每次施放触发一次。\n\n当你达到 4 层精准时, 你的下一个神射手终极技能或核心技能必定暴击, 造成的暴击伤害提高 x50%, 并消耗所有精准层数。此伤害可以进一步按你的暴击伤害加成的 x15% 获得提高。\n\nTags: 神射手, 暴击, 伤害.",
+			"zhTW": "當你施放射手技能時,可獲得一層精準射擊效果。若是該技能爆擊,再額外獲得一層效果(每次施放觸發一次)。\n\n達到 4 層精準射擊時,你的下一次射手絕招或核心技能必定爆擊,額外造成 x50% 爆擊傷害,並消耗所有精準射擊的堆疊層數。此傷害會進一步提高,等同你爆擊傷害加成的 x15%。\n\nTags: 射手, 爆擊, 傷害."
 },
 		id: 122,
 		maxPoints: 1,

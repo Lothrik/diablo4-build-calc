@@ -4280,7 +4280,7 @@ let paragonData = {
 					"ruRU": "Кровоизлияние",
 					"trTR": "Kan Kaybı",
 					"zhCN": "出血",
-					"zhTW": "出血"
+					"zhTW": "大出血"
 				},
 				"descriptionLocalized": {
 					"deDE": "Euer Blutungsschaden ist um x15% Eures Schadensbonus gegen Verwundbare Ziele erhöht.\n\nTags: Blutung, Schaden.",
@@ -6019,7 +6019,7 @@ let paragonData = {
 			"ParagonGlyph_026": {
 				"name": "Executioner",
 				"desc": "For every 5 Strength purchased within range, you deal +{1.333/1.533/1.733/1.933/2.133/2.333/2.533/2.733/2.933/3.133/3.333/3.533/3.733/3.933/4.133/4.333/4.533/4.733/4.933/5.133/5.333}% increased damage while wielding a Polearm.",
-				"bonus": "While wielding a Polearm, you deal x10% increased damage to Healthy or Injured enemies.",
+				"bonus": "While wielding a Polearm, you deal x10% increased damage.",
 				"nameLocalized": {
 					"deDE": "Scharfrichter",
 					"esES": "Verdugo",
@@ -6051,19 +6051,19 @@ let paragonData = {
 					"zhTW": "在範圍內每購買 5 點力量,使用長柄武器時造成的傷害就會提高 {1.333/1.533/1.733/1.933/2.133/2.333/2.533/2.733/2.933/3.133/3.333/3.533/3.733/3.933/4.133/4.333/4.533/4.733/4.933/5.133/5.333}%。"
 				},
 				"bonusLocalized": {
-					"deDE": "Wenn Ihr eine Stangenwaffe führt, fügt Ihr gesunden oder verletzten Gegnern x10% mehr Schaden zu.",
-					"esES": "Al usar un arma de asta, infliges un x10% más de daño a enemigos saludables o heridos.",
-					"esMX": "Cuando usas un arma de asta, infliges un x10% de daño a los enemigos saludables o heridos.",
-					"frFR": "Lorsque vous maniez une arme d'hast, vous infligez x10% de dégâts supplémentaires aux cibles en bonne santé et aux cibles blessées.",
-					"itIT": "Se usi un'arma in asta, infliggi il x10% di danni aggiuntivi ai nemici in salute o feriti.",
-					"jaJP": "長柄武器を装備していると、健全または負傷状態の敵に与えるダメージがx10%増加する。",
-					"koKR": "미늘창 사용 시 건강 또는 부상 상태의 적에게 주는 피해가 x10% 증가합니다.",
-					"plPL": "Kiedy dzierżysz broń drzewcową, zadajesz obrażenia zwiększone o x10% wrogom w pełni sił lub okaleczonym.",
-					"ptBR": "Ao usar uma arma de haste, você causa x10% de dano aumentado a inimigos saudáveis ou feridos.",
-					"ruRU": "При использовании древкового оружия вы наносите на x10% больше урона целям с высоким или низким уровнем здоровья.",
-					"trTR": "Gönderli Silah kullanırken Sağlıklı veya Yaralı düşmanlara x10% artırılmış hasar verirsin.",
-					"zhCN": "装备长柄武器时, 你对健康或受伤敌人造成的伤害提高 x10%。",
-					"zhTW": "使用長柄武器時,你對健康或受傷敵人造成的傷害提高 x10%。"
+					"deDE": "Wenn Ihr eine Stangenwaffe führt, verursacht Ihr x10% mehr Schaden.",
+					"esES": "Al usar un arma de asta, infliges un x10% más de daño.",
+					"esMX": "Cuando usas un arma de asta, infliges un x10% más de daño.",
+					"frFR": "Lorsque vous maniez une arme d'hast, vous infligez x10% de dégâts supplémentaires.",
+					"itIT": "Se usi un'arma in asta, infliggi il x10% di danni aggiuntivi.",
+					"jaJP": "長柄武器を装備していると、与えるダメージがx10%増加する。",
+					"koKR": "미늘창 사용 시 주는 피해가 x10% 증가합니다.",
+					"plPL": "Kiedy dzierżysz broń drzewcową, zadajesz obrażenia zwiększone o x10%.",
+					"ptBR": "Ao usar uma arma de haste, você causa x10% a mais de dano.",
+					"ruRU": "При использовании древкового оружия вы наносите на x10% больше урона.",
+					"trTR": "Gönderli Silah kullanırken x10% artırılmış hasar verirsin.",
+					"zhCN": "装备长柄武器时,你造成的伤害提高 x10%。",
+					"zhTW": "使用長柄武器時,你造成的傷害提高 x10%。"
 				},
 				"thresholdRequirements": "40 Strength"
 			},
@@ -22914,7 +22914,7 @@ let paragonData = {
 		"Node": {
 			"Necromancer_Legendary_001": {
 				"name": "Cult Leader",
-				"description": "Your Minions deal x10% increased damage for each 20% of Attack Speed Bonus they have.\n\nTags: Minion, Damage.",
+				"description": "Your Minions deal x15% increased damage for each 20% of Attack Speed Bonus they have.\n\nTags: Minion, Damage.",
 				"nameLocalized": {
 					"deDE": "Kultanführer",
 					"esES": "Líder del Culto",
@@ -22931,19 +22931,19 @@ let paragonData = {
 					"zhTW": "邪教首領"
 				},
 				"descriptionLocalized": {
-					"deDE": "Eure Diener verursachen x10% erhöhten Schaden pro 20% Angriffsgeschwindigkeitsbonus, den sie haben.\n\nTags: Diener, Schaden.",
-					"esES": "Tus esbirros infligen un x10% más de daño por cada 20% de bonus de velocidad de ataque que tienes.\n\nTags: Esbirro, Daño.",
-					"esMX": "Tus esbirros infligen un x10% más de daño por cada 20% de bonificación de velocidad de ataque que tengan.\n\nTags: Esbirro, Daño.",
-					"frFR": "Vos serviteurs infligent x10% de dégâts supplémentaires par tranche de 20% du bonus de vitesse d'attaque dont ils bénéficient.\n\nTags: Serviteur, Dégâts.",
-					"itIT": "I tuoi servitori infliggono il x10% di danni aggiuntivi per ogni 20% di bonus alla velocità d'attacco che possiedono.\n\nTags: Servitori, Danni.",
-					"jaJP": "ミニオンのダメージが、その攻撃速度ボーナスの20%ごとにx10%上昇する。\n\nTags: ミニオン, ダメージ.",
-					"koKR": "하수인이 얻은 추가 공격 속도 20%마다 하수인이 주는 피해가 x10% 증가합니다.\n\nTags: 하수인, 피해.",
-					"plPL": "Twoje sługi zadają obrażenia zwiększone o x10% za każde 20% posiadanej premii do szybkości ataku.\n\nTags: Sługa, Obrażenia.",
-					"ptBR": "Seus lacaios causam x10% a mais de dano para cada 20% de bônus de velocidade de ataque que tiverem.\n\nTags: Lacaio, Dano.",
-					"ruRU": "Ваши прислужники наносят на x10% больше урона за каждые 20% своей дополнительной скорости атаки.\n\nTags: Прислужник, Урон.",
-					"trTR": "Yardakçıların, sahip oldukları her 20% Saldırı Hızı Bonusu için x10% artırılmış hasar kazanır.\n\nTags: Yardakçı, Hasar.",
-					"zhCN": "你的仆从每拥有 20% 点攻击速度加成, 造成的伤害提高 x10%。\n\nTags: 爪牙, 伤害.",
-					"zhTW": "你的僕從每擁有 20% 的攻擊速度加成,造成的傷害就會提高 x10%。\n\nTags: 僕從, 傷害."
+					"deDE": "Eure Diener verursachen x15% erhöhten Schaden pro 20% Angriffsgeschwindigkeitsbonus, den sie haben.\n\nTags: Diener, Schaden.",
+					"esES": "Tus esbirros infligen un x15% más de daño por cada 20% de bonus de velocidad de ataque que tienes.\n\nTags: Esbirro, Daño.",
+					"esMX": "Tus esbirros infligen un x15% más de daño por cada 20% de bonificación de velocidad de ataque que tengan.\n\nTags: Esbirro, Daño.",
+					"frFR": "Vos serviteurs infligent x15% de dégâts supplémentaires par tranche de 20% du bonus de vitesse d'attaque dont ils bénéficient.\n\nTags: Serviteur, Dégâts.",
+					"itIT": "I tuoi servitori infliggono il x15% di danni aggiuntivi per ogni 20% di bonus alla velocità d'attacco che possiedono.\n\nTags: Servitori, Danni.",
+					"jaJP": "ミニオンのダメージが、その攻撃速度ボーナスの20%ごとにx15%上昇する。\n\nTags: ミニオン, ダメージ.",
+					"koKR": "하수인이 얻은 추가 공격 속도 20%마다 하수인이 주는 피해가 x15% 증가합니다.\n\nTags: 하수인, 피해.",
+					"plPL": "Twoje sługi zadają obrażenia zwiększone o x15% za każde 20% posiadanej premii do szybkości ataku.\n\nTags: Sługa, Obrażenia.",
+					"ptBR": "Seus lacaios causam x15% a mais de dano para cada 20% de bônus de velocidade de ataque que tiverem.\n\nTags: Lacaio, Dano.",
+					"ruRU": "Ваши прислужники наносят на x15% больше урона за каждые 20% своей дополнительной скорости атаки.\n\nTags: Прислужник, Урон.",
+					"trTR": "Yardakçıların, sahip oldukları her 20% Saldırı Hızı Bonusu için x15% artırılmış hasar kazanır.\n\nTags: Yardakçı, Hasar.",
+					"zhCN": "你的仆从每拥有 20% 点攻击速度加成, 造成的伤害提高 x15%。\n\nTags: 爪牙, 伤害.",
+					"zhTW": "你的僕從每擁有 20% 的攻擊速度加成,造成的傷害就會提高 x15%。\n\nTags: 僕從, 傷害."
 				}
 			},
 			"Necromancer_Legendary_005": {
@@ -24580,15 +24580,15 @@ let paragonData = {
 				},
 				"descLocalized": {
 					"deDE": "Für je 5 in Reichweite erworbene Intelligenzpunkte fügt Ihr Gegnern mit Kontrollverlust +{2/2.4/2.8/3.2/3.6/4/4.4/4.8/5.2/5.6/6/6.4/6.8/7.2/7.6/8/8.4/8.8/9.2/9.6/10}% Schaden zu.",
-					"esES": "Por cada 5 de inteligencia adquirida al alcance, infliges un {2/2.4/2.8/3.2/3.6/4/4.4/4.8/5.2/5.6/6/6.4/6.8/7.2/7.6/8/8.4/8.8/9.2/9.6/10}% más de daño a objetivos afectados por control de masas.",
+					"esES": "Por cada 5 de intel. lograda al alcance, infliges un {2/2.4/2.8/3.2/3.6/4/4.4/4.8/5.2/5.6/6/6.4/6.8/7.2/7.6/8/8.4/8.8/9.2/9.6/10}% + de daño a objet. afectados por ctrl. de masas.",
 					"esMX": "Por cada 5 de Inteligencia adquirida dentro del alcance, infliges un +{2/2.4/2.8/3.2/3.6/4/4.4/4.8/5.2/5.6/6/6.4/6.8/7.2/7.6/8/8.4/8.8/9.2/9.6/10}% más de daño a objetivos bajo los efectos de control de multitudes.",
 					"frFR": "Pour chaque tranche de 5 points d'intelligence achetés à l'intérieur de l'ensemble, vous infligez +{2/2.4/2.8/3.2/3.6/4/4.4/4.8/5.2/5.6/6/6.4/6.8/7.2/7.6/8/8.4/8.8/9.2/9.6/10}% de dégâts aux cibles subissant un effet de perte de contrôle.",
-					"itIT": "Per ogni 5 punti Intelligenza acquistati a portata, infliggi il +{2/2.4/2.8/3.2/3.6/4/4.4/4.8/5.2/5.6/6/6.4/6.8/7.2/7.6/8/8.4/8.8/9.2/9.6/10}% di danni aggiuntivi ai bersagli sotto effetti debilitanti.",
-					"jaJP": "範囲内で知力5が購入されるごとに、操作障害効果を受けた標的に与えるダメージが+{2/2.4/2.8/3.2/3.6/4/4.4/4.8/5.2/5.6/6/6.4/6.8/7.2/7.6/8/8.4/8.8/9.2/9.6/10}%増加する。",
+					"itIT": "Ogni 5 p. Intelligenza acquistati a portata, infliggi il +{2/2.4/2.8/3.2/3.6/4/4.4/4.8/5.2/5.6/6/6.4/6.8/7.2/7.6/8/8.4/8.8/9.2/9.6/10}% di danni in più a bersagli sotto effetti debilitanti.",
+					"jaJP": "範囲内で知力5購入ごとに、操作障害効果を受けた標的に与えるダメージが+{2/2.4/2.8/3.2/3.6/4/4.4/4.8/5.2/5.6/6/6.4/6.8/7.2/7.6/8/8.4/8.8/9.2/9.6/10}%増加する。",
 					"koKR": "범위 내에서 지능을 5 구매할 때마다 군중 제어 효과의 영향을 받는 대상에게 주는 피해가 +{2/2.4/2.8/3.2/3.6/4/4.4/4.8/5.2/5.6/6/6.4/6.8/7.2/7.6/8/8.4/8.8/9.2/9.6/10}% 증가합니다.",
 					"plPL": "Za każde 5 pkt. inteligencji zakupionych w zasięgu zyskujesz premię +{2/2.4/2.8/3.2/3.6/4/4.4/4.8/5.2/5.6/6/6.4/6.8/7.2/7.6/8/8.4/8.8/9.2/9.6/10}% do obrażeń przeciw celom o ograniczonej kontroli.",
 					"ptBR": "A cada 5 de Inteligência comprados em alcance, cause +{2/2.4/2.8/3.2/3.6/4/4.4/4.8/5.2/5.6/6/6.4/6.8/7.2/7.6/8/8.4/8.8/9.2/9.6/10}% de dano aumentado contra alvos sob controle de grupo.",
-					"ruRU": "За каждые 5 ед. интеллекта, открытые в радиусе действия, урон, наносимый целям под действием эффектов контроля, увеличивается на +{2/2.4/2.8/3.2/3.6/4/4.4/4.8/5.2/5.6/6/6.4/6.8/7.2/7.6/8/8.4/8.8/9.2/9.6/10}%.",
+					"ruRU": "За каждые 5 ед. интеллекта, открытые в радиусе действия, урон целям под действием эффектов контроля увеличивается на +{2/2.4/2.8/3.2/3.6/4/4.4/4.8/5.2/5.6/6/6.4/6.8/7.2/7.6/8/8.4/8.8/9.2/9.6/10}%.",
 					"trTR": "Menzilde satın alınan her 5 Zekâ başına Kitle Kontrolü etkisindeki hedeflere +{2/2.4/2.8/3.2/3.6/4/4.4/4.8/5.2/5.6/6/6.4/6.8/7.2/7.6/8/8.4/8.8/9.2/9.6/10}% artırılmış hasar verirsin.",
 					"zhCN": "每购买辐射范围内 5 点智力,你对被控制目标造成的伤害提高 +{2/2.4/2.8/3.2/3.6/4/4.4/4.8/5.2/5.6/6/6.4/6.8/7.2/7.6/8/8.4/8.8/9.2/9.6/10}%。",
 					"zhTW": "在範圍內每購買 5 點智力,你對受控場目標造成的傷害提高 {2/2.4/2.8/3.2/3.6/4/4.4/4.8/5.2/5.6/6/6.4/6.8/7.2/7.6/8/8.4/8.8/9.2/9.6/10}%。"
@@ -24597,14 +24597,14 @@ let paragonData = {
 					"deDE": "Ihr und Eure Diener fügen verlangsamten oder unterkühlten Gegnern x10% mehr Schaden und betäubten oder eingefrorenen Gegnern x20% mehr Schaden zu.",
 					"esES": "Tus esbirros y tú infligís un x10% más de daño a enemigos ralentizados o helados, o bien un x20% más de daño a enemigos aturdidos o congelados.",
 					"esMX": "Tú y tus esbirros infligen un x10% más de daño a enemigos helados o ralentizados, y un x20% más de daño a enemigos congelados o aturdidos.",
-					"frFR": "Vos serviteurs et vous infligez x10% de dégâts supplémentaires aux adversaires ralentis ou glacés, ou alors x20% de dégâts supplémentaires aux adversaires étourdis ou gelés.",
+					"frFR": "Vous et vos serviteurs infligez x10% de dégâts supplémentaires aux cibles ralenties ou glacées, ou x20% de dégâts supplémentaires aux cibles étourdies ou gelées.",
 					"itIT": "Tu e i tuoi servitori infliggete il x10% di danni aggiuntivi ai nemici rallentati o raggelati oppure il x20% di danni aggiuntivi ai nemici storditi o congelati.",
 					"jaJP": "自身と自身のミニオンがスロウまたは冷気状態の敵に与えるダメージがx10%増加する。スタンまたは凍結状態の敵に与えるダメージはx20%増加する。",
 					"koKR": "자신과 자신의 하수인이 감속되거나 오한을 느끼는 적에게 주는 피해가 x10% 증가하거나, 대신 기절 또는 빙결 상태의 적에게 주는 피해가 x20% 증가합니다.",
 					"plPL": "Ty i twoje sługi zadajecie spowolnionym lub wyziębionym wrogom obrażenia zwiększone o x10% albo obrażenia zwiększone o x20% wrogom ogłuszonym lub zamrożonym.",
 					"ptBR": "Você e seus lacaios causam x10% de dano aumentado a inimigos sob lentidão ou gelidez ou, em vez disso, x20% de dano aumentado a inimigos atordoados ou congelados.",
 					"ruRU": "Вы и ваши прислужники наносите на x10% больше урона замедленным и окоченевшим целям или на x20% больше урона оглушенным и замороженным целям.",
-					"trTR": "Sen ve Yardakçıların Yavaşlatılmış veya Soğutma uygulanmış düşmanlara x10% artırılmış hasar verirsiniz veya bunun yerine Sersemletilmiş veya Donmuş düşmanlara x20% artırılmış hasar verirsiniz.",
+					"trTR": "Sen ve Yardakçıların Yavaşlatılmış veya Soğutulmuş düşmanlara x10% artırılmış hasar verirsiniz veya bunun yerine Sersemletilmiş veya Donmuş düşmanlara x20% artırılmış hasar verirsiniz.",
 					"zhCN": "你和你的仆从对被减速或被冻伤的敌人造成的伤害提高 x10%, 或者对被击昏或被冻结的敌人造成的伤害提高 x20%。",
 					"zhTW": "你和僕從對緩速或冰冷目標造成的傷害提高 x10%,或是對昏迷或凍結目標造成的傷害提高 x20%。"
 				},
@@ -24766,7 +24766,7 @@ let paragonData = {
 			"ParagonGlyph_038": {
 				"name": "Corporeal",
 				"desc": "Grants +{30/36/42/48/54/60/66/72/78/84/90/96/102/108/114/120/126/132/138/144/150}% bonus to all Magic nodes within range.",
-				"bonus": "You and your Minions deal x10% increased Physical damage.",
+				"bonus": "You and your Minions deal x10% increased Physical damage and you gain +1% Movement Speed for each active Minion.",
 				"nameLocalized": {
 					"deDE": "Körperlich",
 					"esES": "Corpóreo",
@@ -24798,19 +24798,19 @@ let paragonData = {
 					"zhTW": "範圍內所有魔法節點的效果額外提高 {30/36/42/48/54/60/66/72/78/84/90/96/102/108/114/120/126/132/138/144/150}%。"
 				},
 				"bonusLocalized": {
-					"deDE": "Ihr und Eure Diener verursachen x10% mehr physischen Schaden.",
-					"esES": "Tus esbirros y tú infligís un x10% más de daño físico.",
-					"esMX": "Tú y tus esbirros infligen un x10% más de daño físico.",
-					"frFR": "Vous et vos serviteurs infligez x10% de dégâts physiques supplémentaires.",
-					"itIT": "Tu e i tuoi servitori infliggete il x10% di danni fisici aggiuntivi.",
-					"jaJP": "自身とミニオンの与える物理ダメージがx10%増加する。",
-					"koKR": "자신과 하수인이 주는 물리 피해가 x10% 증가합니다.",
-					"plPL": "Ty i twoje sługi zadajecie obrażenia Fizyczne zwiększone o x10%.",
-					"ptBR": "Você e seus lacaios causam x10% de dano físico aumentado.",
-					"ruRU": "Вы и ваши прислужники наносите на x10% больше физического урона.",
-					"trTR": "Sen ve Yardakçıların x10% artırılmış Fiziksel hasar verirsiniz.",
-					"zhCN": "你和你的仆从造成的物理伤害提高 x10%。",
-					"zhTW": "你與僕從造成的物理傷害提高 x10%。"
+					"deDE": "Ihr und Eure Diener verursacht x10% mehr physischen Schaden und Ihr erhaltet +1% Bewegungsgeschwindigkeit für jeden aktiven Diener.",
+					"esES": "Tus esbirros y tú infligís un x10% más de daño físico y tú obtienes un +1% de velocidad de movimiento por cada esbirro activo.",
+					"esMX": "Tú y tus esbirros infligen un x10% más de daño físico y obtienes un +1% de velocidad de movimiento por cada esbirro activo.",
+					"frFR": "Vous et vos serviteurs infligez x10% de dégâts physiques supplémentaires et vous gagnez +1% de vitesse de déplacement par serviteur actif.",
+					"itIT": "Tu e i tuoi servitori infliggete il x10% di danni fisici aggiuntivi e la tua velocità di movimento aumenta del +1% per ogni servitore attivo.",
+					"jaJP": "自身とミニオンの与える物理ダメージがx10%増加し、使役中のミニオン1体ごとに移動速度が+1%上昇する。",
+					"koKR": "자신과 하수인이 주는 물리 피해가 x10% 증가하고, 활성화된 하수인 하나당 이동 속도가 +1% 증가합니다.",
+					"plPL": "Ty i twoje sługi zadajecie obrażenia Fizyczne zwiększone o x10%, a ty zyskujesz +1% premii do szybkości ruchu za każdego aktywnego sługę.",
+					"ptBR": "Você e seus lacaios causam x10% a mais de dano físico e você ganha +1% de velocidade de movimento para cada lacaio ativo.",
+					"ruRU": "Вы и ваши прислужники наносите на x10% больше физического урона. Ваша скорость передвижения повышается на +1% за каждого активного прислужника.",
+					"trTR": "Sen ve Yardakçıların x10% artırılmış Fiziksel hasar verirsiniz ve etkin her Yardakçı için +1% Hareket Hızı kazanırsın.",
+					"zhCN": "你和你的仆从造成的物理伤害提高 x10%。你每有一个激活的仆从,获得 +1% 移动速度。",
+					"zhTW": "你與僕從造成的物理傷害提高 x10%,你每擁有一個僕從就能獲得 +1% 移動速度。"
 				},
 				"thresholdRequirements": "40 Intelligence"
 			},
@@ -30829,7 +30829,7 @@ let paragonData = {
 					"jaJP": "範囲内で知力5が購入されるごとに、操作障害効果を受けた標的に与えるダメージが+{3/3.6/4.2/4.8/5.4/6/6.6/7.2/7.8/8.4/9/9.6/10.2/10.8/11.4/12/12.6/13.2/13.8/14.4/15}%増加する。",
 					"koKR": "범위 내에서 지능을 5 구매할 때마다 군중 제어 효과의 영향을 받는 대상에게 주는 피해가 +{3/3.6/4.2/4.8/5.4/6/6.6/7.2/7.8/8.4/9/9.6/10.2/10.8/11.4/12/12.6/13.2/13.8/14.4/15}% 증가합니다.",
 					"plPL": "Za każde 5 pkt. inteligencji zakupionych w zasięgu zyskujesz premię +{3/3.6/4.2/4.8/5.4/6/6.6/7.2/7.8/8.4/9/9.6/10.2/10.8/11.4/12/12.6/13.2/13.8/14.4/15}% do obrażeń przeciw celom o ograniczonej kontroli.",
-					"ptBR": "Para cada 5 de Inteligência comprados em alcance, você causa +{3/3.6/4.2/4.8/5.4/6/6.6/7.2/7.8/8.4/9/9.6/10.2/10.8/11.4/12/12.6/13.2/13.8/14.4/15}% de dano aumentado contra alvos sob controle de grupo.",
+					"ptBR": "A cada 5 de Inteligência comprados em alcance, cause +{3/3.6/4.2/4.8/5.4/6/6.6/7.2/7.8/8.4/9/9.6/10.2/10.8/11.4/12/12.6/13.2/13.8/14.4/15}% de dano aumentado contra alvos sob controle de grupo.",
 					"ruRU": "За каждые 5 ед. интеллекта, открытые в радиусе действия, урон, наносимый целям под действием эффектов контроля, увеличивается на +{3/3.6/4.2/4.8/5.4/6/6.6/7.2/7.8/8.4/9/9.6/10.2/10.8/11.4/12/12.6/13.2/13.8/14.4/15}%.",
 					"trTR": "Menzilde satın alınan her 5 Zekâ başına Kitle Kontrolü etkisindeki hedeflere +{3/3.6/4.2/4.8/5.4/6/6.6/7.2/7.8/8.4/9/9.6/10.2/10.8/11.4/12/12.6/13.2/13.8/14.4/15}% artırılmış hasar verirsin.",
 					"zhCN": "每购买辐射范围内 5 点智力,你对被控制目标造成的伤害提高 +{3/3.6/4.2/4.8/5.4/6/6.6/7.2/7.8/8.4/9/9.6/10.2/10.8/11.4/12/12.6/13.2/13.8/14.4/15}%。",
@@ -30839,14 +30839,14 @@ let paragonData = {
 					"deDE": "Ihr fügt verlangsamten oder unterkühlten Gegnern x10% mehr Schaden und betäubten oder eingefrorenen Gegnern x20% mehr Schaden zu.",
 					"esES": "Infliges un x10% más de daño a enemigos ralentizados o helados, o bien un x20% más de daño a enemigos aturdidos o congelados.",
 					"esMX": "Infliges un x10% más de daño a enemigos helados o ralentizados, y un x20% más de daño a enemigos congelados o aturdidos.",
-					"frFR": "Vous infligez x10% de dégâts supplémentaires aux cibles ralenties ou glacées, ou alors x20% de dégâts supplémentaires aux cibles étourdies ou gelées.",
+					"frFR": "Vous infligez x10% de dégâts supplémentaires aux cibles ralenties ou glacées, ou x20% de dégâts supplémentaires aux cibles étourdies ou gelées.",
 					"itIT": "Infliggi il x10% di danni aggiuntivi ai nemici rallentati o raggelati oppure il x20% di danni aggiuntivi ai nemici storditi o congelati.",
 					"jaJP": "自分がスロウまたは冷気状態の敵に与えるダメージがx10%増加する。スタンまたは凍結状態の敵に与えるダメージはx20%増加する。",
 					"koKR": "감속되거나 오한을 느끼는 적에게 주는 피해가 x10% 증가하거나, 대신 기절 또는 빙결 상태의 적에게 주는 피해가 x20% 증가합니다.",
 					"plPL": "Zadajesz obrażenia zwiększone o x10% spowolnionym lub wyziębionym wrogom, albo obrażenia zwiększone o x20% wrogom ogłuszonym lub zamrożonym.",
 					"ptBR": "Você causa x10% de dano aumentado a inimigos sob lentidão ou gelidez ou, em vez disso, x20% de dano aumentado a inimigos atordoados ou congelados.",
 					"ruRU": "Вы наносите на x10% больше урона замедленным или окоченевшим целям. Если цель оглушена или заморожена, урон вместо этого увеличивается на x20%.",
-					"trTR": "Yavaşlatılmış veya Soğutma uygulanmış düşmanlara x10% artırılmış hasar verirsin veya bunun yerine Sersemletilmiş veya Donmuş düşmanlara x20% artırılmış hasar verirsin.",
+					"trTR": "Yavaşlatılmış veya Soğutulmuş düşmanlara x10% artırılmış hasar verirsin veya bunun yerine Sersemletilmiş veya Donmuş düşmanlara x20% artırılmış hasar verirsin.",
 					"zhCN": "你对被减速或被冻伤的敌人造成的伤害提高 x10%, 或者对被击昏或被冻结的敌人造成的伤害提高 x20%。",
 					"zhTW": "你對緩速或冰冷目標的傷害提高 x10%,或是對昏迷或凍結目標的傷害提高 x20%。"
 				},
@@ -31263,7 +31263,7 @@ let paragonData = {
 			"ParagonGlyph_058": {
 				"name": "Infusion",
 				"desc": "For every 5 Intelligence purchased within range, Skills that are Imbued deal +{3/3.6/4.2/4.8/5.4/6/6.6/7.2/7.8/8.4/9/9.6/10.2/10.8/11.4/12/12.6/13.2/13.8/14.4/15}% increased damage.",
-				"bonus": "Casting an Imbuement Skill reduces the active Cooldown of another random Imbuement Skill by 0.5 seconds.",
+				"bonus": "Casting an Imbuement Skill reduces the active Cooldown of another random Imbuement Skill by 1 seconds.",
 				"nameLocalized": {
 					"deDE": "Infusion",
 					"esES": "Infusión",
@@ -31295,19 +31295,19 @@ let paragonData = {
 					"zhTW": "在範圍內每購買 5 點智力,灌注強化的技能造成的傷害提高 {3/3.6/4.2/4.8/5.4/6/6.6/7.2/7.8/8.4/9/9.6/10.2/10.8/11.4/12/12.6/13.2/13.8/14.4/15}%。"
 				},
 				"bonusLocalized": {
-					"deDE": "Wenn Ihr eine Infusionsfertigkeit einsetzt, verringert sich die aktive Abklingzeit einer anderen zufälligen Infusionsfertigkeit um 0.5 Sek.",
-					"esES": "Lanzar una habilidad de imbuición reduce 0.5 s el tiempo de reutilización activo de otra habilidad de imbuición al azar.",
-					"esMX": "Lanzar una habilidad de Imbuición reduce 0.5 segundos la recuperación activa de otra habilidad aleatoria de Imbuición.",
-					"frFR": "Utiliser une compétence d'imprégnation réduit le temps de recharge actif d'une autre compétence d'imprégnation aléatoire de 0.5 s.",
-					"itIT": "Lanciare un'abilità di infusione riduce il tempo di recupero attivo di un'altra abilità di infusione casuale di 0.5 s.",
-					"jaJP": "注入スキルを使うと、発動中のランダムな別の注入スキルのクールダウンが0.5秒短くなる。",
-					"koKR": "주입 기술 시전 시 재사용 대기 중인 다른 무작위 주입 기술의 재사용 대기시간이 0.5초 감소합니다.",
-					"plPL": "Użycie umiejętności Nasycenia skraca odliczany właśnie czas odnowienia innej, losowej umiejętności Nasycenia o 0.5 sek.",
-					"ptBR": "Lançar uma habilidade de Imbuição reduz a recarga ativa de outra habilidade aleatória de Imbuição em 0.5 s.",
-					"ruRU": "Когда вы применяете умение категории \"Насыщение\", время восстановления другого случайного умения этой категории сокращается на 0.5 сек.",
-					"trTR": "Bir Aşılama Yeteneği kullanmak rastgele başka bir Aşılama Yeteneğinin aktif Bekleme Süresini 0.5 saniye azaltır.",
-					"zhCN": "施放一个灌注技能后, 随机使另一个灌注技能的冷却时间缩短 0.5 秒。",
-					"zhTW": "施放灌注技能,會使另一個隨機灌注技能的現有冷卻時間縮短 0.5 秒。"
+					"deDE": "Wenn Ihr eine Infusionsfertigkeit einsetzt, verringert sich die aktive Abklingzeit einer anderen zufälligen Infusionsfertigkeit um 1 Sek.",
+					"esES": "Lanzar una habilidad de imbuición reduce 1 s el tiempo de reutilización activo de otra habilidad de imbuición al azar.",
+					"esMX": "Lanzar una habilidad de Imbuición reduce 1 segundos la recuperación activa de otra habilidad aleatoria de Imbuición.",
+					"frFR": "Utiliser une compétence d'imprégnation réduit le temps de recharge actif d'une autre compétence d'imprégnation aléatoire de 1 s.",
+					"itIT": "Lanciare un'abilità di infusione riduce il tempo di recupero attivo di un'altra abilità di infusione casuale di 1 s.",
+					"jaJP": "注入スキルを使うと、発動中のランダムな別の注入スキルのクールダウンが1秒短くなる。",
+					"koKR": "주입 기술 시전 시 재사용 대기 중인 다른 무작위 주입 기술의 재사용 대기시간이 1초 감소합니다.",
+					"plPL": "Użycie umiejętności Nasycenia skraca odliczany właśnie czas odnowienia innej, losowej umiejętności Nasycenia o 1 sek.",
+					"ptBR": "Lançar uma habilidade de Imbuição reduz a recarga ativa de outra habilidade aleatória de Imbuição em 1 s.",
+					"ruRU": "Когда вы применяете умение категории \"Насыщение\", время восстановления другого случайного умения этой категории сокращается на 1 сек.",
+					"trTR": "Bir Aşılama Yeteneği kullanmak rastgele başka bir Aşılama Yeteneğinin aktif Bekleme Süresini 1 saniye azaltır.",
+					"zhCN": "施放一个灌注技能后, 随机使另一个灌注技能的冷却时间缩短 1 秒。",
+					"zhTW": "施放灌注技能,會使另一個隨機灌注技能的現有冷卻時間縮短 1 秒。"
 				},
 				"thresholdRequirements": "25 Intelligence"
 			},
@@ -37593,7 +37593,7 @@ let paragonData = {
 		"Glyph": {
 			"ParagonGlyph_001": {
 				"name": "Enchanter",
-				"desc": "For every 5 Intelligence purchased within range, you deal +{1.333/1.6/1.867/2.133/2.4/2.667/2.933/3.2/3.467/3.733/4/4.267/4.533/4.8/5.067/5.333/5.6/5.867/6.133/6.4/6.667}% increased Non-physical damage.",
+				"desc": "For every 5 Intelligence purchased within range, you deal +{2.067/2.467/2.867/3.267/3.667/4.067/4.467/4.867/5.267/5.667/6.067/6.467/6.867/7.267/7.667/8.067/8.467/8.867/9.267/9.667/10.067}% increased Non-physical damage.",
 				"bonus": "For each Skill equipped in your Enchantment Slots, gain +5% Maximum Resistance to that Skill's element.",
 				"nameLocalized": {
 					"deDE": "Verzauberer",
@@ -37611,19 +37611,19 @@ let paragonData = {
 					"zhTW": "附魔師"
 				},
 				"descLocalized": {
-					"deDE": "Für je 5 in Reichweite erworbene Intelligenzpunkte verursacht Ihr +{1.333/1.6/1.867/2.133/2.4/2.667/2.933/3.2/3.467/3.733/4/4.267/4.533/4.8/5.067/5.333/5.6/5.867/6.133/6.4/6.667}% nichtphysischen Schaden.",
-					"esES": "Por cada 5 de inteligencia adquirida al alcance, infliges un {1.333/1.6/1.867/2.133/2.4/2.667/2.933/3.2/3.467/3.733/4/4.267/4.533/4.8/5.067/5.333/5.6/5.867/6.133/6.4/6.667}% más de daño no físico.",
-					"esMX": "Por cada 5 de Inteligencia adquirida dentro del alcance, infliges un +{1.333/1.6/1.867/2.133/2.4/2.667/2.933/3.2/3.467/3.733/4/4.267/4.533/4.8/5.067/5.333/5.6/5.867/6.133/6.4/6.667}% más de daño no físico.",
-					"frFR": "Pour chaque tranche de 5 points d'intelligence achetés à l'intérieur de l'ensemble, vous infligez +{1.333/1.6/1.867/2.133/2.4/2.667/2.933/3.2/3.467/3.733/4/4.267/4.533/4.8/5.067/5.333/5.6/5.867/6.133/6.4/6.667}% de dégâts non physiques.",
-					"itIT": "Per ogni 5 punti Intelligenza acquistati a portata, infliggi il +{1.333/1.6/1.867/2.133/2.4/2.667/2.933/3.2/3.467/3.733/4/4.267/4.533/4.8/5.067/5.333/5.6/5.867/6.133/6.4/6.667}% di danni non fisici aggiuntivi.",
-					"jaJP": "範囲内で知力5が購入されるごとに、与える非物理与ダメージが+{1.333/1.6/1.867/2.133/2.4/2.667/2.933/3.2/3.467/3.733/4/4.267/4.533/4.8/5.067/5.333/5.6/5.867/6.133/6.4/6.667}%増加する。",
-					"koKR": "범위 내에서 지능을 5 구매할 때마다 주는 비물리 피해가 +{1.333/1.6/1.867/2.133/2.4/2.667/2.933/3.2/3.467/3.733/4/4.267/4.533/4.8/5.067/5.333/5.6/5.867/6.133/6.4/6.667}% 증가합니다.",
-					"plPL": "Za każde 5 pkt. inteligencji zakupionych w zasięgu zyskujesz premię +{1.333/1.6/1.867/2.133/2.4/2.667/2.933/3.2/3.467/3.733/4/4.267/4.533/4.8/5.067/5.333/5.6/5.867/6.133/6.4/6.667}% do obrażeń niefizycznych.",
-					"ptBR": "Para cada 5 de Inteligência comprados em alcance, você causa +{1.333/1.6/1.867/2.133/2.4/2.667/2.933/3.2/3.467/3.733/4/4.267/4.533/4.8/5.067/5.333/5.6/5.867/6.133/6.4/6.667}% de dano não físico aumentado.",
-					"ruRU": "За каждые 5 ед. интеллекта, открытые в радиусе действия, нефизический урон увеличивается на +{1.333/1.6/1.867/2.133/2.4/2.667/2.933/3.2/3.467/3.733/4/4.267/4.533/4.8/5.067/5.333/5.6/5.867/6.133/6.4/6.667}%.",
-					"trTR": "Menzilde satın alınan her 5 Zekâ başına +{1.333/1.6/1.867/2.133/2.4/2.667/2.933/3.2/3.467/3.733/4/4.267/4.533/4.8/5.067/5.333/5.6/5.867/6.133/6.4/6.667}% artırılmış Fiziksel Olmayan Hasar verirsin.",
-					"zhCN": "每购买辐射范围内 5 点智力,你造成的非物理伤害提高 +{1.333/1.6/1.867/2.133/2.4/2.667/2.933/3.2/3.467/3.733/4/4.267/4.533/4.8/5.067/5.333/5.6/5.867/6.133/6.4/6.667}%。",
-					"zhTW": "在範圍內每購買 5 點智力,造成的非物理傷害就會提高 {1.333/1.6/1.867/2.133/2.4/2.667/2.933/3.2/3.467/3.733/4/4.267/4.533/4.8/5.067/5.333/5.6/5.867/6.133/6.4/6.667}%。"
+					"deDE": "Für je 5 in Reichweite erworbene Intelligenzpunkte verursacht Ihr +{2.067/2.467/2.867/3.267/3.667/4.067/4.467/4.867/5.267/5.667/6.067/6.467/6.867/7.267/7.667/8.067/8.467/8.867/9.267/9.667/10.067}% nichtphysischen Schaden.",
+					"esES": "Por cada 5 de inteligencia adquirida al alcance, infliges un {2.067/2.467/2.867/3.267/3.667/4.067/4.467/4.867/5.267/5.667/6.067/6.467/6.867/7.267/7.667/8.067/8.467/8.867/9.267/9.667/10.067}% más de daño no físico.",
+					"esMX": "Por cada 5 de Inteligencia adquirida dentro del alcance, infliges un +{2.067/2.467/2.867/3.267/3.667/4.067/4.467/4.867/5.267/5.667/6.067/6.467/6.867/7.267/7.667/8.067/8.467/8.867/9.267/9.667/10.067}% más de daño no físico.",
+					"frFR": "Pour chaque tranche de 5 points d'intelligence achetés à l'intérieur de l'ensemble, vous infligez +{2.067/2.467/2.867/3.267/3.667/4.067/4.467/4.867/5.267/5.667/6.067/6.467/6.867/7.267/7.667/8.067/8.467/8.867/9.267/9.667/10.067}% de dégâts non physiques.",
+					"itIT": "Per ogni 5 punti Intelligenza acquistati a portata, infliggi il +{2.067/2.467/2.867/3.267/3.667/4.067/4.467/4.867/5.267/5.667/6.067/6.467/6.867/7.267/7.667/8.067/8.467/8.867/9.267/9.667/10.067}% di danni non fisici aggiuntivi.",
+					"jaJP": "範囲内で知力5が購入されるごとに、与える非物理与ダメージが+{2.067/2.467/2.867/3.267/3.667/4.067/4.467/4.867/5.267/5.667/6.067/6.467/6.867/7.267/7.667/8.067/8.467/8.867/9.267/9.667/10.067}%増加する。",
+					"koKR": "범위 내에서 지능을 5 구매할 때마다 주는 비물리 피해가 +{2.067/2.467/2.867/3.267/3.667/4.067/4.467/4.867/5.267/5.667/6.067/6.467/6.867/7.267/7.667/8.067/8.467/8.867/9.267/9.667/10.067}% 증가합니다.",
+					"plPL": "Za każde 5 pkt. inteligencji zakupionych w zasięgu zyskujesz premię +{2.067/2.467/2.867/3.267/3.667/4.067/4.467/4.867/5.267/5.667/6.067/6.467/6.867/7.267/7.667/8.067/8.467/8.867/9.267/9.667/10.067}% do obrażeń niefizycznych.",
+					"ptBR": "Para cada 5 de Inteligência comprados em alcance, você causa +{2.067/2.467/2.867/3.267/3.667/4.067/4.467/4.867/5.267/5.667/6.067/6.467/6.867/7.267/7.667/8.067/8.467/8.867/9.267/9.667/10.067}% de dano não físico aumentado.",
+					"ruRU": "За каждые 5 ед. интеллекта, открытые в радиусе действия, нефизический урон увеличивается на +{2.067/2.467/2.867/3.267/3.667/4.067/4.467/4.867/5.267/5.667/6.067/6.467/6.867/7.267/7.667/8.067/8.467/8.867/9.267/9.667/10.067}%.",
+					"trTR": "Menzilde satın alınan her 5 Zekâ başına +{2.067/2.467/2.867/3.267/3.667/4.067/4.467/4.867/5.267/5.667/6.067/6.467/6.867/7.267/7.667/8.067/8.467/8.867/9.267/9.667/10.067}% artırılmış Fiziksel Olmayan Hasar verirsin.",
+					"zhCN": "每购买辐射范围内 5 点智力,你造成的非物理伤害提高 +{2.067/2.467/2.867/3.267/3.667/4.067/4.467/4.867/5.267/5.667/6.067/6.467/6.867/7.267/7.667/8.067/8.467/8.867/9.267/9.667/10.067}%。",
+					"zhTW": "在範圍內每購買 5 點智力,造成的非物理傷害就會提高 {2.067/2.467/2.867/3.267/3.667/4.067/4.467/4.867/5.267/5.667/6.067/6.467/6.867/7.267/7.667/8.067/8.467/8.867/9.267/9.667/10.067}%。"
 				},
 				"bonusLocalized": {
 					"deDE": "Für jede in Verzauberungsplätzen ausgerüstete Fertigkeit erhaltet Ihr +5% max. Widerstand gegen das Element dieser Fertigkeit.",
@@ -37645,7 +37645,7 @@ let paragonData = {
 			"ParagonGlyph_002": {
 				"name": "Unleash",
 				"desc": "Grants +{30/36/42/48/54/60/66/72/78/84/90/96/102/108/114/120/126/132/138/144/150}% bonus to all Magic nodes within range.",
-				"bonus": "After spending 50 Mana, you deal x6.7% increased damage and gain 6.7% increased Mana Regeneration for 3 seconds.",
+				"bonus": "After spending 50 Mana, you deal x7% increased damage and gain 7% increased Mana Regeneration for 3 seconds.",
 				"nameLocalized": {
 					"deDE": "Entfesseln",
 					"esES": "Desatar",
@@ -37677,19 +37677,19 @@ let paragonData = {
 					"zhTW": "範圍內所有魔法節點的效果額外提高 {30/36/42/48/54/60/66/72/78/84/90/96/102/108/114/120/126/132/138/144/150}%。"
 				},
 				"bonusLocalized": {
-					"deDE": "Wenn Ihr 50 Mana verbraucht, verursacht Ihr 3 Sek. lang x6.7% mehr Schaden und Euer Mana regeneriert sich 6.7% schneller.",
-					"esES": "Tras gastar 50 de maná, infliges un x6.7% más de daño y obtienes un 6.7% más de regeneración de maná durante 3 s.",
-					"esMX": "Después de usar 50 de maná, infliges un x6.7% más de daño y obtienes un 6.7% de regeneración de maná aumentada durante 3 segundos.",
-					"frFR": "Après avoir dépensé 50 points de mana, vous infligez x6.7% de dégâts supplémentaires et bénéficiez d'une régénération de mana augmentée de 6.7% pendant 3 s.",
-					"itIT": "Dopo aver consumato 50 mana, infliggi il x6.7% di danni aggiuntivi e la tua rigenerazione di mana aumenta del 6.7% per 3 s.",
-					"jaJP": "マナを50消費した後の3秒間、与ダメージがx6.7%、マナ生成量が6.7%増加する。",
-					"koKR": "마나를 50 소모하면 3초 동안 주는 피해가 x6.7% 증가하고 마나 재생량이 6.7% 증가합니다.",
-					"plPL": "Po wykorzystaniu 50 pkt. many zadajesz obrażenia zwiększone o x6.7% i zyskujesz premię 6.7% do regeneracji many na 3 sek.",
-					"ptBR": "Depois de gastar 50 de mana, você causa x6.7% de dano aumentado e recebe 6.7% de regeneração de mana aumentada por 3 s.",
-					"ruRU": "Когда вы расходуете 50 ед. маны, наносимый вами урон увеличивается на x6.7%, а скорость восстановления маны повышается на 6.7% на 3 сек.",
-					"trTR": "50 Mana harcadıktan sonra x6.7% artırılmış hasar verirsin ve 3 saniyeliğine 6.7% artırılmış Mana Yenilemesi kazanırsın.",
-					"zhCN": "消耗 50 点法力后, 你造成的伤害提高 x6.7%, 法力回复速度提高 6.7%, 持续 3 秒。",
-					"zhTW": "消耗 50 點法力後,你造成的傷害提高 x6.7%,法力恢復提高 6.7%,持續 3 秒。"
+					"deDE": "Wenn Ihr 50 Mana verbraucht, verursacht Ihr 3 Sek. lang x7% mehr Schaden und erhaltet 7% mehr Manaregeneration.",
+					"esES": "Tras gastar 50 de maná, infliges un x7% más de daño y obtienes un 7% más de regeneración de maná durante 3 s.",
+					"esMX": "Después de usar 50 de maná, infliges un x7% más de daño y obtienes un 7% de regeneración de maná adicional durante 3 segundos.",
+					"frFR": "Après avoir dépensé 50 points de mana, vous infligez x7% de dégâts supplémentaires et bénéficiez d'une régénération de mana augmentée de 7% pendant 3 s.",
+					"itIT": "Dopo aver consumato 50 mana, infliggi il x7% di danni aggiuntivi e la tua rigenerazione di mana aumenta del 7% per 3 s.",
+					"jaJP": "マナを50消費した後の3秒間、与ダメージがx7%、マナ回復量が7%増加する。",
+					"koKR": "마나를 50 소모하면 3초 동안 주는 피해가 x7% 증가하고 마나 재생량이 7% 증가합니다.",
+					"plPL": "Po wykorzystaniu 50 pkt. many zadajesz obrażenia zwiększone o x7% i zyskujesz premię 7% do regeneracji many na 3 sek.",
+					"ptBR": "Depois de gastar 50 de mana, você causa x7% de dano aumentado e recebe 7% de regeneração de mana aumentada por 3 s.",
+					"ruRU": "Когда вы расходуете 50 ед. маны, наносимый вами урон увеличивается на x7%, а скорость восстановления маны повышается на 7% на 3 сек.",
+					"trTR": "50 Mana harcadıktan sonra x7% artırılmış hasar verirsin ve 3 saniyeliğine 7% artırılmış Mana Yenilemesi kazanırsın.",
+					"zhCN": "消耗 50 点法力后,你造成的伤害提高 x7%,法力回复速度提高 7%,持续 3 秒。",
+					"zhTW": "消耗 50 點法力後,你造成的傷害提高 x7%,法力恢復提高 7%,持續 3 秒。"
 				},
 				"thresholdRequirements": "40 Intelligence"
 			},
@@ -37797,7 +37797,7 @@ let paragonData = {
 			},
 			"ParagonGlyph_005": {
 				"name": "Conjurer",
-				"desc": "For every 5 Intelligence within range, Conjuration Skills gain +{2.667/3.2/3.733/4.267/4.8/5.333/5.867/6.4/6.933/7.467/8/8.533/9.067/9.6/10.133/10.667/11.2/11.733/12.267/12.8/13.333}% increased damage.",
+				"desc": "For every 5 Intelligence within range, Conjuration Skills gain +{3.067/3.669/4.272/4.875/5.477/6.08/6.683/7.285/7.888/8.491/9.093/9.696/10.299/10.901/11.504/12.107/12.709/13.312/13.915/14.517/15.12}% increased damage.",
 				"bonus": "Conjuration Skills have 20% increased duration.",
 				"nameLocalized": {
 					"deDE": "Beschwörer",
@@ -37815,19 +37815,19 @@ let paragonData = {
 					"zhTW": "咒術師"
 				},
 				"descLocalized": {
-					"deDE": "Je 5 Intelligenzpunkte in Reichweite erhalten Beschwörungsfertigkeiten +{2.667/3.2/3.733/4.267/4.8/5.333/5.867/6.4/6.933/7.467/8/8.533/9.067/9.6/10.133/10.667/11.2/11.733/12.267/12.8/13.333}% Schaden.",
-					"esES": "Por cada 5 de inteligencia adquirida al alcance, las habilidades de evocación obtienen un {2.667/3.2/3.733/4.267/4.8/5.333/5.867/6.4/6.933/7.467/8/8.533/9.067/9.6/10.133/10.667/11.2/11.733/12.267/12.8/13.333}% más de daño.",
-					"esMX": "Por cada 5 de Inteligencia dentro del alcance, las habilidades de Conjuración infligen un +{2.667/3.2/3.733/4.267/4.8/5.333/5.867/6.4/6.933/7.467/8/8.533/9.067/9.6/10.133/10.667/11.2/11.733/12.267/12.8/13.333}% más de daño.",
-					"frFR": "Pour chaque tranche de 5 points d'intelligence achetés à l'intérieur de l'ensemble, vos compétences de conjuration infligent +{2.667/3.2/3.733/4.267/4.8/5.333/5.867/6.4/6.933/7.467/8/8.533/9.067/9.6/10.133/10.667/11.2/11.733/12.267/12.8/13.333}% de dégâts.",
-					"itIT": "Per ogni 5 punti Intelligenza a portata, le abilità d'Invocazione infliggono il +{2.667/3.2/3.733/4.267/4.8/5.333/5.867/6.4/6.933/7.467/8/8.533/9.067/9.6/10.133/10.667/11.2/11.733/12.267/12.8/13.333}% di danni aggiuntivi.",
-					"jaJP": "範囲内の知力5ごとに、召喚師スキルで与えるダメージが{2.667/3.2/3.733/4.267/4.8/5.333/5.867/6.4/6.933/7.467/8/8.533/9.067/9.6/10.133/10.667/11.2/11.733/12.267/12.8/13.333}%増加する。",
-					"koKR": "범위 내의 지능 5당 구현 기술로 주는 피해가 +{2.667/3.2/3.733/4.267/4.8/5.333/5.867/6.4/6.933/7.467/8/8.533/9.067/9.6/10.133/10.667/11.2/11.733/12.267/12.8/13.333}% 증가합니다.",
-					"plPL": "Za każde 5 pkt. inteligencji zakupione w zasięgu, twoje umiejętności Przyzywania zyskują premię +{2.667/3.2/3.733/4.267/4.8/5.333/5.867/6.4/6.933/7.467/8/8.533/9.067/9.6/10.133/10.667/11.2/11.733/12.267/12.8/13.333}% do obrażeń.",
-					"ptBR": "Para cada 5 de Inteligência em alcance, habilidades de Conjuração recebem +{2.667/3.2/3.733/4.267/4.8/5.333/5.867/6.4/6.933/7.467/8/8.533/9.067/9.6/10.133/10.667/11.2/11.733/12.267/12.8/13.333}% de dano aumentado.",
-					"ruRU": "За каждые 5 ед. интеллекта, открытые в радиусе действия, урон от умений категории \"Колдовство\" увеличивается на +{2.667/3.2/3.733/4.267/4.8/5.333/5.867/6.4/6.933/7.467/8/8.533/9.067/9.6/10.133/10.667/11.2/11.733/12.267/12.8/13.333}%.",
-					"trTR": "Menzildeki her 5 Zekâ başına Büyü Yetenekleri +{2.667/3.2/3.733/4.267/4.8/5.333/5.867/6.4/6.933/7.467/8/8.533/9.067/9.6/10.133/10.667/11.2/11.733/12.267/12.8/13.333}% artırılmış hasar kazanır.",
-					"zhCN": "每购买辐射范围内 5 点智力,你的召唤魔法技能造成的伤害提高 +{2.667/3.2/3.733/4.267/4.8/5.333/5.867/6.4/6.933/7.467/8/8.533/9.067/9.6/10.133/10.667/11.2/11.733/12.267/12.8/13.333}%。",
-					"zhTW": "在範圍內每增加 5 點智力,你的咒喚技能傷害就會提高 {2.667/3.2/3.733/4.267/4.8/5.333/5.867/6.4/6.933/7.467/8/8.533/9.067/9.6/10.133/10.667/11.2/11.733/12.267/12.8/13.333}%。"
+					"deDE": "Je 5 Intelligenzpunkte in Reichweite erhalten Beschwörungsfertigkeiten +{3.067/3.669/4.272/4.875/5.477/6.08/6.683/7.285/7.888/8.491/9.093/9.696/10.299/10.901/11.504/12.107/12.709/13.312/13.915/14.517/15.12}% Schaden.",
+					"esES": "Por cada 5 de inteligencia adquirida al alcance, las habilidades de evocación obtienen un {3.067/3.669/4.272/4.875/5.477/6.08/6.683/7.285/7.888/8.491/9.093/9.696/10.299/10.901/11.504/12.107/12.709/13.312/13.915/14.517/15.12}% más de daño.",
+					"esMX": "Por cada 5 de Inteligencia dentro del alcance, las habilidades de Conjuración infligen un +{3.067/3.669/4.272/4.875/5.477/6.08/6.683/7.285/7.888/8.491/9.093/9.696/10.299/10.901/11.504/12.107/12.709/13.312/13.915/14.517/15.12}% más de daño.",
+					"frFR": "Pour chaque tranche de 5 points d'intelligence achetés à l'intérieur de l'ensemble, vos compétences de conjuration infligent +{3.067/3.669/4.272/4.875/5.477/6.08/6.683/7.285/7.888/8.491/9.093/9.696/10.299/10.901/11.504/12.107/12.709/13.312/13.915/14.517/15.12}% de dégâts.",
+					"itIT": "Per ogni 5 punti Intelligenza a portata, le abilità d'Invocazione infliggono il +{3.067/3.669/4.272/4.875/5.477/6.08/6.683/7.285/7.888/8.491/9.093/9.696/10.299/10.901/11.504/12.107/12.709/13.312/13.915/14.517/15.12}% di danni aggiuntivi.",
+					"jaJP": "範囲内の知力5ごとに、召喚師スキルで与えるダメージが{3.067/3.669/4.272/4.875/5.477/6.08/6.683/7.285/7.888/8.491/9.093/9.696/10.299/10.901/11.504/12.107/12.709/13.312/13.915/14.517/15.12}%増加する。",
+					"koKR": "범위 내의 지능 5당 구현 기술로 주는 피해가 +{3.067/3.669/4.272/4.875/5.477/6.08/6.683/7.285/7.888/8.491/9.093/9.696/10.299/10.901/11.504/12.107/12.709/13.312/13.915/14.517/15.12}% 증가합니다.",
+					"plPL": "Za każde 5 pkt. inteligencji zakupione w zasięgu, twoje umiejętności Przyzywania zyskują premię +{3.067/3.669/4.272/4.875/5.477/6.08/6.683/7.285/7.888/8.491/9.093/9.696/10.299/10.901/11.504/12.107/12.709/13.312/13.915/14.517/15.12}% do obrażeń.",
+					"ptBR": "Para cada 5 de Inteligência em alcance, habilidades de Conjuração recebem +{3.067/3.669/4.272/4.875/5.477/6.08/6.683/7.285/7.888/8.491/9.093/9.696/10.299/10.901/11.504/12.107/12.709/13.312/13.915/14.517/15.12}% de dano aumentado.",
+					"ruRU": "За каждые 5 ед. интеллекта, открытые в радиусе действия, урон от умений категории \"Колдовство\" увеличивается на +{3.067/3.669/4.272/4.875/5.477/6.08/6.683/7.285/7.888/8.491/9.093/9.696/10.299/10.901/11.504/12.107/12.709/13.312/13.915/14.517/15.12}%.",
+					"trTR": "Menzildeki her 5 Zekâ başına Büyü Yetenekleri +{3.067/3.669/4.272/4.875/5.477/6.08/6.683/7.285/7.888/8.491/9.093/9.696/10.299/10.901/11.504/12.107/12.709/13.312/13.915/14.517/15.12}% artırılmış hasar kazanır.",
+					"zhCN": "每购买辐射范围内 5 点智力,你的召唤魔法技能造成的伤害提高 +{3.067/3.669/4.272/4.875/5.477/6.08/6.683/7.285/7.888/8.491/9.093/9.696/10.299/10.901/11.504/12.107/12.709/13.312/13.915/14.517/15.12}%。",
+					"zhTW": "在範圍內每增加 5 點智力,你的咒喚技能傷害就會提高 {3.067/3.669/4.272/4.875/5.477/6.08/6.683/7.285/7.888/8.491/9.093/9.696/10.299/10.901/11.504/12.107/12.709/13.312/13.915/14.517/15.12}%。"
 				},
 				"bonusLocalized": {
 					"deDE": "Beschwörungsfertigkeiten halten 20% länger an.",
@@ -38002,7 +38002,7 @@ let paragonData = {
 			"ParagonGlyph_009": {
 				"name": "Frostbite",
 				"desc": "For every 5 Willpower purchased within range, you deal +{3/3.6/4.2/4.8/5.4/6/6.6/7.2/7.8/8.4/9/9.6/10.2/10.8/11.4/12/12.6/13.2/13.8/14.4/15}% increased damage to Chilled targets.",
-				"bonus": "Enemies deal 13.3% reduced damage to you for 5 seconds after they are no longer Frozen.",
+				"bonus": "Enemies deal 15% reduced damage to you for 5 seconds after they are no longer Frozen.",
 				"nameLocalized": {
 					"deDE": "Frostbeulen",
 					"esES": "Hipotermia",
@@ -38034,19 +38034,19 @@ let paragonData = {
 					"zhTW": "在範圍內每購買 5 點意志,你對冰冷目標造成的傷害提高 {3/3.6/4.2/4.8/5.4/6/6.6/7.2/7.8/8.4/9/9.6/10.2/10.8/11.4/12/12.6/13.2/13.8/14.4/15}%。"
 				},
 				"bonusLocalized": {
-					"deDE": "Gegner verursachen 5 Sek. lang 13.3% weniger Schaden, nachdem sie nicht länger eingefroren sind.",
-					"esES": "Los enemigos te infligen un 13.3% menos de daño durante 5 s tras dejar de estar congelados.",
-					"esMX": "Los enemigos te infligen un 13.3% menos de daño durante 5 segundos después de dejar de estar congelados.",
-					"frFR": "Les forces adverses qui étaient gelées vous infligent 13.3% de dégâts en moins durant les 5 s suivant leur décongélation.",
-					"itIT": "I nemici ti infliggono il 13.3% di danni in meno per 5 s dopo che escono dal congelamento.",
-					"jaJP": "敵が凍結状態から解放されると、そこから5秒間にわたり自分がその敵から受けるダメージが13.3%減少する。",
-					"koKR": "적의 빙결 상태가 풀린 후 5초 동안 적이 주는 피해가 13.3% 감소합니다.",
-					"plPL": "Po zakończeniu działania Zamrożenia wrogowie zadają ci obrażenia zmniejszone o 13.3% przez 5 sek.",
-					"ptBR": "Inimigos causam 13.3% de dano reduzido por 5 s depois de não estarem mais congelados.",
-					"ruRU": "Противники наносят вам на 13.3% меньше урона в течение 5 сек. после снятия эффекта заморозки.",
-					"trTR": "Düşmanlar Donma etkisinden çıktıktan sonra 5 saniye boyunca sana 13.3% azaltılmış hasar verir.",
-					"zhCN": "在敌人脱离冻结后的 5 秒内, 其对你造成的伤害降低 13.3%。",
-					"zhTW": "敵人脫離凍結後的 5 秒內,其對你造成的傷害降低 13.3%。"
+					"deDE": "Gegner verursachen 5 Sek. lang 15% weniger Schaden, nachdem sie nicht länger eingefroren sind.",
+					"esES": "Los enemigos te infligen un 15% menos de daño durante 5 s tras dejar de estar congelados.",
+					"esMX": "Los enemigos te infligen un 15% menos de daño durante 5 segundos después de dejar de estar congelados.",
+					"frFR": "Les forces adverses qui étaient gelées vous infligent 15% de dégâts en moins durant les 5 s suivant leur décongélation.",
+					"itIT": "I nemici ti infliggono il 15% di danni in meno per 5 s dopo che escono dal congelamento.",
+					"jaJP": "敵が凍結状態から解放されると、そこから5秒間にわたり自分がその敵から受けるダメージが15%減少する。",
+					"koKR": "적의 빙결 상태가 풀린 후 5초 동안 적이 주는 피해가 15% 감소합니다.",
+					"plPL": "Po zakończeniu działania Zamrożenia wrogowie zadają ci obrażenia zmniejszone o 15% przez 5 sek.",
+					"ptBR": "Inimigos causam 15% de dano reduzido por 5 s depois de não estarem mais congelados.",
+					"ruRU": "Противники наносят вам на 15% меньше урона в течение 5 сек. после снятия эффекта заморозки.",
+					"trTR": "Düşmanlar Donma etkisinden çıktıktan sonra 5 saniye boyunca sana 15% azaltılmış hasar verir.",
+					"zhCN": "在敌人脱离冻结后的 5 秒内, 其对你造成的伤害降低 15%。",
+					"zhTW": "敵人脫離凍結後的 5 秒內,其對你造成的傷害降低 15%。"
 				},
 				"thresholdRequirements": "25 Willpower"
 			},
@@ -38479,15 +38479,15 @@ let paragonData = {
 				},
 				"descLocalized": {
 					"deDE": "Für je 5 in Reichweite erworbene Geschicklichkeitspunkte fügt Ihr Gegnern mit Kontrollverlust +{3/3.6/4.2/4.8/5.4/6/6.6/7.2/7.8/8.4/9/9.6/10.2/10.8/11.4/12/12.6/13.2/13.8/14.4/15}% Schaden zu.",
-					"esES": "Por cada 5 de destreza adquirida al alcance, infliges un {3/3.6/4.2/4.8/5.4/6/6.6/7.2/7.8/8.4/9/9.6/10.2/10.8/11.4/12/12.6/13.2/13.8/14.4/15}% más de daño a objetivos afectados por control de masas.",
+					"esES": "Por cada 5 de destreza adquirida al alcance, infliges un {3/3.6/4.2/4.8/5.4/6/6.6/7.2/7.8/8.4/9/9.6/10.2/10.8/11.4/12/12.6/13.2/13.8/14.4/15}% + de daño a objet. afectados por ctrl. de masas.",
 					"esMX": "Por cada 5 de Destreza adquirida dentro del alcance, infliges un {3/3.6/4.2/4.8/5.4/6/6.6/7.2/7.8/8.4/9/9.6/10.2/10.8/11.4/12/12.6/13.2/13.8/14.4/15}% más de daño a objetivos bajo los efectos de control de multitudes.",
 					"frFR": "Pour chaque tranche de 5 points de dextérité achetés à l'intérieur de l'ensemble, vous infligez +{3/3.6/4.2/4.8/5.4/6/6.6/7.2/7.8/8.4/9/9.6/10.2/10.8/11.4/12/12.6/13.2/13.8/14.4/15}% de dégâts aux cibles subissant un effet de perte de contrôle.",
-					"itIT": "Per ogni 5 punti Destrezza acquistati a portata, infliggi il +{3/3.6/4.2/4.8/5.4/6/6.6/7.2/7.8/8.4/9/9.6/10.2/10.8/11.4/12/12.6/13.2/13.8/14.4/15}% di danni aggiuntivi ai bersagli sotto effetti debilitanti.",
-					"jaJP": "範囲内で敏捷性5が購入されるごとに、操作障害効果を受けた標的に与えるダメージが+{3/3.6/4.2/4.8/5.4/6/6.6/7.2/7.8/8.4/9/9.6/10.2/10.8/11.4/12/12.6/13.2/13.8/14.4/15}%増加する。",
+					"itIT": "Ogni 5 p. Destrezza acquistati a portata, infliggi il +{3/3.6/4.2/4.8/5.4/6/6.6/7.2/7.8/8.4/9/9.6/10.2/10.8/11.4/12/12.6/13.2/13.8/14.4/15}% di danni in più a bersagli sotto effetti debilitanti.",
+					"jaJP": "範囲内で敏捷性5購入ごとに、操作障害効果を受けた標的に与えるダメージが+{3/3.6/4.2/4.8/5.4/6/6.6/7.2/7.8/8.4/9/9.6/10.2/10.8/11.4/12/12.6/13.2/13.8/14.4/15}%増加する。",
 					"koKR": "범위 내에서 민첩을 5 구매할 때마다 군중 제어 효과의 영향을 받는 대상에게 주는 피해가 +{3/3.6/4.2/4.8/5.4/6/6.6/7.2/7.8/8.4/9/9.6/10.2/10.8/11.4/12/12.6/13.2/13.8/14.4/15}% 증가합니다.",
 					"plPL": "Za każde 5 pkt. zręczności zakupionych w zasięgu zyskujesz premię +{3/3.6/4.2/4.8/5.4/6/6.6/7.2/7.8/8.4/9/9.6/10.2/10.8/11.4/12/12.6/13.2/13.8/14.4/15}% do obrażeń przeciw celom o ograniczonej kontroli.",
 					"ptBR": "A cada 5 de Destreza comprados em alcance, cause +{3/3.6/4.2/4.8/5.4/6/6.6/7.2/7.8/8.4/9/9.6/10.2/10.8/11.4/12/12.6/13.2/13.8/14.4/15}% de dano aumentado contra alvos sob controle de grupo.",
-					"ruRU": "За каждые 5 ед. ловкости, открытые в радиусе действия, урон, наносимый целям под действием эффектов контроля, увеличивается на +{3/3.6/4.2/4.8/5.4/6/6.6/7.2/7.8/8.4/9/9.6/10.2/10.8/11.4/12/12.6/13.2/13.8/14.4/15}%.",
+					"ruRU": "За каждые 5 ед. ловкости, открытые в радиусе действия, урон целям под действием эффектов контроля увеличивается на +{3/3.6/4.2/4.8/5.4/6/6.6/7.2/7.8/8.4/9/9.6/10.2/10.8/11.4/12/12.6/13.2/13.8/14.4/15}%.",
 					"trTR": "Menzilde satın alınan her 5 Maharet başına Kitle Kontrolü etkisindeki hedeflere +{3/3.6/4.2/4.8/5.4/6/6.6/7.2/7.8/8.4/9/9.6/10.2/10.8/11.4/12/12.6/13.2/13.8/14.4/15}% artırılmış hasar verirsin.",
 					"zhCN": "每购买辐射范围内 5 点敏捷,你对被控制目标造成的伤害提高 +{3/3.6/4.2/4.8/5.4/6/6.6/7.2/7.8/8.4/9/9.6/10.2/10.8/11.4/12/12.6/13.2/13.8/14.4/15}%。",
 					"zhTW": "在範圍內每購買 5 點敏捷,你對受控場目標造成的傷害提高 {3/3.6/4.2/4.8/5.4/6/6.6/7.2/7.8/8.4/9/9.6/10.2/10.8/11.4/12/12.6/13.2/13.8/14.4/15}%。"
@@ -38496,14 +38496,14 @@ let paragonData = {
 					"deDE": "Ihr fügt verlangsamten oder unterkühlten Gegnern x10% mehr Schaden und betäubten oder eingefrorenen Gegnern x20% mehr Schaden zu.",
 					"esES": "Infliges un x10% más de daño a enemigos ralentizados o helados, o bien un x20% más de daño a enemigos aturdidos o congelados.",
 					"esMX": "Infliges un x10% más de daño a enemigos helados o ralentizados, y un x20% más de daño a enemigos congelados o aturdidos.",
-					"frFR": "Vous infligez x10% de dégâts supplémentaires aux cibles ralenties ou glacées, ou alors x20% de dégâts supplémentaires aux cibles étourdies ou gelées.",
+					"frFR": "Vous infligez x10% de dégâts supplémentaires aux cibles ralenties ou glacées, ou x20% de dégâts supplémentaires aux cibles étourdies ou gelées.",
 					"itIT": "Infliggi il x10% di danni aggiuntivi ai nemici rallentati o raggelati oppure il x20% di danni aggiuntivi ai nemici storditi o congelati.",
 					"jaJP": "自分がスロウまたは冷気状態の敵に与えるダメージがx10%増加する。スタンまたは凍結状態の敵に与えるダメージはx20%増加する。",
 					"koKR": "감속되거나 오한을 느끼는 적에게 주는 피해가 x10% 증가하거나, 대신 기절 또는 빙결 상태의 적에게 주는 피해가 x20% 증가합니다.",
 					"plPL": "Zadajesz obrażenia zwiększone o x10% spowolnionym lub wyziębionym wrogom, albo obrażenia zwiększone o x20% wrogom ogłuszonym lub zamrożonym.",
 					"ptBR": "Você causa x10% de dano aumentado a inimigos sob lentidão ou gelidez ou, em vez disso, x20% de dano aumentado a inimigos atordoados ou congelados.",
 					"ruRU": "Вы наносите на x10% больше урона замедленным или окоченевшим целям. Если цель оглушена или заморожена, урон вместо этого увеличивается на x20%.",
-					"trTR": "Yavaşlatılmış veya Soğutma uygulanmış düşmanlara x10% artırılmış hasar verirsin veya bunun yerine Sersemletilmiş veya Donmuş düşmanlara x20% artırılmış hasar verirsin.",
+					"trTR": "Yavaşlatılmış veya Soğutulmuş düşmanlara x10% artırılmış hasar verirsin veya bunun yerine Sersemletilmiş veya Donmuş düşmanlara x20% artırılmış hasar verirsin.",
 					"zhCN": "你对被减速或被冻伤的敌人造成的伤害提高 x10%, 或者对被击昏或被冻结的敌人造成的伤害提高 x20%。",
 					"zhTW": "你對緩速或冰冷目標的傷害提高 x10%,或是對昏迷或凍結目標的傷害提高 x20%。"
 				},
@@ -38614,7 +38614,7 @@ let paragonData = {
 			"ParagonGlyph_084": {
 				"name": "Stalagmite",
 				"desc": "For every 5 Intelligence purchased within range, your Ice Spikes deal +{2/2.4/2.8/3.2/3.6/4/4.4/4.8/5.2/5.6/6/6.4/6.8/7.2/7.6/8/8.4/8.8/9.2/9.6/10}% increased damage.",
-				"bonus": "Your Ice Spikes gain +10% Critical Strike Chance.",
+				"bonus": "Your Ice Spikes gain +20% Critical Strike Chance.",
 				"nameLocalized": {
 					"deDE": "Stalagmit",
 					"esES": "Estalagmita",
@@ -38646,26 +38646,26 @@ let paragonData = {
 					"zhTW": "在範圍內每購買 5 點智力,你的冰刺傷害就會提高+ {2/2.4/2.8/3.2/3.6/4/4.4/4.8/5.2/5.6/6/6.4/6.8/7.2/7.6/8/8.4/8.8/9.2/9.6/10}%。"
 				},
 				"bonusLocalized": {
-					"deDE": "Eure Eisstacheln erhalten +10% kritische Trefferchance.",
-					"esES": "Tus Agujas de hielo obtienen un +10% de probabilidad de golpe crítico.",
-					"esMX": "Tus Púas de Hielo obtienen un +10% de Probabilidad de golpe crítico.",
-					"frFR": "Les chances d'infliger un coup critique de vos pointes de glace sont augmentées de +10%.",
-					"itIT": "La probabilità di critico dei tuoi Spuntoni di Ghiaccio aumenta del +10%.",
-					"jaJP": "氷筍のクリティカルヒット率が+10%上昇する。",
-					"koKR": "얼음 가시의 극대화 확률이 +10% 증가합니다.",
-					"plPL": "Twoje Lodowe Kolce zyskują +10% szansy na trafienie krytyczne.",
-					"ptBR": "Seus Espetos de Gelo recebem +10% de chance de acerto crítico.",
-					"ruRU": "Вероятность критического удара ледяных шипов повышается на +10%.",
-					"trTR": "Buz Dikenlerin +10% Kritik Vuruş İhtimali kazanır.",
-					"zhCN": "你的冰刺的暴击几率提高 +10%。",
-					"zhTW": "你的冰刺爆擊機率提高 +10%。"
+					"deDE": "Eure Eisstacheln erhalten +20% kritische Trefferchance.",
+					"esES": "Tus Agujas de hielo obtienen un +20% de probabilidad de golpe crítico.",
+					"esMX": "Tus Púas de Hielo obtienen un +20% de Probabilidad de golpe crítico.",
+					"frFR": "Les chances d'infliger un coup critique de vos pointes de glace sont augmentées de +20%.",
+					"itIT": "La probabilità di critico dei tuoi Spuntoni di Ghiaccio aumenta del +20%.",
+					"jaJP": "氷筍のクリティカルヒット率が+20%上昇する。",
+					"koKR": "얼음 가시의 극대화 확률이 +20% 증가합니다.",
+					"plPL": "Twoje Lodowe Kolce zyskują +20% szansy na trafienie krytyczne.",
+					"ptBR": "Seus Espetos de Gelo recebem +20% de chance de acerto crítico.",
+					"ruRU": "Вероятность критического удара ледяных шипов повышается на +20%.",
+					"trTR": "Buz Dikenlerin +20% Kritik Vuruş İhtimali kazanır.",
+					"zhCN": "你的冰刺的暴击几率提高 +20%。",
+					"zhTW": "你的冰刺爆擊機率提高 +20%。"
 				},
 				"thresholdRequirements": "40 Intelligence"
 			},
 			"ParagonGlyph_085": {
 				"name": "Invocation",
 				"desc": "For every 5 Dexterity purchased within range, your Conjuration Skills gain +{8/9/10/11/12/13/14/15/16/17/18/19/20/21/22/23/24/25/26/27/28}% Critical Strike Damage.",
-				"bonus": "Enemies damaged by your Conjuration Skills deal 1% reduced damage to you for 6 seconds, stacking up to 12%.",
+				"bonus": "Enemies damaged by your Conjuration Skills deal 1% reduced damage to you for 6 seconds, stacking up to 15%.",
 				"nameLocalized": {
 					"deDE": "Anrufung",
 					"esES": "Invocación",
@@ -38697,19 +38697,19 @@ let paragonData = {
 					"zhTW": "在範圍內每購買 5 點敏捷,你的咒喚技能的爆擊傷害就會提高 + {8/9/10/11/12/13/14/15/16/17/18/19/20/21/22/23/24/25/26/27/28}%。"
 				},
 				"bonusLocalized": {
-					"deDE": "Gegner, die durch Eure Beschwörungsfertigkeiten Schaden erlitten haben, fügen Euch 6 Sekunden lang 1% verringerten Schaden zu. Stapelbar bis zu einem Maximum von 12%.",
-					"esES": "Los enemigos dañados por tus habilidades de evocación te infligen un 1% menos de daño durante 6 s, hasta un máximo de un 12%.",
-					"esMX": "Los enemigos dañados por tus habilidades de Conjuración te infligen 1% menos daño por 6 segundos, lo que se acumula hasta un 12%.",
-					"frFR": "Les cibles blessées par vos compétences de conjuration vous infligent 1% de dégâts en moins pendant 6 s, jusqu'à un maximum de 12%.",
-					"itIT": "I nemici colpiti dalle tue abilità d'Invocazione ti infliggono il 1% di danni in meno per 6 s, fino a un massimo del 12%.",
-					"jaJP": "自身の召喚スキルによりダメージを受けた敵から受けるダメージが6秒間、1%低下する。この効果は12%まで蓄積する。",
-					"koKR": "구현 기술에 피해를 입은 적으로부터 받는 공격 피해가 6초 동안 1% 감소합니다. 최대 12% 중첩됩니다.",
-					"plPL": "Wrogowie, którzy odniosą obrażenia od twoich umiejętności Przyzywania, zadają ci obrażenia zmniejszone o 1% przez 6 sek., maksymalnie 12%.",
-					"ptBR": "Inimigos atingidos pelas suas habilidades de Conjuração causam 1% a menos de dano a você por 6 s, acumulando até 12%.",
-					"ruRU": "Противники, пораженные вашими умениями категории \"Колдовство\", наносят вам на 1% меньше урона в течение 6 сек. Эффект суммируется до 12%.",
-					"trTR": "Büyü Yeteneklerin ile hasar alan düşmanlar sana 6 saniyeliğine 1% daha az hasar verir. Etki en fazla 12% birikir.",
-					"zhCN": "受到你召唤魔法技能伤害的敌人对你造成的伤害降低 1%, 持续 6 秒, 最多可叠加至 12%。",
-					"zhTW": "受到你咒喚技能傷害的敵人對你造成的傷害降低 1%,持續 6 秒,最多可堆疊 12%。"
+					"deDE": "Gegner, die durch Eure Beschwörungsfertigkeiten Schaden erlitten haben, fügen Euch 6 Sekunden lang 1% verringerten Schaden zu. Stapelbar bis zu einem Maximum von 15%.",
+					"esES": "Los enemigos dañados por tus habilidades de evocación te infligen un 1% menos de daño durante 6 s, hasta un máximo de un 15%.",
+					"esMX": "Los enemigos dañados por tus habilidades de Conjuración te infligen 1% menos daño por 6 segundos, lo que se acumula hasta un 15%.",
+					"frFR": "Les cibles blessées par vos compétences de conjuration vous infligent 1% de dégâts en moins pendant 6 s, jusqu'à un maximum de 15%.",
+					"itIT": "I nemici colpiti dalle tue abilità d'Invocazione ti infliggono il 1% di danni in meno per 6 s, fino a un massimo del 15%.",
+					"jaJP": "自身の召喚スキルによりダメージを受けた敵から受けるダメージが6秒間、1%低下する。この効果は15%まで蓄積する。",
+					"koKR": "구현 기술에 피해를 입은 적으로부터 받는 공격 피해가 6초 동안 1% 감소합니다. 최대 15% 중첩됩니다.",
+					"plPL": "Wrogowie, którzy odniosą obrażenia od twoich umiejętności Przyzywania, zadają ci obrażenia zmniejszone o 1% przez 6 sek., maksymalnie 15%.",
+					"ptBR": "Inimigos atingidos pelas suas habilidades de Conjuração causam 1% a menos de dano a você por 6 s, acumulando até 15%.",
+					"ruRU": "Противники, пораженные вашими умениями категории \"Колдовство\", наносят вам на 1% меньше урона в течение 6 сек. Эффект суммируется до 15%.",
+					"trTR": "Büyü Yeteneklerin ile hasar alan düşmanlar sana 6 saniyeliğine 1% daha az hasar verir. Etki en fazla 15% birikir.",
+					"zhCN": "受到你召唤魔法技能伤害的敌人对你造成的伤害降低 1%, 持续 6 秒, 最多可叠加至 15%。",
+					"zhTW": "受到你咒喚技能傷害的敵人對你造成的傷害降低 1%,持續 6 秒,最多可堆疊 15%。"
 				},
 				"thresholdRequirements": "25 Dexterity"
 			}
