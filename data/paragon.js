@@ -24798,14 +24798,14 @@ let paragonData = {
 					"zhTW": "範圍內所有魔法節點的效果額外提高 {30/36/42/48/54/60/66/72/78/84/90/96/102/108/114/120/126/132/138/144/150}%。"
 				},
 				"bonusLocalized": {
-					"deDE": "Ihr und Eure Diener verursacht x10% mehr physischen Schaden und Ihr erhaltet +1% Bewegungsgeschwindigkeit für jeden aktiven Diener.",
+					"deDE": "Ihr und Eure Diener verursacht x10% erhöhten physischen Schaden und Ihr erhaltet +1% Bewegungsgeschwindigkeit für jeden aktiven Diener.",
 					"esES": "Tus esbirros y tú infligís un x10% más de daño físico y tú obtienes un +1% de velocidad de movimiento por cada esbirro activo.",
 					"esMX": "Tú y tus esbirros infligen un x10% más de daño físico y obtienes un +1% de velocidad de movimiento por cada esbirro activo.",
 					"frFR": "Vous et vos serviteurs infligez x10% de dégâts physiques supplémentaires et vous gagnez +1% de vitesse de déplacement par serviteur actif.",
 					"itIT": "Tu e i tuoi servitori infliggete il x10% di danni fisici aggiuntivi e la tua velocità di movimento aumenta del +1% per ogni servitore attivo.",
 					"jaJP": "自身とミニオンの与える物理ダメージがx10%増加し、使役中のミニオン1体ごとに移動速度が+1%上昇する。",
 					"koKR": "자신과 하수인이 주는 물리 피해가 x10% 증가하고, 활성화된 하수인 하나당 이동 속도가 +1% 증가합니다.",
-					"plPL": "Ty i twoje sługi zadajecie obrażenia Fizyczne zwiększone o x10%, a ty zyskujesz +1% premii do szybkości ruchu za każdego aktywnego sługę.",
+					"plPL": "Ty i twoje sługi zadajecie obrażenia fizyczne zwiększone o x10%, a ty zyskujesz +1% premii do szybkości ruchu za każdego aktywnego sługę.",
 					"ptBR": "Você e seus lacaios causam x10% a mais de dano físico e você ganha +1% de velocidade de movimento para cada lacaio ativo.",
 					"ruRU": "Вы и ваши прислужники наносите на x10% больше физического урона. Ваша скорость передвижения повышается на +1% за каждого активного прислужника.",
 					"trTR": "Sen ve Yardakçıların x10% artırılmış Fiziksel hasar verirsiniz ve etkin her Yardakçı için +1% Hareket Hızı kazanırsın.",

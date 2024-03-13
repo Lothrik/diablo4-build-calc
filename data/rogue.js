@@ -1126,7 +1126,7 @@ Tags: Core, Cutthroat, Imbueable, Damage, Physical, Energy.`,
 			"ruRU": "\"Шквал\" наносит на x20% больше урона уязвимым противникам. Когда \"Шквал\" поражает уязвимого противника, все противники, пораженные за это применение умения, становятся уязвимыми на 3 сек.",
 			"trTR": "Coşku Savunmasız düşmanlara x20% artırılmış hasar verir. Coşku herhangi bir Savunmasız düşmana vurursa bu kullanım sırasında vurulan tüm düşmanları 3 saniyeliğine Savunmasız hâle getirir.",
 			"zhCN": "快刀乱刺对易伤的敌人造成的伤害提升 x20%。如果快刀乱刺命中任意易伤的敌人,其会使所有被该次技能命中的敌人都陷入易伤状态,持续 3 秒。",
-			"zhTW": "狂襲對易傷造成的傷害提高 x20%。若狂襲擊中任何易傷的敵人,會對該次施放擊中的所有敵人造成易傷,持續 3 秒。"
+			"zhTW": "狂襲對易傷敵人造成的傷害提高 x20%。若狂襲擊中任何易傷的敵人,會對該次施放擊中的所有敵人造成易傷,持續 3 秒。"
 },
 		id: 26,
 		maxPoints: 1,
@@ -1161,11 +1161,11 @@ Tags: Core, Cutthroat, Imbueable, Damage, Physical, Energy.`,
 			"jaJP": "敵をすり抜けて回避すると、次に使用する〈コンビネーション〉のダメージがx30%増加し、敵を2.5秒間にわたりスタンさせる。",
 			"koKR": "피하기로 적을 통과하면 다음 연타로 주는 피해가 x30% 증가하고 적을 2.5초 동안 기절시킵니다.",
 			"plPL": "Przeniknięcie przez wroga przy użyciu Odskoku sprawi, że twoje następne Szybkie Natarcie zada większe obrażenia i ogłuszy wrogów na 2.5 sek.",
-			"ptBR": "Evadir através de um inimigo fará seu próximo Turbilhão para causar x30% a mais de dano e atordoar inimigos por 2.5 s.",
+			"ptBR": "Evadir através de um inimigo fará seu próximo Turbilhão causar x30% a mais de dano e atordoar inimigos por 2.5 s.",
 			"ruRU": "Когда вы уклоняетесь через противника, ваш следующий \"Шквал\" наносит на x30% больше урона и оглушает противников на 2.5 сек.",
 			"trTR": "Kaçınarak bir düşmanın içinden geçmek, bir sonraki Coşkunun x30% artırılmış hasar vermesini ve düşmanları 2.5 saniyeliğine Sersemletmesini sağlar.",
 			"zhCN": "使用闪避穿过敌人会使你的下一个快刀乱刺造成的伤害提升 x30%,并且击昏敌人 2.5 秒。",
-			"zhTW": "閃避穿過敵人會使你的下一個狂襲造成 x30% 點傷害,並擊昏敵人 2.5 秒。"
+			"zhTW": "閃避穿過敵人會使你的下一個狂襲造成的傷害提高 x30%,並擊昏敵人 2.5 秒。"
 },
 		id: 27,
 		maxPoints: 1,

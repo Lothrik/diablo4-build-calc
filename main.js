@@ -370,7 +370,7 @@ function rebuildTextures() {
 		NODE_GROUP_ALLOCATED: PIXI.Texture.from("images/tree/node_group_allocated.png"),
 		NODE_KEY_PASSIVE: PIXI.Texture.from("images/tree/node_key_passive.png"),
 		NODE_KEY_PASSIVE_ALLOCATED: PIXI.Texture.from("images/tree/node_key_passive_allocated.png"),
-		GLYPH_RADIUS_INDICATOR: PIXI.Texture.from("images/tree/glyph_overlay.png"),
+		GLYPH_RADIUS_INDICATOR: PIXI.Texture.from("images/tree/glyph_overlay.png")
 	}
 	if (className == "barbarian") {
 		PIXI_TEXTURES = {
@@ -1542,7 +1542,7 @@ function handleClampButton(event) {
 function handleHistoryButton(event) {
 	window.open("./history/");
 }
-const localVersion = "1.3.3.50570-1";
+const localVersion = "1.3.4.50942-1";
 var remoteVersion = "";
 var versionInterval = null;
 function handleVersionLabel(event) {

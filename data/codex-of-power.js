@@ -9375,14 +9375,14 @@ let codexData = {
 				"descriptionLocalized": {
 					"deDE": "Sowohl Eure Diener als auch Ihr erhaltet {15/20}% erhöhte Schadensreduktion.",
 					"esES": "Tus esbirros y tú tenéis un {15/20}% más de reducción de daño.",
-					"esMX": "Tú y tus esbirros ganan un {15/20}% más de reducción de daño.",
+					"esMX": "Tú y tus esbirros obtienen un {15/20}% más de reducción de daño.",
 					"frFR": "Votre réduction des dégâts et celle de vos serviteurs sont augmentées de {15/20}%.",
 					"itIT": "Aumenta la tua riduzione danni e quella dei tuoi servitori del {15/20}%.",
-					"jaJP": "自身とミニオンの受けるダメージが{15/20}%減少する。",
+					"jaJP": "自身とミニオンのダメージ減少率が{15/20}%増加する。",
 					"koKR": "자신과 하수인의 피해 감소가 {15/20}% 증가합니다.",
 					"plPL": "Ty i twoje sługi zyskujecie {15/20}% premii do redukcji obrażeń.",
 					"ptBR": "Você e seus lacaios recebem {15/20}% a mais de redução de dano.",
-					"ruRU": "Урон, наносимый вам и вашим прислужникам, дополнительно уменьшается на {15/20}%.",
+					"ruRU": "Урон, получаемый вами и вашими прислужниками, уменьшается еще на {15/20}%.",
 					"trTR": "Sen ve Yardakçıların {15/20}% artırılmış Hasar Azaltma kazanırsınız.",
 					"zhCN": "你和你的仆从获得 {15/20}% 伤害减免加成。",
 					"zhTW": "你與僕從的傷害減免提高 {15/20}%。"
@@ -10004,7 +10004,7 @@ let codexData = {
 					"ptBR": "Aumenta o dano das flechas de Salva que ricocheteiam de 40% para {40/60}%. As flechas de Salva têm {60/80}% de chance de se dividirem em 2 flechas sempre que ricocheteiam.",
 					"ruRU": "Урон стрел, рикошетящих при применении \"Шквального огня\", увеличивается с 40% до {60/80}%. После рикошета стрелы \"Шквального огня\" могут с вероятностью {40/60}% разделиться на 2.",
 					"trTR": "Yaylım Ateşinden seken okların verdiği hasarı %40'tan {60/80}% oranına çıkarır. Yaylım Ateşi okları, sektiklerinde {40/60}% ihtimalle 2 oka bölünür.",
-					"zhCN": "从乱射中弹射的箭矢伤害从 40% 提高至 {60/80}%。乱射的箭矢在弹射时有 {40/60}% 的概率分裂成 2 支。",
+					"zhCN": "从乱射中弹射的箭矢伤害从 40% 提高至 {60/80}%。乱射的箭矢在弹射时有 {40/60}% 的几率分裂成 2 支。",
 					"zhTW": "箭幕彈射的箭矢所造成的傷害從 40% 提高至 {60/80}%。箭幕的箭矢在彈射後,有 {40/60}% 的機率分裂成 2 支箭矢。"
 				},
 				"dungeon": "Shadowed Plunge",
