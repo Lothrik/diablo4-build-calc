@@ -4883,7 +4883,7 @@ Tags: Berserking, Damage.`,
 		descriptionLocalized: {
 			"deDE": "Erhöht die maximale Dauer des Berserkermodus um 5 Sek. und erhöht seinen Schadensbonus auf x100%.\n\nTags: Berserkermodus, Schaden.",
 			"esES": "Aumenta 5 s la duración máxima del estado de vesania y a un x100% su bonus de daño.\n\nTags: Vesania, Daño.",
-			"esMX": "Aumenta la duración máxima de la Enajenación 5 segundos y aumenta la bonificación de daño un x100%.\n\nTags: Enajenación, Daño.",
+			"esMX": "Aumenta la duración máxima de la enajenación 5 segundos y aumenta la bonificación de daño un x100%.\n\nTags: Enajenación, Daño.",
 			"frFR": "Augmente la durée maximale de Rage du berserker de 5 s et son bonus aux dégâts passe à x100%.\n\nTags: Rage du berserker, Dégâts.",
 			"itIT": "Aumenti la durata massima di Berserk di 5 s e il suo bonus ai danni al x100%.\n\nTags: Berserk, Danni.",
 			"jaJP": "バーサークの最大持続時間が5秒長くなり、ダメージボーナスがx100%に増加する。\n\nTags: 狂戦士, ダメージ.",

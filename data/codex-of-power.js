@@ -374,7 +374,7 @@ let codexData = {
 					"ptBR": "da Ira à Espreita",
 					"ruRU": "[ms]подступающего гнева[fs]подступающего гнева[ns]подступающего гнева[p]подступающего гнева",
 					"trTR": "[n2]Arsız Gazap",
-					"zhCN": "愤怒欺凌之",
+					"zhCN": "怒意渐生之",
 					"zhTW": "侵噬忿怒之"
 				},
 				"descriptionLocalized": {
@@ -745,7 +745,7 @@ let codexData = {
 				"nameLocalized": {
 					"deDE": "[ms]Zorn der Urahnen",
 					"esES": "[ms]Juramento de los ancestros",
-					"esMX": "Juramento de los Ancestros",
+					"esMX": "[ms]Juramento de los Ancestros",
 					"frFR": "[ms]Serment des anciens",
 					"itIT": "[ms]Giuramento degli Antichi",
 					"jaJP": "古の誓い",
@@ -799,7 +799,7 @@ let codexData = {
 				"nameLocalized": {
 					"deDE": "[ms]Höllhammer",
 					"esES": "[ms]Martillo infernal",
-					"esMX": "Mazavernal",
+					"esMX": "[fs]Mazavernal",
 					"frFR": "[ms]Martelenfer",
 					"itIT": "[ms]Maglio Immondo",
 					"jaJP": "ヘルハンマー",
@@ -856,7 +856,7 @@ let codexData = {
 				"nameLocalized": {
 					"deDE": "[ms]Auslöscher",
 					"esES": "[ms]Ensañamiento",
-					"esMX": "Exterminio",
+					"esMX": "[ms]Exterminio",
 					"frFR": "[fs]Masse-âcre",
 					"itIT": "[ms]Annientamento",
 					"jaJP": "オーバーキル",
@@ -910,7 +910,7 @@ let codexData = {
 				"nameLocalized": {
 					"deDE": "[fs]Kampftrance",
 					"esES": "[ms]Trance de batalla",
-					"esMX": "Trance de Batalla",
+					"esMX": "[ms]Trance de Batalla",
 					"frFR": "[fs]Transe du combat",
 					"itIT": "[fs]Estasi della Battaglia",
 					"jaJP": "バトル・トランス",
@@ -964,7 +964,7 @@ let codexData = {
 				"nameLocalized": {
 					"deDE": "[p]100.000 Schritte",
 					"esES": "[mp]100 000 pasos",
-					"esMX": "100,000 Pasos",
+					"esMX": "[mp]100,000 Pasos",
 					"frFR": "[mp]Les 100 000 pas",
 					"itIT": "[mp]I 100.000 Passi",
 					"jaJP": "100,000歩",
@@ -1018,7 +1018,7 @@ let codexData = {
 				"nameLocalized": {
 					"deDE": "[ms]Zorn von Harrogath",
 					"esES": "[fs]Rabia de Harrogath",
-					"esMX": "Furia de Harrogat",
+					"esMX": "[fs]Furia de Harrogat",
 					"frFR": "[fs]Rage d'Harrogath",
 					"itIT": "[fs]Rabbia di Harrogath",
 					"jaJP": "ハロガスの激高",
@@ -1072,7 +1072,7 @@ let codexData = {
 				"nameLocalized": {
 					"deDE": "[p]Gohrs Vernichtende Greifer",
 					"esES": "[mp]Agarres devastadores de Gohr",
-					"esMX": "Puños Devastadores de Gohr",
+					"esMX": "[mp]Puños Devastadores de Gohr",
 					"frFR": "[fp]Poignes dévastatrices de Gohr",
 					"itIT": "[fs]Stretta Devastante di Gohr",
 					"jaJP": "ゴールの破壊的手甲",
@@ -1126,7 +1126,7 @@ let codexData = {
 				"nameLocalized": {
 					"deDE": "Hauerhelm von Joritz dem Mächtigen",
 					"esES": "[ms]Casco acolmillado de Joritz el Poderoso",
-					"esMX": "Yelmo con Cuernos de Joritz el Poderoso",
+					"esMX": "[ms]Yelmo con Cuernos de Joritz el Poderoso",
 					"frFR": "[ms]Heaume de défense de Joritz le tout-puissant",
 					"itIT": "[ms]Elmo con Zanne di Joritz il Poderoso",
 					"jaJP": "鉄人ジョリッツの牙付き兜",
@@ -1696,7 +1696,7 @@ let codexData = {
 				"nameLocalized": {
 					"deDE": "[ns]Ramaladnis Opus Magnum",
 					"esES": "[fs]Obra maestra de Ramaladni",
-					"esMX": "Obra Maestra de Ramaladni",
+					"esMX": "[fs]Obra Maestra de Ramaladni",
 					"frFR": "[ms]Chef-d'œuvre de Ramaladni",
 					"itIT": "[ms]Magnum Opus di Ramaladni",
 					"jaJP": "ラマラドニの最高傑作",
@@ -1750,8 +1750,8 @@ let codexData = {
 				"nameLocalized": {
 					"deDE": "[ms]Blauzorn",
 					"esES": "[fs]Ira celeste",
-					"esMX": "Irazur",
-					"frFR": "Irebleue",
+					"esMX": "[fp]Irazur",
+					"frFR": "[fs]Irebleue",
 					"itIT": "[fs]Irazzurra",
 					"jaJP": "アズールラス",
 					"koKR": "푸른 서슬",
@@ -1807,7 +1807,7 @@ let codexData = {
 				"nameLocalized": {
 					"deDE": "[p]Purpurne Felder",
 					"esES": "[mp]Campos carmesíes",
-					"esMX": "Campos Carmesíes",
+					"esMX": "[mp]Campos Carmesíes",
 					"frFR": "[mp]Champs écarlates",
 					"itIT": "[mp]Campi Cremisi",
 					"jaJP": "紅の原野",
@@ -3307,7 +3307,7 @@ let codexData = {
 				"nameLocalized": {
 					"deDE": "[ms]Fleischwolf",
 					"esES": "[fs]Desgarradora de carne",
-					"esMX": "Desgarracarne",
+					"esMX": "[fs]Desgarracarne",
 					"frFR": "[fs]Broyeuse",
 					"itIT": "[ms]Squarciacarne",
 					"jaJP": "フレッシュレンダー",
@@ -3364,7 +3364,7 @@ let codexData = {
 				"nameLocalized": {
 					"deDE": "[ms]Großstab der Vettel",
 					"esES": "[ms]Gran bastón de la Vieja Bruja",
-					"esMX": "Gran Bastón de la Arpía",
+					"esMX": "[ms]Gran Bastón de la Arpía",
 					"frFR": "[ms]Grand bâton de la vieille sorcière",
 					"itIT": "[ms]Scettro della Megera",
 					"jaJP": "朽ち果てし者の大杖",
@@ -3472,7 +3472,7 @@ let codexData = {
 				"nameLocalized": {
 					"deDE": "[ns]Entzücken des wahnsinnigen Wolfes",
 					"esES": "[ms]Regocijo del lobo enloquecido",
-					"esMX": "Júbilo del Lobo Desquiciado",
+					"esMX": "[ms]Júbilo del Lobo Desquiciado",
 					"frFR": "[fs]Allégresse du Loup Enragé",
 					"itIT": "[fs]Ilarità del Lupo Folle",
 					"jaJP": "狂狼のグリー",
@@ -3526,7 +3526,7 @@ let codexData = {
 				"nameLocalized": {
 					"deDE": "[fs]Unersättliche Wut",
 					"esES": "[fs]Furia insaciable",
-					"esMX": "Furia Insaciable",
+					"esMX": "[fs]Furia Insaciable",
 					"frFR": "[fs]Fureur insatiable",
 					"itIT": "[fs]Furia Insaziabile",
 					"jaJP": "飽くなき怒気",
@@ -3634,7 +3634,7 @@ let codexData = {
 				"nameLocalized": {
 					"deDE": "[ms]Sturmgefährte",
 					"esES": "[ms]Compañero de la Tormenta",
-					"esMX": "Compañero de la Tormenta",
+					"esMX": "[ms]Compañero de la Tormenta",
 					"frFR": "[ms]Compagnon de l'orage",
 					"itIT": "[ms]Compagno della Tempesta",
 					"jaJP": "嵐の旅仲間",
@@ -3688,7 +3688,7 @@ let codexData = {
 				"nameLocalized": {
 					"deDE": "[ms]Zenit des Jägers",
 					"esES": "[ms]Cénit del cazador",
-					"esMX": "Apogeo del Cazador",
+					"esMX": "[ms]Apogeo del Cazador",
 					"frFR": "[fs]Acmé du chasseur",
 					"itIT": "[ms]Zenit del Cacciatore",
 					"jaJP": "狩人の頂点",
@@ -3895,7 +3895,7 @@ let codexData = {
 				"nameLocalized": {
 					"deDE": "[ns]Sturmgebrüll",
 					"esES": "[ms]Rugido de la tempestad",
-					"esMX": "Rugido de Tempestad",
+					"esMX": "[ms]Rugido de Tempestad",
 					"frFR": "[ms]Rugissement de la tempête",
 					"itIT": "[ms]Ruggito della Tempesta",
 					"jaJP": "大嵐の咆哮",
@@ -4340,7 +4340,7 @@ let codexData = {
 				"type": "Legendary",
 				"description": "Gain {10/15}% Damage Reduction while Shapeshifted into a Werewolf.",
 				"nameLocalized": {
-					"deDE": "[ms]Energischer[fs]Energische[ns]Energisches[p]Energische[c]Energischen-",
+					"deDE": "[ms]Lebhafter[fs]Lebhafte[ns]Lebhaftes[p]Lebhafte[c]Lebhaftigkeits-",
 					"esES": "[fs]vigorosa[ms]vigoroso[fp]vigorosas[mp]vigorosos",
 					"esMX": "Vigoroso",
 					"frFR": "[ms]vigoureux[fs]vigoureuse[mp]vigoureux[fp]vigoureuses",
@@ -4380,7 +4380,7 @@ let codexData = {
 					"deDE": "[ms]Erdschützender[fs]Erdschützende[ns]Erdschützendes[p]Erdschützende[c]Erdwacht-",
 					"esES": "de guardatierra",
 					"esMX": "Guardia Terrestre",
-					"frFR": "[ms]castral[fs]castrale[mp]castraux[fp]castrales",
+					"frFR": "de garde-terre",
 					"itIT": "della Guardia Terrestre",
 					"jaJP": "大地の守護者",
 					"koKR": "대지수호자",
@@ -4420,7 +4420,7 @@ let codexData = {
 				"nameLocalized": {
 					"deDE": "[ms]Zunehmender Mond",
 					"esES": "[ms]Cuarto creciente",
-					"esMX": "Gibosa Creciente",
+					"esMX": "[fs]Gibosa Creciente",
 					"frFR": "[ms]Croissant gibbeux",
 					"itIT": "[fs]Gibbosa Crescente",
 					"jaJP": "凸月",
@@ -4474,7 +4474,7 @@ let codexData = {
 				"nameLocalized": {
 					"deDE": "[ns]Vasilys Gebet",
 					"esES": "[fs]Plegaria de Vasily",
-					"esMX": "Plegaria de Vasily",
+					"esMX": "[fs]Plegaria de Vasily",
 					"frFR": "[fs]Prière de Vasily",
 					"itIT": "[fs]Preghiera di Vasily",
 					"jaJP": "ヴァシリーの祈り",
@@ -5056,7 +5056,7 @@ let codexData = {
 				"nameLocalized": {
 					"deDE": "[ns]Hackbeil des Schlächters",
 					"esES": "[fs]Tajadera del carnicero",
-					"esMX": "Cuchilla del Carnicero",
+					"esMX": "[fs]Cuchilla del Carnicero",
 					"frFR": "[ms]Fendoir du Boucher",
 					"itIT": "[fs]Mannaia del Macellaio",
 					"jaJP": "ブッチャーのクリーヴァー",
@@ -5110,7 +5110,7 @@ let codexData = {
 				"nameLocalized": {
 					"deDE": "[ms]Verhängnisbringer",
 					"esES": "[fs]Portadora de fatalidad",
-					"esMX": "Condenadora",
+					"esMX": "[fs]Condenadora",
 					"frFR": "[fs]Condamneuse",
 					"itIT": "[fs]Condanna del Fato",
 					"jaJP": "ドゥームブリンガー",
@@ -5167,7 +5167,7 @@ let codexData = {
 				"nameLocalized": {
 					"deDE": "[ms]Ahavarion, Stab von Lycander",
 					"esES": "[fs]Ahavarion, lanza de Lycander",
-					"esMX": "Ahavarion, Lanza de Licandra",
+					"esMX": "[fs]Ahavarion, Lanza de Licandra",
 					"frFR": "[fs]Ahavarion, lance de Lycandre",
 					"itIT": "[fs]Ahavarion, Lancia di Lycander",
 					"jaJP": "ライカンダーの槍、アハヴァリオン",
@@ -5221,7 +5221,7 @@ let codexData = {
 				"nameLocalized": {
 					"deDE": "[ms]Der Großvater",
 					"esES": "[ms]El padrino",
-					"esMX": "El Abuelo",
+					"esMX": "[ms]El Abuelo",
 					"frFR": "[ms]Le Grand-père",
 					"itIT": "[ms]Il Nonno",
 					"jaJP": "グランドファーザー",
@@ -5275,7 +5275,7 @@ let codexData = {
 				"nameLocalized": {
 					"deDE": "[ms]Talisman des Verbannten Fürsten",
 					"esES": "[ms]Talismán del Señor Desterrado",
-					"esMX": "Talismán del Señor Desterrado",
+					"esMX": "[ms]Talismán del Señor Desterrado",
 					"frFR": "[ms]Talisman du seigneur banni",
 					"itIT": "[ms]Talismano del Signore Esiliato",
 					"jaJP": "追放された領主のタリスマン",
@@ -5329,7 +5329,7 @@ let codexData = {
 				"nameLocalized": {
 					"deDE": "[fs]Klingenplatte",
 					"esES": "[fs]Coraza afilada",
-					"esMX": "Armadura Afilada",
+					"esMX": "[fs]Armadura Afilada",
 					"frFR": "[fs]Cotte-de-rasoir",
 					"itIT": "[fs]Placcaguzza",
 					"jaJP": "レイザープレート",
@@ -5386,7 +5386,7 @@ let codexData = {
 				"nameLocalized": {
 					"deDE": "[p]Fäuste des Schicksals",
 					"esES": "[mp]Puños del destino",
-					"esMX": "Puños del Destino",
+					"esMX": "[mp]Puños del Destino",
 					"frFR": "[mp]Poings du destin",
 					"itIT": "[mp]Pugni del Fato",
 					"jaJP": "運命の拳",
@@ -5440,7 +5440,7 @@ let codexData = {
 				"nameLocalized": {
 					"deDE": "[p]Panzerhandschuhe des Schmerzschlingers",
 					"esES": "[mp]Guanteletes de engulledolor",
-					"esMX": "Guanteletes del Devorador de Dolor",
+					"esMX": "[mp]Guanteletes del Devorador de Dolor",
 					"frFR": "[mp]Gantelets du Dévoreur de souffrance",
 					"itIT": "[mp]Guanti d'Arme del Divoradolore",
 					"jaJP": "ペイン・ゴージャーのガントレット",
@@ -5494,7 +5494,7 @@ let codexData = {
 				"nameLocalized": {
 					"deDE": "[ns]Andariels Antlitz",
 					"esES": "[ms]Semblante de Andariel",
-					"esMX": "Semblante de Andariel",
+					"esMX": "[ms]Semblante de Andariel",
 					"frFR": "[ms]Visage d'Andarielle",
 					"itIT": "[ms]Volto di Andariel",
 					"jaJP": "アンダリエルの面",
@@ -5551,7 +5551,7 @@ let codexData = {
 				"nameLocalized": {
 					"deDE": "Tibaults Wille",
 					"esES": "[fs]Voluntad de Tibault",
-					"esMX": "Voluntad de Tibault",
+					"esMX": "[fs]Voluntad de Tibault",
 					"frFR": "[fs]Volonté de Tibault",
 					"itIT": "[fs]Volontà di Tibault",
 					"jaJP": "ティーボルトの意志",
@@ -5605,7 +5605,7 @@ let codexData = {
 				"nameLocalized": {
 					"deDE": "[ms]Rostiger Siegelring von X'Fal",
 					"esES": "[ms]Sello corroído de X'Fal",
-					"esMX": "Sello Corroído de X'Fal",
+					"esMX": "[ms]Sello Corroído de X'Fal",
 					"frFR": "[fs]Chevalière corrodée d'X'fal",
 					"itIT": "[ms]Sigillo Corroso di X'fal",
 					"jaJP": "ジファルの腐食した印章指輪",
@@ -5849,7 +5849,7 @@ let codexData = {
 				"nameLocalized": {
 					"deDE": "[ns]Geschmolzenes Herz von Selig",
 					"esES": "[ms]Corazón fundido de Selig",
-					"esMX": "Corazón Derretido de Selig",
+					"esMX": "[ms]Corazón Derretido de Selig",
 					"frFR": "[ms]Cœur fondu de Selig",
 					"itIT": "[ms]Cuore Fuso di Selig",
 					"jaJP": "溶けたセリグの心臓",
@@ -5957,7 +5957,7 @@ let codexData = {
 				"nameLocalized": {
 					"deDE": "[ms]Frostbrand",
 					"esES": "[ms]Quemascarcha",
-					"esMX": "Quemadura Glacial",
+					"esMX": "[fs]Quemadura Glacial",
 					"frFR": "[mp]Engeleurs",
 					"itIT": "[ms]Gelardente",
 					"jaJP": "フロストバーン",
@@ -6011,7 +6011,7 @@ let codexData = {
 				"nameLocalized": {
 					"deDE": "[fs]Harlekinskrone",
 					"esES": "[fs]Cresta de arlequín",
-					"esMX": "Cresta del Arlequín",
+					"esMX": "[fs]Cresta del Arlequín",
 					"frFR": "[ms]Cimier arlequin",
 					"itIT": "[ms]Cimiero Arlecchino",
 					"jaJP": "ハーレクインの紋章",
@@ -6065,7 +6065,7 @@ let codexData = {
 				"nameLocalized": {
 					"deDE": "[fs]Gottestöterkrone",
 					"esES": "[fs]Corona de matadioses",
-					"esMX": "Corona de Asesino de Dioses",
+					"esMX": "[fs]Corona de Asesino de Dioses",
 					"frFR": "[fs]Couronne du Tueur de divinités",
 					"itIT": "[fs]Corona dell'Ammazzadei",
 					"jaJP": "神殺しの王冠",
@@ -6269,7 +6269,7 @@ let codexData = {
 				"nameLocalized": {
 					"deDE": "[ms]Flickerschritt",
 					"esES": "[mp]Pasos parpadeantes",
-					"esMX": "Paso Destellante",
+					"esMX": "[ms]Paso Destellante",
 					"frFR": "[ms]Pas vacillant",
 					"itIT": "[ms]Passo Sfuggente",
 					"jaJP": "明滅の足取り",
@@ -6323,7 +6323,7 @@ let codexData = {
 				"nameLocalized": {
 					"deDE": "[fs]Umarmung der Mutter",
 					"esES": "[ms]Abrazo de la Madre",
-					"esMX": "Abrazo de la Madre",
+					"esMX": "[ms]Abrazo de la Madre",
 					"frFR": "[fs]Étreinte maternelle",
 					"itIT": "[ms]Abbraccio della Madre",
 					"jaJP": "母の抱擁",
@@ -6377,7 +6377,7 @@ let codexData = {
 				"nameLocalized": {
 					"deDE": "[ms]Ring der Sternenlosen Himmel",
 					"esES": "[ms]Anillo de cielos sin estrellas",
-					"esMX": "Anillo de Noches sin Estrellas",
+					"esMX": "[ms]Anillo de Noches sin Estrellas",
 					"frFR": "[ms]Anneau du ciel sans étoiles",
 					"itIT": "[ms]Anello dei Cieli Senza Stelle",
 					"jaJP": "星無き空の指輪",
@@ -6738,7 +6738,7 @@ let codexData = {
 				"nameLocalized": {
 					"deDE": "[ms]Seelenbrand",
 					"esES": "[ms]Marcaalmas",
-					"esMX": "Marca de Alma",
+					"esMX": "[fs]Marca de Alma",
 					"frFR": "[fs]Griffe de l'âme",
 					"itIT": "[ms]Marchio dell'Anima",
 					"jaJP": "ソウルブランド",
@@ -6792,7 +6792,7 @@ let codexData = {
 				"nameLocalized": {
 					"deDE": "[fs]Verwegenheit",
 					"esES": "[fs]Temeridad",
-					"esMX": "Temeridad",
+					"esMX": "[fs]Temeridad",
 					"frFR": "[fs]Témérité",
 					"itIT": "[fs]Temerarietà",
 					"jaJP": "向う見ず",
@@ -6846,7 +6846,7 @@ let codexData = {
 				"nameLocalized": {
 					"deDE": "[p]Tassetten des Morgenhimmels",
 					"esES": "[fp]Escarcelas del cielo del alba",
-					"esMX": "Escarcela del Cielo del Amanecer",
+					"esMX": "[fs]Escarcela del Cielo del Amanecer",
 					"frFR": "[fp]Tassettes de l'aube",
 					"itIT": "[mp]Fiancali del Cielo Albeggiante",
 					"jaJP": "暁のタセット",
@@ -7103,7 +7103,7 @@ let codexData = {
 					"zhTW": "終極暗影之"
 				},
 				"descriptionLocalized": {
-					"deDE": "Knochensturm und Blutwelle sind zusätzlich Dunkelheitsfertigkeiten, verursachen Schattenschaden und erhalten zusätzliche Effekte:\n• Gegner, die durch Knochensturm Schaden erleiden, erleiden im Verlauf von 2.0 Sek. {#} Schattenschaden.\n• Blutwelle erschafft in ihrer Bahn entweihten Boden, der im Verlauf von 4.0 Sek. {#} Schattenschaden verursacht.",
+					"deDE": "Knochensturm und Blutwelle sind zusätzlich Dunkelheitsfertigkeiten, verursachen Schattenschaden und erhalten zusätzliche Effekte:\n• Gegner, die durch Knochensturm Schaden erleiden, erleiden im Verlauf von 2.0 Sek. {#} Schattenschaden.\n• Blutwelle erschafft in ihrer Bahn Entheiligten Boden, der im Verlauf von 4.0 Sek. {#} Schattenschaden verursacht.",
 					"esES": "Tormenta de hueso y Ola de sangre también son habilidades de oscuridad, infligen daño de sombra y obtienen efectos adicionales:\n• Los enemigos dañados por Tormenta de hueso sufren {#} de daño de sombra durante 2.0 s.\n• Ola de sangre deja una zona de Tierra desacralizada a su paso e inflige {#} de daño de sombra durante 4.0 s.",
 					"esMX": "Tormenta Ósea y Ola Sangrienta ahora son también habilidades de Oscuridad, que infligen daño de sombra y obtienen efectos adicionales:\n• Los enemigos dañados por Tormenta Ósea reciben {#} de daño de sombra durante 2.0 segundos.\n• Ola Sangrienta crea Tierra Profanada por la que se desplaza e inflige {#} de daño de sombra durante 4.0 segundos.",
 					"frFR": "Tempête d'os et Vague de sang sont désormais également des compétences de ténèbres, infligent des dégâts d'ombre et bénéficient d'effets supplémentaires :\n• Les cibles touchées par Tempête d'os subissent {#} points de dégâts d'ombre en 2.0 s.\n• Vague de sang laisse un sol souillé sur son passage, infligeant {#} points de dégâts d'ombre en 4.0 s.",
@@ -7183,7 +7183,7 @@ let codexData = {
 				"descriptionLocalized": {
 					"deDE": "Der Primärangriff von Knochenspeer macht alle weiteren getroffenen Gegner nach dem ersten 3.0 Sek. lang verwundbar. Knochensplitter von Knochenspeer fügen verwundbaren Gegnern {30/60}% Bonusschaden zu und durchschlagen sie.",
 					"esES": "El ataque primario de Lanza de hueso vuelve vulnerables durante 3.0 s a los enemigos golpeados después del primero. Los fragmentos de hueso de Lanza de hueso infligen un {30/60}% de daño adicional a enemigos vulnerables y los perfora.",
-					"esMX": "El ataque primario de Lanza Ósea vuelve Vulnerables a los enemigos que golpees, además del primero, durante 3.0 segundos. Los fragmentos de hueso de Lanza Ósea infligen un {30/60}% más de daño a los enemigos Vulnerables y los perforan.",
+					"esMX": "El ataque primario de Lanza Ósea vuelve vulnerables a los enemigos que golpees, además del primero, durante 3.0 segundos. Los fragmentos de hueso de Lanza Ósea infligen un {30/60}% más de daño a los enemigos vulnerables y los perforan.",
 					"frFR": "L'attaque principale de Lance d'os rend vulnérables les cibles touchées après la première cible pendant 3.0 s. Les éclats osseux de Lance d'os infligent {30/60}% de dégâts supplémentaires aux adversaires vulnérables et les transpercent.",
 					"itIT": "L'attacco primario di Lancia d'Ossa rende vulnerabili i nemici colpiti dopo il primo per 3.0 s. I frammenti d'ossa di Lancia d'Ossa infliggono il {30/60}% di danni aggiuntivi ai nemici vulnerabili e li trapassano.",
 					"jaJP": "〈ボーンスピア〉のメイン攻撃が命中した2体目以降の敵を3.0秒間、脆弱にする。〈ボーンスピア〉から出る骨の欠片が、脆弱状態の敵に{30/60}%のボーナスダメージを与え、貫通する。",
@@ -7403,7 +7403,7 @@ let codexData = {
 					"zhTW": "浸血"
 				},
 				"descriptionLocalized": {
-					"deDE": "Blutnebel hinterlässt eine Spur aus entweihtem Boden, die 4.0 Sek. anhält und Gegnern {#} Schattenschaden pro Sekunde zufügt. Eure Bewegungsgeschwindigkeit ist während Blutnebel nicht mehr verringert.",
+					"deDE": "Blutnebel hinterlässt eine Spur aus Entheiligtem Boden, die 4.0 Sek. anhält und Gegnern {#} Schattenschaden pro Sekunde zufügt. Eure Bewegungsgeschwindigkeit ist während Blutnebel nicht mehr verringert.",
 					"esES": "Bruma de sangre deja una estela de Tierra desacralizada que dura 4.0 s e inflige {#} de daño de sombra por segundo a los enemigos que están dentro. Tu velocidad de movimiento ya no se reduce mientras dura Bruma de sangre.",
 					"esMX": "Niebla Sangrienta deja un rastro de Tierra Profanada que dura 4.0 segundos e inflige {#} de daño de sombra por segundo a los enemigos que están parados en ella. Tu velocidad de movimiento ya no se reduce mientras Niebla Sangrienta está activa.",
 					"frFR": "Brume de sang laisse un sol souillé sur son passage qui dure 4.0 s et inflige {#} points de dégâts d'ombre par seconde aux adversaires qui se tiennent dedans. Votre vitesse de déplacement n'est plus réduite lorsque Brume de sang est active.",
@@ -7657,7 +7657,7 @@ let codexData = {
 					"esES": "[fs]apestada[ms]apestado[fp]apestadas[mp]apestados",
 					"esMX": "Infestado",
 					"frFR": "[ms]putrescent[fs]putrescente[mp]putrescents[fp]putrescentes",
-					"itIT": "[fs]Ammorbata[ms]Ammorbato[fp]Ammorbate[mp]Ammorbati",
+					"itIT": "[fs]Infetta[ms]Infetto[fp]Infette[mp]Infetti",
 					"jaJP": "病害の",
 					"koKR": "마름병",
 					"plPL": "[ms]Zarażony[fs]Zarażona[ns]Zarażone[p]Zarażone",
@@ -8066,7 +8066,7 @@ let codexData = {
 				"nameLocalized": {
 					"deDE": "[ms]Schwarzer Fluss",
 					"esES": "[ms]Río negro",
-					"esMX": "Río Negro",
+					"esMX": "[ms]Río Negro",
 					"frFR": "[fs]Rivière noire",
 					"itIT": "[ms]Fiumenero",
 					"jaJP": "ブラック・リバー",
@@ -8120,8 +8120,8 @@ let codexData = {
 				"nameLocalized": {
 					"deDE": "[fs]Lidlose Wand",
 					"esES": "[ms]Muro vigilante",
-					"esMX": "Muro Inexpugnable",
-					"frFR": "Le Mur vigilant",
+					"esMX": "[ms]Muro Inexpugnable",
+					"frFR": "[ms]Le Mur vigilant",
 					"itIT": "[fs]Barriera Vigile",
 					"jaJP": "無蓋の防壁",
 					"koKR": "각성의 벽",
@@ -8174,7 +8174,7 @@ let codexData = {
 				"nameLocalized": {
 					"deDE": "[ms]Anhänger des Todes-sprechers",
 					"esES": "[ms]Colgante de Portavoz de la Muerte",
-					"esMX": "Pendiente del Parlamorte",
+					"esMX": "[ms]Pendiente del Parlamorte",
 					"frFR": "[ms]Pendentif de thanaturge",
 					"itIT": "[ms]Pendente dell'Oratore della Morte",
 					"jaJP": "死弁者のペンダント",
@@ -8231,7 +8231,7 @@ let codexData = {
 				"nameLocalized": {
 					"deDE": "[p]Beinschienen der Leeren Gruft",
 					"esES": "[fp]Grebas de la tumba vacía",
-					"esMX": "Grebas de la Tumba Vacía",
+					"esMX": "[fp]Grebas de la Tumba Vacía",
 					"frFR": "[fp]Grèves de la tombe vide",
 					"itIT": "[mp]Schinieri del Sepolcro Vuoto",
 					"jaJP": "空の墓のグリーヴ",
@@ -8244,7 +8244,7 @@ let codexData = {
 					"zhTW": "空蕩古墓護脛"
 				},
 				"descriptionLocalized": {
-					"deDE": "Eure Phantome von Schnitter hinterlassen auf ihrem Weg entweihten Boden, der Gegnern im Verlauf von 2.0 Sek. {#} Schattenschaden zufügt.",
+					"deDE": "Eure Phantome von Schnitter hinterlassen auf ihrem Weg Entheiligten Boden, der Gegnern im Verlauf von 2.0 Sek. {#} Schattenschaden zufügt.",
 					"esES": "Tus espectros de Cercenar dejan tras de sí una zona de Tierra desacralizada que inflige {#} de daño de sombra a los enemigos durante 2.0 s.",
 					"esMX": "Crea Tierra Profanada debajo de tus espectros de Escindir a medida que se desplazan. Los enemigos reciben {#}de daño de sombra durante 2.0 segundos.",
 					"frFR": "Les spectres générés par Section laissent un sol souillé sur leur passage, ce qui inflige {#} points de dégâts d'ombre aux adversaires en 2.0 s.",
@@ -8342,7 +8342,7 @@ let codexData = {
 				"nameLocalized": {
 					"deDE": "[ms]Kürass des Bluthandwerkers",
 					"esES": "[fp]Coraza del artesano de la sangre",
-					"esMX": "Coraza del Artesano Sangriento",
+					"esMX": "[fs]Coraza del Artesano Sangriento",
 					"frFR": "[fp]Braies d'artisan du sang",
 					"itIT": "[fs]Corazza dell'Artigiano del Sangue",
 					"jaJP": "血職人の胸当て",
@@ -8396,7 +8396,7 @@ let codexData = {
 				"nameLocalized": {
 					"deDE": "[ns]Gebrüll aus den Tiefen",
 					"esES": "[ms]Aullido desde abajo",
-					"esMX": "Aullido de las Profundidades",
+					"esMX": "[ms]Aullido de las Profundidades",
 					"frFR": "[mp]Hurlements des profondeurs",
 					"itIT": "[ms]Ululato dal Profondo",
 					"jaJP": "下からの咆哮",
@@ -8450,7 +8450,7 @@ let codexData = {
 				"nameLocalized": {
 					"deDE": "[ns]Unsterbliches Antlitz",
 					"esES": "[ms]Semblante inmortal",
-					"esMX": "Semblante Inextinguible",
+					"esMX": "[ms]Semblante Inextinguible",
 					"frFR": "[ms]Visage immortel",
 					"itIT": "[ms]Volto Senza Morte",
 					"jaJP": "死なき相貌の兜",
@@ -8507,7 +8507,7 @@ let codexData = {
 				"nameLocalized": {
 					"deDE": "[ms]Mendelns Ring",
 					"esES": "[ms]Anillo de Mendeln",
-					"esMX": "Anillo de Mendeln",
+					"esMX": "[ms]Anillo de Mendeln",
 					"frFR": "[ms]Anneau de Mendeln",
 					"itIT": "[ms]Anello di Mendeln",
 					"jaJP": "メンデルンの指輪",
@@ -8828,7 +8828,7 @@ let codexData = {
 				"nameLocalized": {
 					"deDE": "[ms]Blutloser Schrei",
 					"esES": "[ms]Grito pálido",
-					"esMX": "Grito Desangrado",
+					"esMX": "[ms]Grito Desangrado",
 					"frFR": "[ms]Cri exsangue",
 					"itIT": "[ms]Urlo Esangue",
 					"jaJP": "血なき叫び",
@@ -8880,9 +8880,9 @@ let codexData = {
 				"description": "Your Minions have a {3/7}% chance to curse enemies.\n\nEnemies affected by at least 1 of your curses take x70.0% increased Overpower damage from you.",
 				"flavor": "A naturally occurring curiosity, the blood moon persists as a sign of woe for the most superstitious Zakarum faithful. Children born under it are often considered cursed and cast out, lest it spread.",
 				"nameLocalized": {
-					"deDE": "Blutmondbeinlinge",
+					"deDE": "[p]Blutmondbeinlinge",
 					"esES": "[fp]Calzas de la luna de sangre",
-					"esMX": "Bombachos de Luna de Sangre",
+					"esMX": "[mp]Bombachos de Luna de Sangre",
 					"frFR": "[fp]Jambières de la lune de sang",
 					"itIT": "[fp]Brache della Luna di Sangue",
 					"jaJP": "鮮血の月のズボン",
@@ -9898,7 +9898,7 @@ let codexData = {
 				"type": "Legendary",
 				"description": "Lucky Hit: Your Marksman Skills have up to a 10.0% chance to create an arrow storm at the enemy's location, dealing {#} Physical damage over 3.0 seconds. You can have up to 5.0 active arrow storms.",
 				"nameLocalized": {
-					"deDE": "des Pfeilhagels",
+					"deDE": "des Pfeilsturms",
 					"esES": "de tormentas de flechas",
 					"esMX": "de Tormentas de Flechas",
 					"frFR": "de pluie de flèches",
@@ -9913,7 +9913,7 @@ let codexData = {
 					"zhTW": "箭矢風暴之"
 				},
 				"descriptionLocalized": {
-					"deDE": "Glückstreffer: Eure Präzisionsfertigkeiten haben eine Chance von bis zu 10.0%, einen Pfeilhagel auf die Position des Gegners niedergehen zu lassen, der im Verlauf von 3.0 Sek. {#} physischen Schaden verursacht. Ihr könnt bis zu 5.0 aktive Pfeilhagel haben.",
+					"deDE": "Glückstreffer: Eure Präzisionsfertigkeiten haben eine Chance von bis zu 10.0%, einen Pfeilsturm auf die Position des Gegners niedergehen zu lassen, der im Verlauf von 3.0 Sek. {#} physischen Schaden verursacht. Ihr könnt bis zu 5.0 aktive Pfeilstürme haben.",
 					"esES": "Golpe de suerte: Tus habilidades de tirador tienen hasta un 10.0% de probabilidad de crear una tormenta de flechas en la ubicación del enemigo, lo que inflige {#} de daño físico durante 3.0 s. Puedes tener hasta 5.0 tormentas de flechas activas.",
 					"esMX": "Golpe afortunado: Tus habilidades de Tirador tienen hasta un 10.0% de probabilidad de crear una tormenta de flechas en la ubicación del enemigo, lo que inflige {#} de daño físico durante 3.0 segundos. Puedes tener hasta 5.0 tormentas de flechas activas.",
 					"frFR": "Coup de chance: vos compétences de tir d'élite ont jusqu'à 10.0% de chances de créer une pluie de flèches sur la position de l'adversaire, infligeant {#} points de dégâts physiques en 3.0 s. Vous pouvez avoir jusqu'à 5.0 pluies de flèches actives en même temps.",
@@ -9995,7 +9995,7 @@ let codexData = {
 				"descriptionLocalized": {
 					"deDE": "Erhöht den Schaden von Sperrfeuer-Pfeilen, die abprallen, von 40% auf {60/80}%. Die Pfeile von Sperrfeuer haben jedes Mal, wenn sie abprallen, eine Chance von {40/60}%, sich in 2 Pfeile zu spalten.",
 					"esES": "Aumenta de un 40% a un {60/80}% el daño de las flechas que rebotan de Ráfaga. Las flechas de Ráfaga tienen un {40/60}% de probabilidad de dividirse en 2 cada vez que rebotan.",
-					"esMX": "Aumenta el daño de las flechas de Aluvión que rebotan, de 40% a {60/80}%. Las flechas de Aluvión tienen un {40/60}% de probabilidad de dividirse en 2 siempre que reboten.",
+					"esMX": "Las flechas de Aluvión tienen un {40/60}% de probabilidad de dividir 2 flechas siempre que reboten.",
 					"frFR": "Fait passer les dégâts des flèches de Déluge qui ricochent de 40% à {60/80}%. Les flèches de Déluge ont {40/60}% de chances de se diviser en 2 flèches chaque fois qu'elles ricochent.",
 					"itIT": "Aumenta i danni delle frecce di Salva che rimbalzano dal 40% al {60/80}%. Le frecce di Salva hanno una probabilità del {40/60}% di dividersi in 2 frecce quando rimbalzano.",
 					"jaJP": "〈一斉射撃〉の跳飛した矢のダメージが40%から{60/80}%に増加する。〈一斉射撃〉の矢が跳飛した後に{40/60}%の確率で2本に分かれる。",
@@ -10320,7 +10320,7 @@ let codexData = {
 				"nameLocalized": {
 					"deDE": "[fs]Verdammung",
 					"esES": "[fs]Condena",
-					"esMX": "Condena",
+					"esMX": "[fs]Condena",
 					"frFR": "[fs]Condamnation",
 					"itIT": "[fs]Condanna",
 					"jaJP": "断罪",
@@ -10374,7 +10374,7 @@ let codexData = {
 				"nameLocalized": {
 					"deDE": "[ms]Himmelsjäger",
 					"esES": "[fs]Cazadora celestial",
-					"esMX": "Cazador del Cielo",
+					"esMX": "[ms]Cazador del Cielo",
 					"frFR": "[ms]Chasse-cieux",
 					"itIT": "[ms]Cacciatore Celeste",
 					"jaJP": "スカイハンター",
@@ -10428,7 +10428,7 @@ let codexData = {
 				"nameLocalized": {
 					"deDE": "[fs]Windmacht",
 					"esES": "[fs]Fuerza del viento",
-					"esMX": "Soplo de Eolo",
+					"esMX": "[ms]Soplo de Eolo",
 					"frFR": "[ms]Ouragan",
 					"itIT": "[ms]Uragano",
 					"jaJP": "ウィンドフォース",
@@ -10482,8 +10482,8 @@ let codexData = {
 				"nameLocalized": {
 					"deDE": "[ns]Adlerhorn",
 					"esES": "[ms]Cuerno de águila",
-					"esMX": "Cuerno Aguileño",
-					"frFR": "Corne de l'aigle",
+					"esMX": "[ms]Cuerno Aguileño",
+					"frFR": "[fs]Corne de l'aigle",
 					"itIT": "[ms]Corno d'Aquila",
 					"jaJP": "イーグルホーン",
 					"koKR": "수리뿔",
@@ -10497,7 +10497,7 @@ let codexData = {
 				"descriptionLocalized": {
 					"deDE": "Durchschlagender Schuss macht getroffene Gegner 3.0 Sekunden lang verwundbar. Alle 4.0 Wirkungen feuert Durchschlagender Schuss einen Pfeil ab, der von Wänden und der Umgebung abprallt, wobei er x{40/60}% mehr Schaden verursacht.",
 					"esES": "Disparo penetrante vuelve vulnerables a los enemigos golpeados durante 3.0 s. Cada 4.0 lanzamientos de Disparo penetrante, se disparará una flecha que rebota en los muros y en el escenario y que inflige un x{40/60}% más de daño.",
-					"esMX": "Disparo Penetrante vuelve a los enemigos golpeados Vulnerables durante 3.0 segundos. Cada 4.0 lanzamientos de Disparo Penetrante lanza una flecha que rebota en las paredes y el entorno e inflige un x{40/60}% más de daño.",
+					"esMX": "Disparo Penetrante vuelve a los enemigos golpeados vulnerables durante 3.0 segundos. Cada 4.0 lanzamientos de Disparo Penetrante lanza una flecha que rebota en las paredes y el entorno e inflige un x{40/60}% más de daño.",
 					"frFR": "Tir pénétrant rend les adversaires vulnérables pendant 3.0 s. Toutes les 4.0 utilisations de Tir pénétrant, la compétence décoche une flèche qui rebondit sur les murs et le décor, infligeant x{40/60}% de dégâts supplémentaires.",
 					"itIT": "Tiro Penetrante rende vulnerabili i nemici colpiti per 3.0 s. Ogni 4.0 utilizzi di Tiro Penetrante, scocchi una freccia che rimbalza sulle pareti e sullo scenario e infligge il x{40/60}% di danni aggiuntivi.",
 					"jaJP": "〈貫通射撃〉が3.0秒間にわたり命中した敵を脆弱状態にする。〈貫通射撃〉の使用4.0回ごとに壁や背景で跳ね返る矢を1本放ち、ダメージがx{40/60}%増加する。",
@@ -10536,7 +10536,7 @@ let codexData = {
 				"nameLocalized": {
 					"deDE": "[fs]Botschaft Hakans",
 					"esES": "[fs]Palabra de Hakan",
-					"esMX": "Palabra de Hakán",
+					"esMX": "[fs]Palabra de Hakán",
 					"frFR": "[fs]Parole d'Hakan",
 					"itIT": "[fs]Parola di Hakan",
 					"jaJP": "ハカンの言葉",
@@ -10644,7 +10644,7 @@ let codexData = {
 				"nameLocalized": {
 					"deDE": "Leder des Gauners",
 					"esES": "[mp]Cueros de canalla",
-					"esMX": "Cueros de Truhan",
+					"esMX": "[mp]Cueros de Truhan",
 					"frFR": "[ms]Veste de bandit",
 					"itIT": "[fp]Pelli di Lestofante",
 					"jaJP": "ならず者の革装備",
@@ -10698,7 +10698,7 @@ let codexData = {
 				"nameLocalized": {
 					"deDE": "[fs]Schatten-berührung",
 					"esES": "[ms]Agarre de la sombra",
-					"esMX": "Agarre de la Sombra",
+					"esMX": "[ms]Agarre de la Sombra",
 					"frFR": "[fp]Poignes de l'ombre",
 					"itIT": "[fs]Stretta dell'Ombra",
 					"jaJP": "影の掌握",
@@ -10752,7 +10752,7 @@ let codexData = {
 				"nameLocalized": {
 					"deDE": "[fs]Gugel des Namenlosen",
 					"esES": "[ms]Capuz del Sin Nombre",
-					"esMX": "Capucha del Anónimo",
+					"esMX": "[fs]Capucha del Anónimo",
 					"frFR": "[ms]Capuchon de l'Anonyme",
 					"itIT": "[fs]Cappa del Senza Nome",
 					"jaJP": "名もなき者の頭巾",
@@ -11580,7 +11580,7 @@ let codexData = {
 				"nameLocalized": {
 					"deDE": "[p]Augen in der Dunkelheit",
 					"esES": "[mp]Ojos en la oscuridad",
-					"esMX": "Ojos en la Oscuridad",
+					"esMX": "[mp]Ojos en la Oscuridad",
 					"frFR": "[mp]Des yeux dans la nuit",
 					"itIT": "[mp]Occhi nel Buio",
 					"jaJP": "闇に光る瞳",
@@ -11675,7 +11675,7 @@ let codexData = {
 				"nameLocalized": {
 					"deDE": "[ms]Asharas Khanjar",
 					"esES": "[ms]Janyar de Asheara",
-					"esMX": "Janyar de Asheara",
+					"esMX": "[fs]Janyar de Asheara",
 					"frFR": "[ms]Kandjar d'Asheara",
 					"itIT": "[fs]Khanjar di Asheara",
 					"jaJP": "アシェアラのカンジャル",
@@ -12743,7 +12743,7 @@ let codexData = {
 				"descriptionLocalized": {
 					"deDE": "Die Chance, dass Eisklingen Verwundbarkeit verursacht, wird um +20.0% erhöht und die Dauer der Verwundbarkeit um 4.0 Sekunden verlängert. Ihr erhaltet x{15/25}% Schaden gegen verwundbare Ziele.",
 					"esES": "La probabilidad de Hojas de hielo de aplicar vulnerabilidad aumenta un +20.0% y la duración de la vulnerabilidad aumenta 4.0 s. Obtienes un x{15/25}% de daño por vulnerabilidad.",
-					"esMX": "La probabilidad de aplicar Vulnerable con Cuchillas Gélidas aumenta un +20.0% y su duración aumenta 4.0 segundos. Obtienes x{15/25}% de daño contra enemigos vulnerables.",
+					"esMX": "La probabilidad de aplicar vulnerable con Cuchillas Gélidas aumenta un +20.0% y su duración aumenta 4.0 segundos. Obtienes x{15/25}% de daño contra enemigos vulnerables.",
 					"frFR": "Augmente de +20.0% les chances des lames de glace de rendre les cibles vulnérables et la durée de cet effet de 4.0 s. Vous obtenez x{15/25}% de dégâts contre les cibles vulnérables.",
 					"itIT": "La probabilità di Lame di Ghiaccio di infliggere Vulnerabilità aumenta del +20.0%e la durata di Vulnerabilità aumenta di 4.0 s. Infliggi x{15/25}% danni da vulnerabilità aggiuntivi.",
 					"jaJP": "〈アイスブレイド〉が脆弱を付与する確率が+20.0%上昇し、脆弱状態の持続時間が4.0秒延長される。脆弱ダメージがx{15/25}%増加する。",
@@ -12806,7 +12806,7 @@ let codexData = {
 				"nameLocalized": {
 					"deDE": "[fs]Brandnarbe",
 					"esES": "[fs]Cicatriz ardiente",
-					"esMX": "Cicatriz de Fuego",
+					"esMX": "[fs]Cicatriz de Fuego",
 					"frFR": "[ms]Cautère",
 					"itIT": "[ms]Sfregio Ardente",
 					"jaJP": "火傷",
@@ -12863,8 +12863,8 @@ let codexData = {
 				"nameLocalized": {
 					"deDE": "[ms]Der Okulus",
 					"esES": "[ms]El óculo",
-					"esMX": "El Óculo",
-					"frFR": "L'Oculus",
+					"esMX": "[ms]El Óculo",
+					"frFR": "[ms]L'Oculus",
 					"itIT": "[ms]L'Oculus",
 					"jaJP": "オキュラス",
 					"koKR": "망울",
@@ -12917,7 +12917,7 @@ let codexData = {
 				"nameLocalized": {
 					"deDE": "[ms]Stab des Endlosen Zorns",
 					"esES": "[ms]Bastón de ira interminable",
-					"esMX": "Bastón de Furia Infinita",
+					"esMX": "[ms]Bastón de Furia Infinita",
 					"frFR": "[ms]Bâton de rage éternelle",
 					"itIT": "[ms]Bastone della Rabbia Imperitura",
 					"jaJP": "終わりなき憤怒の杖",
@@ -12971,7 +12971,7 @@ let codexData = {
 				"nameLocalized": {
 					"deDE": "[ms]Stab von Lam Esen",
 					"esES": "[ms]Bastón de Lam Esen",
-					"esMX": "Bastón de Lam Esen",
+					"esMX": "[ms]Bastón de Lam Esen",
 					"frFR": "[ms]Bâton de Lam Esen",
 					"itIT": "[ms]Bastone di Lam Esen",
 					"jaJP": "ラム・エセンの杖",
@@ -12999,7 +12999,7 @@ let codexData = {
 					"zhTW": "你施放的電能彈有 {40/60}% 機率追向敵人,並且持續時間延長 300.0%。"
 				},
 				"flavorLocalized": {
-					"deDE": "\"Dieses mächtige Relikt ist auch als Großstab der alten Religion bekannt und gehört zu den wenigen Skatsim-Artefakten, die bis zum heutigen Tag überdauert haben.\"\n-Barretts Buch der Instrumentarien",
+					"deDE": "\"Dieses mächtige Relikt ist auch als Großstab der alten Religion bekannt und gehört zu den wenigen Skatsimi-Artefakten, die bis zum heutigen Tag überdauert haben.\"\n-Barretts Buch der Instrumentarien",
 					"esES": "\"También conocido como el gran bastón de la Vieja Religión, esta poderosa reliquia es uno de los pocos artefactos Skatsimi que han sobrevivido hasta la actualidad\".\n—Libro de utensilios de Barrett",
 					"esMX": "\"También conocida como el Gran Bastón de la Vieja Religión, esta poderosa reliquia es uno de los pocos artefactos Skatsimi que han sobrevivido hasta el día de hoy\".\n- Libro de Implementos de Barrett",
 					"frFR": "« Également appelée \"grand bâton de l'ancien culte\", cette puissante relique fait partie des rares artéfacts skatsimis qui existent encore de nos jours. »\n– Grand livre des équipements de Barrett",
@@ -13025,7 +13025,7 @@ let codexData = {
 				"nameLocalized": {
 					"deDE": "[fs]Esadoras überfließende Kamee",
 					"esES": "[ms]Camafeo rebosante de Esadora",
-					"esMX": "Camafeo Rebosante de Esadora",
+					"esMX": "[ms]Camafeo Rebosante de Esadora",
 					"frFR": "[ms]Camée débordant d'Esadora",
 					"itIT": "[ms]Cameo Straripante di Esadora",
 					"jaJP": "エサドラの溢れるカメオ",
@@ -13082,7 +13082,7 @@ let codexData = {
 				"nameLocalized": {
 					"deDE": "[ns]Esus Erbstück",
 					"esES": "[fs]Reliquia familiar de Esu",
-					"esMX": "Reliquia de Esu",
+					"esMX": "[fs]Reliquia de Esu",
 					"frFR": "[ms]Héritage d'Esu",
 					"itIT": "[ms]Cimelio di Esu",
 					"jaJP": "エスの家宝",
@@ -13136,7 +13136,7 @@ let codexData = {
 				"nameLocalized": {
 					"deDE": "[p]Handschuhe des Erleuchters",
 					"esES": "[mp]Guantes del Iluminador",
-					"esMX": "Guantes del Iluminador",
+					"esMX": "[mp]Guantes del Iluminador",
 					"frFR": "[mp]Gants de l'Illuminateur",
 					"itIT": "[mp]Guanti del Foriero di Luce",
 					"jaJP": "イルミネーターの手袋",
@@ -13465,7 +13465,7 @@ let codexData = {
 				"nameLocalized": {
 					"deDE": "[ns]Gewand des Unendlichen",
 					"esES": "[ms]Atuendo del infinito",
-					"esMX": "Vestidura del Infinito",
+					"esMX": "[fs]Vestidura del Infinito",
 					"frFR": "[ms]Habit de l'Infini",
 					"itIT": "[mp]Panni dell'Infinito",
 					"jaJP": "永遠の装具",
@@ -13817,7 +13817,7 @@ let codexData = {
 				"nameLocalized": {
 					"deDE": "[fs]Eisherzbruoch",
 					"esES": "[mp]Pantalones de corazón helado",
-					"esMX": "Bragas de Corazón Gélido",
+					"esMX": "[fp]Bragas de Corazón Gélido",
 					"frFR": "[fp]Braies du cœur glacé",
 					"itIT": "[fp]Braghe Cuorgelido",
 					"jaJP": "氷心の下衣",
