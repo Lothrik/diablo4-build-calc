@@ -4626,7 +4626,7 @@ function drawAllNodes() {
 		"Helmet": ["Defensive", "Utility", "Helm"],
 		"Chest": ["Defensive", "Utility", "Chest"],
 		"Gloves": ["Offensive", "Utility", "Gloves"],
-		"Pants": ["Defensive", "Pants"],
+		"Pants": ["Defensive", "Utility"],
 		"Boots": ["Mobility", "Utility", "Boots"],
 		"Amulet": ["Defensive", "Mobility", "Offensive", "Utility", "Amulet"],
 		"Ring": ["Offensive", "Resource", "Ring"],
